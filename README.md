@@ -3,37 +3,37 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-03 ｜ **309** entries (301 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-04 ｜ **328** entries (320 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 23 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 25 |
 | 2 | Mobile Automation Agents | 6 |
-| 3 | Agent Memory & Knowledge Distillation | 7 |
+| 3 | Agent Memory & Knowledge Distillation | 8 |
 | 4 | Writing & Text-Style Skills | 5 |
-| 5 | Video Creation Skills | 4 |
-| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 14 |
-| 7 | Security · Audit & Reverse Engineering | 12 |
-| 8 | Skill Collections & Ecosystem | 22 |
-| 9 | Code Intelligence / RAG / Code Review | 8 |
+| 5 | Video Creation Skills | 6 |
+| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 16 |
+| 7 | Security · Audit & Reverse Engineering | 15 |
+| 8 | Skill Collections & Ecosystem | 24 |
+| 9 | Code Intelligence / RAG / Code Review | 9 |
 | 10 | Speech & TTS | 5 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 9 |
-| 13 | Image / Video / Music Generation | 4 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 20 |
+| 13 | Image / Video / Music Generation | 5 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 21 |
 | 15 | Content Discovery & Intelligence | 11 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 20 |
 | 17 | System Tools & Desktop Productivity | 37 |
-| 18 | Files · Downloads · Photo Management | 14 |
-| 19 | Image Viewers & Media Players | 7 |
+| 18 | Files · Downloads · Photo Management | 15 |
+| 19 | Image Viewers & Media Players | 8 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 8 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 31 |
-| 25 | DevOps / Developer Tools | 20 |
+| 24 | Developer Resources & Curated Lists | 32 |
+| 25 | DevOps / Developer Tools | 21 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (23)
+## 一. AI Coding Agents · Runtimes & Methodologies (25)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -46,6 +46,10 @@ Local Web UI workspace for the pi coding agent.
 ### [agent0ai/agent-zero](https://github.com/agent0ai/agent-zero)
 `#python` · 2026-09-29
 Agent Zero: a general-purpose, self-improving AI agent framework.
+
+### [agno-agi/agno](https://github.com/agno-agi/agno)
+`#python` · 2026-10-04
+Agno: build, run and manage agent platforms.
 
 ### [anomalyco/opencode](https://github.com/anomalyco/opencode)
 `#coding-agent` `#tui` `#open-source` `#cross-platform` · 2026-09-06
@@ -115,6 +119,10 @@ OpenClaw: the AI that really does things, on any OS and any platform — the lob
 `#csharp` · 2026-10-02
 The Windows companion suite for OpenClaw.
 
+### [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+`#typescript` · 2026-10-04
+T3code: an AI coding assistant for the T3 stack (by Theo, creator of T3Chat).
+
 ### [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 `#python` · 2026-10-01
 How Python does AI: agents, realtime voice, image generation, embeddings — typed end to end.
@@ -153,7 +161,7 @@ Multimodal smartphone agent from Tencent (CHI 2025), learns apps by exploration.
 `#agent` `#mobile-automation` `#adb` `#multimodal` · 2026-09-06
 Multimodal phone-control agent from Alibaba X-PLUG, cross-app via ADB.
 
-## 三. Agent Memory & Knowledge Distillation (7)
+## 三. Agent Memory & Knowledge Distillation (8)
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 `#agent` `#memory` `#rust` `#cross-tool` `#team-collaboration` · 2026-09-16
@@ -166,6 +174,10 @@ Knowledge-distillation toolkit that turns books and videos into agent skills.
 ### [mem0ai/mem0](https://github.com/mem0ai/mem0)
 `#python` · 2026-09-30
 Mem0: the memory layer for AI agents — drop-in, persistent memory infrastructure built for production.
+
+### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
+`#typescript` · 2026-10-04
+Claude-mem: persistent context across sessions for every agent — captures, compresses and restores everything.
 
 ### [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill)
 `#skill` `#knowledge-distillation` `#dot-skill` · 2026-09-06
@@ -205,7 +217,7 @@ Claude Code skill that polishes Chinese text and removes AI-writing traces.
 `#skill` `#writing` `#ai-text-cleanup` `#prompt-engineering` `#chatgpt-plugin` · 2026-09-23
 A writing skill that clears 20+ AI-slop patterns while keeping your personal voice.
 
-## 五. Video Creation Skills (4)
+## 五. Video Creation Skills (6)
 
 ### [bradautomates/claude-video](https://github.com/bradautomates/claude-video)
 `#skill` `#video-understanding` `#multimodal` · 2026-09-06
@@ -215,15 +227,23 @@ Gives Claude the ability to actually watch and analyze videos.
 `#video-editing` `#skill` `#claude-code` `#ffmpeg` `#browser-use` `#low-cost` · 2026-09-23
 Edit videos by chatting with your coding agent — 100% open-source conversational editing.
 
+### [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+`#python` · 2026-10-04
+OpenMontage: the world's first open-source agentic video production system — 12 pipelines, 100+ tools, 700+ skills.
+
 ### [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
 `#typescript` · 2026-10-01
 Hyperframes: write HTML, render video — built for agents (by HeyGen).
+
+### [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
+`#typescript` · 2026-10-04
+OpenCut: the open-source CapCut alternative for browser video editing.
 
 ### [smallc/Kinema](https://gitee.com/smallc/Kinema)
 `#ai-video` `#production-pipeline` `#skill` `#storyboarding` `#depth-capture` `#gitee` · 2026-09-22
 AI film-making pipeline: give a topic, get a finished short film.
 
-## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (14)
+## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (16)
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 `#python` · 2026-09-28
@@ -236,6 +256,14 @@ Professional diagram-generation skill with 39 editor-grade diagram types.
 ### [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp)
 `#csharp` · 2026-09-28
 Unity MCP acts as a bridge between AI assistants and your Unity Editor.
+
+### [cyanfish/naps2](https://github.com/cyanfish/naps2)
+`#csharp` · 2026-10-04
+NAPS2: scan documents to PDF and more, as simply as possible.
+
+### [datalab-to/chandra](https://github.com/datalab-to/chandra)
+`#python` · 2026-10-04
+Chandra: an OCR model handling complex tables, forms and handwriting with full layout understanding.
 
 ### [dream-num/univer](https://github.com/dream-num/univer)
 `#office-sdk` `#spreadsheet` `#typescript` `#canvas` `#ai-agent` · 2026-09-25
@@ -281,7 +309,7 @@ Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (12)
+## 七. Security · Audit & Reverse Engineering (15)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -303,13 +331,25 @@ OBLITERATE THE CHAINS THAT BIND YOU (Pliny's jailbreak toolkit).
 `#csharp` · 2026-09-28
 .NET Decompiler with support for PDB generation, ReadyToRun, Metadata (&more) - cross-platform!
 
+### [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner)
+`#python` · 2026-10-04
+A 2-in-1 email and username OSINT suite with native MCP support for deep data extraction.
+
 ### [Mafifrizi/ARES](https://github.com/Mafifrizi/ARES)
 `#python` · 2026-10-01
 ARES: authorized red-team engagement automation with dashboard, campaign scope, module orchestration and OPSEC controls.
 
+### [mvt-project/mvt](https://github.com/mvt-project/mvt)
+`#python` · 2026-10-04
+MVT: a mobile verification toolkit for forensics and compromise detection (by Amnesty International).
+
 ### [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)
 `#python` · 2026-10-03
 SkillSpector (by NVIDIA): a security scanner for AI agent skills — vulnerabilities, malicious patterns, prompt injection, data exfiltration.
+
+### [p-e-w/heretic](https://github.com/p-e-w/heretic)
+`#python` · 2026-10-04
+Heretic: fully automatic censorship removal for language models.
 
 ### [samugit83/redamon](https://github.com/samugit83/redamon)
 `#python` · 2026-09-29
@@ -331,7 +371,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (22)
+## 八. Skill Collections & Ecosystem (24)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -356,6 +396,10 @@ Anthropic's official agent-skills examples, spec and templates.
 ### [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)
 `#python` · 2026-10-01
 Official AWS-supported MCP servers, skills and plugins to help AI agents build on AWS.
+
+### [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os)
+`#typescript` · 2026-10-04
+Cloudflare OS: an agent workspace built on Cloudflare Workers with your company's context.
 
 ### [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 `#python` · 2026-10-01
@@ -401,6 +445,10 @@ A text-space optimizer that trains reusable natural-language skills for frozen L
 `#csharp` · 2026-09-28
 The official C# SDK for Model Context Protocol servers and clients.
 
+### [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)
+`#python` · 2026-10-04
+The official Python SDK for Model Context Protocol servers and clients.
+
 ### [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 `#typescript` · 2026-10-01
 Model Context Protocol — the official servers collection (reference implementations).
@@ -421,7 +469,7 @@ Security-vetted skill registry for professional coding agents (one skill, 17 age
 `#claude-code` `#ai-agent` `#subagents` `#skill` `#mcp` · 2026-09-27
 Multi-harness agentic plugin marketplace: 94 plugins, 202 subagents, 7 host platforms.
 
-## 九. Code Intelligence / RAG / Code Review (8)
+## 九. Code Intelligence / RAG / Code Review (9)
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 `#code-review` `#alibaba` `#go` `#hybrid-architecture` `#line-level-comments` `#benchmark` · 2026-09-23
@@ -434,6 +482,10 @@ Pre-indexed code knowledge graph with auto-sync on code changes, for Claude Code
 ### [google/langextract](https://github.com/google/langextract)
 `#python` · 2026-09-28
 A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
+
+### [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff)
+`#python` · 2026-10-04
+SQLFluff: a modular SQL linter and auto-formatter with multi-dialect support.
 
 ### [t8y2/dbx](https://github.com/t8y2/dbx)
 `#rust` · 2026-09-30
@@ -537,7 +589,7 @@ SGLang: a high-performance serving framework for large language and multimodal m
 `#python` · 2026-10-02
 A domain-specific language for high-performance GPU/CPU/Accelerator kernel development.
 
-## 十三. Image / Video / Music Generation (4)
+## 十三. Image / Video / Music Generation (5)
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 `#python` · 2026-10-02
@@ -551,11 +603,15 @@ Pure C/C++ diffusion-model inference engine on ggml — the llama.cpp of image g
 `#aigc` `#stable-diffusion` `#comfyui` `#text-to-video` `#webui` `#local-deployment` · 2026-09-23
 Modular AI image/video generation WebUI (successor of StableSwarmUI).
 
+### [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video)
+`#python` · 2026-10-04
+LongCat-Video: a video generation model by Meituan.
+
 ### [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE)
 `#music-generation` `#symbolic-planning` `#white-box` `#song-cover` `#apache2` `#huggingface` · 2026-09-23
 YuE: frontier open-source music generation model (symbolic planning, zero-shot cover).
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (20)
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (21)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -564,6 +620,10 @@ A GUI client for Windows, Linux and macOS, support Xray and sing-box and others
 ### [Alishahryar1/free-claude-code](https://github.com/Alishahryar1/free-claude-code)
 `#gateway` `#multi-model` `#coding-agent` `#local-proxy` · 2026-08-29
 Multi-model coding-agent gateway: 50 providers driving 9 coding agents.
+
+### [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
+`#python` · 2026-10-04
+DocsGPT: a private AI platform for agents, assistants and enterprise search.
 
 ### [block/buzz](https://github.com/block/buzz)
 `#rust` · 2026-09-27
@@ -915,7 +975,7 @@ One-click right-click convert & compress on Windows (FFmpeg/ImageMagick).
 `#win11` `#fluent` `#system-tools` `#beautification` `#taskbar` · 2026-09-06
 Modern Fluent flyout replacement for Windows 11.
 
-## 十八. Files · Downloads · Photo Management (14)
+## 十八. Files · Downloads · Photo Management (15)
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 `#downloader` `#electron` `#aria2` `#docker` · 2026-08-18
@@ -949,6 +1009,10 @@ Offline-first cross-platform open-source photo manager — the local, private al
 `#python` · 2026-09-29
 Self-hosted recipe manager and meal planner with a RestAPI backend and Vue frontend.
 
+### [NickvisionApps/Parabolic](https://github.com/NickvisionApps/Parabolic)
+`#csharp` · 2026-10-04
+Parabolic: download web video and audio.
+
 ### [pablostanley/yoinks](https://github.com/pablostanley/yoinks)
 `#typescript` · 2026-10-02
 Yoink any video from your terminal — no shady ads.
@@ -973,7 +1037,7 @@ A Steam depot downloader built on the SteamKit2 library.
 `#csharp` · 2026-09-30
 A modern launcher for downloading, installing and running apps from GitHub/GitLab releases.
 
-## 十九. Image Viewers & Media Players (7)
+## 十九. Image Viewers & Media Players (8)
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 `#dedup` `#video` `#local-ai` `#dinov2` `#cross-platform` `#docker` · 2026-09-23
@@ -998,6 +1062,10 @@ Kavita is a fast, feature rich, cross platform reading server.
 ### [PintaProject/Pinta](https://github.com/PintaProject/Pinta)
 `#csharp` · 2026-10-03
 Pinta: a simple GTK paint program (Paint for Linux).
+
+### [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit)
+`#csharp` · 2026-10-04
+SubtitleEdit: the subtitle editor.
 
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
 `#language-learning` `#player` `#dual-subtitles` `#whisper` `#live-translation` `#wpf` · 2026-09-23
@@ -1111,7 +1179,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (31)
+## 二十四. Developer Resources & Curated Lists (32)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1172,6 +1240,10 @@ We're not even close to "Wizden, but random" at this point.
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 `#python` · 2026-09-30
 Harvard CS249r textbook 'Machine Learning Systems' (4 volumes: foundations, scaling, agentic & physical AI).
+
+### [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course)
+`#python` · 2026-10-04
+A production-grade agentic RAG course (by Jam with AI).
 
 ### [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)
 `#csharp` · 2026-10-02
@@ -1237,7 +1309,7 @@ A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
 `#javascript` · 2026-09-27
 The React Framework
 
-## 二十五. DevOps / Developer Tools (20)
+## 二十五. DevOps / Developer Tools (21)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1278,6 +1350,10 @@ Aspire is the tool for code-first, extensible, observable dev and deploy.
 ### [microsoft/vscode](https://github.com/microsoft/vscode)
 `#typescript` · 2026-09-27
 Visual Studio Code
+
+### [NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)
+`#csharp` · 2026-10-04
+Nethermind: a robust, high-performance execution client for Ethereum node operators.
 
 ### [nopSolutions/nopCommerce](https://github.com/nopSolutions/nopCommerce)
 `#csharp` · 2026-10-01

@@ -3,44 +3,44 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-03 ｜ 共收录 **309** 条内容（301 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-04 ｜ 共收录 **328** 条内容（320 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 23 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 25 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 6 |
-| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 7 |
+| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 8 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
-| [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 4 |
-| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 14 |
-| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 12 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 22 |
-| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 8 |
+| [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
+| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 16 |
+| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 15 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 24 |
+| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 9 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 5 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 9 |
-| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 4 |
-| [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 20 |
+| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 5 |
+| [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 21 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 11 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 20 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 37 |
-| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 14 |
-| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 7 |
+| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 15 |
+| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 8 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 8 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 1 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 31 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 20 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 32 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 21 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（23）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（25）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -60,6 +60,12 @@
 - **定位**：Agent Zero：通用型 AI Agent 框架，可自建、自学习、自主执行任务。
 - **简介**：Agent Zero：通用型 AI Agent 框架，可自建、自学习、自主执行任务。（GitHub 每日趋势 2026-09-29：★19330，当日 +22）
 - **归档**：`开源项目介绍/2026.9.29/agent-zero.md`
+- **标签**：`#python`
+
+### [agno-agi/agno](https://github.com/agno-agi/agno)
+- **定位**：构建、运行和管理 Agent 平台的全栈框架。
+- **简介**：构建、运行和管理 Agent 平台的全栈框架。（GitHub 每日趋势 2026-10-03：★42529，当日 +41）
+- **归档**：`开源项目介绍/2026.10.4/agno.md`
 - **标签**：`#python`
 
 ### [anomalyco/opencode](https://github.com/anomalyco/opencode)
@@ -165,6 +171,12 @@
 - **归档**：`开源项目介绍/2026.10.2/openclaw-windows-node.md`
 - **标签**：`#csharp`
 
+### [pingdotgg/t3code](https://github.com/pingdotgg/t3code)
+- **定位**：T3 堆栈的 AI 编码助手（Theo 出品，T3Chat 作者的终端 Agent）。
+- **简介**：T3 堆栈的 AI 编码助手（Theo 出品，T3Chat 作者的终端 Agent）。（GitHub 每日趋势 2026-10-03：★24487，当日 +251）
+- **归档**：`开源项目介绍/2026.10.4/t3code.md`
+- **标签**：`#typescript`
+
 ### [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 - **定位**：Python 的 AI 之道：Agent、实时语音、图像生成、嵌入——任意模型、任意接口、端到端类型安全。
 - **简介**：Python 的 AI 之道：Agent、实时语音、图像生成、嵌入——任意模型、任意接口、端到端类型安全。（GitHub 每日趋势 2026-10-01：★20292，当日 +24）
@@ -226,7 +238,7 @@
 
 <a id="sec-3"></a>
 
-## 🧠 三、Agent 记忆与知识蒸馏（7）
+## 🧠 三、Agent 记忆与知识蒸馏（8）
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 - **定位**：AI 编码 Agent 长期记忆 · 跨工具跨机器共享
@@ -245,6 +257,12 @@
 - **简介**：AI Agent 的记忆层：可插拔的记忆基础设施，上下文持久化、面向生产环境。（GitHub 每日趋势 2026-09-30：★66314，当日 +119）
 - **归档**：`开源项目介绍/2026.9.30/mem0.md`
 - **标签**：`#python`
+
+### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
+- **定位**：为每个 Agent 提供跨会话持久上下文：捕获会话中的所有操作，AI 压缩后自动恢复。
+- **简介**：为每个 Agent 提供跨会话持久上下文：捕获会话中的所有操作，AI 压缩后自动恢复。（GitHub 每日趋势 2026-10-03：★95363，当日 +115）
+- **归档**：`开源项目介绍/2026.10.4/claude-mem.md`
+- **标签**：`#typescript`
 
 ### [titanwings/colleague-skill](https://github.com/titanwings/colleague-skill)
 - **定位**：数字痕迹蒸馏 Skill —— 已升级为 dot-skill，可蒸馏任何人（同事 / 关系 / 名人）
@@ -308,7 +326,7 @@
 
 <a id="sec-5"></a>
 
-## 🎬 五、视频创作 Skills（4）
+## 🎬 五、视频创作 Skills（6）
 
 ### [bradautomates/claude-video](https://github.com/bradautomates/claude-video)
 - **定位**：让 Claude 具备「观看视频」能力
@@ -322,10 +340,22 @@
 - **归档**：`开源项目介绍/2026.9.23/video-use.md`
 - **标签**：`#视频剪辑` `#skill` `#claude-code` `#ffmpeg` `#browser-use` `#低成本`
 
+### [calesthio/OpenMontage](https://github.com/calesthio/OpenMontage)
+- **定位**：全球首个开源 Agentic 视频生产系统：12 条制作管线、100+ 工具、700+ Agent 技能。
+- **简介**：全球首个开源 Agentic 视频生产系统：12 条制作管线、100+ 工具、700+ Agent 技能。（GitHub 每日趋势 2026-10-03：★62616，当日 +328）
+- **归档**：`开源项目介绍/2026.10.4/OpenMontage.md`
+- **标签**：`#python`
+
 ### [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes)
 - **定位**：写 HTML 即渲染视频，为 Agent 而设计（HeyGen 出品）。
 - **简介**：写 HTML 即渲染视频，为 Agent 而设计（HeyGen 出品）。（GitHub 每日趋势 2026-10-01：★54566，当日 +352）
 - **归档**：`开源项目介绍/2026.10.1/hyperframes.md`
+- **标签**：`#typescript`
+
+### [OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
+- **定位**：开源版剪映（CapCut 替代品），浏览器视频剪辑。
+- **简介**：开源版剪映（CapCut 替代品），浏览器视频剪辑。（GitHub 每日趋势 2026-10-03：★91435，当日 +234）
+- **归档**：`开源项目介绍/2026.10.4/OpenCut.md`
 - **标签**：`#typescript`
 
 ### [smallc/Kinema](https://gitee.com/smallc/Kinema)
@@ -336,7 +366,7 @@
 
 <a id="sec-6"></a>
 
-## 🧰 六、专业领域 Skills（14）
+## 🧰 六、专业领域 Skills（16）
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 - **定位**：Anthropic 面向金融服务行业的官方示例与参考实现集合。
@@ -355,6 +385,18 @@
 - **简介**：连接 AI 助手与 Unity 编辑器的 MCP 桥，让 AI 直接操作 Unity 项目。（GitHub 每日趋势 2026-09-28：★14531，当日 +23）
 - **归档**：`开源项目介绍/2026.9.28/unity-mcp.md`
 - **标签**：`#csharp`
+
+### [cyanfish/naps2](https://github.com/cyanfish/naps2)
+- **定位**：尽可能简单地扫描文档为 PDF 等。
+- **简介**：尽可能简单地扫描文档为 PDF 等。（GitHub 每日趋势 2026-10-03：★4577，当日 +5）
+- **归档**：`开源项目介绍/2026.10.4/naps2.md`
+- **标签**：`#csharp`
+
+### [datalab-to/chandra](https://github.com/datalab-to/chandra)
+- **定位**：处理复杂表格、表单、手写体的 OCR 模型，带完整版面理解。
+- **简介**：处理复杂表格、表单、手写体的 OCR 模型，带完整版面理解。（GitHub 每日趋势 2026-10-03：★12395，当日 +20）
+- **归档**：`开源项目介绍/2026.10.4/chandra.md`
+- **标签**：`#python`
 
 ### [dream-num/univer](https://github.com/dream-num/univer)
 - **定位**：面向 AI Agent 的开源 Office SDK，六大编辑器同构单一运行时
@@ -426,7 +468,7 @@
 
 <a id="sec-7"></a>
 
-## 🔐 七、安全 · 审计与逆向（12）
+## 🔐 七、安全 · 审计与逆向（15）
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 - **定位**：HexStrike AI：高级 MCP 服务器，让 Claude/GPT/Copilot 等 AI Agent 自主调度
@@ -458,16 +500,34 @@
 - **归档**：`开源项目介绍/2026.9.28/ILSpy.md`
 - **标签**：`#csharp`
 
+### [kaifcodec/user-scanner](https://github.com/kaifcodec/user-scanner)
+- **定位**：二合一邮件与用户名 OSINT 套件，原生支持 MCP，从一个邮箱/用户名深挖数据。
+- **简介**：二合一邮件与用户名 OSINT 套件，原生支持 MCP，从一个邮箱/用户名深挖数据。（GitHub 每日趋势 2026-10-03：★5194，当日 +70）
+- **归档**：`开源项目介绍/2026.10.4/user-scanner.md`
+- **标签**：`#python`
+
 ### [Mafifrizi/ARES](https://github.com/Mafifrizi/ARES)
 - **定位**：ARES：授权红队交战自动化——仪表盘、活动范围、模块编排、OPSEC 控制、加密数据。
 - **简介**：ARES：授权红队交战自动化——仪表盘、活动范围、模块编排、OPSEC 控制、加密数据。（GitHub 每日趋势 2026-10-01：★557，当日 +23）
 - **归档**：`开源项目介绍/2026.10.1/ARES.md`
 - **标签**：`#python`
 
+### [mvt-project/mvt](https://github.com/mvt-project/mvt)
+- **定位**：移动设备取证工具包（MVT），用于检测潜在的入侵痕迹（Amnesty International 出品）。
+- **简介**：移动设备取证工具包（MVT），用于检测潜在的入侵痕迹（Amnesty International 出品）。（GitHub 每日趋势 2026-10-03：★15177，当日 +34）
+- **归档**：`开源项目介绍/2026.10.4/mvt.md`
+- **标签**：`#python`
+
 ### [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)
 - **定位**：英伟达出品：AI Agent 技能的安全扫描器——检测漏洞、恶意模式、提示注入与数据外泄风险。
 - **简介**：英伟达出品：AI Agent 技能的安全扫描器——检测漏洞、恶意模式、提示注入与数据外泄风险。（GitHub 每日趋势 2026-10-03：★19064，当日 +167）
 - **归档**：`开源项目介绍/2026.10.3/SkillSpector.md`
+- **标签**：`#python`
+
+### [p-e-w/heretic](https://github.com/p-e-w/heretic)
+- **定位**：语言模型的完全自动审查移除工具。
+- **简介**：语言模型的完全自动审查移除工具。（GitHub 每日趋势 2026-10-03：★33008，当日 +233）
+- **归档**：`开源项目介绍/2026.10.4/heretic.md`
 - **标签**：`#python`
 
 ### [samugit83/redamon](https://github.com/samugit83/redamon)
@@ -503,7 +563,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（22）
+## 🧩 八、Skill 合集与生态（24）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -541,6 +601,12 @@
 - **简介**：AWS 官方的 MCP 服务器、技能与插件合集，帮 AI Agent 在 AWS 上构建。（GitHub 每日趋势 2026-10-01：★2762，当日 +10）
 - **归档**：`开源项目介绍/2026.10.1/agent-toolkit-for-aws.md`
 - **标签**：`#python`
+
+### [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os)
+- **定位**：基于 Cloudflare Workers 的 Agent 工作空间：创建文档、构建应用、运行 Agent，带着企业上下
+- **简介**：基于 Cloudflare Workers 的 Agent 工作空间：创建文档、构建应用、运行 Agent，带着企业上下文。（GitHub 每日趋势 2026-10-03：★10457，当日 +84）
+- **归档**：`开源项目介绍/2026.10.4/cloudflare-os.md`
+- **标签**：`#typescript`
 
 ### [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 - **定位**：精选的 Claude Skills、资源与工具合集，用于定制 Claude AI 工作流。
@@ -608,6 +674,12 @@
 - **归档**：`开源项目介绍/2026.9.28/csharp-sdk.md`
 - **标签**：`#csharp`
 
+### [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)
+- **定位**：Model Context Protocol 官方 Python SDK（服务端与客户端）。
+- **简介**：Model Context Protocol 官方 Python SDK（服务端与客户端）。（GitHub 每日趋势 2026-10-03：★24471，当日 +20）
+- **归档**：`开源项目介绍/2026.10.4/python-sdk.md`
+- **标签**：`#python`
+
 ### [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers)
 - **定位**：Model Context Protocol 官方服务器合集（MCP 参考实现库）。
 - **简介**：Model Context Protocol 官方服务器合集（MCP 参考实现库）。（GitHub 每日趋势 2026-10-01：★90757，当日 +48）
@@ -641,7 +713,7 @@
 
 <a id="sec-9"></a>
 
-## 💻 九、代码智能 / RAG / 代码审查（8）
+## 💻 九、代码智能 / RAG / 代码审查（9）
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 - **定位**：阿里巴巴开源的 AI 代码审查 CLI（确定性工程 × Agent 混合架构）
@@ -659,6 +731,12 @@
 - **定位**：谷歌出品：用 LLM 从非结构化文本中提取结构化信息的 Python 库。
 - **简介**：谷歌出品：用 LLM 从非结构化文本中提取结构化信息的 Python 库。（GitHub 每日趋势 2026-09-26：★38847，当日 +154）
 - **归档**：`开源项目介绍/2026.9.28/langextract.md`
+- **标签**：`#python`
+
+### [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff)
+- **定位**：模块化 SQL Linter 与自动格式化器，支持多方言与模板化代码。
+- **简介**：模块化 SQL Linter 与自动格式化器，支持多方言与模板化代码。（GitHub 每日趋势 2026-10-03：★9916，当日 +9）
+- **归档**：`开源项目介绍/2026.10.4/sqlfluff.md`
 - **标签**：`#python`
 
 ### [t8y2/dbx](https://github.com/t8y2/dbx)
@@ -823,7 +901,7 @@
 
 <a id="sec-13"></a>
 
-## 🎨 十三、图像 / 视频 / 音乐生成（4）
+## 🎨 十三、图像 / 视频 / 音乐生成（5）
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 - **定位**：SIGGRAPH Asia 2026 论文：一个统一模型驱动多种骨架动画。
@@ -844,6 +922,12 @@
 - **归档**：`开源项目介绍/2026.9.23/SwarmUI.md`
 - **标签**：`#aigc` `#stable-diffusion` `#comfyui` `#文生视频` `#webui` `#本地部署`
 
+### [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video)
+- **定位**：美团 LongCat 视频生成模型。
+- **简介**：美团 LongCat 视频生成模型。（GitHub 每日趋势 2026-10-03：★8654，当日 +43）
+- **归档**：`开源项目介绍/2026.10.4/LongCat-Video.md`
+- **标签**：`#python`
+
 ### [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE)
 - **定位**：YuE2 前沿音乐生成模型 · 符号规划 + 零样本翻唱 + Agent 化编辑
 - **简介**：**「Compose in symbols. Create in sound.」**（用符号作曲，用声音创作。）YuE2 把前沿级歌曲质量带给音乐生成，同时给出**一份可编辑的乐谱**——给它歌词和风格提示，它先写出一份**旋律与和声计划**，再把计划实现为带人声与伴奏的完整歌曲。三大能力：① **前沿质量**——在 WildSongBench（192 条 prompt）上与 **Suno v5/v6 具竞争力**，YuE2 (best-of-8) 取得 **6.9632 SongBench Avg**，是所有被评估设置中观测到的最高均值；② **通过符号规划实现白盒生成**——渲染之前就能**读、弹、改**这份作品，旋律与和声成为显式控制项，人或 agent 都能检查并编辑；③ **零样本翻唱 + Agent 化编辑**——把转写下来的歌用新风格重新演绎，或通过一场关于乐谱/编曲/歌词的**对话**打磨歌曲，**全部用同一个生成 checkpoint**。三种创作模式：Create（歌词+风格→乐谱→完整歌曲）、Cover（源录音→旋律乐谱→全新演绎）、Edit with an agent（音乐反馈→乐谱/风格/歌词修订→新录音）；官方 agent 演示跟着《The Last Train》走了 **9 个步骤、14 个版本**，从华语流行到英语爵士配新和声与萨克斯独奏，每版都能试听并检查其对话/乐谱/prompt/歌词。**架构**：一个 **AR–NAR Mixture-of-Transformers** 主干自回归预测乐谱与语义 token，再用 **flow matching** 生成声学潜变量，由 **VAE** 解码为立体声音频；三种模式的区别只在于**乐谱从哪来**。分阶段 Python API：`plan() → generate_semantic() → synthesize() → decode()`。配套开源资产齐全：[YuE2-3B](https://huggingface.co/m-a-p/YuE2-3B) 主模型、MERT-v2-FullSong（音乐表征）、SheetSage2（乐谱）、WildSongBench（评测集）、公开盲听 [Music Arena](https://arena.3-148-255-99.sslip.io:8080)（与领先专有系统 A/B 对比，无需账号）。README 设有 **Agent skill** 章节，配合白盒符号规划可让 Agent 通过对话迭代改谱。参与机构：HKUST · M·A·P · Tokenwave.AI · NYU · Stanford · MBZUAI · NOIZ · ACE Studio。免费在线试用 [yue.noizai.net](https://yue.noizai.net/)（NOIZ 托管，无需安装）。原 YuE v1 保留在 `YuE-v1` 分支。Python，Apache-2.0，10,072 stars / 1,145 forks；榜单成绩亮眼：Trendshift GitHub Trending **#1 Repository of the Day**（2026-09-14 全语言）、HF 全球模型 Trending **#3**（09-17）、HF Text-to-Audio Trending **#1**（09-20）。
@@ -852,7 +936,7 @@
 
 <a id="sec-14"></a>
 
-## 🏗️ 十四、AI 基础设施 · 网关与自托管平台（20）
+## 🏗️ 十四、AI 基础设施 · 网关与自托管平台（21）
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 - **定位**：跨平台代理 GUI 客户端（Windows/Linux/macOS），支持 Xray、sing-box 等内核。
@@ -865,6 +949,12 @@
 - **简介**：独立开源项目（MIT 协议），作为本地代理运行，统一接入 50 家 ToS 友好的 AI 提供商（每月 13 亿+ 免费 tokens），驱动 9 种编码 Agent：Claude Code、Codex、Pi、OpenCode、Cline、Hermes、DeepSeek Harness、Grok Build、Muse Code。核心能力：提供商故障自动转移（失败后自动试下一个模型）、终端输出 token 减少 90%（RTK 过滤 + 五项内置优化）、多端支持（终端/桌面/VS Code/JetBrains/Discord/Telegram）、语音输入（本地 Whisper / NVIDIA NIM 转录）、模型层级路由（Fable/Opus/Sonnet/Haiku 独立分配模型）、推理级别控制。支持本地模型（Ollama / LM Studio / llama.cpp）。含 Web Admin UI 统一管理提供商和模型配置。
 - **归档**：`开源项目介绍/2026.8.29/free-claude-code.md`
 - **标签**：`#网关` `#多模型` `#编码agent` `#本地代理`
+
+### [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
+- **定位**：私有 AI 平台：Agent、助手与企业搜索，内置 Agent 构建器、深度研究与文档分析。
+- **简介**：私有 AI 平台：Agent、助手与企业搜索，内置 Agent 构建器、深度研究与文档分析。（GitHub 每日趋势 2026-10-03：★18304，当日 +6）
+- **归档**：`开源项目介绍/2026.10.4/DocsGPT.md`
+- **标签**：`#python`
 
 ### [block/buzz](https://github.com/block/buzz)
 - **定位**：Rust 编写的「蜂群心智」通信平台，为多智能体与多人间的高频协同通信而生。
@@ -1402,7 +1492,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-18"></a>
 
-## 📁 十八、文件 · 下载 · 照片管理（14）
+## 📁 十八、文件 · 下载 · 照片管理（15）
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 - **定位**：现代化全功能开源下载管理器（Motrix Turbo v2）
@@ -1453,6 +1543,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.29/mealie.md`
 - **标签**：`#python`
 
+### [NickvisionApps/Parabolic](https://github.com/NickvisionApps/Parabolic)
+- **定位**：下载网页视频与音频。
+- **简介**：下载网页视频与音频。（GitHub 每日趋势 2026-10-03：★7213，当日 +19）
+- **归档**：`开源项目介绍/2026.10.4/Parabolic.md`
+- **标签**：`#csharp`
+
 ### [pablostanley/yoinks](https://github.com/pablostanley/yoinks)
 - **定位**：从终端抓取任意视频，无广告、无套路。
 - **简介**：从终端抓取任意视频，无广告、无套路。（GitHub 每日趋势 2026-10-02：★2783，当日 +356）
@@ -1491,7 +1587,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-19"></a>
 
-## ▶️ 十九、图片查看与媒体播放（7）
+## ▶️ 十九、图片查看与媒体播放（8）
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 - **定位**：跨平台重复视频/图片查找器（可选本地 AI 匹配）
@@ -1527,6 +1623,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：简洁的 GTK 画图程序（Linux 版 Paint）。
 - **简介**：简洁的 GTK 画图程序（Linux 版 Paint）。（GitHub 每日趋势 2026-10-03：★4066，当日 +4）
 - **归档**：`开源项目介绍/2026.10.3/Pinta.md`
+- **标签**：`#csharp`
+
+### [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit)
+- **定位**：好用的字幕编辑器。
+- **简介**：好用的字幕编辑器。（GitHub 每日趋势 2026-10-03：★14414，当日 +12）
+- **归档**：`开源项目介绍/2026.10.4/subtitleedit.md`
 - **标签**：`#csharp`
 
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
@@ -1704,7 +1806,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（31）
+## 📚 二十四、开发者资源 / 精选合集（32）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -1794,6 +1896,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。
 - **简介**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。（GitHub 每日趋势 2026-09-30：★28715，当日 +62）
 - **归档**：`开源项目介绍/2026.9.30/cs249r_book.md`
+- **标签**：`#python`
+
+### [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course)
+- **定位**：生产级 Agentic RAG 课程（Jam with AI 出品）。
+- **简介**：生产级 Agentic RAG 课程（Jam with AI 出品）。（GitHub 每日趋势 2026-10-03：★9325，当日 +192）
+- **归档**：`开源项目介绍/2026.10.4/production-agentic-rag-course.md`
 - **标签**：`#python`
 
 ### [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)
@@ -1894,7 +2002,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（20）
+## 🚀 二十五、DevOps / 开发者工具（21）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -1956,6 +2064,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：微软开源的轻量级代码编辑器，扩展生态极其庞大，事实上的编辑器标准。（GitHub 每日趋势 2026-09-26：★192997，当日 +78）
 - **归档**：`开源项目介绍/2026.9.27/vscode.md`
 - **标签**：`#typescript`
+
+### [NethermindEth/nethermind](https://github.com/NethermindEth/nethermind)
+- **定位**：以太坊节点的高性能执行客户端。
+- **简介**：以太坊节点的高性能执行客户端。（GitHub 每日趋势 2026-10-03：★1608，当日 +0）
+- **归档**：`开源项目介绍/2026.10.4/nethermind.md`
+- **标签**：`#csharp`
 
 ### [nopSolutions/nopCommerce](https://github.com/nopSolutions/nopCommerce)
 - **定位**：ASP.NET Core 开源电商软件：免费开源购物车平台。
