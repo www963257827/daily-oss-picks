@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-04 ｜ **328** entries (320 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-05 ｜ **338** entries (330 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -13,25 +13,25 @@
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 16 |
-| 7 | Security · Audit & Reverse Engineering | 15 |
-| 8 | Skill Collections & Ecosystem | 24 |
-| 9 | Code Intelligence / RAG / Code Review | 9 |
+| 7 | Security · Audit & Reverse Engineering | 16 |
+| 8 | Skill Collections & Ecosystem | 25 |
+| 9 | Code Intelligence / RAG / Code Review | 10 |
 | 10 | Speech & TTS | 5 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 9 |
+| 12 | Local Inference Engines & Optimization | 10 |
 | 13 | Image / Video / Music Generation | 5 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 21 |
-| 15 | Content Discovery & Intelligence | 11 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 22 |
+| 15 | Content Discovery & Intelligence | 12 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 20 |
-| 17 | System Tools & Desktop Productivity | 37 |
+| 17 | System Tools & Desktop Productivity | 38 |
 | 18 | Files · Downloads · Photo Management | 15 |
 | 19 | Image Viewers & Media Players | 8 |
 | 20 | AI Desktop Apps | 8 |
-| 21 | Cross-device Tools | 8 |
+| 21 | Cross-device Tools | 9 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
 | 24 | Developer Resources & Curated Lists | 32 |
-| 25 | DevOps / Developer Tools | 21 |
+| 25 | DevOps / Developer Tools | 23 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (25)
 
@@ -309,7 +309,7 @@ Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (15)
+## 七. Security · Audit & Reverse Engineering (16)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -351,6 +351,10 @@ SkillSpector (by NVIDIA): a security scanner for AI agent skills — vulnerabili
 `#python` · 2026-10-04
 Heretic: fully automatic censorship removal for language models.
 
+### [Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
+`#csharp` · 2026-10-05
+Il2CppDumper: a Unity il2cpp reverse-engineering tool.
+
 ### [samugit83/redamon](https://github.com/samugit83/redamon)
 `#python` · 2026-09-29
 An AI-powered agentic red team framework automating offensive security operations end to end.
@@ -371,7 +375,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (24)
+## 八. Skill Collections & Ecosystem (25)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -416,6 +420,10 @@ Cursor plugin specification and official plugins.
 ### [dotnet/skills](https://github.com/dotnet/skills)
 `#csharp` · 2026-09-27
 Repository for skills to assist AI coding agents with .NET and C#
+
+### [garrytan/gstack](https://github.com/garrytan/gstack)
+`#typescript` · 2026-10-05
+Gstack: Garry Tan's exact Claude Code setup — 23 opinionated tools acting as CEO, Designer, Eng Manager and more.
 
 ### [google/skills](https://github.com/google/skills)
 `#python` · 2026-10-02
@@ -469,7 +477,7 @@ Security-vetted skill registry for professional coding agents (one skill, 17 age
 `#claude-code` `#ai-agent` `#subagents` `#skill` `#mcp` · 2026-09-27
 Multi-harness agentic plugin marketplace: 94 plugins, 202 subagents, 7 host platforms.
 
-## 九. Code Intelligence / RAG / Code Review (9)
+## 九. Code Intelligence / RAG / Code Review (10)
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 `#code-review` `#alibaba` `#go` `#hybrid-architecture` `#line-level-comments` `#benchmark` · 2026-09-23
@@ -490,6 +498,10 @@ SQLFluff: a modular SQL linter and auto-formatter with multi-dialect support.
 ### [t8y2/dbx](https://github.com/t8y2/dbx)
 `#rust` · 2026-09-30
 A 25MB lightweight cross-platform database client supporting 100+ databases.
+
+### [tester-army/e2e](https://github.com/tester-army/e2e)
+`#typescript` · 2026-10-05
+A next-generation e2e testing framework for web and mobile apps.
 
 ### [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
 `#mcp` `#tree-sitter` `#token-optimization` `#code-review` · 2026-09-06
@@ -551,7 +563,11 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (9)
+## 十二. Local Inference Engines & Optimization (10)
+
+### [antirez/ds4](https://github.com/antirez/ds4)
+`#c` · 2026-10-05
+DS4 (by antirez): local inference engine for DeepSeek 4 Flash and PRO on Metal, CUDA and ROCm.
 
 ### [ashhart/TensorFold](https://github.com/ashhart/TensorFold)
 `#python` · 2026-09-29
@@ -611,7 +627,7 @@ LongCat-Video: a video generation model by Meituan.
 `#music-generation` `#symbolic-planning` `#white-box` `#song-cover` `#apache2` `#huggingface` · 2026-09-23
 YuE: frontier open-source music generation model (symbolic planning, zero-shot cover).
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (21)
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (22)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -640,6 +656,10 @@ Enhanced ChatGPT clone: self-hosted multi-model AI platform.
 ### [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)
 `#gateway` `#multi-model` `#free-tokens` `#token-compression` `#mcp` · 2026-09-06
 Unified multi-provider AI routing gateway with free access for coding agents.
+
+### [experientiallabs/experiential](https://github.com/experientiallabs/experiential)
+`#python` · 2026-10-05
+Experiential: the open-source, zero-markup gateway for BYOK, self-hosted and 1000+ marketplace models.
 
 ### [getsentry/sentry](https://github.com/getsentry/sentry)
 `#python` · 2026-10-03
@@ -697,7 +717,7 @@ Tencent's browser bridge for agents: reuses your real, logged-in browser without
 `#self-hosted` `#multi-agent` `#tencent-cloud` `#im-integration` `#local-first` `#acp` · 2026-09-23
 Self-hosted multi-user, multi-agent AI assistant platform from Tencent Cloud.
 
-## 十五. Content Discovery & Intelligence (11)
+## 十五. Content Discovery & Intelligence (12)
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 `#agent` `#swarm-intelligence` `#prediction` `#multi-agent` `#shanda` · 2026-09-16
@@ -706,6 +726,10 @@ Swarm-intelligence prediction engine by Shanda: thousands of persona agents simu
 ### [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling)
 `#python` · 2026-10-03
 Scrapling: an adaptive web-scraping framework, from a single request to a full-scale crawl.
+
+### [Free-TV/IPTV](https://github.com/Free-TV/IPTV)
+`#python` · 2026-10-05
+M3U playlists for free TV channels.
 
 ### [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack)
 `#python` · 2026-10-01
@@ -825,7 +849,7 @@ Zero-NuGet-dependency dark WPF control library and frameless-window framework.
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (37)
+## 十七. System Tools & Desktop Productivity (38)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -918,6 +942,10 @@ ScreenToGif: record a selected area of your screen, edit and save it as a GIF or
 ### [nomi-san/parsec-vdd](https://github.com/nomi-san/parsec-vdd)
 `#csharp` · 2026-10-02
 A perfect virtual display for game streaming (Parsec VDD).
+
+### [ok-oldking/ok-wuthering-waves](https://github.com/ok-oldking/ok-wuthering-waves)
+`#python` · 2026-10-05
+Wuthering Waves automation: background auto-battle, echo farming and daily tasks.
 
 ### [omacom/omarchy](https://github.com/omacom/omarchy)
 `#linux` `#arch` `#desktop-os` `#agent-native` `#dhh` `#neovim` · 2026-09-23
@@ -1105,7 +1133,7 @@ Local open-source image-to-3D mesh desktop app.
 `#python` · 2026-09-28
 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
 
-## 二十一. Cross-device Tools (8)
+## 二十一. Cross-device Tools (9)
 
 ### [firebase/firebase-ios-sdk](https://github.com/firebase/firebase-ios-sdk)
 `#cpp` · 2026-10-01
@@ -1134,6 +1162,10 @@ Android password manager, KeePass 2.x / KeePassXC compatible.
 ### [RayrenSX/iPhoneMirror](https://github.com/RayrenSX/iPhoneMirror)
 `#screen-mirroring` `#windows` `#airplay` `#usb` `#d3d11` `#obs` · 2026-09-23
 Low-latency iPhone/iPad screen mirroring on Windows (USB + AirPlay).
+
+### [wilbowes/EchoMuse](https://github.com/wilbowes/EchoMuse)
+`#python` · 2026-10-05
+EchoMuse: an Alexa replacement and controller for the Echo Dot 2nd Generation.
 
 ### [willfaust/Madeira](https://github.com/willfaust/Madeira)
 `#c` · 2026-09-28
@@ -1309,7 +1341,7 @@ A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
 `#javascript` · 2026-09-27
 The React Framework
 
-## 二十五. DevOps / Developer Tools (21)
+## 二十五. DevOps / Developer Tools (23)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1318,6 +1350,10 @@ The self-hosted runner for GitHub Actions jobs.
 ### [actions/runner-images](https://github.com/actions/runner-images)
 `#github-actions` `#cicd` `#runner-images` `#devops` `#packer` · 2026-09-27
 VM image definitions and build scripts for GitHub-hosted runners.
+
+### [caddyserver/caddy](https://github.com/caddyserver/caddy)
+`#go` · 2026-10-05
+Caddy: a fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS.
 
 ### [dotnet/efcore](https://github.com/dotnet/efcore)
 `#csharp` · 2026-10-03
@@ -1330,6 +1366,10 @@ A reference .NET application implementing an eCommerce site (by Microsoft).
 ### [dotnet/roslyn](https://github.com/dotnet/roslyn)
 `#csharp` · 2026-10-03
 The Roslyn .NET compiler: rich code-analysis APIs for C# and Visual Basic.
+
+### [dotnet/sdk](https://github.com/dotnet/sdk)
+`#csharp` · 2026-10-05
+Core functionality for creating .NET Core projects, shared between Visual Studio and CLI.
 
 ### [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
 `#csharp` · 2026-09-28
