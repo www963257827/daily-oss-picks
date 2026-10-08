@@ -3,37 +3,37 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-08 ｜ **374** entries (366 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-09 ｜ **387** entries (379 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 27 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 28 |
 | 2 | Mobile Automation Agents | 7 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
-| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 19 |
-| 7 | Security · Audit & Reverse Engineering | 20 |
-| 8 | Skill Collections & Ecosystem | 27 |
+| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 20 |
+| 7 | Security · Audit & Reverse Engineering | 21 |
+| 8 | Skill Collections & Ecosystem | 28 |
 | 9 | Code Intelligence / RAG / Code Review | 11 |
 | 10 | Speech & TTS | 5 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 14 |
-| 13 | Image / Video / Music Generation | 5 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 23 |
-| 15 | Content Discovery & Intelligence | 14 |
+| 13 | Image / Video / Music Generation | 6 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 24 |
+| 15 | Content Discovery & Intelligence | 15 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 21 |
 | 17 | System Tools & Desktop Productivity | 43 |
-| 18 | Files · Downloads · Photo Management | 18 |
+| 18 | Files · Downloads · Photo Management | 20 |
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 35 |
-| 25 | DevOps / Developer Tools | 24 |
+| 24 | Developer Resources & Curated Lists | 37 |
+| 25 | DevOps / Developer Tools | 26 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (27)
+## 一. AI Coding Agents · Runtimes & Methodologies (28)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -98,6 +98,10 @@ Why use many token when few token do trick — a viral skill + proxy that cuts 6
 ### [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 `#swift` · 2026-10-08
 cmux: a Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
+
+### [microsoft/agent-framework](https://github.com/microsoft/agent-framework)
+`#python` · 2026-10-09
+Microsoft's official Agent Framework for building, orchestrating and deploying AI agents (Python & .NET).
 
 ### [mksglu/context-mode](https://github.com/mksglu/context-mode)
 `#typescript` · 2026-10-01
@@ -259,11 +263,15 @@ OpenCut: the open-source CapCut alternative for browser video editing.
 `#ai-video` `#production-pipeline` `#skill` `#storyboarding` `#depth-capture` `#gitee` · 2026-09-22
 AI film-making pipeline: give a topic, get a finished short film.
 
-## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (19)
+## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (20)
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 `#python` · 2026-09-28
 Anthropic's official examples and reference implementations for the financial-services industry.
+
+### [AssetRipper/AssetRipper](https://github.com/AssetRipper/AssetRipper)
+`#csharp` · 2026-10-09
+AssetRipper: a GUI application to analyze game files (Unity asset extraction).
 
 ### [cathrynlavery/diagram-design](https://github.com/cathrynlavery/diagram-design)
 `#skill` `#diagrams` `#visualization` `#svg` · 2026-09-06
@@ -337,11 +345,15 @@ Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (20)
+## 七. Security · Audit & Reverse Engineering (21)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
 HexStrike AI: an advanced MCP server that lets AI agents autonomously run 150+ cybersecurity tools.
+
+### [abrignoni/ALEAPP](https://github.com/abrignoni/ALEAPP)
+`#python` · 2026-10-09
+ALEAPP: an Android Logs Events And Protobuf Parser (forensics).
 
 ### [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
 `#security-audit` `#skill` `#cloudflare` `#adversarial-verification` `#sandbox` `#coverage` · 2026-09-23
@@ -419,7 +431,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (27)
+## 八. Skill Collections & Ecosystem (28)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -464,6 +476,10 @@ Marketing skills for Claude Code and AI agents: CRO, copywriting, SEO, analytics
 ### [cursor/plugins](https://github.com/cursor/plugins)
 `#typescript` · 2026-10-02
 Cursor plugin specification and official plugins.
+
+### [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP)
+`#python` · 2026-10-09
+A MCP server for computer use in Windows.
 
 ### [dotnet/skills](https://github.com/dotnet/skills)
 `#csharp` · 2026-09-27
@@ -677,7 +693,7 @@ A domain-specific language for high-performance GPU/CPU/Accelerator kernel devel
 `#python` · 2026-10-08
 vLLM: a high-throughput and memory-efficient inference and serving engine for LLMs.
 
-## 十三. Image / Video / Music Generation (5)
+## 十三. Image / Video / Music Generation (6)
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 `#python` · 2026-10-02
@@ -699,7 +715,11 @@ LongCat-Video: a video generation model by Meituan.
 `#music-generation` `#symbolic-planning` `#white-box` `#song-cover` `#apache2` `#huggingface` · 2026-09-23
 YuE: frontier open-source music generation model (symbolic planning, zero-shot cover).
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (23)
+### [storytold/artcraft](https://github.com/storytold/artcraft)
+`#rust` · 2026-10-09
+ArtCraft: an intentional crafting engine for artists, designers and filmmakers.
+
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (24)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -777,6 +797,10 @@ Paperclip — the open-source app everyone uses to manage agents at work.
 `#python` · 2026-09-29
 Local-first privacy guard: anonymize your documents before sharing with LLMs.
 
+### [s1t5/mail-archiver](https://github.com/s1t5/mail-archiver)
+`#csharp` · 2026-10-09
+Mail-Archiver: a web app for archiving, searching and exporting emails from multiple accounts.
+
 ### [smartstore/Smartstore](https://github.com/smartstore/Smartstore)
 `#csharp` · 2026-09-29
 A modular, scalable and ultra-fast open-source all-in-one eCommerce platform on ASP.NET Core 10.
@@ -793,7 +817,7 @@ Tencent's browser bridge for agents: reuses your real, logged-in browser without
 `#self-hosted` `#multi-agent` `#tencent-cloud` `#im-integration` `#local-first` `#acp` · 2026-09-23
 Self-hosted multi-user, multi-agent AI assistant platform from Tencent Cloud.
 
-## 十五. Content Discovery & Intelligence (14)
+## 十五. Content Discovery & Intelligence (15)
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 `#agent` `#swarm-intelligence` `#prediction` `#multi-agent` `#shanda` · 2026-09-16
@@ -814,6 +838,10 @@ M3U playlists for free TV channels.
 ### [HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack)
 `#python` · 2026-10-01
 A useful tool to track location or mobile number.
+
+### [IAmTomShaw/f1-race-replay](https://github.com/IAmTomShaw/f1-race-replay)
+`#python` · 2026-10-09
+An interactive Formula 1 race visualisation and data-analysis tool built with Python.
 
 ### [jiji262/douyin-downloader](https://github.com/jiji262/douyin-downloader)
 `#video-download` `#douyin` `#python` `#batch-scraping` `#content-archiving` · 2026-09-23
@@ -1111,7 +1139,7 @@ One-click right-click convert & compress on Windows (FFmpeg/ImageMagick).
 `#win11` `#fluent` `#system-tools` `#beautification` `#taskbar` · 2026-09-06
 Modern Fluent flyout replacement for Windows 11.
 
-## 十八. Files · Downloads · Photo Management (18)
+## 十八. Files · Downloads · Photo Management (20)
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 `#downloader` `#electron` `#aria2` `#docker` · 2026-08-18
@@ -1165,9 +1193,17 @@ Radarr: a movie organizer/manager for usenet and torrent users.
 `#csharp` · 2026-10-08
 Libation: liberate your Audible library.
 
+### [shaked6540/YoutubePlaylistDownloader](https://github.com/shaked6540/YoutubePlaylistDownloader)
+`#csharp` · 2026-10-09
+Download whole playlists, channels or single videos from YouTube and convert to almost any format.
+
 ### [SirDiabo/GithubLauncher](https://github.com/SirDiabo/GithubLauncher)
 `#csharp` · 2026-09-30
 A launcher that downloads and updates applications from GitHub Releases.
+
+### [slskd/slskd](https://github.com/slskd/slskd)
+`#csharp` · 2026-10-09
+A modern client-server application for the Soulseek file-sharing network.
 
 ### [Sonarr/Sonarr](https://github.com/Sonarr/Sonarr)
 `#csharp` · 2026-09-28
@@ -1339,7 +1375,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (35)
+## 二十四. Developer Resources & Curated Lists (37)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1417,6 +1453,10 @@ Clean Architecture Solution Template for ASP.NET Core.
 `#open-source` · 2026-09-28
 Bootstrap Kubernetes the hard way.
 
+### [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes)
+`#open-source` · 2026-10-09
+Notes of the book 'System Design Interview — An Insider's Guide'.
+
 ### [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
 `#python` · 2026-09-30
 The job search that runs on your machine: AI job-application framework built on Claude Code.
@@ -1424,6 +1464,10 @@ The job search that runs on your machine: AI job-application framework built on 
 ### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
 `#csharp` · 2026-09-30
 An open-source C#/.NET research server emulator for local protocol and networking experimentation.
+
+### [MUnique/OpenMU](https://github.com/MUnique/OpenMU)
+`#csharp` · 2026-10-09
+OpenMU: an easy-to-use, extendable and customizable server for MU Online MMORPG.
 
 ### [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)
 `#plsql` · 2026-09-29
@@ -1481,7 +1525,7 @@ A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
 `#javascript` · 2026-09-27
 The React Framework
 
-## 二十五. DevOps / Developer Tools (24)
+## 二十五. DevOps / Developer Tools (26)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1518,6 +1562,10 @@ A native, user-mode, multi-process graphical debugger (by Epic Games).
 ### [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
 `#csharp` · 2026-09-28
 Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
+
+### [JasperFx/wolverine](https://github.com/JasperFx/wolverine)
+`#csharp` · 2026-10-09
+Wolverine: supercharged .NET server-side development.
 
 ### [llvm/llvm-project](https://github.com/llvm/llvm-project)
 `#cpp` · 2026-09-27
@@ -1558,6 +1606,10 @@ OpenSSF-governed fork of HashiCorp Vault: secrets, certificates and keys managem
 ### [pardeike/Harmony](https://github.com/pardeike/Harmony)
 `#csharp` · 2026-10-01
 A library for patching, replacing and decorating .NET and Mono methods during runtime.
+
+### [psf/black](https://github.com/psf/black)
+`#python` · 2026-10-09
+Black: the uncompromising Python code formatter.
 
 ### [quartznet/quartznet](https://github.com/quartznet/quartznet)
 `#csharp` · 2026-10-01
