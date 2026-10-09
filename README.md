@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-09 ｜ **387** entries (379 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-10 ｜ **398** entries (390 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -12,25 +12,25 @@
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
-| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 20 |
+| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 22 |
 | 7 | Security · Audit & Reverse Engineering | 21 |
-| 8 | Skill Collections & Ecosystem | 28 |
-| 9 | Code Intelligence / RAG / Code Review | 11 |
-| 10 | Speech & TTS | 5 |
+| 8 | Skill Collections & Ecosystem | 29 |
+| 9 | Code Intelligence / RAG / Code Review | 13 |
+| 10 | Speech & TTS | 6 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 14 |
 | 13 | Image / Video / Music Generation | 6 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 24 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 15 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 21 |
-| 17 | System Tools & Desktop Productivity | 43 |
+| 17 | System Tools & Desktop Productivity | 46 |
 | 18 | Files · Downloads · Photo Management | 20 |
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 37 |
+| 24 | Developer Resources & Curated Lists | 38 |
 | 25 | DevOps / Developer Tools | 26 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (28)
@@ -263,7 +263,7 @@ OpenCut: the open-source CapCut alternative for browser video editing.
 `#ai-video` `#production-pipeline` `#skill` `#storyboarding` `#depth-capture` `#gitee` · 2026-09-22
 AI film-making pipeline: give a topic, get a finished short film.
 
-## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (20)
+## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (22)
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 `#python` · 2026-09-28
@@ -305,9 +305,17 @@ build123d: a parametric CAD programming library for Python (OCC kernel).
 `#skill` `#patent` `#patent-disclosure` `#ip` · 2026-09-06
 Chinese patent mining and disclosure-writing agent skill.
 
+### [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR)
+`#python` · 2026-10-10
+Umi-OCR: free, open-source, offline OCR — screenshots, batch images, PDF, QR codes, multi-language.
+
 ### [HKUDS/CLI-Anything](https://github.com/HKUDS/CLI-Anything)
 `#cli` `#ai-agent` `#agent-native` `#skill` `#automation` `#hkuds` · 2026-09-27
 HKUDS framework that auto-generates agent-native CLIs for any software.
+
+### [hugohe3/ppt-master](https://github.com/hugohe3/ppt-master)
+`#python` · 2026-10-10
+PPT Master: AI turns documents or topics into real, native PowerPoint decks — native shapes, transitions, data-backed charts.
 
 ### [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI)
 `#office` `#ai-agent` `#skill` `#rendering-engine` `#cli` `#docx` · 2026-09-23
@@ -431,7 +439,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (28)
+## 八. Skill Collections & Ecosystem (29)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -541,11 +549,15 @@ Agent OS: the agent gets smarter on its own — interview-gated, staged evaluati
 `#skill` `#registry` `#security-scanning` `#mcp` `#typescript` · 2026-09-23
 Security-vetted skill registry for professional coding agents (one skill, 17 agents).
 
+### [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill)
+`#open-source` · 2026-10-10
+A SwiftUI agent skill for Claude Code, Codex and other AI tools (by Paul Hudson).
+
 ### [wshobson/agents](https://github.com/wshobson/agents)
 `#claude-code` `#ai-agent` `#subagents` `#skill` `#mcp` · 2026-09-27
 Multi-harness agentic plugin marketplace: 94 plugins, 202 subagents, 7 host platforms.
 
-## 九. Code Intelligence / RAG / Code Review (11)
+## 九. Code Intelligence / RAG / Code Review (13)
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 `#code-review` `#alibaba` `#go` `#hybrid-architecture` `#line-level-comments` `#benchmark` · 2026-09-23
@@ -562,6 +574,14 @@ Pre-indexed code knowledge graph with auto-sync on code changes, for Claude Code
 ### [google/langextract](https://github.com/google/langextract)
 `#python` · 2026-09-28
 A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.
+
+### [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
+`#python` · 2026-10-10
+Headroom: compress tool outputs, logs, files and RAG chunks before they reach the LLM — 20% fewer tokens for coding agents, 60-95% for RAG.
+
+### [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
+`#python` · 2026-10-10
+LingBot-Map (ECCV 2026 Best Paper candidate): geometric context transformer for streaming 3D reconstruction.
 
 ### [sqlfluff/sqlfluff](https://github.com/sqlfluff/sqlfluff)
 `#python` · 2026-10-04
@@ -591,7 +611,7 @@ PageIndex: document index for vectorless, reasoning-based RAG.
 `#rag` `#graph-db` `#code-analysis` `#ast` · 2026-09-06
 Multi-language code knowledge-graph RAG system (Memgraph + Qdrant).
 
-## 十. Speech & TTS (5)
+## 十. Speech & TTS (6)
 
 ### [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 `#tts` `#asr` `#voice-clone` `#mcp` `#local-first` `#electron` · 2026-09-06
@@ -612,6 +632,10 @@ VibeVoice (by Microsoft): open-source frontier voice AI.
 ### [openutau/OpenUtau](https://github.com/openutau/OpenUtau)
 `#csharp` · 2026-09-29
 Open singing synthesis platform — the open-source successor of UTAU.
+
+### [Tencent-Hunyuan/Hy-MT2](https://github.com/Tencent-Hunyuan/Hy-MT2)
+`#python` · 2026-10-10
+Tencent Hunyuan translation model Hy-MT2.
 
 ## 十一. Model Training & Fine-tuning (5)
 
@@ -719,7 +743,7 @@ YuE: frontier open-source music generation model (symbolic planning, zero-shot c
 `#rust` · 2026-10-09
 ArtCraft: an intentional crafting engine for artists, designers and filmmakers.
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (24)
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (25)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -732,6 +756,10 @@ Multi-model coding-agent gateway: 50 providers driving 9 coding agents.
 ### [arc53/DocsGPT](https://github.com/arc53/DocsGPT)
 `#python` · 2026-10-04
 DocsGPT: a private AI platform for agents, assistants and enterprise search.
+
+### [BerriAI/litellm](https://github.com/BerriAI/litellm)
+`#python` · 2026-10-10
+LiteLLM: the fastest AI gateway — Rust core, Python SDK, 100+ LLM APIs in OpenAI format with cost tracking.
 
 ### [block/buzz](https://github.com/block/buzz)
 `#rust` · 2026-09-27
@@ -965,7 +993,7 @@ Zero-NuGet-dependency dark WPF control library and frameless-window framework.
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (43)
+## 十七. System Tools & Desktop Productivity (46)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1083,6 +1111,10 @@ Wuthering Waves automation: background auto-battle, echo farming and daily tasks
 `#linux` `#arch` `#desktop-os` `#agent-native` `#dhh` `#neovim` · 2026-09-23
 DHH's Arch-based Linux distro — an operating system made agent-programmable.
 
+### [pearlxcore/PS4PKGTool](https://github.com/pearlxcore/PS4PKGTool)
+`#csharp` · 2026-10-10
+A tool to manage and perform various operations on PS4 PKG files.
+
 ### [QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)
 `#productivity` `#quick-look` `#windows` `#spacebar` · 2026-09-16
 macOS-style spacebar quick preview for Windows.
@@ -1090,6 +1122,10 @@ macOS-style spacebar quick preview for Windows.
 ### [RankFTW/RHI](https://github.com/RankFTW/RHI)
 `#csharp` · 2026-10-08
 ReShade HDR Installer.
+
+### [redis-windows/redis-windows](https://github.com/redis-windows/redis-windows)
+`#csharp` · 2026-10-10
+Redis 6.x to 8.x natively compiled for Windows.
 
 ### [rocksdanister/lively](https://github.com/rocksdanister/lively)
 `#winui3` `#wallpaper` `#animated-wallpaper` `#screensaver` · 2026-09-06
@@ -1118,6 +1154,10 @@ Minimalist 'single sheet of paper' notes app for Windows, native WPF.
 ### [srwi/EverythingToolbar](https://github.com/srwi/EverythingToolbar)
 `#csharp` · 2026-09-29
 Everything search integration for the Windows taskbar.
+
+### [studyzy/imewlconverter](https://github.com/studyzy/imewlconverter)
+`#csharp` · 2026-10-10
+IMEWLConverter: a free, open-source input-method dictionary converter.
 
 ### [TGSAN/CMWTAT_Digital_Edition](https://github.com/TGSAN/CMWTAT_Digital_Edition)
 `#windows` `#activation-tool` `#digital-license` `#security-warning` · 2026-09-23
@@ -1375,7 +1415,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (37)
+## 二十四. Developer Resources & Curated Lists (38)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1416,6 +1456,10 @@ Open Source Introductory Systems Programming Textbook for the University of Illi
 ### [Cysharp/UniTask](https://github.com/Cysharp/UniTask)
 `#csharp` · 2026-09-27
 Provides an efficient allocation free async/await integration for Unity.
+
+### [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents)
+`#python` · 2026-10-10
+Hello Agents (by Datawhale): principles and practice of building intelligent agents from scratch.
 
 ### [django/django](https://github.com/django/django)
 `#python` · 2026-09-28
