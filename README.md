@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-10 ｜ **398** entries (390 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-11 ｜ **398** entries (390 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
