@@ -1,0 +1,46 @@
+name: Update Knowledge Base Pages
+
+on:
+  schedule:
+    - cron: '0 14 * * *'  # UTC 14:00 = 北京时间 22:00（趋势数据生成后）
+    - cron: '0 2 * * *'   # UTC 02:00 = 北京时间 10:00（补跑）
+  workflow_dispatch:         # 手动触发
+
+permissions:
+  contents: write           # 允许 push
+  models: read              # GitHub Models 读取
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install httpx beautifulsoup4 pypinyin --quiet
+
+      - name: Fetch trending, translate and build HTML
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/fetch_and_update.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ docs/ README.md README_CH.md
+          if git diff --cached --quiet; then
+            echo "无变更，跳过推送"
+          else
+            COMMIT_MSG="auto: update knowledge base $(date +%Y-%m-%d)"
+            git commit -m "$COMMIT_MSG"
+            git push
+            echo "已推送：$COMMIT_MSG"
+          fi

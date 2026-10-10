@@ -1,0 +1,252 @@
+[
+  {
+    "id": 1,
+    "numeral": "一",
+    "title": "AI 编码 Agent · 运行时与方法论",
+    "index_desc": "终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发）",
+    "intro": "编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。",
+    "local_numbering": false,
+    "sep": true,
+    "declared_count": 28
+  },
+  {
+    "id": 2,
+    "numeral": "二",
+    "title": "手机自动化 Agent",
+    "index_desc": "视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 7
+  },
+  {
+    "id": 3,
+    "numeral": "三",
+    "title": "Agent 记忆与知识蒸馏",
+    "index_desc": "跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 9
+  },
+  {
+    "id": 4,
+    "numeral": "四",
+    "title": "写作与文本风格 Skills",
+    "index_desc": "AI 文本去痕、中文润色、清除写作套路、输出去客套化",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 5
+  },
+  {
+    "id": 5,
+    "numeral": "五",
+    "title": "视频创作 Skills",
+    "index_desc": "视频理解、对话式剪辑、AI 影视制作管线",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 6
+  },
+  {
+    "id": 6,
+    "numeral": "六",
+    "title": "专业领域 Skills",
+    "index_desc": "图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 22
+  },
+  {
+    "id": 7,
+    "numeral": "七",
+    "title": "安全 · 审计与逆向",
+    "index_desc": "多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 21
+  },
+  {
+    "id": 8,
+    "numeral": "八",
+    "title": "Skill 合集与生态",
+    "index_desc": "官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 29
+  },
+  {
+    "id": 9,
+    "numeral": "九",
+    "title": "代码智能 / RAG / 代码审查",
+    "index_desc": "代码知识图谱、检索增强生成、AI 代码审查 CLI",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 13
+  },
+  {
+    "id": 10,
+    "numeral": "十",
+    "title": "语音与 TTS",
+    "index_desc": "低延迟语音流水线、本地语音工作室、零样本多语种语音克隆",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 6
+  },
+  {
+    "id": 11,
+    "numeral": "十一",
+    "title": "模型训练与微调",
+    "index_desc": "本地训练平台、从零训 LLM 教学、低显存 LoRA 微调",
+    "intro": "（此「十一」为 2026-09-27 分区重组后的新编号，与已废弃的旧「十一、自撰稿件/推文库」无关，后者不再收录。）",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 5
+  },
+  {
+    "id": 12,
+    "numeral": "十二",
+    "title": "本地推理引擎与优化",
+    "index_desc": "层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 14
+  },
+  {
+    "id": 13,
+    "numeral": "十三",
+    "title": "图像 / 视频 / 音乐生成",
+    "index_desc": "生成 WebUI、扩散模型 C++ 推理、音乐生成模型",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 6
+  },
+  {
+    "id": 14,
+    "numeral": "十四",
+    "title": "AI 基础设施 · 网关与自托管平台",
+    "index_desc": "多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 25
+  },
+  {
+    "id": 15,
+    "numeral": "十五",
+    "title": "内容发现与情报",
+    "index_desc": "跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 15
+  },
+  {
+    "id": 16,
+    "numeral": "十六",
+    "title": "WPF / .NET UI 框架与控件库",
+    "index_desc": "跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等）",
+    "intro": "WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤方案。",
+    "local_numbering": false,
+    "sep": true,
+    "declared_count": 21
+  },
+  {
+    "id": 17,
+    "numeral": "十七",
+    "title": "系统工具与桌面效率",
+    "index_desc": "动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 46
+  },
+  {
+    "id": 18,
+    "numeral": "十八",
+    "title": "文件 · 下载 · 照片管理",
+    "index_desc": "现代文件管理器、下载工具、自托管照片库、本地相册",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 20
+  },
+  {
+    "id": 19,
+    "numeral": "十九",
+    "title": "图片查看与媒体播放",
+    "index_desc": "跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 9
+  },
+  {
+    "id": 20,
+    "numeral": "二十",
+    "title": "AI 桌面应用",
+    "index_desc": "图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 8
+  },
+  {
+    "id": 21,
+    "numeral": "二十一",
+    "title": "跨设备工具",
+    "index_desc": "密码管理、iPhone 投屏、跨平台远程桌面",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 10
+  },
+  {
+    "id": 22,
+    "numeral": "二十二",
+    "title": "地理信息 / GIS",
+    "index_desc": "云原生 GIS 平台",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 1
+  },
+  {
+    "id": 23,
+    "numeral": "二十三",
+    "title": "文章收藏 / AI 动态",
+    "index_desc": "公众号精选文章、模型发布动态、技术选型指南",
+    "intro": "",
+    "local_numbering": false,
+    "sep": true,
+    "declared_count": 8
+  },
+  {
+    "id": 24,
+    "numeral": "二十四",
+    "title": "开发者资源 / 精选合集",
+    "index_desc": "免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 38
+  },
+  {
+    "id": 25,
+    "numeral": "二十五",
+    "title": "DevOps / 开发者工具",
+    "index_desc": "CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理",
+    "intro": "",
+    "local_numbering": false,
+    "sep": false,
+    "declared_count": 26
+  }
+]
