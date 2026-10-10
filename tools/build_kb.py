@@ -42,10 +42,10 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 WORKSPACE = Path(__file__).resolve().parent.parent
-DATA_DIR = WORKSPACE / "data"                 # 仓库内 data/ 目录
-OUT_DIR = WORKSPACE / "docs"                  # GitHub Pages 目录
-KB_MD = OUT_DIR / "README_CH.md"             # 中文版
-KB_HTML = OUT_DIR / "index.html"              # GitHub Pages 入口
+DATA_DIR = WORKSPACE / "knowledge-base" / "data"
+OUT_DIR = WORKSPACE / "knowledge-base"
+KB_MD = OUT_DIR / "我的知识库.md"
+KB_HTML = WORKSPACE / "knowledge-base.html"
 
 ENTRIES = DATA_DIR / "entries.jsonl"
 CATEGORIES = DATA_DIR / "categories.json"
@@ -1530,14 +1530,15 @@ setTab(state.tab || 'overview');
 """
 
 
-def build_html(entries, categories, meta, marks, today) -> str:
+def build_html(entries, categories, meta, marks, now_full=None) -> str:
+    now_full = now_full or dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     ref_map = {e["id"]: (e["name"], e["url"]) for e in entries}
     star_set, pin_set = set(marks["star"]), set(marks["pin"])
     cat_order = {c["id"]: i for i, c in enumerate(categories)}
     ordered = sorted(entries, key=lambda x: (cat_order.get(x["category"], 99),
                                               name_sort_key(x["name"])))
     payload = {
-        "built": today,
+        "built": now_full,
         "marks": {"star": marks["star"], "pin": marks["pin"]},
         "categories": [{"id": c["id"], "numeral": c["numeral"], "title": c["title"],
                         "icon": CAT_ICONS.get(c["id"], "")} for c in categories],
@@ -1561,7 +1562,7 @@ def build_html(entries, categories, meta, marks, today) -> str:
     title = html.escape(meta.get("title", "我的知识库"))
     return (HTML_TEMPLATE
             .replace("__TITLE__", title)
-            .replace("__BUILT__", today)
+            .replace("__BUILT__", now_full)
             .replace("__DATA__", blob))
 
 
@@ -1606,6 +1607,7 @@ def main() -> int:
 
     entries, categories, meta, header, inbox, footer, marks = load()
     today = dt.date.today().isoformat()
+    now_full = dt.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
 
     # 护栏：确认主索引没有被其它会话改动
     if KB_MD.exists() and HASH_FILE.exists() and not args.no_guard:
@@ -1631,7 +1633,7 @@ def main() -> int:
     n_en = sum(1 for e in entries if ((trans.get(str(e["id"])) or "").strip()))
     tag_md = build_tag_index(entries)
     tl_md = build_timeline(entries)
-    html_out = build_html(entries, categories, meta, marks, today)
+    html_out = build_html(entries, categories, meta, marks, now_full)
 
     per_cat = Counter(e["category"] for e in entries)
     n_art = sum(1 for e in entries if e.get("type") == "article")
@@ -1651,11 +1653,8 @@ def main() -> int:
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     KB_MD.write_text(md, encoding="utf-8")
     KB_HTML.write_text(html_out, encoding="utf-8")
-    # README.md（英文版，仓库首页自动渲染）
-    (WORKSPACE / "README.md").write_text(md_en, encoding="utf-8")
-    # README_CH.md（中文完整版，放 docs/）
-    KB_MD.write_text(md, encoding="utf-8")
-    # 其他索引放 docs/
+    (OUT_DIR / "我的知识库-gitee.md").write_text(gitee_md, encoding="utf-8")
+    (OUT_DIR / "我的知识库-EN.md").write_text(md_en, encoding="utf-8")
     (OUT_DIR / "标签索引.md").write_text(tag_md, encoding="utf-8")
     (OUT_DIR / "时间线.md").write_text(tl_md, encoding="utf-8")
     DATA_DIR.mkdir(parents=True, exist_ok=True)
