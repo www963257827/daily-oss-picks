@@ -2,8 +2,7 @@ name: Update Knowledge Base Pages
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # UTC 14:00 = 北京时间 22:00（趋势数据生成后）
-    - cron: '0 2 * * *'   # UTC 02:00 = 北京时间 10:00（补跑）
+    - cron: '0 */4 * * *'  # 每 4 小时一次（UTC，覆盖全天）
   workflow_dispatch:         # 手动触发
 
 permissions:
