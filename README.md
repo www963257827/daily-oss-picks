@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-11 ｜ **398** entries (390 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-11 ｜ **408** entries (400 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -13,25 +13,25 @@
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 22 |
-| 7 | Security · Audit & Reverse Engineering | 21 |
-| 8 | Skill Collections & Ecosystem | 29 |
+| 7 | Security · Audit & Reverse Engineering | 22 |
+| 8 | Skill Collections & Ecosystem | 31 |
 | 9 | Code Intelligence / RAG / Code Review | 13 |
 | 10 | Speech & TTS | 6 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 14 |
-| 13 | Image / Video / Music Generation | 6 |
+| 12 | Local Inference Engines & Optimization | 15 |
+| 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 15 |
-| 16 | WPF / .NET UI Frameworks & Control Libraries | 21 |
-| 17 | System Tools & Desktop Productivity | 46 |
+| 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
+| 17 | System Tools & Desktop Productivity | 47 |
 | 18 | Files · Downloads · Photo Management | 20 |
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 1 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 38 |
-| 25 | DevOps / Developer Tools | 26 |
+| 24 | Developer Resources & Curated Lists | 39 |
+| 25 | DevOps / Developer Tools | 27 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (28)
 
@@ -353,7 +353,7 @@ Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (21)
+## 七. Security · Audit & Reverse Engineering (22)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -362,6 +362,10 @@ HexStrike AI: an advanced MCP server that lets AI agents autonomously run 150+ c
 ### [abrignoni/ALEAPP](https://github.com/abrignoni/ALEAPP)
 `#python` · 2026-10-09
 ALEAPP: an Android Logs Events And Protobuf Parser (forensics).
+
+### [BitterSecurity/Decepticon](https://github.com/BitterSecurity/Decepticon)
+`#python` · 2026-10-11
+An autonomous hacking agent for red team operations.
 
 ### [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)
 `#security-audit` `#skill` `#cloudflare` `#adversarial-verification` `#sandbox` `#coverage` · 2026-09-23
@@ -439,7 +443,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (29)
+## 八. Skill Collections & Ecosystem (31)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -521,6 +525,10 @@ Microsoft's official catalog of MCP server implementations (Azure, Fabric, M365.
 `#python` · 2026-09-29
 A text-space optimizer that trains reusable natural-language skills for frozen LLM agents.
 
+### [MiniMax-AI/skills](https://github.com/MiniMax-AI/skills)
+`#csharp` · 2026-10-11
+MiniMax official Agent Skills repository.
+
 ### [modelcontextprotocol/csharp-sdk](https://github.com/modelcontextprotocol/csharp-sdk)
 `#csharp` · 2026-09-28
 The official C# SDK for Model Context Protocol servers and clients.
@@ -536,6 +544,10 @@ Model Context Protocol — the official servers collection (reference implementa
 ### [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents)
 `#shell` · 2026-10-08
 A complete AI agency at your fingertips — from frontend wizards to Reddit community ninjas.
+
+### [multica-ai/andrej-karpathy-skills](https://github.com/multica-ai/andrej-karpathy-skills)
+`#open-source` · 2026-10-11
+A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 
 ### [pbakaus/impeccable](https://github.com/pbakaus/impeccable)
 `#javascript` · 2026-09-28
@@ -659,7 +671,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (14)
+## 十二. Local Inference Engines & Optimization (15)
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 `#c` · 2026-10-05
@@ -684,6 +696,10 @@ Edge-native MoE inference engine: frontier 290B+ open models on gaming PCs.
 ### [ggml-org/Llama-Windows](https://github.com/ggml-org/Llama-Windows)
 `#csharp` · 2026-10-08
 Windows Llama App Companion (by ggml).
+
+### [huggingface/transformers](https://github.com/huggingface/transformers)
+`#python` · 2026-10-11
+Transformers (by HuggingFace): the model-definition framework for state-of-the-art ML in text, vision, audio and multimodal.
 
 ### [lyogavin/airllm](https://github.com/lyogavin/airllm)
 `#inference-optimization` `#llm` `#low-vram` `#moe` · 2026-08-29
@@ -717,7 +733,7 @@ A domain-specific language for high-performance GPU/CPU/Accelerator kernel devel
 `#python` · 2026-10-08
 vLLM: a high-throughput and memory-efficient inference and serving engine for LLMs.
 
-## 十三. Image / Video / Music Generation (6)
+## 十三. Image / Video / Music Generation (7)
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 `#python` · 2026-10-02
@@ -734,6 +750,10 @@ Modular AI image/video generation WebUI (successor of StableSwarmUI).
 ### [meituan-longcat/LongCat-Video](https://github.com/meituan-longcat/LongCat-Video)
 `#python` · 2026-10-04
 LongCat-Video: a video generation model by Meituan.
+
+### [microsoft/TRELLIS.2](https://github.com/microsoft/TRELLIS.2)
+`#python` · 2026-10-11
+TRELLIS 2 (by Microsoft): native and compact structured latents for 3D generation.
 
 ### [multimodal-art-projection/YuE](https://github.com/multimodal-art-projection/YuE)
 `#music-generation` `#symbolic-planning` `#white-box` `#song-cover` `#apache2` `#huggingface` · 2026-09-23
@@ -907,7 +927,7 @@ Self-hosted AI stock-watching assistant with multi-agent investment decisions.
 `#recommendations` `#local-first` `#content-discovery` · 2026-09-06
 Local-first AI content-discovery agent (recommendations without the cloud).
 
-## 十六. WPF / .NET UI Frameworks & Control Libraries (21)
+## 十六. WPF / .NET UI Frameworks & Control Libraries (23)
 
 ### [aduskin/AduSkin](https://github.com/aduskin/AduSkin)
 `#wpf` `#control-library` `#skinning` `#gpl` `#made-in-china` `#ui-library` · 2026-09-26
@@ -932,6 +952,10 @@ Microsoft's official .NET cross-platform app UI framework (C# + XAML).
 ### [fluentribbon/Fluent.Ribbon](https://github.com/fluentribbon/Fluent.Ribbon)
 `#wpf` `#ribbon` `#office-style` `#control-library` `#csharp` · 2026-09-26
 The de-facto standard Office-style Ribbon control library for WPF.
+
+### [flutter/flutter](https://github.com/flutter/flutter)
+`#dart` · 2026-10-11
+Flutter: build beautiful apps for mobile and beyond (by Google).
 
 ### [HandyOrg/HandyControl](https://github.com/handyOrg/HandyControl)
 `#wpf` `#control-library` `#ui-library` `#zero-dependency` `#chinese-docs` `#made-in-china` · 2026-09-26
@@ -989,11 +1013,15 @@ Windows 11 Mica material for WPF, with graceful fallback to Win10.
 `#wpf` `#dark-theme` `#custom-window` `#mica` `#ui-library` `#wip` · 2026-09-26
 Zero-NuGet-dependency dark WPF control library and frameless-window framework.
 
+### [unoplatform/uno](https://github.com/unoplatform/uno)
+`#csharp` · 2026-10-11
+Uno Platform: build cross-platform native mobile, web, desktop and embedded apps from a single C#/XAML codebase.
+
 ### [wuyanxin1028/rubyer-wpf](https://gitee.com/wuyanxin1028/rubyer-wpf)
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (46)
+## 十七. System Tools & Desktop Productivity (47)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1042,6 +1070,10 @@ A manager for game achievements in Steam.
 ### [greenshot/greenshot](https://github.com/greenshot/greenshot)
 `#csharp` · 2026-09-28
 Greenshot for Windows - for more information look here:
+
+### [home-assistant/core](https://github.com/home-assistant/core)
+`#python` · 2026-10-11
+Open-source home automation that puts local control and privacy first (Home Assistant).
 
 ### [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
 `#csharp` · 2026-10-08
@@ -1415,7 +1447,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (38)
+## 二十四. Developer Resources & Curated Lists (39)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1553,6 +1585,10 @@ Learn it.
 `#python` · 2026-10-02
 100+ AI agents, agent skills and RAG apps — free and open source.
 
+### [SmartlyDressedGames/U3-SDK](https://github.com/SmartlyDressedGames/U3-SDK)
+`#csharp` · 2026-10-11
+Source code for Unturned: a free open-world zombie survival sandbox game.
+
 ### [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14)
 `#csharp` · 2026-10-08
 Space Station 14: a multiplayer game about paranoia and chaos on a space station (SS13 remake).
@@ -1569,7 +1605,7 @@ A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
 `#javascript` · 2026-09-27
 The React Framework
 
-## 二十五. DevOps / Developer Tools (26)
+## 二十五. DevOps / Developer Tools (27)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1602,6 +1638,10 @@ Core functionality for creating .NET Core projects, shared between Visual Studio
 ### [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger)
 `#c` · 2026-10-08
 A native, user-mode, multi-process graphical debugger (by Epic Games).
+
+### [fastapi/fastapi](https://github.com/fastapi/fastapi)
+`#python` · 2026-10-11
+FastAPI: high-performance Python web framework, easy to learn, fast to code, ready for production.
 
 ### [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
 `#csharp` · 2026-09-28
