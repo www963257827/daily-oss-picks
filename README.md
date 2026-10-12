@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-11 ｜ **408** entries (400 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-12 ｜ **410** entries (402 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -28,9 +28,9 @@
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
-| 22 | GIS | 1 |
+| 22 | GIS | 2 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 39 |
+| 24 | Developer Resources & Curated Lists | 40 |
 | 25 | DevOps / Developer Tools | 27 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (28)
@@ -1407,7 +1407,11 @@ EchoMuse: an Alexa replacement and controller for the Echo Dot 2nd Generation.
 `#c` · 2026-09-28
 Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT
 
-## 二十二. GIS (1)
+## 二十二. GIS (2)
+
+### [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
+`#javascript` · 2026-10-12
+Real-data spy satellite simulator on a photorealistic 3D globe
 
 ### [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
 `#gis` `#webassembly` `#cloud-native` `#tauri` · 2026-09-06
@@ -1447,7 +1451,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (39)
+## 二十四. Developer Resources & Curated Lists (40)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1480,6 +1484,10 @@ Linux, Jenkins, AWS, SRE, Prometheus, Docker, Python, Ansible, Git, Kubernetes, 
 ### [byoungd/up](https://github.com/byoungd/up)
 `#javascript` · 2026-09-29
 An advanced personal-growth guide covering AI learning, English learning and more (in Chinese).
+
+### [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11)
+`#assembly` · 2026-10-12
+Original Apollo 11 Guidance Computer source code (command & lunar modules)
 
 ### [cs341-illinois/coursebook](https://github.com/cs341-illinois/coursebook)
 `#tex` · 2026-09-29
