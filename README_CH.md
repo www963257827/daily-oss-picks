@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-12 ｜ 共收录 **410** 条内容（402 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-13 ｜ 共收录 **411** 条内容（403 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
@@ -20,7 +20,7 @@
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 13 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 6 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
-| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 15 |
+| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 16 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 15 |
@@ -1022,7 +1022,7 @@
 
 <a id="sec-12"></a>
 
-## ⚡ 十二、本地推理引擎与优化（15）
+## ⚡ 十二、本地推理引擎与优化（16）
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 - **定位**：antirez 出品：DeepSeek 4 Flash 与 PRO 的本地推理引擎（Metal/CUDA/ROCm）。
@@ -1077,6 +1077,12 @@
 - **简介**：官方 FAQ 一句话讲清与 Ollama / LM Studio 的区别：「**它们负责跑你选的模型，Magnitude 负责帮你选。**」差异化洞察在于产品重心不是「推理更快」，而是**决策前置**——本地推理最大的隐性成本是**试错**：拉了 20GB 才发现只有 3 tok/s。Magnitude 先 **profile 硬件**，对目录中每个模型和每种量化**预估 tok/s**，按 **speed / accuracy / intelligence / memory 四维**排序，推荐偏好分 **fastest / faster / balanced / smarter / smartest 五档**；选定后再针对具体硬件从**上下文长度到 speculative decoding 端到端调优**。形态是 macOS/Windows/Linux 原生桌面应用，内置 `magnitude` CLI（无需 npm 安装），配置在 `~/.magnitude/config.json`。**CLI 命令体系完整分五组**：`hardware` 与 `catalog status/list/show/recommendations/pull/cancel/remove`（发现下载）· `models status/load/stop`（加载态）· `connections list/add/sync/remove`（**Agent 接入，支持 8 种 harness**：pi、opencode、hermes、openclaw、codex、claude-code、oh-my-pi、cline；`add` 可带 `--set-model` 与 `--install-skill`，Pi 的 Skill 自动安装）· `app open` 与 `service start/status/stop/install/uninstall`（后台常驻，uninstall 只关自启不删应用与模型）· `update check/status/download/install/discard`（桌面、内置服务与 CLI 一起升级）。硬件覆盖 **Apple Silicon、NVIDIA、AMD、纯 CPU**，并明确支持 **DGX Spark、Strix Halo** 这类统一内存设备。模型按需加载、**空闲或内存吃紧时自动卸载**，完全离线私有、无 token 费用无 API Key 无限流。Apache-2.0，TypeScript，**4,847 stars** / 369 forks / **仅 22 open issues**，2026-06 建仓，Discussions + Wiki + Discord + X @usemagnitude 齐备。**三个月近 5,000 star 配 22 个 open issue，维护极紧凑**——「帮你选模型」需要真实硬件 profile 数据积累，慢是正常的。
 - **归档**：`开源项目介绍/2026.9.23/magnitude.md`
 - **标签**：`#本地大模型` `#推理引擎` `#桌面应用` `#模型选型` `#ollama替代`
+
+### [microsoft/BitNet](https://github.com/microsoft/BitNet)
+- **定位**：微软官方的 1-bit 大模型推理框架
+- **简介**：微软官方的 1-bit 大模型推理框架（GitHub 每日趋势 2026-10-13：★40896，当日 +97）
+- **归档**：`开源项目介绍/2026.10.13/BitNet.md`
+- **标签**：`#cpp`
 
 ### [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer)
 - **定位**：NVIDIA 官方模型压缩库：量化、剪枝、蒸馏、投机解码加速推理

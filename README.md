@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-12 ｜ **410** entries (402 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-13 ｜ **411** entries (403 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -18,7 +18,7 @@
 | 9 | Code Intelligence / RAG / Code Review | 13 |
 | 10 | Speech & TTS | 6 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 15 |
+| 12 | Local Inference Engines & Optimization | 16 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 15 |
@@ -671,7 +671,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (15)
+## 十二. Local Inference Engines & Optimization (16)
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 `#c` · 2026-10-05
@@ -708,6 +708,10 @@ Layer-streaming inference: run 70B on a single 4GB GPU, 405B on 8GB.
 ### [magnitudedev/magnitude](https://github.com/magnitudedev/magnitude)
 `#local-llm` `#inference-engine` `#desktop-app` `#model-selection` `#ollama-alternative` · 2026-09-23
 A local inference engine that benchmarks your machine first, then tells you what to run.
+
+### [microsoft/BitNet](https://github.com/microsoft/BitNet)
+`#cpp` · 2026-10-13
+Official inference framework for 1-bit LLMs (Microsoft)
 
 ### [NVIDIA/Model-Optimizer](https://github.com/NVIDIA/Model-Optimizer)
 `#quantization` `#nvfp4` `#inference` `#pruning` `#pytorch` · 2026-09-25
