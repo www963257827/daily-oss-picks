@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-13 ｜ 共收录 **411** 条内容（403 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-13 ｜ 共收录 **413** 条内容（405 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 28 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 29 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 7 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -33,14 +33,14 @@
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 2 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
 | [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 40 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 27 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 28 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（28）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（29）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -212,6 +212,12 @@
 - **简介**：**把项目、Agent、模型、插件和工作流带进一个持久的桌面环境**——macOS / Windows / Linux。核心主张三句话：**Your projects stay local · Your models stay replaceable · Your workspace stays yours**（项目留在本地、模型随时可换、工作空间归你所有）。定位很清晰：终端 Agent 擅长执行，IDE Agent 擅长住在编辑器里，PI-Desktop 再往前走一步——**给 AI Agent 一个属于它们自己的、持久的、独立的、可扩展的桌面工作空间**。四大支柱：**独立工作空间**（不依赖任何特定 IDE 或终端，项目/会话/审查/预览/agent 都活在自己的空间里）· **插件驱动**（插件扩展的**不只是 agent**，可以添加面板、视图、小组件、工具、MCP 服务器、主题和后台服务）· **Agent 编排**（一个 agent 往往不够，可委派给 **Subagent** 或并行协调整整的 **Worker Session**）· **模型自由**（云端模型、本地模型、自定义网关、兼容 API，**换模型不用重建工作流**）。技术架构是 **Electron + Rust host core + pi Agent Harness + 用户可安装插件**，前端 React + TypeScript，走 MCP 协议，带 i18n（含简体中文 README）。当前发布线 **0.15.x（Early Preview）**。LGPL-3.0，5,206 stars / 435 forks / 139 open issues，文档站 [pi-docs.aiuo.net](https://pi-docs.aiuo.net/)，社区 [r/AIUO](https://www.reddit.com/r/AIUO/)，2026-09-22 仍在推送。
 - **归档**：`开源项目介绍/2026.9.23/PI-Desktop.md`
 - **标签**：`#agent宿主` `#electron` `#rust` `#插件` `#本地优先` `#mcp`
+
+### [vercel-labs/skills](https://github.com/vercel-labs/skills)
+- **定位**：Vercel 开源的 Agent Skills 管理工具（npx skills）
+- **简介**：Vercel 开源的 Agent Skills 管理工具（npx skills）（GitHub 每日趋势 2026-10-13：★34151，当日 +187）
+- **归档**：`开源项目介绍/2026.10.13/skills.md`
+- **标签**：`#typescript`
 
 <a id="sec-2"></a>
 
@@ -2464,7 +2470,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（27）
+## 🚀 二十五、DevOps / 开发者工具（28）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -2628,6 +2634,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：Vercel 实验室的 TypeScript 编译为原生可执行文件的编译器。（GitHub 每日趋势 2026-09-28：★5279，当日 +76）
 - **归档**：`开源项目介绍/2026.9.28/scriptc.md`
 - **标签**：`#typescript`
+
+### [xtool-org/xtool](https://github.com/xtool-org/xtool)
+- **定位**：跨平台 Xcode 替代品：在 Linux/Windows/macOS 上用 SwiftPM 构建并部署 iOS 应用
+- **简介**：跨平台 Xcode 替代品：在 Linux/Windows/macOS 上用 SwiftPM 构建并部署 iOS 应用（GitHub 每日趋势 2026-10-13：★8601，当日 +936）
+- **归档**：`开源项目介绍/2026.10.13/xtool.md`
+- **标签**：`#swift`
 
 ---
 
