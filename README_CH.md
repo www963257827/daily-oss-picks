@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-14 ｜ 共收录 **421** 条内容（413 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-15 ｜ 共收录 **421** 条内容（413 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
@@ -215,7 +215,7 @@
 
 ### [vercel-labs/skills](https://github.com/vercel-labs/skills)
 - **定位**：Vercel 开源的 Agent Skills 管理工具（npx skills）
-- **简介**：Vercel 开源的 Agent Skills 管理工具（npx skills）（GitHub 每日趋势 2026-10-13：★34151，当日 +187）
+- **简介**：Vercel 出品的开源 Agent Skills 生态 CLI（npx skills）：一条命令为编码 Agent 安装与管理技能，支持 OpenCode、Claude Code、Codex、Cursor 等 80+ 宿主。用法极简：npx skills add owner/repo 安装技能包；npx skills use 技能 | claude 不安装直接生成提示词并拉起对应 Agent；由 skills.sh 注册中心驱动，MIT 开源。（GitHub 每日趋势 2026-10-13：★34151，当日 +187）
 - **归档**：`开源项目介绍/2026.10.13/skills.md`
 - **标签**：`#typescript`
 
@@ -664,7 +664,7 @@
 
 ### [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
 - **定位**：全自主 AI Agent 系统，可执行复杂渗透测试任务
-- **简介**：全自主 AI Agent 系统，可执行复杂渗透测试任务（GitHub 每日趋势 2026-10-14：★28701，当日 +1819）
+- **简介**：全自主渗透测试 AI Agent 系统（Go）：所有操作都在完全隔离的沙箱 Docker 环境中执行，安全可控；Agent 自动规划并执行渗透测试步骤，支持执行监督与智能任务规划。工程化程度高——内置多租户（tenant_id）、REST API、给 Agent 的受控 Docker 权限（不交出宿主机），LLM 侧几乎全生态可接（OpenAI/Anthropic/Gemini/Bedrock/Ollama/DeepSeek/GLM/Kimi/Azure）。面向授权安全测试场景。（GitHub 每日趋势 2026-10-14：★28701，当日 +1819）
 - **归档**：`开源项目介绍/2026.10.14/pentagi.md`
 - **标签**：`#go`
 
@@ -1092,7 +1092,7 @@
 
 ### [microsoft/BitNet](https://github.com/microsoft/BitNet)
 - **定位**：微软官方的 1-bit 大模型推理框架
-- **简介**：微软官方的 1-bit 大模型推理框架（GitHub 每日趋势 2026-10-13：★40896，当日 +97）
+- **简介**：微软官方的 1-bit 大模型推理框架（bitnet.cpp），让 BitNet b1.58 类 1.58-bit 权重模型在 CPU 上高效推理：纯 C/C++ 实现无重量级依赖，x86（AVX2/AVX512）与 ARM（NEON）均有优化内核，I2_S 量化做到每权重 2-bit 无损推理，官方技术报告显示 CPU 上速度与能耗都大幅优于常规量化。生态持续扩张：BitNet-embedding-0.6B/270M（首批 1-bit 嵌入模型，CPU prefill 提速 1.4–2.3 倍）、VibeASR.cpp（CPU 实时多语种 ASR，RTF<1）、GPU kernel 轨道与在线 Demo，技术报告见 arXiv:2502.11880。（GitHub 每日趋势 2026-10-13：★40896，当日 +97）
 - **归档**：`开源项目介绍/2026.10.13/BitNet.md`
 - **标签**：`#cpp`
 
@@ -2458,7 +2458,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 ### [rust-lang/rust](https://github.com/rust-lang/rust)
 - **定位**：Rust 编程语言官方仓库：让每个人都能构建可靠且高效的软件
-- **简介**：Rust 编程语言官方仓库：让每个人都能构建可靠且高效的软件（GitHub 每日趋势 2026-10-14：★119985，当日 +0）
+- **简介**：Rust 编程语言官方主仓库：包含编译器（rustc）、标准库与官方文档的完整源码，也是参与语言贡献的入口。Rust 以内存安全（借用检查器在编译期消灭数据竞争）、零成本抽象、无 GC、跨平台交叉编译著称，配套 cargo 工具链与 crates.io 生态；当前大量系统级软件（操作系统、数据库、浏览器内核）正在向 Rust 迁移。（GitHub 每日趋势 2026-10-14：★119985）
 - **归档**：`开源项目介绍/2026.10.14/rust.md`
 - **标签**：`#rust`
 
@@ -2619,7 +2619,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 ### [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 - **定位**：Node 版本管理器：POSIX 兼容的 bash 脚本，管理多个并行激活的 Node.js 版本
-- **简介**：Node 版本管理器：POSIX 兼容的 bash 脚本，管理多个并行激活的 Node.js 版本（GitHub 每日趋势 2026-10-14：★95364，当日 +45）
+- **简介**：Node 版本管理器事实标准：POSIX 兼容的纯 bash 脚本实现（v0.40.8），零依赖 curl 一行安装；管理多个可并行激活的 Node.js 版本——nvm install/use 随切随用、.nvmrc 项目级版本锁定、国内镜像源可配。通过 CII Best Practices 认证，附 Docker 内安装方案，是前端团队多项目多版本共存的标准答案。（GitHub 每日趋势 2026-10-14：★95364，当日 +45）
 - **归档**：`开源项目介绍/2026.10.14/nvm.md`
 - **标签**：`#shell`
 
@@ -2685,7 +2685,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 ### [xtool-org/xtool](https://github.com/xtool-org/xtool)
 - **定位**：跨平台 Xcode 替代品：在 Linux/Windows/macOS 上用 SwiftPM 构建并部署 iOS 应用
-- **简介**：跨平台 Xcode 替代品：在 Linux/Windows/macOS 上用 SwiftPM 构建并部署 iOS 应用（GitHub 每日趋势 2026-10-13：★8601，当日 +936）
+- **简介**：跨平台 Xcode 替代品：用 SwiftPM 在 Linux、Windows（WSL）与 macOS 上构建并部署 iOS 应用，以开放标准复刻 Xcode 核心能力——把 SwiftPM 包打成 iOS App、签名与安装、以编程方式对接 Apple Developer Services。可从 VS Code 直接调用，配套完整文档与上手教程（xtool.sh），适合没有 Mac 也能开发 iOS 或在 Linux CI 上构建 iOS 的场景。（GitHub 每日趋势 2026-10-13：★8601，当日 +936）
 - **归档**：`开源项目介绍/2026.10.13/xtool.md`
 - **标签**：`#swift`
 
