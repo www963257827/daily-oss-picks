@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-13 ｜ 共收录 **413** 条内容（405 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-14 ｜ 共收录 **416** 条内容（408 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
@@ -15,7 +15,7 @@
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 22 |
-| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 22 |
+| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 23 |
 | [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 31 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 13 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 6 |
@@ -32,8 +32,8 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 2 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 40 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 28 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 41 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 29 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
@@ -540,7 +540,7 @@
 
 <a id="sec-7"></a>
 
-## 🔐 七、安全 · 审计与逆向（22）
+## 🔐 七、安全 · 审计与逆向（23）
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 - **定位**：HexStrike AI：高级 MCP 服务器，让 Claude/GPT/Copilot 等 AI Agent 自主调度
@@ -661,6 +661,12 @@
 - **简介**：开源 AI 渗透测试工具，自动发现并修复应用漏洞。（GitHub 每日趋势 2026-09-26：★64951，当日 +208）
 - **归档**：`开源项目介绍/2026.9.27/strix.md`
 - **标签**：`#python`
+
+### [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
+- **定位**：全自主 AI Agent 系统，可执行复杂渗透测试任务
+- **简介**：全自主 AI Agent 系统，可执行复杂渗透测试任务（GitHub 每日趋势 2026-10-14：★28701，当日 +1819）
+- **归档**：`开源项目介绍/2026.10.14/pentagi.md`
+- **标签**：`#go`
 
 ### [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
 - **定位**：面向授权安全测试的 AI 引导式一体化渗透测试工具集
@@ -2226,7 +2232,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（40）
+## 📚 二十四、开发者资源 / 精选合集（41）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2432,6 +2438,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.27/ai-engineering-from-scratch.md`
 - **标签**：`#python`
 
+### [rust-lang/rust](https://github.com/rust-lang/rust)
+- **定位**：Rust 编程语言官方仓库：让每个人都能构建可靠且高效的软件
+- **简介**：Rust 编程语言官方仓库：让每个人都能构建可靠且高效的软件（GitHub 每日趋势 2026-10-14：★119985，当日 +0）
+- **归档**：`开源项目介绍/2026.10.14/rust.md`
+- **标签**：`#rust`
+
 ### [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 - **定位**：100+ AI Agent、Agent Skills 与 RAG 应用合集——免费开源。
 - **简介**：100+ AI Agent、Agent Skills 与 RAG 应用合集——免费开源。（GitHub 每日趋势 2026-10-02：★140496，当日 +139）
@@ -2470,7 +2482,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（28）
+## 🚀 二十五、DevOps / 开发者工具（29）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -2574,6 +2586,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：ASP.NET Core 开源电商软件：免费开源购物车平台。（GitHub 每日趋势 2026-10-01：★10161，当日 +2）
 - **归档**：`开源项目介绍/2026.10.1/nopCommerce.md`
 - **标签**：`#csharp`
+
+### [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+- **定位**：Node 版本管理器：POSIX 兼容的 bash 脚本，管理多个并行激活的 Node.js 版本
+- **简介**：Node 版本管理器：POSIX 兼容的 bash 脚本，管理多个并行激活的 Node.js 版本（GitHub 每日趋势 2026-10-14：★95364，当日 +45）
+- **归档**：`开源项目介绍/2026.10.14/nvm.md`
+- **标签**：`#shell`
 
 ### [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet)
 - **定位**：OpenTelemetry .NET 官方客户端。

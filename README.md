@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-13 ｜ **413** entries (405 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-14 ｜ **416** entries (408 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -13,7 +13,7 @@
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 22 |
-| 7 | Security · Audit & Reverse Engineering | 22 |
+| 7 | Security · Audit & Reverse Engineering | 23 |
 | 8 | Skill Collections & Ecosystem | 31 |
 | 9 | Code Intelligence / RAG / Code Review | 13 |
 | 10 | Speech & TTS | 6 |
@@ -30,8 +30,8 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 2 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 40 |
-| 25 | DevOps / Developer Tools | 28 |
+| 24 | Developer Resources & Curated Lists | 41 |
+| 25 | DevOps / Developer Tools | 29 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (29)
 
@@ -357,7 +357,7 @@ Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (22)
+## 七. Security · Audit & Reverse Engineering (23)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -438,6 +438,10 @@ ADR (by Uber): secures enterprise AI agents through observability, security benc
 ### [usestrix/strix](https://github.com/usestrix/strix)
 `#python` · 2026-09-27
 Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.
+
+### [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi)
+`#go` · 2026-10-14
+Fully autonomous AI agents for complex penetration testing
 
 ### [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
 `#security` `#pentest` `#hacking` `#linux` `#osint` `#cli` · 2026-09-25
@@ -1459,7 +1463,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (40)
+## 二十四. Developer Resources & Curated Lists (41)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1597,6 +1601,10 @@ CounterStrikeSharp allows you to write server plugins in C# for Counter-Strike 2
 `#python` · 2026-09-27
 Learn it.
 
+### [rust-lang/rust](https://github.com/rust-lang/rust)
+`#rust` · 2026-10-14
+The Rust programming language official repository
+
 ### [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 `#python` · 2026-10-02
 100+ AI agents, agent skills and RAG apps — free and open source.
@@ -1621,7 +1629,7 @@ A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
 `#javascript` · 2026-09-27
 The React Framework
 
-## 二十五. DevOps / Developer Tools (28)
+## 二十五. DevOps / Developer Tools (29)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1690,6 +1698,10 @@ Nethermind: a robust, high-performance execution client for Ethereum node operat
 ### [nopSolutions/nopCommerce](https://github.com/nopSolutions/nopCommerce)
 `#csharp` · 2026-10-01
 nopCommerce: free and open-source ASP.NET Core eCommerce shopping cart software.
+
+### [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
+`#shell` · 2026-10-14
+Node Version Manager: POSIX bash script for multiple active Node.js versions
 
 ### [open-telemetry/opentelemetry-dotnet](https://github.com/open-telemetry/opentelemetry-dotnet)
 `#csharp` · 2026-10-03
