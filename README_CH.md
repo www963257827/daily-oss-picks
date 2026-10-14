@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-14 ｜ 共收录 **416** 条内容（408 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-14 ｜ 共收录 **421** 条内容（413 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 2 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 41 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 46 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 29 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -2232,7 +2232,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（41）
+## 📚 二十四、开发者资源 / 精选合集（46）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2269,6 +2269,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：围绕核心公式 **Agent = LLM + 上下文 + 工具**，10 章从原理讲到生产实战，全书正文、配图、**109 个配套实验**全部开源（含本地项目与外部复现轨道）。**已升级到 2.0 版**（相较 1.4 版）：把原第四章「异步交互」与原第九章「多模态 Agent」合并重组为新的**第六章「交互：观察与动作空间的扩展」**（异步与事件驱动、语音交互、Computer Use、机器人操作），原第六/七/八章依次后移为第七/八/九章——若手上是旧版 PDF 建议重新下载。十章结构与实验数：①AI Agent 入门（4）②上下文工程：KV Cache/提示工程/Agent Skills/上下文压缩（10）③用户记忆和知识库：RAG/结构化索引/知识图谱（12）④工具：MCP 协议 + 感知/执行/协作三类工具与主动工具发现（5）⑤Coding Agent 与通用 Agent：「代码是能创造新工具的工具」（16）⑥交互：观察与动作空间的扩展（14）⑦Agent 的评估：评估环境/指标/统计显著性/评估驱动选型（14）⑧模型后训练：预训练/SFT/RL 三阶段，何时选 SFT 何时选 RL、工具调用内化、样本效率（19）⑨Agent 的持续进化：从运行轨迹获得学习信号，更新知识/指令/程序/参数（9）⑩多 Agent 协作：协作框架、上下文共享与隔离、涌现的「Agent 社会」（6）。**15 种语言**社区翻译（中/英/西/印尼/阿/繁中/俄/泰米尔/越/日/土耳其/韩/匈牙利/希伯来/葡(巴西)），提供 PDF + EPUB 下载（链接始终指向 main 分支最新构建）和[在线阅读](https://bojieli.github.io/ai-agent-book/astro/)（多语言切换、章节折叠、高亮笔记、实验直达，每次推送自动重建）。自行编译需 pandoc + xelatex + ElegantBook，`cd book && bash build_pdf.sh`。**姊妹篇《深入理解 AI Infra：量化分析与系统设计》已开源**（[bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)）。实验统一支持 Python 3.11–3.13，`uv sync --locked --extra ch1` 按章安装（未装 uv 用 `pip install -e ".[ch1]"`），凭据走 `.env`，仅当实验 README/CLI 明确列出 `ollama` 时才可 `--provider ollama` 用本地模型。Apache-2.0，**50,071 stars** / 5,612 forks，GitHub Trending Project of the Day。
 - **归档**：`开源项目介绍/2026.9.16/ai-agent-book.md`
 - **标签**：`#教材` `#开源书籍` `#agent` `#实验` `#多语言` `#上下文工程`
+
+### [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)
+- **定位**：《深入理解 AI Infra：量化分析与系统设计》开源教材（李博杰 著 · [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book) 的姊妹篇）
+- **简介**：《深入理解 AI Agent》姊妹篇：把大模型跑起来要花的**资源账算明白**——像开餐厅前算清客流、厨房与动线一样，逐项估出**计算量、显存、带宽和功耗**，再对照硬件真实能力推导系统该怎么设计（延迟差几倍体验完全不同，成本差一个数量级商业模式都可能不同）。涉及架构、推理与训练负载、分布式推理、推理优化。约 4600 Star，持续更新中。
+- **归档**：`开源项目介绍/2026.10.14/ai-infra-book.md`
+- **标签**：`#教材` `#开源书籍` `#ai-infra` `#推理优化` `#分布式推理`
 
 ### [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 - **定位**：DevOps/Linux/云计算面试题大全，覆盖 Linux、AWS、Docker、K8s、网络等主题。
@@ -2372,6 +2378,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.30/ai-job-search.md`
 - **标签**：`#python`
 
+### [MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)
+- **定位**：《强化学习的数学原理》开源教材：从数学角度讲透 RL 的设计与有效性
+- **简介**：从**数学角度**讲强化学习的开源教材：目的不只是让读者知道算法怎么跑，还明白它当初为什么被这样设计、以及为什么有效。读它不需要任何 RL 背景，但需要概率论和线性代数基础。伦敦政经经济学讲席教授评价「把 RL 讲得极为清晰，堪称一件艺术品」，南加大化工系副教授也在课堂采用。配套中英文两套课程（B 站/YouTube）全网播放量突破 270 万。约 1.8 万 Star。
+- **归档**：`开源项目介绍/2026.10.14/Book-Mathematical-Foundation-of-Reinforcement-Learning.md`
+- **标签**：`#教材` `#开源书籍` `#强化学习` `#数学原理`
+
 ### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
 - **定位**：开源 C#/.NET 研究服务器模拟器，用于本地协议与网络实验。
 - **简介**：开源 C#/.NET 研究服务器模拟器，用于本地协议与网络实验。（GitHub 每日趋势 2026-09-30：★729，当日 +7）
@@ -2389,6 +2401,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：开源低成本 10.5 GHz PLFM 相控阵雷达系统，硬件方案全部开放。（GitHub 每日趋势 2026-09-29：★25690，当日 +145）
 - **归档**：`开源项目介绍/2026.9.29/PLFM_RADAR.md`
 - **标签**：`#plsql`
+
+### [nndl/nndl](https://github.com/nndl/nndl)
+- **定位**：邱锡鹏《神经网络与深度学习》（蒲公英书）第二版＋通识版开源电子稿
+- **简介**：中文圈被叫做「蒲公英书」的经典深度学习中文教材：第一版 2020 年出版后是许多人入门深度学习的第一本中文书。本仓库提供**第二版**（偏系统学习理论）与**通识版**（少公式、用故事案例和生活类比解释神经网络）电子稿，均可免费下载，建议先用通识版建立直觉再看第二版啃理论。约 1.9 万 Star。
+- **归档**：`开源项目介绍/2026.10.14/nndl.md`
+- **标签**：`#教材` `#开源书籍` `#深度学习` `#神经网络`
 
 ### [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)
 - **定位**：开源即时战略游戏引擎，复刻红警等早期 Westwood 经典。
@@ -2479,6 +2497,18 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：Vercel 出品的 React 全栈框架，服务端渲染、静态生成与路由的一体化方案。（GitHub 每日趋势 2026-09-26：★142507，当日 +31）
 - **归档**：`开源项目介绍/2026.9.27/next.js.md`
 - **标签**：`#javascript`
+
+### [walkinglabs/hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl)
+- **定位**：Hands-On Modern RL：从 CartPole 到大模型对齐的可运行强化学习实战教程
+- **简介**：开源强化学习实战教程（WalkingLab）：先用 CartPole 倒立摆等小游戏直观理解状态/动作/奖励，再逐步深入 **DQN、PPO、RLHF、DPO、GRPO** 等现代算法，一直延伸到 **LLM 后训练**、工具调用 Agent、浏览器 Agent、视觉语言模型 RL、具身智能与音频 RL。共 7 大部分 26 章，每章配**可运行的 Python 代码**与真实训练曲线，可亲自跑实验改参数观察结果。约 4400 Star。
+- **归档**：`开源项目介绍/2026.10.14/hands-on-modern-rl.md`
+- **标签**：`#教材` `#开源书籍` `#强化学习` `#llm后训练` `#实战`
+
+### [xindoo/agentic-design-patterns](https://github.com/xindoo/agentic-design-patterns)
+- **定位**：《Agentic Design Patterns》中文版：谷歌工程师的 21 个 AI Agent 设计模式
+- **简介**：在谷歌工作多年的工程师把构建 AI Agent 的套路整理成 **21 个设计模式**，作者免费开放电子版；开发者 xindoo 牵头译成中文，正文 21 章＋7 个附录全部译完。内容从提示链、路由、并行化、工具使用、规划、多智能体协作等核心模式由浅入深，到记忆、RAG 等复杂场景，再到安全防护、评估监控、资源感知优化等工程落地。中文在线阅读：adp.xindoo.xyz（清华大学出版社纸质书《Agentic 智能体设计模式》同步发售）。约 8K Star。
+- **归档**：`开源项目介绍/2026.10.14/agentic-design-patterns.md`
+- **标签**：`#教材` `#开源书籍` `#agent` `#设计模式` `#中文翻译`
 
 <a id="sec-25"></a>
 

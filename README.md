@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-14 ｜ **416** entries (408 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-14 ｜ **421** entries (413 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 2 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 41 |
+| 24 | Developer Resources & Curated Lists | 46 |
 | 25 | DevOps / Developer Tools | 29 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (29)
@@ -1463,7 +1463,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (41)
+## 二十四. Developer Resources & Curated Lists (46)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1488,6 +1488,10 @@ Curated list of open-source games and commercial games open-sourced.
 ### [bojieli/ai-agent-book](https://github.com/bojieli/ai-agent-book)
 `#textbook` `#open-source-books` `#agent` `#experiments` `#multilingual` `#context-engineering` · 2026-09-16
 Open textbook 'Deep Understanding of AI Agents' (10 chapters, 109 runnable labs).
+
+### [bojieli/ai-infra-book](https://github.com/bojieli/ai-infra-book)
+`#textbook` `#open-source-books` `#ai-infra` `#inference-optimization` `#分布式推理` · 2026-10-14
+Understanding AI Infra: quantitative analysis & system design (companion to the AI Agent book)
 
 ### [bregman-arie/devops-exercises](https://github.com/bregman-arie/devops-exercises)
 `#python` · 2026-09-27
@@ -1557,6 +1561,10 @@ Notes of the book 'System Design Interview — An Insider's Guide'.
 `#python` · 2026-09-30
 The job search that runs on your machine: AI job-application framework built on Claude Code.
 
+### [MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)
+`#textbook` `#open-source-books` `#reinforcement-learning` `#数学原理` · 2026-10-14
+Mathematical Foundation of Reinforcement Learning: why RL algorithms are designed that way
+
 ### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
 `#csharp` · 2026-09-30
 An open-source C#/.NET research server emulator for local protocol and networking experimentation.
@@ -1568,6 +1576,10 @@ OpenMU: an easy-to-use, extendable and customizable server for MU Online MMORPG.
 ### [NawfalMotii79/PLFM_RADAR](https://github.com/NawfalMotii79/PLFM_RADAR)
 `#plsql` · 2026-09-29
 Open-source, low-cost 10.5 GHz PLFM phased array RADAR system.
+
+### [nndl/nndl](https://github.com/nndl/nndl)
+`#textbook` `#open-source-books` `#深度学习` `#神经网络` · 2026-10-14
+Neural Networks and Deep Learning (Dandelion Book) 2nd + general editions, by Qiu Xipeng
 
 ### [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)
 `#csharp` · 2026-09-28
@@ -1628,6 +1640,14 @@ A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
 ### [vercel/next.js](https://github.com/vercel/next.js)
 `#javascript` · 2026-09-27
 The React Framework
+
+### [walkinglabs/hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl)
+`#textbook` `#open-source-books` `#reinforcement-learning` `#llm后训练` `#实战` · 2026-10-14
+Hands-On Modern RL: from CartPole to LLM alignment with runnable code
+
+### [xindoo/agentic-design-patterns](https://github.com/xindoo/agentic-design-patterns)
+`#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14
+Agentic Design Patterns (Chinese translation): 21 patterns for building AI agents
 
 ## 二十五. DevOps / Developer Tools (29)
 
