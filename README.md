@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-15 ｜ **421** entries (413 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-15 ｜ **423** entries (415 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -13,7 +13,7 @@
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 22 |
-| 7 | Security · Audit & Reverse Engineering | 23 |
+| 7 | Security · Audit & Reverse Engineering | 24 |
 | 8 | Skill Collections & Ecosystem | 31 |
 | 9 | Code Intelligence / RAG / Code Review | 13 |
 | 10 | Speech & TTS | 6 |
@@ -23,7 +23,7 @@
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 15 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
-| 17 | System Tools & Desktop Productivity | 47 |
+| 17 | System Tools & Desktop Productivity | 48 |
 | 18 | Files · Downloads · Photo Management | 20 |
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
@@ -357,7 +357,7 @@ Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
 
-## 七. Security · Audit & Reverse Engineering (23)
+## 七. Security · Audit & Reverse Engineering (24)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -406,6 +406,10 @@ Reverse engineer anything with agents — from app behavior down to native binar
 ### [mvt-project/mvt](https://github.com/mvt-project/mvt)
 `#python` · 2026-10-04
 MVT: a mobile verification toolkit for forensics and compromise detection (by Amnesty International).
+
+### [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
+`#java` · 2026-10-15
+NSA open-source software reverse engineering framework
 
 ### [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)
 `#python` · 2026-10-03
@@ -1033,7 +1037,7 @@ Uno Platform: build cross-platform native mobile, web, desktop and embedded apps
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (47)
+## 十七. System Tools & Desktop Productivity (48)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1146,6 +1150,10 @@ ScreenToGif: record a selected area of your screen, edit and save it as a GIF or
 ### [nomi-san/parsec-vdd](https://github.com/nomi-san/parsec-vdd)
 `#csharp` · 2026-10-02
 A perfect virtual display for game streaming (Parsec VDD).
+
+### [ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)
+`#csharp` · 2026-10-15
+WinUI app for building smaller, customized Windows 11 ISOs
 
 ### [ok-oldking/ok-wuthering-waves](https://github.com/ok-oldking/ok-wuthering-waves)
 `#python` · 2026-10-05
