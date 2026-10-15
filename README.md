@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-15 ｜ **426** entries (418 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-16 ｜ **428** entries (420 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -28,7 +28,7 @@
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
-| 22 | GIS | 2 |
+| 22 | GIS | 4 |
 | 23 | Articles / AI News | 8 |
 | 24 | Developer Resources & Curated Lists | 46 |
 | 25 | DevOps / Developer Tools | 29 |
@@ -1439,11 +1439,19 @@ EchoMuse: an Alexa replacement and controller for the Echo Dot 2nd Generation.
 `#c` · 2026-09-28
 Run x86-64 Windows PC games on jailed iOS via FEX-Emu + Wine + DXMT
 
-## 二十二. GIS (2)
+## 二十二. GIS (4)
 
 ### [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
 `#javascript` · 2026-10-12
 Real-data spy satellite simulator on a photorealistic 3D globe
+
+### [calmound/cesium-osm-building](https://github.com/calmound/cesium-osm-building)
+`#gis` `#osm` `#白模` `#3dtiles` `#cesium` `#chinese-project` · 2026-10-15
+DIY pipeline converting OSM buildings to Cesium 3D Tiles white models (Chinese tutorial)
+
+### [cartesiancs/map3d](https://github.com/cartesiancs/map3d)
+`#gis` `#osm` `#白模` `#glb` `#threejs` `#r3f` `#数字孪生` · 2026-10-15
+Generate city 3D building white models from OSM: box-select area, export GLB (map.fleet.im)
 
 ### [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
 `#gis` `#webassembly` `#cloud-native` `#tauri` · 2026-09-06

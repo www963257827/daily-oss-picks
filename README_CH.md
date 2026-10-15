@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-15 ｜ 共收录 **426** 条内容（418 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-16 ｜ 共收录 **428** 条内容（420 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
@@ -30,7 +30,7 @@
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 9 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
-| [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 2 |
+| [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
 | [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 46 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 29 |
@@ -2193,13 +2193,25 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-22"></a>
 
-## 🗺️ 二十二、地理信息 / GIS（2）
+## 🗺️ 二十二、地理信息 / GIS（4）
 
 ### [bilawalsidhu/gods-eye-view](https://github.com/bilawalsidhu/gods-eye-view)
 - **定位**：浏览器里的间谍卫星模拟器，但数据是真实的：在照片级 3D 地球上呈现实时开源空间情报
 - **简介**：浏览器里的间谍卫星模拟器，但数据是真实的：在照片级 3D 地球上呈现实时开源空间情报（GitHub 每日趋势 2026-10-12：★51633，当日 +872）
 - **归档**：`开源项目介绍/2026.10.12/gods-eye-view.md`
 - **标签**：`#javascript`
+
+### [calmound/cesium-osm-building](https://github.com/calmound/cesium-osm-building)
+- **定位**：国内 OSM 建筑数据自转 Cesium 3D Tiles 白模的完整流水线（中文教程）
+- **简介**：自建 OSM 城市白模流水线的参考实现（中文仓库，三件套齐全）：**data-pipeline** 从 Geofabrik 下载的 OSM 数据（仓库直接附了北京 beijing.osm.pbf 示例）出发，用 Python 脚本 osm_buildings_to_3dtiles.py 批量转换生成建筑白模 **3D Tiles**（pip 装依赖后一条命令跑通）；**frontend-demo** 提供 Cesium 加载与浏览成果的示例应用；**docs** 附完整中文教程文章与截图。产线产物也能转 glTF 丢进 Babylon.js 加载。适合想自己选区域、自己控制数据版本的国内城市三维项目——不再依赖别人打包好的现成数据，换任何城市只需换 Geofabrik 对应的 pbf 文件。
+- **归档**：`开源项目介绍/2026.10.15/cesium-osm-building.md`
+- **标签**：`#gis` `#osm` `#白模` `#3dtiles` `#cesium` `#中文项目`
+
+### [cartesiancs/map3d](https://github.com/cartesiancs/map3d)
+- **定位**：OSM 开源数据生成城市建筑白模的在线工具（框选区域一键导出 GLB）
+- **简介**：基于 React-Three-Fiber 实现的真实世界三维建筑地图服务（★2.6K，MIT，TypeScript）：数据源自 OpenStreetMap 建筑轮廓与高度，在官网 map.fleet.im 直接框选任意范围——国内城市如成都、北京均可——一键导出含建筑与道路信息的 **GLB 模型**，全部功能免费。导出的模型可直接导入 Babylon.js / Three.js 等 Web 三维引擎做城市数字孪生、无人机测绘、GPS 标注等场景。注意事项：OSM 数据部分建筑高度缺失或有误差（官方声明不保证数据精度）；建筑纹理、高度自定义、材质、高程图仍在 Roadmap 开发中。在线体验：https://map.fleet.im。
+- **归档**：`开源项目介绍/2026.10.15/map3d.md`
+- **标签**：`#gis` `#osm` `#白模` `#glb` `#threejs` `#r3f` `#数字孪生`
 
 ### [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
 - **定位**：云原生 GIS 平台
