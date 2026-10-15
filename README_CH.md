@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-15 ｜ 共收录 **423** 条内容（415 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-15 ｜ 共收录 **426** 条内容（418 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 29 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 30 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 7 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -17,10 +17,10 @@
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 22 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 24 |
 | [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 31 |
-| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 13 |
+| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 14 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 6 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
-| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 16 |
+| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 17 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 15 |
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（29）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（30）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -200,6 +200,12 @@
 - **简介**：Python 的 AI 之道：Agent、实时语音、图像生成、嵌入——任意模型、任意接口、端到端类型安全。（GitHub 每日趋势 2026-10-01：★20292，当日 +24）
 - **归档**：`开源项目介绍/2026.10.1/pydantic-ai.md`
 - **标签**：`#python`
+
+### [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+- **定位**：Agent 元级 Harness（前身为 claude-flow，★7 万＋）：为 Claude Code、Codex
+- **简介**：Agent 元级 Harness（前身为 claude-flow，★7 万＋）：为 Claude Code、Codex 等 MCP 客户端编排多玩家智能体蜂群、自主工作流与会话式 AI 系统，特性含自适应记忆、自学习、联邦与向量 RAG 集成。三条接入路径：Claude Code 插件市场装 core/console/mods（需 2.1.287+，Console 是可视化「agent 座舱」，Mods 提供路由与策略执行）；其他 MCP 客户端 npx ruflo mcp start 接入；也能纯终端跑 npx ruflo tui（Overview/Cost/Swarm/Events/Missions 页面，支持脚本单帧输出）。另有 ruOS 桌面端可经 MCP 接 ChatGPT/Claude。MIT。（GitHub 每日趋势 2026-10-15：★74783，当日 +146）
+- **归档**：`开源项目介绍/2026.10.15/ruflo.md`
+- **标签**：`#typescript`
 
 ### [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)
 - **定位**：面向生产级 AI Agent 的开源 Harness SDK（Python/TypeScript），任意模型任意云，可端
@@ -881,7 +887,7 @@
 
 <a id="sec-9"></a>
 
-## 💻 九、代码智能 / RAG / 代码审查（13）
+## 💻 九、代码智能 / RAG / 代码审查（14）
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 - **定位**：阿里巴巴开源的 AI 代码审查 CLI（确定性工程 × Agent 混合架构）
@@ -960,6 +966,12 @@
 - **简介**：Tree-sitter 解析代码库 → 存入 Memgraph 图数据库 → 结合 Qdrant 向量库，支持自然语言查询代码结构与关系。支持 11 种编程语言，提供 MCP Server 集成。核心能力：死代码检测、AST 精准修补（diff 预览）、代码优化、ast-grep 模式搜索重写、增量索引更新。新增 TypeScript 分级验证、排除集处理、Windows 支持、补丁报告分级。MIT 协议，6,366 commits，社区非常活跃。
 - **归档**：`开源项目介绍/2026.9.6/code-graph-rag.md`
 - **标签**：`#rag` `#图数据库` `#代码分析` `#ast`
+
+### [xerj-org/xerj](https://github.com/xerj-org/xerj)
+- **定位**：本地 AI 搜索引擎（Rust 单静态二进制、无 JVM、Apache-2.0）：自动索引任意文件夹，让编码 Agent
+- **简介**：本地 AI 搜索引擎（Rust 单静态二进制、无 JVM、Apache-2.0）：自动索引任意文件夹，让编码 Agent 不再逐个烧 token 读文件，而是精准拉取所需代码。核心场景「参考编码」：接到任务后自动找到并索引最相近的开源仓库、复用其解法再动手写码——受控实验中同样 16/16 解决率下输出 token 削减 2.7 倍，日常使用者反馈约 5 倍；足以让更小更便宜的模型打赢凭记忆工作的贵模型。一条命令索引代码/文档/日志/PDF，比 grep 省 40 倍 token；BM25＋kNN＋混合检索、Elasticsearch 兼容（现有客户端直接可用）、/__memory 充当 Agent 记忆、原生 MCP 与 llms.txt、默认词法嵌入离线可用（神经嵌入选装约 90MB）。（GitHub 每日趋势 2026-10-15：★4782，当日 +725）
+- **归档**：`开源项目介绍/2026.10.15/xerj.md`
+- **标签**：`#rust`
 
 <a id="sec-10"></a>
 
@@ -1040,7 +1052,7 @@
 
 <a id="sec-12"></a>
 
-## ⚡ 十二、本地推理引擎与优化（16）
+## ⚡ 十二、本地推理引擎与优化（17）
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 - **定位**：antirez 出品：DeepSeek 4 Flash 与 PRO 的本地推理引擎（Metal/CUDA/ROCm）。
@@ -1082,6 +1094,12 @@
 - **定位**：🤗 Transformers：最先进的机器学习模型定义框架，覆盖文本、视觉、音频与多模态（★167K）。
 - **简介**：🤗 Transformers：最先进的机器学习模型定义框架，覆盖文本、视觉、音频与多模态（★167K）。（GitHub 每日趋势 2026-10-11：★167096，当日 +94）
 - **归档**：`开源项目介绍/2026.10.11/transformers.md`
+- **标签**：`#python`
+
+### [lightseekorg/tokenspeed](https://github.com/lightseekorg/tokenspeed)
+- **定位**：面向 Agent 负载的「光速」LLM 推理引擎（非营利 LightSeek 基金会支持，非商业公司）：性能对标 Ten
+- **简介**：面向 Agent 负载的「光速」LLM 推理引擎（非营利 LightSeek 基金会支持，非商业公司）：性能对标 TensorRT-LLM、易用性对标 vLLM。架构上首个把控制面与执行面分离——C++ 控制面用有限状态机管理请求生命周期与 KV Cache 归属，编译期以类型系统强制资源安全；Python 执行面保持研发迭代速度。内核是可插拔分层子系统，含 Blackwell 上最快的 MLA 实现之一。实测成绩：Qwen3.8-Flash-Next 在 NVIDIA GB300 上 685 tokens/s/用户、Qwen3.5-397B-A17B 达 580 TPS；Kimi K3、GLM-5.3-Flash 等模型 Day 0 支持，NVIDIA 与 AMD 双阵营硬件深度支持，已入选 PyTorch 生态版图。（GitHub 每日趋势 2026-10-15：★2290，当日 +25）
+- **归档**：`开源项目介绍/2026.10.15/tokenspeed.md`
 - **标签**：`#python`
 
 ### [lyogavin/airllm](https://github.com/lyogavin/airllm)

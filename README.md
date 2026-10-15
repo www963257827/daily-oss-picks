@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-15 ｜ **423** entries (415 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-15 ｜ **426** entries (418 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 29 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 30 |
 | 2 | Mobile Automation Agents | 7 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -15,10 +15,10 @@
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 22 |
 | 7 | Security · Audit & Reverse Engineering | 24 |
 | 8 | Skill Collections & Ecosystem | 31 |
-| 9 | Code Intelligence / RAG / Code Review | 13 |
+| 9 | Code Intelligence / RAG / Code Review | 14 |
 | 10 | Speech & TTS | 6 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 16 |
+| 12 | Local Inference Engines & Optimization | 17 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 15 |
@@ -33,7 +33,7 @@
 | 24 | Developer Resources & Curated Lists | 46 |
 | 25 | DevOps / Developer Tools | 29 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (29)
+## 一. AI Coding Agents · Runtimes & Methodologies (30)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -138,6 +138,10 @@ T3code: an AI coding assistant for the T3 stack (by Theo, creator of T3Chat).
 ### [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 `#python` · 2026-10-01
 How Python does AI: agents, realtime voice, image generation, embeddings — typed end to end.
+
+### [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
+`#typescript` · 2026-10-15
+Agent meta-harness: multi-player swarms and autonomous workflows for Claude Code/Codex
 
 ### [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)
 `#python` · 2026-09-27
@@ -581,7 +585,7 @@ A SwiftUI agent skill for Claude Code, Codex and other AI tools (by Paul Hudson)
 `#claude-code` `#ai-agent` `#subagents` `#skill` `#mcp` · 2026-09-27
 Multi-harness agentic plugin marketplace: 94 plugins, 202 subagents, 7 host platforms.
 
-## 九. Code Intelligence / RAG / Code Review (13)
+## 九. Code Intelligence / RAG / Code Review (14)
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 `#code-review` `#alibaba` `#go` `#hybrid-architecture` `#line-level-comments` `#benchmark` · 2026-09-23
@@ -635,6 +639,10 @@ PageIndex: document index for vectorless, reasoning-based RAG.
 `#rag` `#graph-db` `#code-analysis` `#ast` · 2026-09-06
 Multi-language code knowledge-graph RAG system (Memgraph + Qdrant).
 
+### [xerj-org/xerj](https://github.com/xerj-org/xerj)
+`#rust` · 2026-10-15
+Local AI search engine: autoindex code/docs/logs/PDFs, 40x fewer tokens than grep
+
 ## 十. Speech & TTS (6)
 
 ### [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
@@ -683,7 +691,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (16)
+## 十二. Local Inference Engines & Optimization (17)
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 `#c` · 2026-10-05
@@ -712,6 +720,10 @@ Windows Llama App Companion (by ggml).
 ### [huggingface/transformers](https://github.com/huggingface/transformers)
 `#python` · 2026-10-11
 Transformers (by HuggingFace): the model-definition framework for state-of-the-art ML in text, vision, audio and multimodal.
+
+### [lightseekorg/tokenspeed](https://github.com/lightseekorg/tokenspeed)
+`#python` · 2026-10-15
+Speed-of-light LLM inference engine for agentic workloads (TensorRT-LLM perf, vLLM usability)
 
 ### [lyogavin/airllm](https://github.com/lyogavin/airllm)
 `#inference-optimization` `#llm` `#low-vram` `#moe` · 2026-08-29
