@@ -2211,7 +2211,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：OSM 开源数据生成城市建筑白模的在线工具（框选区域一键导出 GLB）
 - **简介**：基于 React-Three-Fiber 实现的真实世界三维建筑地图服务（★2.6K，MIT，TypeScript）：数据源自 OpenStreetMap 建筑轮廓与高度，在官网 map.fleet.im 直接框选任意范围——国内城市如成都、北京均可——一键导出含建筑与道路信息的 **GLB 模型**，全部功能免费。导出的模型可直接导入 Babylon.js / Three.js 等 Web 三维引擎做城市数字孪生、无人机测绘、GPS 标注等场景。注意事项：OSM 数据部分建筑高度缺失或有误差（官方声明不保证数据精度）；建筑纹理、高度自定义、材质、高程图仍在 Roadmap 开发中。在线体验：https://map.fleet.im。
 - **归档**：`开源项目介绍/2026.10.15/map3d.md`
-- **标签**：`#gis` `#osm` `#白模` `#glb` `#threejs` `#r3f` `#数字孪生`
+- **标签**：`#gis` `#osm` `#白模` `#glb` `#threejs` `#数字孪生`
 
 ### [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
 - **定位**：云原生 GIS 平台

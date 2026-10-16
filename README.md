@@ -1450,7 +1450,7 @@ Real-data spy satellite simulator on a photorealistic 3D globe
 DIY pipeline converting OSM buildings to Cesium 3D Tiles white models (Chinese tutorial)
 
 ### [cartesiancs/map3d](https://github.com/cartesiancs/map3d)
-`#gis` `#osm` `#白模` `#glb` `#threejs` `#r3f` `#数字孪生` · 2026-10-15
+`#gis` `#osm` `#白模` `#glb` `#threejs` `#数字孪生` · 2026-10-15
 Generate city 3D building white models from OSM: box-select area, export GLB (map.fleet.im)
 
 ### [opengeos/GeoLibre](https://github.com/opengeos/GeoLibre)
