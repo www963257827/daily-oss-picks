@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-16 ｜ **428** entries (420 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-17 ｜ **430** entries (422 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -14,7 +14,7 @@
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 22 |
 | 7 | Security · Audit & Reverse Engineering | 24 |
-| 8 | Skill Collections & Ecosystem | 31 |
+| 8 | Skill Collections & Ecosystem | 32 |
 | 9 | Code Intelligence / RAG / Code Review | 14 |
 | 10 | Speech & TTS | 6 |
 | 11 | Model Training & Fine-tuning | 5 |
@@ -24,7 +24,7 @@
 | 15 | Content Discovery & Intelligence | 15 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 48 |
-| 18 | Files · Downloads · Photo Management | 20 |
+| 18 | Files · Downloads · Photo Management | 21 |
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
@@ -459,7 +459,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (31)
+## 八. Skill Collections & Ecosystem (32)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -472,6 +472,10 @@ Universal SEO skill for Claude Code — 26 sub-skills and 19 sub-agents covering
 ### [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills)
 `#claude-code` `#agent-skill` `#plugin` `#prompt-engineering` `#codex` `#cursor` · 2026-09-25
 The largest open agent-skill library: 388 skills, 20 domains, 96 plugins.
+
+### [android/skills](https://github.com/android/skills)
+`#agent-skill` `#skill-md` `#android` `#plugin-marketplace` `#kotlin` · 2026-10-17
+Google's official Android skills repository: modular SKILL.md instructions that ground coding agents (Gemini, Antigravity, Claude Code, Codex) in developer.android.com best practices.
 
 ### [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
 `#python` · 2026-09-27
@@ -1243,7 +1247,7 @@ One-click right-click convert & compress on Windows (FFmpeg/ImageMagick).
 `#win11` `#fluent` `#system-tools` `#beautification` `#taskbar` · 2026-09-06
 Modern Fluent flyout replacement for Windows 11.
 
-## 十八. Files · Downloads · Photo Management (20)
+## 十八. Files · Downloads · Photo Management (21)
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 `#downloader` `#electron` `#aria2` `#docker` · 2026-08-18
@@ -1260,6 +1264,10 @@ Store securely encrypted backups in the cloud!
 ### [files-community/Files](https://github.com/files-community/Files)
 `#file-manager` `#winui3` `#fluent` `#git-integration` `#community-driven` · 2026-09-06
 Modern Windows file manager (community-driven, WinUI 3).
+
+### [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift)
+`#downloader` `#网盘直链` `#油猴脚本` `#javascript` `#aria2` · 2026-10-17
+Tampermonkey userscript that fetches direct download links from nine major cloud drives (Baidu, Aliyun, Quark, UC, 123, etc.) and pairs them with Aria2 and other download managers.
 
 ### [immich-app/immich](https://github.com/immich-app/immich)
 `#self-hosted` `#photo-backup` `#google-photos-alternative` · 2026-08-18

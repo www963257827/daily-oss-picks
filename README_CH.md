@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-16 ｜ 共收录 **428** 条内容（420 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-17 ｜ 共收录 **430** 条内容（422 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
@@ -16,7 +16,7 @@
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 22 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 24 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 31 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 32 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 14 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 6 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
@@ -26,7 +26,7 @@
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 15 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 48 |
-| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 20 |
+| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 21 |
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 9 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
@@ -695,7 +695,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（31）
+## 🧩 八、Skill 合集与生态（32）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -715,6 +715,12 @@
 - **关联**：库内 [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)、[tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)（另两个 Skill 合集）
 - **归档**：`开源项目介绍/2026.9.25/claude-skills.md`
 - **标签**：`#claude-code` `#agent-skill` `#plugin` `#提示词工程` `#codex` `#cursor`
+
+### [android/skills](https://github.com/android/skills)
+- **定位**：Google Android 官方 AI 编码技能仓库：以 SKILL.md 模块化指令让编码 Agent 遵循 developer.android.com 最佳实践
+- **简介**：Google Android 官方推出的 AI 代理技能仓库，为主流编码 Agent（Gemini、Antigravity、Claude Code、Codex 等）提供一组 AI 优化的模块化指令与资源，让 LLM 在 Android 开发中严格遵循 developer.android.com 的官方最佳实践。每个技能是一个遵循开放标准 agentskills.io 的 SKILL.md Markdown 文件，相当于给模型注入特定领域的技术规范与工作流知识。项目聚焦于评估中表现不佳的场景（如 R8 分析、edge-to-edge 布局、Wear OS Compose M3 等），刻意不覆盖 LLM 已足够熟练的基础领域如 Jetpack Compose 常规用法。提供两种安装方式：官方 android CLI 一行命令安装（android skills add r8-analyzer --project=. 或 --all 全量安装，支持 update 子命令批量更新），或作为插件市场安装（Claude Code /plugin install、Codex marketplace）。未检测到 Agent 目录时默认装到 ~/.gemini/antigravity/skills。Apache 2.0 协议，当前 ★8057（当日 +163），主语言 Kotlin。适合所有用 AI 编码工具写 Android 应用的开发者，可显著减少 Agent 凭空发挥导致的非惯用 API 与过时写法。（GitHub 每日趋势 2026-10-17：★8057，当日 +163）
+- **归档**：`开源项目介绍/2026.10.17/skills.md`
+- **标签**：`#agent-skill` `#skill-md` `#android` `#plugin-marketplace` `#kotlin`
 
 ### [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)
 - **定位**：Anthropic 官方维护的高质量 Claude Code 插件目录。
@@ -1894,7 +1900,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-18"></a>
 
-## 📁 十八、文件 · 下载 · 照片管理（20）
+## 📁 十八、文件 · 下载 · 照片管理（21）
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 - **定位**：现代化全功能开源下载管理器（Motrix Turbo v2）
@@ -1919,6 +1925,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：社区驱动的 Windows 现代文件管理器（MIT + MPL-2.0 双协议，7,129 commits，141 releases），使命是打造 Windows 上最好的文件管理器。核心特性：多标签/多窗格、文件标签、Fluent Design 界面、**Git 集成**（支持 SSH + NativeAOT）、深度系统集成、高度可定制。技术栈：WinUI 3 / Windows App SDK / C# .NET，已启用 NativeAOT 原生编译（启动更快内存更低）。安装方式：Microsoft Store（付费支持社区）/ GitHub Releases 安装包 / 预览版。社区看板按规模和优先级排序任务，方便贡献者入门。
 - **归档**：`开源项目介绍/2026.9.6/Files.md`
 - **标签**：`#文件管理器` `#winui3` `#fluent` `#git集成` `#社区驱动`
+
+### [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift)
+- **定位**：网盘直链获取油猴脚本：一键提取百度/阿里/夸克等九大网盘文件直链，联动 Aria2 等下载器
+- **简介**：一款开源的网盘文件下载地址获取工具（油猴用户脚本），由【网盘直链下载助手】修改增强而来，支持百度网盘、阿里云盘、中国移动云盘、天翼云盘、迅雷云盘、光鸭云盘、夸克网盘、UC 网盘、123 云盘共九大主流网盘的直链提取，并附带 UI 美化与多种第三方下载器（Aria2、IDM 等）联动支持。相比原版脚本功能更丰富，当前 ★23661（当日 +702），是网盘直链类脚本中最活跃的项目之一。提供正式版与金丝雀版双通道：GitHub 主源、OpenUserJS 国际源、脚本猫国内源三处均可一键安装，需搭配 Tampermonkey 使用，兼容 Chrome ≥76、Edge ≥88，支持 Windows/Mac/Linux/Android 平台。项目强调合规与克制：所有链接均基于各网盘服务商公开 API 接口获取，明确声明不破解限速机制，仅为无法或不便使用官方客户端的用户提供合法下载途径。适合需要在浏览器中直接获取网盘直链、习惯用专业下载器管理的用户；在脚本失效时建议从 GitHub 源覆盖安装以保证及时更新。（GitHub 每日趋势 2026-10-17：★23661，当日 +702）
+- **归档**：`开源项目介绍/2026.10.17/LinkSwift.md`
+- **标签**：`#下载工具` `#网盘直链` `#油猴脚本` `#javascript` `#aria2`
 
 ### [immich-app/immich](https://github.com/immich-app/immich)
 - **定位**：高性能自托管照片与视频管理方案（Google Photos 开源替代）
