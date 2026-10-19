@@ -3,12 +3,12 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-17 ｜ **430** entries (422 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-19 ｜ **435** entries (427 projects + 8 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
 | 1 | AI Coding Agents · Runtimes & Methodologies | 30 |
-| 2 | Mobile Automation Agents | 7 |
+| 2 | Mobile Automation Agents | 8 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
@@ -18,7 +18,7 @@
 | 9 | Code Intelligence / RAG / Code Review | 14 |
 | 10 | Speech & TTS | 6 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 17 |
+| 12 | Local Inference Engines & Optimization | 18 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 15 |
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 8 |
-| 24 | Developer Resources & Curated Lists | 46 |
+| 24 | Developer Resources & Curated Lists | 49 |
 | 25 | DevOps / Developer Tools | 29 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (30)
@@ -155,7 +155,7 @@ Modular desktop workspace for AI agents — local-first, model-agnostic, plugin-
 `#typescript` · 2026-10-13
 Open agent skills tool (npx skills) by Vercel
 
-## 二. Mobile Automation Agents (7)
+## 二. Mobile Automation Agents (8)
 
 ### [droidrun/mobilerun](https://github.com/droidrun/mobilerun)
 `#agent` `#mobile-automation` `#cross-platform` · 2026-09-06
@@ -172,6 +172,10 @@ Python library for AI-driven phone control over ADB.
 ### [mobile-next/mobile-mcp](https://github.com/mobile-next/mobile-mcp)
 `#mcp` `#mobile-automation` `#ios` `#android` `#ai-agent` · 2026-09-27
 MCP server that drives iOS/Android real devices and emulators, accessibility-first.
+
+### [stablyai/orca](https://github.com/stablyai/orca)
+`#typescript` · 2026-10-19
+Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
 
 ### [TencentQQGYLab/AppAgent](https://github.com/TencentQQGYLab/AppAgent)
 `#agent` `#mobile-automation` `#knowledge-base` `#academic-research` · 2026-09-06
@@ -695,7 +699,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (17)
+## 十二. Local Inference Engines & Optimization (18)
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 `#c` · 2026-10-05
@@ -708,6 +712,10 @@ Fast, exact LLM decoding on Apple Silicon (MLX) behind an OpenAI-compatible endp
 ### [cactus-compute/needle](https://github.com/cactus-compute/needle)
 `#small-model` `#tool-calling` `#edge-computing` `#structured-extraction` · 2026-08-29
 A 45M-param tool-calling model that runs as a single 14MB file.
+
+### [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
+`#python` · 2026-10-19
+The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.
 
 ### [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
 `#cuda` · 2026-10-08
@@ -1499,7 +1507,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (46)
+## 二十四. Developer Resources & Curated Lists (49)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1589,6 +1597,10 @@ Clean Architecture Solution Template for ASP.NET Core.
 `#open-source` · 2026-09-28
 Bootstrap Kubernetes the hard way.
 
+### [Kruk2/jasna](https://github.com/Kruk2/jasna)
+`#python` · 2026-10-19
+Video restoration tool
+
 ### [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes)
 `#open-source` · 2026-10-09
 Notes of the book 'System Design Interview — An Insider's Guide'.
@@ -1604,6 +1616,10 @@ Mathematical Foundation of Reinforcement Learning: why RL algorithms are designe
 ### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
 `#csharp` · 2026-09-30
 An open-source C#/.NET research server emulator for local protocol and networking experimentation.
+
+### [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
+`#open-source` · 2026-10-19
+Course to get into Large Language Models (LLMs) with roadmaps and Colab notebooks.
 
 ### [MUnique/OpenMU](https://github.com/MUnique/OpenMU)
 `#csharp` · 2026-10-09
@@ -1680,6 +1696,10 @@ The React Framework
 ### [walkinglabs/hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl)
 `#textbook` `#open-source-books` `#reinforcement-learning` `#llm后训练` `#实战` · 2026-10-14
 Hands-On Modern RL: from CartPole to LLM alignment with runnable code
+
+### [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)
+`#javascript` · 2026-10-19
+Marble Skill Taxonomy: an open, structured taxonomy of what children learn across the primary/elementary years, decomposed into fine-grained micro-topics wired into a prerequisite graph and aligned to national curriculum standards.
 
 ### [xindoo/agentic-design-patterns](https://github.com/xindoo/agentic-design-patterns)
 `#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14

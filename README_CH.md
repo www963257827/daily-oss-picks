@@ -3,14 +3,14 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-17 ｜ 共收录 **430** 条内容（422 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-19 ｜ 共收录 **435** 条内容（427 个项目 + 8 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
 | [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 30 |
-| [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 7 |
+| [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 8 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
@@ -20,7 +20,7 @@
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 14 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 6 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
-| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 17 |
+| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 18 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 15 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 46 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 49 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 29 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -227,7 +227,7 @@
 
 <a id="sec-2"></a>
 
-## 📱 二、手机自动化 Agent（7）
+## 📱 二、手机自动化 Agent（8）
 
 ### [droidrun/mobilerun](https://github.com/droidrun/mobilerun)
 - **定位**：AI 控制手机 · Android/iOS 自动化 Agent 框架（原 droidrun）
@@ -253,6 +253,12 @@
 - **关联**：库内 [MobiAgent](https://github.com/IPADS-SAI/MobiAgent)、[MobileAgent](https://github.com/X-PLUG/MobileAgent)、[mobile-use](https://github.com/minitap-ai/mobile-use)（同为 AI 操控手机，本项走 MCP + 可访问性树而非视觉截图）
 - **归档**：`开源项目介绍/2026.9.27/mobile-mcp.md`
 - **标签**：`#mcp` `#手机自动化` `#ios` `#android` `#ai-agent`
+
+### [stablyai/orca](https://github.com/stablyai/orca)
+- **定位**：Orca 是一个面向"百倍效率"开发者的 AI 智能体编排器（AI Orchestrator），核心是把多个编码 Age
+- **简介**：Orca 是一个面向"百倍效率"开发者的 AI 智能体编排器（AI Orchestrator），核心是把多个编码 Agent 并行管起来：一条 prompt 可扇出到五个 Agent，各自在独立的 git worktree 中工作，方便横向对比结果并合并胜出者；支持运行 Codex、ClaudeCode、OpenCode、Pi 等任意编码 Agent，且使用你自己的订阅额度。终端能力对标 Ghostty：WebGL 渲染、无限分屏、滚动历史重启不丢失；Design Mode 可在真实 Chromium 窗口中点击任意 UI 元素做设计迭代。配套 Orca Mobile Companion（iOS App Store / Android APK），手机端即可监控和指挥 Agent——任务完成时推送通知、随时随地发送后续指令；覆盖桌面、移动与远程运行时。README 提供中文、日语、韩语、西班牙语、法语、葡萄牙语等多语言版本，当前 ★95943（当日 +1146）。适合需要同时调度多个 AI 编码助手、看重吞吐量与横向优选的重度开发者与小团队。（GitHub 每日趋势 2026-10-19：★95943，当日 +1146）
+- **归档**：`开源项目介绍/2026.10.19/orca.md`
+- **标签**：`#typescript`
 
 ### [TencentQQGYLab/AppAgent](https://github.com/TencentQQGYLab/AppAgent)
 - **定位**：AI 控制手机 · 腾讯多模态智能体（CHI 2025）
@@ -1058,7 +1064,7 @@
 
 <a id="sec-12"></a>
 
-## ⚡ 十二、本地推理引擎与优化（17）
+## ⚡ 十二、本地推理引擎与优化（18）
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 - **定位**：antirez 出品：DeepSeek 4 Flash 与 PRO 的本地推理引擎（Metal/CUDA/ROCm）。
@@ -1077,6 +1083,12 @@
 - **简介**：边缘设备专用的工具调用/结构化提取模型（Apache-2.0），仅 45M 参数、14MB 单二进制文件，完整会话 ~28MB RAM。基于 Simple Attention Network 架构（Hadamard MLP + GQA + Engram KV 记忆 + 多通道超连接），CQ2-bit 量化（Cactus Quants）。核心特性：字节级语法约束输出（JSON 保证合法）、置信度门控、内置工具检索头（大目录自动选 top5）、256 token 滑动窗口 + KV sink 内存恒定。支持 LoRA 微调（JAX 训练，CUDA/Metal GPU 加速），微调后仍为单 .cact 文件。基准测试中与 FunctionGemma 270M 等模型互有胜负，但体积小 5-70 倍。含 6 个预置环境（智能家居、媒体播放器、可穿戴等）和 Playground Web UI。
 - **归档**：`开源项目介绍/2026.8.29/needle.md`
 - **标签**：`#小模型` `#工具调用` `#边缘计算` `#结构化提取`
+
+### [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)
+- **定位**：ComfyUI 是当前最强大、模块化程度最高的扩散模型 GUI、API 与后端，采用节点图（graph/nodes）界面
+- **简介**：ComfyUI 是当前最强大、模块化程度最高的扩散模型 GUI、API 与后端，采用节点图（graph/nodes）界面，官方定位为"面向视觉专业人士的 AI 创作引擎"并自称"世界上最快的本地推理引擎"。创作者通过节点图精确控制每一个模型、每一个参数与每一次输出，可生成图像、视频、3D 模型、音频等多种内容，且原生支持最新模型。配套官网 comfy.org 及 Discord、Matrix 社区。当前 ★138153（当日 +155）。适合 AI 绘画/视频生成工作流搭建者，以及需要本地部署、精细控制生成过程的专业创作者与研究者。（GitHub 每日趋势 2026-10-19：★138153，当日 +155）
+- **归档**：`开源项目介绍/2026.10.19/ComfyUI.md`
+- **标签**：`#python`
 
 ### [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
 - **定位**：DeepSeek 出品：干净高效的 GPU BLAS 内核库（FP8 GEMM）。
@@ -2286,7 +2298,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（46）
+## 📚 二十四、开发者资源 / 精选合集（49）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2420,6 +2432,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.28/kubernetes-the-hard-way.md`
 - **标签**：`#开源`
 
+### [Kruk2/jasna](https://github.com/Kruk2/jasna)
+- **定位**：jasna 是一款免费的开源视频/图像修复工具，提供简洁的图形应用与命令行两种使用方式，基于 GPU 运行。它能在视频与
+- **简介**：jasna 是一款免费的开源视频/图像修复工具，提供简洁的图形应用与命令行两种使用方式，基于 GPU 运行。它能在视频与图像中定位马赛克区域并进行还原修复，内置两种修复模型：速度快的 BasicVSR++（免费）和较慢但细节更丰富的 LTX（仅面向支持者、仅支持 NVIDIA GPU）。支持者模型的正版许可证码需通过 Buy Me a Coffee、Unifans 或闲鱼获取。README 提供英语、日语、中文等多语言版本，当前 ★2197（当日 +115）。适合拥有本地 NVIDIA GPU、需要对视频/图像进行画质修复与还原处理的个人用户。（GitHub 每日趋势 2026-10-19：★2197，当日 +115）
+- **归档**：`开源项目介绍/2026.10.19/jasna.md`
+- **标签**：`#python`
+
 ### [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes)
 - **定位**：《系统设计面试——内行指南》一书的学习笔记。
 - **简介**：《系统设计面试——内行指南》一书的学习笔记。（GitHub 每日趋势 2026-10-09：★24422，当日 +398）
@@ -2443,6 +2461,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：开源 C#/.NET 研究服务器模拟器，用于本地协议与网络实验。（GitHub 每日趋势 2026-09-30：★729，当日 +7）
 - **归档**：`开源项目介绍/2026.9.30/MikuSB.md`
 - **标签**：`#csharp`
+
+### [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
+- **定位**：mlabonne/llm-course 是一门免费的系统性大语言模型（LLM）课程，配路线图与 Colab 笔记本，目标
+- **简介**：mlabonne/llm-course 是一门免费的系统性大语言模型（LLM）课程，配路线图与 Colab 笔记本，目标是带领学习者从基础一路成长为 LLM 科学家或工程师。课程分三部分：① LLM Fundamentals——数学、Python 与神经网络等基础知识（可选修）；② The LLM Scientist——用最新技术构建尽可能好的 LLM；③ The LLM Engineer——创建基于 LLM 的应用并完成部署。作者基于本课程合著了《LLM Engineer's Handbook》实操书，覆盖从设计到部署的端到端 LLM 应用，课程本身永久免费。当前 ★83769（当日 +81）。适合想转入大模型方向的工程师与学生，以及需要体系化查漏补缺的从业者，借助 Colab 笔记本可直接动手实验。（GitHub 每日趋势 2026-10-19：★83769，当日 +81）
+- **归档**：`开源项目介绍/2026.10.19/llm-course.md`
+- **标签**：`#开源`
 
 ### [MUnique/OpenMU](https://github.com/MUnique/OpenMU)
 - **定位**：MU Online MMORPG 的易用、可扩展、可定制服务端。
@@ -2557,6 +2581,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：开源强化学习实战教程（WalkingLab）：先用 CartPole 倒立摆等小游戏直观理解状态/动作/奖励，再逐步深入 **DQN、PPO、RLHF、DPO、GRPO** 等现代算法，一直延伸到 **LLM 后训练**、工具调用 Agent、浏览器 Agent、视觉语言模型 RL、具身智能与音频 RL。共 7 大部分 26 章，每章配**可运行的 Python 代码**与真实训练曲线，可亲自跑实验改参数观察结果。约 4400 Star。
 - **归档**：`开源项目介绍/2026.10.14/hands-on-modern-rl.md`
 - **标签**：`#教材` `#开源书籍` `#强化学习` `#llm后训练` `#实战`
+
+### [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)
+- **定位**：withmarbleapp/os-taxonomy 是 Marble 出品的开放技能分类体系（Skill Taxonom
+- **简介**：withmarbleapp/os-taxonomy 是 Marble 出品的开放技能分类体系（Skill Taxonomy），系统梳理小学阶段儿童的学习内容：把课程拆解为细粒度的"微主题"（micro-topics），构建先修关系图（prerequisite graph），并对齐国家课程标准。当前版本 v1，覆盖 8 个学科、1,590 个微主题、3,221 条先修关系边。项目提供交互式可视化（withmarble.com/curriculum）：每个点是一个微主题，按学科着色、高度表示年龄，每条连线表示先修依赖，点击任意概念即可追溯学习它之前必须掌握的全部前置知识。当前 ★5852（当日 +427）。适合教育科技、课程设计与学习路径规划等场景，可作为结构化课程数据的开放底座。（GitHub 每日趋势 2026-10-19：★5852，当日 +427）
+- **归档**：`开源项目介绍/2026.10.19/os-taxonomy.md`
+- **标签**：`#javascript`
 
 ### [xindoo/agentic-design-patterns](https://github.com/xindoo/agentic-design-patterns)
 - **定位**：《Agentic Design Patterns》中文版：谷歌工程师的 21 个 AI Agent 设计模式
