@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-19 ｜ **435** entries (427 projects + 8 articles) ｜ 25 categories
+> Last updated: 2026-10-21 ｜ **436** entries (427 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -29,7 +29,7 @@
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
-| 23 | Articles / AI News | 8 |
+| 23 | Articles / AI News | 9 |
 | 24 | Developer Resources & Curated Lists | 49 |
 | 25 | DevOps / Developer Tools | 29 |
 
@@ -1473,7 +1473,7 @@ Generate city 3D building white models from OSM: box-select area, export GLB (ma
 `#gis` `#webassembly` `#cloud-native` `#tauri` · 2026-09-06
 Cloud-native GIS platform: one codebase for browser, desktop, mobile and Jupyter.
 
-## 二十三. Articles / AI News (8)
+## 二十三. Articles / AI News (9)
 
 ### [4 个高频 Obsidian 插件推荐](https://mp.weixin.qq.com/s/WWEhZmheiqH00UepUxF-MQ)
 `#obsidian` `#plugin` `#tools` · 2026-08-16
@@ -1494,6 +1494,10 @@ Article: DeepSeek Harness — everything becomes a plugin.
 ### [DSH Desktop：Harness 桌面客户端](https://mp.weixin.qq.com/s/qneGR9yZjNmtwKHJFuPPZw)
 `#desktop-app` `#preset` `#multi-model`
 Article: DSH Desktop — a harness desktop client.
+
+### [MOSS-Image-Base 对比 Qwen-Image-2.1：开源文生图横评（质量/速度/显存）](https://mp.weixin.qq.com/s/Z0T0VHiUIENUyXHQhXxLFQ)
+`#image-generation` `#open-models` `#comfyui` `#diffusion-model` · 2026-10-21
+MOSS-Image-Base 对比 Qwen-Image-2.1：开源文生图横评（质量/速度/显存）
 
 ### [商汤 SenseNova U1.5 Lite：轻量级原生统一多模态模型开源](https://mp.weixin.qq.com/s/k4GIcf7Trw8W4kcngACsNw)
 `#sensetime` `#multimodal` `#image-generation` `#open-models` · 2026-08-24

@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-19 ｜ 共收录 **435** 条内容（427 个项目 + 8 篇精选文章）
+> 📅 最后更新：2026-10-21 ｜ 共收录 **436** 条内容（427 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
@@ -31,7 +31,7 @@
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
-| [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 8 |
+| [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
 | [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 49 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 29 |
 | 待整理区 | 新收藏内容暂存处 | — |
@@ -2247,7 +2247,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-23"></a>
 
-## 📰 二十三、文章收藏 / AI 动态（8）
+## 📰 二十三、文章收藏 / AI 动态（9）
 
 ### [4 个高频 Obsidian 插件推荐](https://mp.weixin.qq.com/s/WWEhZmheiqH00UepUxF-MQ)
 - **来源**：公众号「陌晨」｜ **主题**：Obsidian 插件 / 工具推荐
@@ -2277,6 +2277,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **GitHub**：https://github.com/dataelement/dsh-desktop ｜ **官网**：https://www.dshdesktop.com/
 - **要点**：社区开发的 DeepSeek Harness 桌面客户端（MIT 协议，非官方），支持 macOS/Windows 一键安装，免去命令行操作。特色：Preset 广场（通用 Agent + Preset = 专业 Agent，比 Skill 更底层的可配置组合）、多模型支持（DeepSeek/OpenAI/Anthropic/Gemini，可接 OpenRouter）、Agent 配置可导出 .dshpreset 文件跨机分享。对话与设置保存在本地，API Key 存放于系统密钥库。
 - **标签**：`#桌面应用` `#preset` `#多模型`
+
+### [MOSS-Image-Base 对比 Qwen-Image-2.1：开源文生图横评（质量/速度/显存）](https://mp.weixin.qq.com/s/Z0T0VHiUIENUyXHQhXxLFQ)
+- **来源**：公众号「神颜无界」（赵王心玥）｜ **主题**：文生图模型评测 / AI 绘画
+- **要点**：OpenMOSS 开源图像生成模型 MOSS-Image 含 Base 与 SFT 两个变体（SFT 为 Base 微调版，文生图更优），本文在 RTX 4090 24G、1024×1024 出图条件下实测 Base 版，并与 Qwen-Image-2.1 横评。结论：总体 Qwen-Image-2.1 更好、SFT 次之——复杂文字渲染/海报生成、真实质感、景观生成、极繁主义复杂提示语四类场景 2.1 全胜（MOSS-Base 海报较简陋且漏字严重，未跳层优于跳层）；显存二者相近（2.1 占 22G，MOSS-Image 24G，均未加提示词增强模块）；推理速度 2.1 明显更快（40 步 22 秒 vs MOSS 50 步 49 秒）。文末附 ComfyUI 工作流搭建方法（模型三件套自 HuggingFace Comfy-Org/MOSS-Image 下载：文本编码器 qwen3.5_9b_bf16、扩散模型 moss_image_base_bf16、VAE flux2-vae，分别放入 models/text_encoders、diffusion_models、vae 目录，搭配工具见库内 [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI)），以及一套「去掉提示词增强模块 + 系统提示词让 DeepSeek 等模型生成详细英文 caption 再贴回工作流」的提示词工程方案（大幅提升推理速度与质量，但牺牲自动化），并给出完整 system prompt。
+- **归档**：`其它文章/2026.10.21/MOSS-Image-Base对比Qwen-Image-2.1文生图横评.md`
+- **标签**：`#图像生成` `#开源模型` `#comfyui` `#扩散模型`
 
 ### [商汤 SenseNova U1.5 Lite：轻量级原生统一多模态模型开源](https://mp.weixin.qq.com/s/k4GIcf7Trw8W4kcngACsNw)
 - **来源**：商汤科技（公众号）｜ **主题**：多模态大模型 / 开源
