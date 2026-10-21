@@ -3,14 +3,14 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-21 ｜ 共收录 **436** 条内容（427 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-10-21 ｜ 共收录 **440** 条内容（431 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 30 |
-| [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 8 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 31 |
+| [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
@@ -26,13 +26,13 @@
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 15 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 48 |
-| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 21 |
+| [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 9 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 49 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 50 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 29 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（30）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（31）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -128,6 +128,12 @@
 - **简介**：谷歌开源的 Agent 编排运行时。（GitHub 每日趋势 2026-09-26：★11252，当日 +1386）
 - **归档**：`开源项目介绍/2026.9.28/ax.md`
 - **标签**：`#go`
+
+### [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+- **定位**：Graphify：把任意代码库连同其文档、SQL 模式、配置文件与 PDF 转化为可查询知识图谱的 AI 编码助手技能（
+- **简介**：Graphify：把任意代码库连同其文档、SQL 模式、配置文件与 PDF 转化为可查询知识图谱的 AI 编码助手技能（/graphify skill），适用于 Claude Code、Cursor、Codex 与 Gemini CLI。核心方法是本地确定性 AST 解析（local deterministic AST parsing）：在 AI 编码助手里输入 /graphify，即可把整个项目——代码、文档、PDF、图片、视频——映射成可查询的知识图谱，每条边都有解释（every edge explained），且不依赖向量数据库（no vector store）。官方宣称可削减 80% 的 Agent token 消耗（Cut agent token spend by 80%）。另有 Graphify Cloud 常驻内存服务，为 Agent 提供持久记忆、保持代码质量并以形式化验证证明正确性，提供 14 天免费试用。README 已被翻译成 40+ 种语言（含简体中文），当前 ★130926（当日 +1434），主语言 Python。适合重度使用 AI 编码助手、希望显著降低 token 成本并让 Agent 真正理解项目全貌的开发者。（GitHub 每日趋势 2026-10-21：★130926，当日 +1434）
+- **归档**：`开源项目介绍/2026.10.21/graphify.md`
+- **标签**：`#python`
 
 ### [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
 - **定位**：原始人语录省 token：让编码 Agent 像原始人一样说话，削减 65% token（病毒式 Skill＋代理）。
@@ -227,7 +233,7 @@
 
 <a id="sec-2"></a>
 
-## 📱 二、手机自动化 Agent（8）
+## 📱 二、手机自动化 Agent（9）
 
 ### [droidrun/mobilerun](https://github.com/droidrun/mobilerun)
 - **定位**：AI 控制手机 · Android/iOS 自动化 Agent 框架（原 droidrun）
@@ -258,6 +264,12 @@
 - **定位**：Orca 是一个面向"百倍效率"开发者的 AI 智能体编排器（AI Orchestrator），核心是把多个编码 Age
 - **简介**：Orca 是一个面向"百倍效率"开发者的 AI 智能体编排器（AI Orchestrator），核心是把多个编码 Agent 并行管起来：一条 prompt 可扇出到五个 Agent，各自在独立的 git worktree 中工作，方便横向对比结果并合并胜出者；支持运行 Codex、ClaudeCode、OpenCode、Pi 等任意编码 Agent，且使用你自己的订阅额度。终端能力对标 Ghostty：WebGL 渲染、无限分屏、滚动历史重启不丢失；Design Mode 可在真实 Chromium 窗口中点击任意 UI 元素做设计迭代。配套 Orca Mobile Companion（iOS App Store / Android APK），手机端即可监控和指挥 Agent——任务完成时推送通知、随时随地发送后续指令；覆盖桌面、移动与远程运行时。README 提供中文、日语、韩语、西班牙语、法语、葡萄牙语等多语言版本，当前 ★95943（当日 +1146）。适合需要同时调度多个 AI 编码助手、看重吞吐量与横向优选的重度开发者与小团队。（GitHub 每日趋势 2026-10-19：★95943，当日 +1146）
 - **归档**：`开源项目介绍/2026.10.19/orca.md`
+- **标签**：`#typescript`
+
+### [supabase/supabase](https://github.com/supabase/supabase)
+- **定位**：Supabase：开源的 Postgres 开发平台，定位为 Firebase 的开源替代品——用企业级开源工具重建 F
+- **简介**：Supabase：开源的 Postgres 开发平台，定位为 Firebase 的开源替代品——用企业级开源工具重建 Firebase 的核心能力，为 Web、移动端与 AI 应用提供专属 Postgres 数据库。功能全家桶一应俱全：托管 Postgres 数据库、身份认证与授权（Authentication and Authorization）、自动生成的 API（REST 与 GraphQL 双协议）、实时订阅（Realtime subscriptions）、函数体系（数据库函数 + Edge Functions）、文件存储（File Storage）、面向 AI 的向量/嵌入工具包（AI + Vector/Embeddings Toolkit），并附带管理后台 Dashboard。所有组件均可自托管，也可直接用官方云服务；关注仓库 releases 即可获取重大更新通知。当前 ★112620（当日 +509），主语言 TypeScript。适合想快速搭应用后端又不愿被 Firebase 锁定的开发者与团队，尤其是重视数据主权、希望完全掌控数据库与 API 层的场景。（GitHub 每日趋势 2026-10-21：★112620，当日 +509）
+- **归档**：`开源项目介绍/2026.10.21/supabase.md`
 - **标签**：`#typescript`
 
 ### [TencentQQGYLab/AppAgent](https://github.com/TencentQQGYLab/AppAgent)
@@ -1912,7 +1924,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-18"></a>
 
-## 📁 十八、文件 · 下载 · 照片管理（21）
+## 📁 十八、文件 · 下载 · 照片管理（22）
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 - **定位**：现代化全功能开源下载管理器（Motrix Turbo v2）
@@ -2028,6 +2040,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：基于 SteamKit2 的 Steam 仓库（Depot）下载器。（GitHub 每日趋势 2026-10-02：★3423，当日 +5）
 - **归档**：`开源项目介绍/2026.10.2/DepotDownloader.md`
 - **标签**：`#csharp`
+
+### [strelov1/freehire](https://github.com/strelov1/freehire)
+- **定位**：freehire：面向求职者的开源职位搜索引擎，口号是「Every IT job, straight from the
+- **简介**：freehire：面向求职者的开源职位搜索引擎，口号是「Every IT job, straight from the source」（每个 IT 职位，直链源头）。它直接爬取各公司官方招聘页面与 ATS 招聘系统（Workday、Greenhouse、Lever、Ashby、iCIMS 等一大串），收录 330 万+ 条在招职位（3.3M+ live postings），且每条都链接到原始发布页——没有招聘中介的转贴、没有聚合站中间商、没有失效链接（no recruiters, no reposts, no dead links）。同一职位投放到三个招聘平台会自动去重合并为一条记录（One schema, deduplicated）。完全开源，提供在线试用、架构说明、数据来源列表与 API，并支持自行添加来源。当前 ★2018（当日 +405），主语言 Go，涨势迅猛。适合厌倦了招聘网站重复信息与过期链接、希望直达公司官网一手职位信息的 IT 求职者，也适合想自建垂直职位聚合服务的开发者。（GitHub 每日趋势 2026-10-21：★2018，当日 +405）
+- **归档**：`开源项目介绍/2026.10.21/freehire.md`
+- **标签**：`#go` `#下载工具`
 
 ### [tgeorgiadis/quiver-launcher](https://github.com/tgeorgiadis/quiver-launcher)
 - **定位**：现代化启动器：从 GitHub/GitLab Releases 下载、安装、运行应用，带个人库与社区目录订阅。
@@ -2304,7 +2322,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（49）
+## 📚 二十四、开发者资源 / 精选合集（50）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2575,6 +2593,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。（GitHub 每日趋势 2026-10-03：★5690，当日 +3）
 - **归档**：`开源项目介绍/2026.10.3/tModLoader.md`
 - **标签**：`#csharp`
+
+### [twentyhq/twenty](https://github.com/twentyhq/twenty)
+- **定位**：Twenty：开源的 Salesforce 替代品，自称「#1 Open-Source CRM」，也是首个专为 AI 时
+- **简介**：Twenty：开源的 Salesforce 替代品，自称「#1 Open-Source CRM」，也是首个专为 AI 时代设计的现代开源 CRM。它面向技术团队，提供构建自定义 CRM 的完整积木：对象、字段、视图都可以像代码一样定义、发布与版本化（define objects, fields, and views as code），让 CRM 像技术栈的其他部分一样可构建、可交付、可回滚。两种上手方式：一是注册 twenty.com 一分钟创建工作区，无需自管基础设施且始终保持最新；二是本地用 Twenty CLI 一条命令 `npx create-twenty-app my-app` 搭建应用，配合 twenty-sdk 以代码定义数据结构。项目提供网站、文档、路线图、Discord 社区与 Figma 设计资源。当前 ★58802（当日 +105），主语言 TypeScript。适合需要高度定制 CRM、希望用开发者工作流（代码即配置）管理销售流程的技术团队。（GitHub 每日趋势 2026-10-21：★58802，当日 +105）
+- **归档**：`开源项目介绍/2026.10.21/twenty.md`
+- **标签**：`#typescript`
 
 ### [vercel/next.js](https://github.com/vercel/next.js)
 - **定位**：Vercel 出品的 React 全栈框架，服务端渲染、静态生成与路由的一体化方案。

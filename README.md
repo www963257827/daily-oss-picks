@@ -3,12 +3,12 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-21 ｜ **436** entries (427 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-21 ｜ **440** entries (431 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 30 |
-| 2 | Mobile Automation Agents | 8 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 31 |
+| 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
@@ -24,16 +24,16 @@
 | 15 | Content Discovery & Intelligence | 15 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 48 |
-| 18 | Files · Downloads · Photo Management | 21 |
+| 18 | Files · Downloads · Photo Management | 22 |
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 49 |
+| 24 | Developer Resources & Curated Lists | 50 |
 | 25 | DevOps / Developer Tools | 29 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (30)
+## 一. AI Coding Agents · Runtimes & Methodologies (31)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -90,6 +90,10 @@ GitHub's official spec-driven development toolkit for any AI coding agent.
 ### [google/ax](https://github.com/google/ax)
 `#go` · 2026-09-28
 Google's open agentic orchestration runtime
+
+### [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
+`#python` · 2026-10-21
+Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…
 
 ### [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
 `#go` · 2026-10-03
@@ -155,7 +159,7 @@ Modular desktop workspace for AI agents — local-first, model-agnostic, plugin-
 `#typescript` · 2026-10-13
 Open agent skills tool (npx skills) by Vercel
 
-## 二. Mobile Automation Agents (8)
+## 二. Mobile Automation Agents (9)
 
 ### [droidrun/mobilerun](https://github.com/droidrun/mobilerun)
 `#agent` `#mobile-automation` `#cross-platform` · 2026-09-06
@@ -176,6 +180,10 @@ MCP server that drives iOS/Android real devices and emulators, accessibility-fir
 ### [stablyai/orca](https://github.com/stablyai/orca)
 `#typescript` · 2026-10-19
 Orca is the place for working with a fleet of agents (e.g. Grok Bot, Claude Code). Run any coding agent with your own subscription. Available on desktop, mobile and remote runtime.
+
+### [supabase/supabase](https://github.com/supabase/supabase)
+`#typescript` · 2026-10-21
+The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.
 
 ### [TencentQQGYLab/AppAgent](https://github.com/TencentQQGYLab/AppAgent)
 `#agent` `#mobile-automation` `#knowledge-base` `#academic-research` · 2026-09-06
@@ -1255,7 +1263,7 @@ One-click right-click convert & compress on Windows (FFmpeg/ImageMagick).
 `#win11` `#fluent` `#system-tools` `#beautification` `#taskbar` · 2026-09-06
 Modern Fluent flyout replacement for Windows 11.
 
-## 十八. Files · Downloads · Photo Management (21)
+## 十八. Files · Downloads · Photo Management (22)
 
 ### [agalwood/Motrix](https://github.com/agalwood/Motrix)
 `#downloader` `#electron` `#aria2` `#docker` · 2026-08-18
@@ -1332,6 +1340,10 @@ Smart PVR for newsgroup and bittorrent users.
 ### [SteamRE/DepotDownloader](https://github.com/SteamRE/DepotDownloader)
 `#csharp` · 2026-10-02
 A Steam depot downloader built on the SteamKit2 library.
+
+### [strelov1/freehire](https://github.com/strelov1/freehire)
+`#go` `#downloader` · 2026-10-21
+freehire — the open-source search engine for job seekers
 
 ### [tgeorgiadis/quiver-launcher](https://github.com/tgeorgiadis/quiver-launcher)
 `#csharp` · 2026-09-30
@@ -1511,7 +1523,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (49)
+## 二十四. Developer Resources & Curated Lists (50)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1692,6 +1704,10 @@ Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
 A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
+
+### [twentyhq/twenty](https://github.com/twentyhq/twenty)
+`#typescript` · 2026-10-21
+The open alternative to Salesforce, designed for AI.
 
 ### [vercel/next.js](https://github.com/vercel/next.js)
 `#javascript` · 2026-09-27
