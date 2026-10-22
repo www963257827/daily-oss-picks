@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-22 ｜ **441** entries (432 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-22 ｜ **444** entries (435 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 31 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 32 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 50 |
-| 25 | DevOps / Developer Tools | 29 |
+| 24 | Developer Resources & Curated Lists | 51 |
+| 25 | DevOps / Developer Tools | 30 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (31)
+## 一. AI Coding Agents · Runtimes & Methodologies (32)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -98,6 +98,10 @@ Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryab
 ### [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
 `#go` · 2026-10-03
 Why use many token when few token do trick — a viral skill + proxy that cuts 65% of tokens by talking like a caveman.
+
+### [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)
+`#python` · 2026-10-22
+A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
 
 ### [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 `#swift` · 2026-10-08
@@ -1527,7 +1531,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (50)
+## 二十四. Developer Resources & Curated Lists (51)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1657,6 +1661,10 @@ Neural Networks and Deep Learning (Dandelion Book) 2nd + general editions, by Qi
 `#csharp` · 2026-09-28
 Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL.
 
+### [php/php-src](https://github.com/php/php-src)
+`#c` · 2026-10-22
+The PHP Interpreter
+
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 `#csharp` · 2026-10-03
 PowerShell for every system.
@@ -1729,7 +1737,7 @@ Marble Skill Taxonomy: an open, structured taxonomy of what children learn acros
 `#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14
 Agentic Design Patterns (Chinese translation): 21 patterns for building AI agents
 
-## 二十五. DevOps / Developer Tools (29)
+## 二十五. DevOps / Developer Tools (30)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1782,6 +1790,10 @@ The LLVM Project is a collection of modular and reusable compiler and toolchain 
 ### [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk)
 `#git` `#worktree` `#parallel-agents` `#rust` `#cli` `#ci` · 2026-09-23
 A Git worktree CLI designed for parallel AI agent workflows.
+
+### [Meloong-Git/PCL](https://github.com/Meloong-Git/PCL)
+`#visualbasicnet` · 2026-10-22
+Minecraft 启动器 Plain Craft Launcher（PCL）。
 
 ### [microsoft/aspire](https://github.com/microsoft/aspire)
 `#csharp` · 2026-09-27

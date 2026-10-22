@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-22 ｜ 共收录 **441** 条内容（432 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-10-22 ｜ 共收录 **444** 条内容（435 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 31 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 32 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -32,15 +32,15 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 50 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 29 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 51 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（31）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（32）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -140,6 +140,12 @@
 - **简介**：原始人语录省 token：让编码 Agent 像原始人一样说话，削减 65% token（病毒式 Skill＋代理）。（GitHub 每日趋势 2026-10-03：★108963，当日 +271）
 - **归档**：`开源项目介绍/2026.10.3/caveman.md`
 - **标签**：`#go`
+
+### [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto)
+- **定位**：luongnv89/claude-howto 是一门面向 Claude Code 的可视化、实例驱动教程，口号是「用一个
+- **简介**：luongnv89/claude-howto 是一门面向 Claude Code 的可视化、实例驱动教程，口号是「用一个周末掌握 Claude Code」（Master Claude Code in a Weekend），覆盖从基础概念到高级 Agent 的完整路径。教程针对官方文档只罗列功能、不讲组合使用的痛点，提供可直接复制粘贴的模板（copy-paste templates），让学习者立刻获得价值。内容包含 slash 命令链式调用、hooks、skills、MCP servers、多 Agent 编排等进阶主题，并配有「15 分钟快速上手」「按水平分级」入口与功能目录（Feature Catalog），方便不同阶段的读者各取所需。README 已被翻译为英语、越南语、中文、乌克兰语、日语等 8 种语言。当前 ★42623（当日 +428），主语言 Python，涨势迅猛。适合刚开始使用 Claude Code、想系统进阶的开发者，以及需要模板化参考来搭建自己 Agent 工作流的用户。（GitHub 每日趋势 2026-10-22：★42623，当日 +428）
+- **归档**：`开源项目介绍/2026.10.22/claude-howto.md`
+- **标签**：`#python`
 
 ### [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 - **定位**：cmux：基于 Ghostty 的 macOS 终端，带垂直标签页与 AI Agent 通知，专为多任务设计。
@@ -2328,7 +2334,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（50）
+## 📚 二十四、开发者资源 / 精选合集（51）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2522,6 +2528,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.28/OpenRA.md`
 - **标签**：`#csharp`
 
+### [php/php-src](https://github.com/php/php-src)
+- **定位**：php/php-src 是 PHP 语言的官方解释器源码仓库。PHP 是一门流行的通用脚本语言，尤其适合 Web 开发，
+- **简介**：php/php-src 是 PHP 语言的官方解释器源码仓库。PHP 是一门流行的通用脚本语言，尤其适合 Web 开发，以快速、灵活、务实的风格著称——从个人博客到全球最流行的网站，大量站点由 PHP 驱动。仓库包含解释器核心实现、标准库与全部开发分支，采用修改版 BSD 许可证（SPDX-License-Identifier: BSD-3-Clause），可自由用于商业项目。不想从源码编译的用户可直接下载预编译二进制：Windows 用户从 windows.php.net 获取，解压后 .exe 即可运行，其他平台同样提供官方预编译包，官方手册位于 php.net/docs。当前 ★40779（当日 +110），主语言 C。适合想深入研究脚本语言内部机制（词法/语法分析、Zend 引擎、内存管理）、为 PHP 核心贡献代码或自行编译定制 PHP 的开发者，也是学习大型 C 语言工程实践的重要参考。（GitHub 每日趋势 2026-10-22：★40779，当日 +110）
+- **归档**：`开源项目介绍/2026.10.22/php-src.md`
+- **标签**：`#c`
+
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 - **定位**：跨平台 PowerShell——每个系统都能用。
 - **简介**：跨平台 PowerShell——每个系统都能用。（GitHub 每日趋势 2026-10-03：★55568，当日 +14）
@@ -2632,7 +2644,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（29）
+## 🚀 二十五、DevOps / 开发者工具（30）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -2712,6 +2724,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：**三个核心命令让 worktree 像 branch 一样好用**。问题背景很实在：Claude Code、Codex 这类 Agent 已能在无人监督下处理较长任务，**同时管理 5-10+ 个是可行的**；Git 原生 worktree 给每个 Agent 独立工作目录避免互踩，但**UX 很笨拙**——开个新 worktree 就要把分支名打三遍（`git worktree add -b feat ../repo.feat` 再 `cd ../repo.feat`）。Worktrunk 的做法是：**worktree 用分支名寻址，路径由可配置模板计算**，接受分支名的命令也接受该分支 checkout 的 worktree 路径。核心命令对比：切换 `wt switch feat`（原生要 `cd ../repo.feat`）· 创建并启动 Claude `wt switch -c -x claude feat`（原生要三条命令串起来）· 清理 `wt remove`（原生要 `cd` 回去 + `git worktree remove` + `git branch -d`）· 带状态列出 `wt list`（原生 `git worktree list` **只有路径**）。工作流自动化特性密度很高：**Hooks**（在 create / pre-merge / post-merge 等时机跑命令）· **LLM commit messages**（从 diff 生成）· **Merge workflow**（squash / rebase / merge / 清理**一条命令搞定**）· **Interactive picker**（浏览 worktree，带**流式 CI 状态**和 diff、log、PR、评论预览）· **共享构建缓存**（十个 worktree 都能拿到 `target/`、`node_modules/` 等，**既不用构建也不用拷贝**——靠 APFS / btrfs / XFS 的写时复制）· **`wt list --full`**（每分支的 CI 状态 + **AI 生成摘要**）· **PR checkout**（`wt switch pr:123` 直接跳到某 PR 的分支）· **每 worktree 一个 dev server**（`hash_port` 模板过滤器分配唯一端口）· **别名与 per-branch 变量**（自定义 `wt <name>` 命令 + 给 hook 模板用的分支作用域状态）。作者 max-sixty 在 2026-09 的说明里称它**已迅速成为最流行的 git worktree 管理器**，并强调「**there's no slop!**」（没有糊弄事），欢迎把感知到的任何摩擦反馈给他。Rust，**MIT OR Apache-2.0 双许可**（GitHub API 报 NOASSERTION），8,341 stars / 292 forks，2025-10 创建，文档站 [worktrunk.dev](https://worktrunk.dev)，2026-09-22 仍在推送。⚠️ 写时复制构建缓存依赖 APFS（macOS）/ btrfs / XFS（Linux）文件系统。
 - **归档**：`开源项目介绍/2026.9.23/worktrunk.md`
 - **标签**：`#git` `#worktree` `#并行agent` `#rust` `#cli` `#ci`
+
+### [Meloong-Git/PCL](https://github.com/Meloong-Git/PCL)
+- **定位**：Meloong-Git/PCL 是国产 Minecraft 启动器「Plain Craft Launcher（PCL）」
+- **简介**：Meloong-Git/PCL 是国产 Minecraft 启动器「Plain Craft Launcher（PCL）」的源代码仓库，使用 Visual Basic .NET 编写。代码包含 PCL 的大部分模块：自研 UI 库、动画模块、下载模块与 Minecraft 启动模块等，是学习 .NET 桌面应用与启动器架构的完整参考。需要注意代码并非实时更新，而是在每次 PCL 发布新版本时同步一次。项目同时提供免费正式版下载入口、功能投票（开发者会优先处理票数较高的需求）以及内置帮助文档库。当前 ★8537（当日 +0）。适合 PCL 用户了解启动器实现、想二次定制启动器的 VB.NET 开发者，以及学习 .NET 桌面客户端工程组织的初学者。（GitHub 每日趋势 2026-10-22：★8537，当日 +0）
+- **归档**：`开源项目介绍/2026.10.22/PCL.md`
+- **标签**：`#visualbasicnet`
 
 ### [microsoft/aspire](https://github.com/microsoft/aspire)
 - **定位**：微软的 .NET 云原生应用编排工具，代码优先、可扩展。
