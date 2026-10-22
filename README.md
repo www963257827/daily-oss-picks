@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-22 ｜ **440** entries (431 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-22 ｜ **441** entries (432 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -12,7 +12,7 @@
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
-| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 22 |
+| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
 | 7 | Security · Audit & Reverse Engineering | 24 |
 | 8 | Skill Collections & Ecosystem | 32 |
 | 9 | Code Intelligence / RAG / Code Review | 14 |
@@ -283,7 +283,7 @@ OpenCut: the open-source CapCut alternative for browser video editing.
 `#ai-video` `#production-pipeline` `#skill` `#storyboarding` `#depth-capture` `#gitee` · 2026-09-22
 AI film-making pipeline: give a topic, get a finished short film.
 
-## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (22)
+## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (23)
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 `#python` · 2026-09-28
@@ -372,6 +372,10 @@ Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX
 ### [tt-a1i/archify](https://github.com/tt-a1i/archify)
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
 Agent skill that turns plain-language descriptions into architecture/flow/sequence diagrams.
+
+### [viettranx/3dviz-pro-max](https://github.com/viettranx/3dviz-pro-max)
+`#agent-skill` `#claude-code` `#3d` `#visualization` `#research` · 2026-10-22
+面向 Claude Code / Codex 的创意 3D 可视化 agent 技能：把一句话想法变成可探索的 Three.js/Blender 场景，靠真实渲染截图迭代
 
 ## 七. Security · Audit & Reverse Engineering (24)
 

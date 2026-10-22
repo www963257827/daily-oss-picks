@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-22 ｜ 共收录 **440** 条内容（431 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-10-22 ｜ 共收录 **441** 条内容（432 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
@@ -14,7 +14,7 @@
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
-| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 22 |
+| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 24 |
 | [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 32 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 14 |
@@ -426,7 +426,7 @@
 
 <a id="sec-6"></a>
 
-## 🧰 六、专业领域 Skills（22）
+## 🧰 六、专业领域 Skills（23）
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 - **定位**：Anthropic 面向金融服务行业的官方示例与参考实现集合。
@@ -561,6 +561,12 @@
 - **简介**：可用于 Claude、Codex CLI 和 opencode 的 agent skill，用大白话描述系统或流程即可生成精细技术图（单文件 HTML）。支持五种图表类型：Architecture（架构图）、Workflow（流程图）、Sequence（时序图）、Data Flow（数据流图）、Lifecycle（生命周期图）。深色/浅色主题一键切换，导出最高 4× 原生光栅化 PNG/JPEG/WebP 或双主题自持 SVG（自动跟随系统深浅色），一键复制到剪贴板。内置质量闭环：JSON Schema 校验 → 布局检查 → HTML/SVG artifact 检查 → 定向迭代。支持语义技术标签（aws.lambda、postgres、redis 等），聊天迭代修改。**🔄 2026-09-23 复核更新**：版本已从 v2.10 前进到 **v2.16.0**（开发版 v2.17.0-dev.1），**69,271 stars** / 4,648 forks / 145 open issues，2026-09-01 登顶 **GitHub Trending 周榜全语言第一**并获量子位专题报道。**定位已从「技术图表」扩展为「任何交互式可视化」**——社区案例含上海 CityWalk 行程、合同评审、事故复盘，官方 Proof Lab 画廊收录 11 个可验证场景。新增 **Architecture Delta 对比**（Before/Delta/After + 机器回执）、**viewer 交互**（route/reach/lens/story/演示舞台 F 键）、Signal Flow / Blueprint / Classic 三种视觉预设、**1200×630 Share Card 导出**；CLI 新增 `preview`（loopback 预览 + last-good 保护）与 `deliver`（原子交付），安装面扩展到 Cursor / Raven / DeepSeek Harness，UI 支持 `meta.locale` 中英双语。MIT，JavaScript，2026-04-15 建仓，2026-09-22 最近推送。
 - **归档**：`开源项目介绍/2026.8.29/Archify.md`（2026-09-23 已复核更新）
 - **标签**：`#skill` `#图表` `#架构图` `#流程图`
+
+### [viettranx/3dviz-pro-max](https://github.com/viettranx/3dviz-pro-max)
+- **定位**：面向 Claude Code / Codex 的创意 3D 可视化 agent 技能：把一句话想法变成可探索的 Three.js/Blender 场景，靠真实渲染截图迭代
+- **简介**：3Dviz Pro Max 是一个独立的 agent skill（智能体技能），定位是创意 3D 可视化："Turn an idea into a Three.js/Blender scene worth exploring."（把一个想法变成一个值得探索的 Three.js/Blender 场景）。面向 Claude Code 与 Codex：输入一句话意图（如"建一个可探索的小奇幻村庄，加几只会动的生物，然后检查结果"），agent 即沿十步工作流（意图理解 → 物体推理 → 表示选择 → 构建路由 → 质量目标 → 首视图 → 行为设计 → 运行检查 → 迭代 → 诚实报告）搭出场景，无需先选渲染器或写规格。核心特色是「用真实渲染帧说话」：capture.py 驱动已构建场景播放命名视图并输出 PNG + 日志，agent 检查的是实际渲染结果而非空口描述；事实解释须有来源，会动的装饰不等于仿真。内容规模（截至 2026-09-10）：223 条 recipes（覆盖 24 个注册方向、每方向至少 6 条）、440 条知识记录（18 个家族、69 条带数值 defaults）、22 个 kit 蓝图（4 次真实捕获、SHA-256 复检）、37 个风格配置（33 个带数值默认值、含 5 个命名外观）、451 个来源 / 3,599 条证据事件、37 个可运行示例研究（5 章节）、21 张展示帧（headless Chromium、GPU、1920×1080）、249 个检索用例通过。可运行起点含 Vite + Three.js 脚手架（色彩管理、色调映射、viewer 契约）、5 个 rig（orbit camera、sun、night lantern、studio、post stack）与 22 个经验证的 kit 蓝图。24 个方向横跨创意环境、角色动态、产品装配、建筑室内、解剖生理、分子材料、几何与线性代数、微积分与场、概率统计、逻辑电路、算法结构、谜题、力学、波与光学、机器人控制、地球天文到抽象系统。作者诚实声明限制：recipes 不意味着都被渲染过；知识记录是来源核查过的编写指南而非运行时观测；前后对比评测 19 → 23 → 23 → 25（满分 30，基线 21）margin 薄且每条件 n=1；marketplace 安装等路径尚未测试。当前 ★851，主语言 JavaScript，MIT 许可（第三方素材除外：BodyParts3D 网格 CC BY-SA 2.1 Japan、字体 OFL 1.1）。适合用 Claude Code / Codex 做创意原型、科学可视化与教学演示的开发者。
+- **归档**：`开源项目介绍/2026.10.22/3dviz-pro-max.md`
+- **标签**：`#agent-skill` `#claude-code` `#3d` `#可视化` `#科研`
 
 <a id="sec-7"></a>
 
