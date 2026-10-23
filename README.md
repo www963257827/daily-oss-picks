@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-22 ｜ **444** entries (435 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-23 ｜ **448** entries (439 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -13,10 +13,10 @@
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
-| 7 | Security · Audit & Reverse Engineering | 24 |
+| 7 | Security · Audit & Reverse Engineering | 25 |
 | 8 | Skill Collections & Ecosystem | 32 |
 | 9 | Code Intelligence / RAG / Code Review | 14 |
-| 10 | Speech & TTS | 6 |
+| 10 | Speech & TTS | 7 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 18 |
 | 13 | Image / Video / Music Generation | 7 |
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 51 |
+| 24 | Developer Resources & Curated Lists | 53 |
 | 25 | DevOps / Developer Tools | 30 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (32)
@@ -381,7 +381,7 @@ Agent skill that turns plain-language descriptions into architecture/flow/sequen
 `#agent-skill` `#claude-code` `#3d` `#visualization` `#research` · 2026-10-22
 面向 Claude Code / Codex 的创意 3D 可视化 agent 技能：把一句话想法变成可探索的 Three.js/Blender 场景，靠真实渲染截图迭代
 
-## 七. Security · Audit & Reverse Engineering (24)
+## 七. Security · Audit & Reverse Engineering (25)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -458,6 +458,10 @@ An AI-powered agentic red team framework automating offensive security operation
 ### [smicallef/spiderfoot](https://github.com/smicallef/spiderfoot)
 `#python` · 2026-10-01
 SpiderFoot: automated OSINT for threat intelligence and attack-surface mapping.
+
+### [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red)
+`#python` · 2026-10-23
+claude-red is a curated library of offensive security skills designed for the Claude skills system. Each skill is a structured SKILL.md file that primes Claude with expert-level methodology for a…
 
 ### [uber/ADR](https://github.com/uber/ADR)
 `#python` · 2026-10-08
@@ -667,7 +671,7 @@ Multi-language code knowledge-graph RAG system (Memgraph + Qdrant).
 `#rust` · 2026-10-15
 Local AI search engine: autoindex code/docs/logs/PDFs, 40x fewer tokens than grep
 
-## 十. Speech & TTS (6)
+## 十. Speech & TTS (7)
 
 ### [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 `#tts` `#asr` `#voice-clone` `#mcp` `#local-first` `#electron` · 2026-09-06
@@ -684,6 +688,10 @@ SOTA zero-shot multilingual voice-clone TTS supporting 600+ languages (RTF 0.025
 ### [microsoft/VibeVoice](https://github.com/microsoft/VibeVoice)
 `#python` · 2026-10-03
 VibeVoice (by Microsoft): open-source frontier voice AI.
+
+### [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM)
+`#python` · 2026-10-23
+VoxCPM2: Tokenizer-Free TTS for Multilingual Speech Generation, Creative Voice Design, and True-to-Life Cloning
 
 ### [openutau/OpenUtau](https://github.com/openutau/OpenUtau)
 `#csharp` · 2026-09-29
@@ -1531,7 +1539,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (51)
+## 二十四. Developer Resources & Curated Lists (53)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1657,6 +1665,10 @@ Open-source, low-cost 10.5 GHz PLFM phased array RADAR system.
 `#textbook` `#open-source-books` `#深度学习` `#神经网络` · 2026-10-14
 Neural Networks and Deep Learning (Dandelion Book) 2nd + general editions, by Qiu Xipeng
 
+### [nodejs/node](https://github.com/nodejs/node)
+`#javascript` · 2026-10-23
+Node.js JavaScript runtime ✨🐢🚀✨
+
 ### [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)
 `#csharp` · 2026-09-28
 Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL.
@@ -1684,6 +1696,10 @@ An Open Source C# 3D Game Engine under MIT license, inspired by Unity and featur
 ### [public-apis/public-apis](https://github.com/public-apis/public-apis)
 `#api` `#dev-resources` `#free` `#collection` · 2026-09-06
 The huge collective list of free public APIs.
+
+### [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)
+`#typescript` · 2026-10-23
+紫微斗数开源排盘引擎 — 基于倪海厦《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据
 
 ### [roflmuffin/CounterStrikeSharp](https://github.com/roflmuffin/CounterStrikeSharp)
 `#csharp` · 2026-09-28
