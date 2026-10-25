@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-23 ｜ **448** entries (439 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-25 ｜ **456** entries (447 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 32 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 36 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 53 |
+| 24 | Developer Resources & Curated Lists | 57 |
 | 25 | DevOps / Developer Tools | 30 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (32)
+## 一. AI Coding Agents · Runtimes & Methodologies (36)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -87,6 +87,10 @@ A 100% local, open-source Manus alternative: browses, codes and plans autonomous
 `#spec-driven` `#ai-coding` `#github` `#cli` · 2026-08-18
 GitHub's official spec-driven development toolkit for any AI coding agent.
 
+### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+`#typescript` · 2026-10-25
+An open-source AI agent that brings the power of Gemini directly into your terminal.
+
 ### [google/ax](https://github.com/google/ax)
 `#go` · 2026-09-28
 Google's open agentic orchestration runtime
@@ -103,6 +107,10 @@ Why use many token when few token do trick — a viral skill + proxy that cuts 6
 `#python` · 2026-10-22
 A visual, example-driven guide to Claude Code — from basic concepts to advanced agents, with copy-paste templates that bring immediate value.
 
+### [makecindy/cindy](https://github.com/makecindy/cindy)
+`#typescript` · 2026-10-25
+Consider it done. The open-source AI agent that works out of the box · 想到，就能做到。开源、开箱即用的 AI Agent。
+
 ### [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 `#swift` · 2026-10-08
 cmux: a Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
@@ -118,6 +126,10 @@ Context window optimization for AI coding agents — sandboxed tool output (98% 
 ### [mvschwarz/openrig](https://github.com/mvschwarz/openrig)
 `#typescript` · 2026-09-28
 Multi-agent harness that runs Claude Code and Codex together as one system
+
+### [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
+`#css` · 2026-10-25
+Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
 
 ### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)
 `#rust` · 2026-09-30
@@ -154,6 +166,10 @@ Agent meta-harness: multi-player swarms and autonomous workflows for Claude Code
 ### [strands-agents/harness-sdk](https://github.com/strands-agents/harness-sdk)
 `#python` · 2026-09-27
 Build an agent harness and control it end-to-end.
+
+### [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
+`#python` · 2026-10-25
+TradingAgents: Multi-Agents LLM Financial Trading Framework
 
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 `#agent-host` `#electron` `#rust` `#plugin` `#local-first` `#mcp` · 2026-09-23
@@ -1539,7 +1555,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (53)
+## 二十四. Developer Resources & Curated Lists (57)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1580,6 +1596,10 @@ An advanced personal-growth guide covering AI learning, English learning and mor
 ### [chrislgarry/Apollo-11](https://github.com/chrislgarry/Apollo-11)
 `#assembly` · 2026-10-12
 Original Apollo 11 Guidance Computer source code (command & lunar modules)
+
+### [coollabsio/coolify](https://github.com/coollabsio/coolify)
+`#php` · 2026-10-25
+An open-source, self-hostable PaaS alternative to Vercel, Heroku & Netlify that lets you easily deploy static sites, databases, full-stack applications and 360+ one-click services on your own servers.
 
 ### [cs341-illinois/coursebook](https://github.com/cs341-illinois/coursebook)
 `#tex` · 2026-09-29
@@ -1624,6 +1644,14 @@ A production-grade agentic RAG course (by Jam with AI).
 ### [jasontaylordev/CleanArchitecture](https://github.com/jasontaylordev/CleanArchitecture)
 `#csharp` · 2026-10-02
 Clean Architecture Solution Template for ASP.NET Core.
+
+### [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest)
+`#python` · 2026-10-25
+欢迎来到电子书下载宝库，一个汇聚了各类电子书下载链接的地方。无论你是喜欢阅读经典文学、经管励志、终身学习、职场创业、技术手册还是其他类型的书籍，这里都能满足你的需求。 该库涵盖了帆书app(原樊登读书)、微信读书、京东读书、喜马拉雅等读书app的大部分电子书。
+
+### [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)
+`#typescript` · 2026-10-25
+Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
 
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 `#open-source` · 2026-09-28
@@ -1676,6 +1704,10 @@ Open Source real-time strategy game engine for early Westwood games such as Comm
 ### [php/php-src](https://github.com/php/php-src)
 `#c` · 2026-10-22
 The PHP Interpreter
+
+### [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck)
+`#rust` · 2026-10-25
+A Tiny biped duck robot 🦆
 
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 `#csharp` · 2026-10-03

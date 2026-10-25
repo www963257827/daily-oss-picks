@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-23 ｜ 共收录 **448** 条内容（439 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-10-25 ｜ 共收录 **456** 条内容（447 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 32 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 36 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 53 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 57 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（32）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（36）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -123,6 +123,12 @@
 - **归档**：`开源项目介绍/2026.8.18/spec-kit.md`
 - **标签**：`#spec-driven` `#ai-coding` `#github` `#cli`
 
+### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
+- **定位**：Gemini CLI 是 Google 开源的终端 AI Agent（★108040，当日 +44），把 Gemini
+- **简介**：Gemini CLI 是 Google 开源的终端 AI Agent（★108040，当日 +44），把 Gemini 模型直接带进命令行，提供从 prompt 到模型的最短路径，官方文档覆盖安装、执行与各平台发布细节。需要注意 README 的显著提示：2026 年 6 月 18 日起，免费档与 Google One 用户已被 Antigravity CLI 取代，且 Gemini CLI 未针对 Gemini 4 Argon 优化——想体验最新 Gemini 模型的编码能力，官方建议转向 Antigravity。尽管如此，作为开源社区影响力最大的终端 Agent 之一，其代码与文档完全开放，仍是研究 Agent 交互设计、需要轻量命令行 AI 助手与自托管方案用户的重要参考。（GitHub 每日趋势 2026-10-25：★108040，当日 +44）
+- **归档**：`开源项目介绍/2026.10.25/gemini-cli.md`
+- **标签**：`#typescript`
+
 ### [google/ax](https://github.com/google/ax)
 - **定位**：谷歌开源的 Agent 编排运行时。
 - **简介**：谷歌开源的 Agent 编排运行时。（GitHub 每日趋势 2026-09-26：★11252，当日 +1386）
@@ -147,6 +153,12 @@
 - **归档**：`开源项目介绍/2026.10.22/claude-howto.md`
 - **标签**：`#python`
 
+### [makecindy/cindy](https://github.com/makecindy/cindy)
+- **定位**：cindy 是「想到，就能做到」的开箱即用开源 AI Agent（★4085，当日 +477，官网 cindy.app）
+- **简介**：cindy 是「想到，就能做到」的开箱即用开源 AI Agent（★4085，当日 +477，官网 cindy.app），把多个 harness、模型与工具收进一个真正能干完活的 Agent。它完全运行在你自己的机器上，直接操作真实文件与已登录的应用；首批支持的 harness 是 Claude Code 与 Codex，更多正在加入，原生 harness 也在路上。模型与 harness 可自由混搭、任务中途随时切换，而工作区、记忆、技能与工具保持连续；同一任务还能先规划、再并行执行，最后由跑在不同 harness × 模型组合上的 Agent 交叉评审。适合不愿被单一 AI 订阅绑定、想在一个工作流里调度多家模型与本地资源的重度用户与小团队。（GitHub 每日趋势 2026-10-25：★4085，当日 +477）
+- **归档**：`开源项目介绍/2026.10.25/cindy.md`
+- **标签**：`#typescript`
+
 ### [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 - **定位**：cmux：基于 Ghostty 的 macOS 终端，带垂直标签页与 AI Agent 通知，专为多任务设计。
 - **简介**：cmux：基于 Ghostty 的 macOS 终端，带垂直标签页与 AI Agent 通知，专为多任务设计。（GitHub 每日趋势 2026-10-08：★27774，当日 +96）
@@ -170,6 +182,12 @@
 - **简介**：把 Claude Code 与 Codex 等多个编码 Agent 作为一个系统协同运行的多智能体 Harness。（GitHub 每日趋势 2026-09-28：★744，当日 +114）
 - **归档**：`开源项目介绍/2026.9.28/openrig.md`
 - **标签**：`#typescript`
+
+### [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
+- **定位**：hallmark 是 Together AI 出品的设计技能（design skill），面向 Claude Code、
+- **简介**：hallmark 是 Together AI 出品的设计技能（design skill），面向 Claude Code、Codex、Cursor 与 OpenCode，核心使命是「拒绝一眼 AI 生成」——专治 AI 写网页的「AI 味」。工作方式是：内置 48 套主题材质目录，每次发出三个主题方案，围绕访客真正要办的事搭建页面，再把结果放进真实浏览器里 lint，逐条对照那些「机器制造痕迹」开火：每个标题上方的眉题（eyebrow）、全大写宽字距标签、标题里唯一一个彩色词、整页空框或只剩照片、撑不满首屏的 hero、每节结尾都来的邮件订阅……官网 usehallmark.com 另提供定制主题，以及按名字进行的重构与审计服务。当前 ★32122（当日 +455）。适合用 AI 编码工具做落地页、想快速去「AI 味」的独立开发者与前端团队。（GitHub 每日趋势 2026-10-25：★32122，当日 +455）
+- **归档**：`开源项目介绍/2026.10.25/hallmark.md`
+- **标签**：`#css`
 
 ### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)
 - **定位**：英伟达出品：面向自主 AI Agent 的安全私有运行时。
@@ -223,6 +241,12 @@
 - **定位**：面向生产级 AI Agent 的开源 Harness SDK（Python/TypeScript），任意模型任意云，可端
 - **简介**：面向生产级 AI Agent 的开源 Harness SDK（Python/TypeScript），任意模型任意云，可端到端构建与掌控 Agent。（GitHub 每日趋势 2026-09-26：★8445，当日 +251）
 - **归档**：`开源项目介绍/2026.9.27/harness-sdk.md`
+- **标签**：`#python`
+
+### [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
+- **定位**：TradingAgents 是多智能体 LLM 金融交易框架（★113918，当日 +309），把一群分工不同的 LLM
+- **简介**：TradingAgents 是多智能体 LLM 金融交易框架（★113918，当日 +309），把一群分工不同的 LLM Agent 组织成交易研究团队，覆盖分析、决策到回测的完整链路。最新 v0.7.0（2026-10）可直接跑在你自己的 ChatGPT Plus / Pro 订阅上，回测以每次决策后的首个收盘价计分，启动时提示有新版本，每个 GitHub release 附带 wheel 包。此前的 v0.6.0 把报告存为单个 HTML 页、支持按模型层级分配不同 provider、分析师工作期间同步结算各 ticker 的历史决策，并可从 Yahoo 搜索读取公司新闻；v0.5.2 引入并行分析师与 CLI。适合量化研究者与「AI + 金融」方向开发者做多 Agent 决策实验与策略验证，注意其输出不构成投资建议。（GitHub 每日趋势 2026-10-25：★113918，当日 +309）
+- **归档**：`开源项目介绍/2026.10.25/TradingAgents.md`
 - **标签**：`#python`
 
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
@@ -2346,7 +2370,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（53）
+## 📚 二十四、开发者资源 / 精选合集（57）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2407,6 +2431,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：阿波罗 11 号制导计算机（AGC）原始源代码，含指令舱与登月舱两部分（GitHub 每日趋势 2026-10-12：★74233，当日 +581）
 - **归档**：`开源项目介绍/2026.10.12/Apollo-11.md`
 - **标签**：`#assembly`
+
+### [coollabsio/coolify](https://github.com/coollabsio/coolify)
+- **定位**：coolify 是开源的自主托管 PaaS（★63837，当日 +150），定位 Vercel、Heroku、Netli
+- **简介**：coolify 是开源的自主托管 PaaS（★63837，当日 +150），定位 Vercel、Heroku、Netlify 的开源替代品：只需一条 SSH 连接，就能在自己的服务器上部署静态站点、数据库、全栈应用与 360+ 个一键服务，支持 VPS、裸金属服务器甚至树莓派。配置全部留在你自己的服务器上，停用即带着数据离开，无厂商锁定；官方承诺免费且开源永久（free forever）。除自托管外也提供 Cloud、文档与 Discord 社区。适合重视数据主权与基础设施掌控权的个人开发者、小团队，以及想摆脱平台绑定、自建内部 PaaS 的企业。（GitHub 每日趋势 2026-10-25：★63837，当日 +150）
+- **归档**：`开源项目介绍/2026.10.25/coolify.md`
+- **标签**：`#php`
 
 ### [cs341-illinois/coursebook](https://github.com/cs341-illinois/coursebook)
 - **定位**：伊利诺伊大学开源的《系统编程导论》教材（CS 341 课程用书）。
@@ -2473,6 +2503,18 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：ASP.NET Core 的 Clean Architecture 解决方案模板（经典版）。（GitHub 每日趋势 2026-10-02：★20619，当日 +10）
 - **归档**：`开源项目介绍/2026.10.2/CleanArchitecture.md`
 - **标签**：`#csharp`
+
+### [jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest)
+- **定位**：ebook-treasure-chest 是电子书下载链接聚合宝库（★22592，当日 +227），收录帆书 App（原
+- **简介**：ebook-treasure-chest 是电子书下载链接聚合宝库（★22592，当日 +227），收录帆书 App（原樊登读书）、微信读书、京东读书、喜马拉雅等主流读书 App 覆盖的大部分电子书，每本书提供 epub、mobi、azw3 三种常见格式，覆盖经典文学、经管励志、终身学习、职场创业、技术手册等门类，仅「文学」一个热门分类就超过 2711 本。配套 GitHub Pages 在线检索页支持实时搜索与多关键词搜索（空格分隔），也可直接在 GitHub 页面用 Ctrl+F 查找。项目以「请我们喝咖啡」的赞助模式维护，另有赞助人名单。适合跨设备找书、换格式阅读的普通读者；资源版权归原作者与平台所有，仅供学习交流，注意版权风险。（GitHub 每日趋势 2026-10-25：★22592，当日 +227）
+- **归档**：`开源项目介绍/2026.10.25/ebook-treasure-chest.md`
+- **标签**：`#python`
+
+### [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)
+- **定位**：thinkrail 是 JetBrains 出品的 Agentic IDE（★1126，当日 +52），口号「Vibe
+- **简介**：thinkrail 是 JetBrains 出品的 Agentic IDE（★1126，当日 +52），口号「Vibe code with pi」，定位越用越聪明：围绕 `pi` 编码 Agent 打造富界面，把不同任务隔离进独立的 git-worktree 工作区，并通过「活规格」（living specs）与可复用技能赋予 Agent 持久项目知识——今天学习你的项目，明天构建自己的能力。完整扩展支持也在路上，届时它能按你的实际工作方式自造工具。官网 thinkrail.ai 另附博客，README 演示了 pi 会话及其改动如何被限制在隔离工作区内。适合想让 IDE 随使用不断沉淀项目上下文、偏好轻量真实 IDE 而非纯聊天界面的开发者，也值得关注 JetBrains 在 Agent 方向的演进。（GitHub 每日趋势 2026-10-25：★1126，当日 +52）
+- **归档**：`开源项目介绍/2026.10.25/thinkrail.md`
+- **标签**：`#typescript`
 
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - **定位**：Kelsey Hightower 的经典教程：纯手工从零引导 Kubernetes，不用脚本、理解每一步。
@@ -2551,6 +2593,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：php/php-src 是 PHP 语言的官方解释器源码仓库。PHP 是一门流行的通用脚本语言，尤其适合 Web 开发，以快速、灵活、务实的风格著称——从个人博客到全球最流行的网站，大量站点由 PHP 驱动。仓库包含解释器核心实现、标准库与全部开发分支，采用修改版 BSD 许可证（SPDX-License-Identifier: BSD-3-Clause），可自由用于商业项目。不想从源码编译的用户可直接下载预编译二进制：Windows 用户从 windows.php.net 获取，解压后 .exe 即可运行，其他平台同样提供官方预编译包，官方手册位于 php.net/docs。当前 ★40779（当日 +110），主语言 C。适合想深入研究脚本语言内部机制（词法/语法分析、Zend 引擎、内存管理）、为 PHP 核心贡献代码或自行编译定制 PHP 的开发者，也是学习大型 C 语言工程实践的重要参考。（GitHub 每日趋势 2026-10-22：★40779，当日 +110）
 - **归档**：`开源项目介绍/2026.10.22/php-src.md`
 - **标签**：`#c`
+
+### [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck)
+- **定位**：microduck 是 pollen-robotics 的开源双足鸭子机器人（★10972，当日 +319）：整机约 2
+- **简介**：microduck 是 pollen-robotics 的开源双足鸭子机器人（★10972，当日 +319）：整机约 25 cm 高、800 g，大脑是一块 Rockchip RK3566，上面跑着寥寥数个守护进程——50 Hz 控制环驱动 15 个舵机执行神经网络策略，同时兼顾无线电、摄像头与防变砖的 OTA 更新机制。策略在隔壁仓库 microduck_rl 中训练：MuJoCo + PPO 的 sim2real 配方，导出 ONNX 后由本仓库加载。README 提供购买入口（Get yours here）、速查表（Cheat sheet）、策略训练与工作原理详解。现在的它会走路，接上游戏手柄就能操控。适合机器人学习者、强化学习 sim2real 研究者，以及想低成本入坑双足机器人的极客与高校团队。（GitHub 每日趋势 2026-10-25：★10972，当日 +319）
+- **归档**：`开源项目介绍/2026.10.25/microduck.md`
+- **标签**：`#rust`
 
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 - **定位**：跨平台 PowerShell——每个系统都能用。
