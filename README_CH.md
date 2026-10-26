@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-25 ｜ 共收录 **456** 条内容（447 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-10-26 ｜ 共收录 **459** 条内容（450 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 36 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 39 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（36）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（39）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -67,6 +67,12 @@
 - **简介**：构建、运行和管理 Agent 平台的全栈框架。（GitHub 每日趋势 2026-10-03：★42529，当日 +41）
 - **归档**：`开源项目介绍/2026.10.4/agno.md`
 - **标签**：`#python`
+
+### [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)
+- **定位**：Huashu Design（话书设计）3.0 是一个 HTML-native 的设计 skill，口号「打字、回车，一份
+- **简介**：Huashu Design（话书设计）3.0 是一个 HTML-native 的设计 skill，口号「打字、回车，一份能交付的设计」：在你的 agent 里打一句话，3 到 30 分钟就能拿回可交付的成果——网页、可点击的 App 原型、可编辑 PPTX、产品发布动画、印刷级信息图。工作流是「先出六张缩略图，挑三个真实方向再做成稿」；风格库已扩到 84 种（新增 App、中文与东亚两个分区），每种均带样张；可喂给 skill 你的品牌资产（logo、色板、UI 截图）让它读懂品牌气质，另有越用越懂你的外观账本与设计体检兜底防「AI slop」。跨 agent 通用——Claude Code、Cursor、Codex、OpenClaw、Hermes 都能装，一行 `npx skills add alchaincyf/huashu-design` 即可安装；2026-05-14 起改为 MIT 协议完全开源，个人与商用免费。当前 ★26437（当日 +177），README 里每一页设计均由它自己完成（非 Figma/AE，就是一句话 prompt + skill）。适合需要快速产出产品宣传、原型与演示材料的独立开发者与设计团队。（GitHub 每日趋势 2026-10-26：★26437，当日 +177）
+- **归档**：`开源项目介绍/2026.10.26/huashu-design.md`
+- **标签**：`#html`
 
 ### [anomalyco/opencode](https://github.com/anomalyco/opencode)
 - **定位**：开源 AI 编码 Agent · 终端 UI
@@ -122,6 +128,12 @@
 - **简介**：GitHub 官方开源，核心理念「先定义要构建什么，再开始构建」——让规范变得可执行、直接生成实现。提供 specify-cli（Python）与 /speckit.* 系列命令（constitution → specify → plan → tasks → implement → converge，另含 clarify/analyze/checklist），支持 30+ AI 编码 Agent（Claude Code、Codex CLI、Copilot CLI、Command Code 等）。四级定制系统：项目本地覆盖 → Presets → Extensions → 核心模板。1,807 commits，社区活跃（含中文 README）。
 - **归档**：`开源项目介绍/2026.8.18/spec-kit.md`
 - **标签**：`#spec-driven` `#ai-coding` `#github` `#cli`
+
+### [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
+- **定位**：Postiz 是一站式的社交媒体排程与管理平台，口号是「终极 agentic 社媒排程工具」（The ultimate
+- **简介**：Postiz 是一站式的社交媒体排程与管理平台，口号是「终极 agentic 社媒排程工具」（The ultimate agentic social media scheduling tool）：在一个地方排程、自动化发布并分析全平台内容，还能配合你喜欢的 AI Agent 自动发帖。两种用法：注册 Postiz Cloud 使用全托管服务，或把开源版部署到自己的基础设施上，数据自主掌控。生态配套齐全：提供公共 API、NodeJS SDK、N8N 自定义节点与 Make.com 集成，方便接入既有自动化流程；官网另附完整文档、YouTube 教程与 Discord 社区。当前 ★37932（当日 +146），主语言 TypeScript，是 Buffer/Hootsuite 类工具中最热门的开源替代品之一。适合内容创作者与社媒运营团队统一管理多平台发布，也适合需要自建社交管理服务的企业与开发者。（GitHub 每日趋势 2026-10-26：★37932，当日 +146）
+- **归档**：`开源项目介绍/2026.10.26/postiz-app.md`
+- **标签**：`#typescript`
 
 ### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
 - **定位**：Gemini CLI 是 Google 开源的终端 AI Agent（★108040，当日 +44），把 Gemini
@@ -181,6 +193,12 @@
 - **定位**：把 Claude Code 与 Codex 等多个编码 Agent 作为一个系统协同运行的多智能体 Harness。
 - **简介**：把 Claude Code 与 Codex 等多个编码 Agent 作为一个系统协同运行的多智能体 Harness。（GitHub 每日趋势 2026-09-28：★744，当日 +114）
 - **归档**：`开源项目介绍/2026.9.28/openrig.md`
+- **标签**：`#typescript`
+
+### [nightly-labs/openbot](https://github.com/nightly-labs/openbot)
+- **定位**：OpenBot 是一个本地优先（local-first）的桌面工作区，把多个 AI 队友变成常驻同事：在一个桌面应用里为
+- **简介**：OpenBot 是一个本地优先（local-first）的桌面工作区，把多个 AI 队友变成常驻同事：在一个桌面应用里为每个 Agent 分配独立工作区与会话，集中管理任务队列、文件传输、内嵌浏览器与 Agent 间消息协作。它支持本地 Codex App Server 与 Claude Code，并通过 ACP 协议接入 Grok CLI、OpenCode、Gemini、Cursor CLI、Cline CLI 等外部编码 Agent，适合把 Codex、Claude、Grok 混编成一支团队协同干活。当前 ★1081（当日 +86），仍处开发预览阶段。⚠️ 注意：Agent 以 danger-full-access 与 approvalPolicy: never 模式运行，首次启动授权后读写文件、执行命令、联网与操控内嵌浏览器均无逐次确认，请只运行可信 Agent 与任务并做好备份。适合需要在一个界面里统一调度多个终端 AI Agent 的重度开发者与小团队。（GitHub 每日趋势 2026-10-26：★1081，当日 +86）
+- **归档**：`开源项目介绍/2026.10.26/openbot.md`
 - **标签**：`#typescript`
 
 ### [Nutlope/hallmark](https://github.com/Nutlope/hallmark)

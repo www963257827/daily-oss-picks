@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-25 ｜ **456** entries (447 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-26 ｜ **459** entries (450 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 36 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 39 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -33,7 +33,7 @@
 | 24 | Developer Resources & Curated Lists | 57 |
 | 25 | DevOps / Developer Tools | 30 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (36)
+## 一. AI Coding Agents · Runtimes & Methodologies (39)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -50,6 +50,10 @@ Agent Zero: a general-purpose, self-improving AI agent framework.
 ### [agno-agi/agno](https://github.com/agno-agi/agno)
 `#python` · 2026-10-04
 Agno: build, run and manage agent platforms.
+
+### [alchaincyf/huashu-design](https://github.com/alchaincyf/huashu-design)
+`#html` · 2026-10-26
+Huashu Design 3.0 · 在 agent 里打一句话，拿回能交付的设计：网页 / App 原型 / 可编辑 PPTX / 动画 / 信息图 · 六个候选挑三个方向 · 84 种带样张的风格库 · 越用越懂你的外观账本与设计体检 · HTML-native design skill for Claude Code, Codex, Cursor & any agent
 
 ### [anomalyco/opencode](https://github.com/anomalyco/opencode)
 `#coding-agent` `#tui` `#open-source` `#cross-platform` · 2026-09-06
@@ -86,6 +90,10 @@ A 100% local, open-source Manus alternative: browses, codes and plans autonomous
 ### [github/spec-kit](https://github.com/github/spec-kit)
 `#spec-driven` `#ai-coding` `#github` `#cli` · 2026-08-18
 GitHub's official spec-driven development toolkit for any AI coding agent.
+
+### [gitroomhq/postiz-app](https://github.com/gitroomhq/postiz-app)
+`#typescript` · 2026-10-26
+📨 The ultimate agentic social media scheduling tool 🤖
 
 ### [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli)
 `#typescript` · 2026-10-25
@@ -126,6 +134,10 @@ Context window optimization for AI coding agents — sandboxed tool output (98% 
 ### [mvschwarz/openrig](https://github.com/mvschwarz/openrig)
 `#typescript` · 2026-09-28
 Multi-agent harness that runs Claude Code and Codex together as one system
+
+### [nightly-labs/openbot](https://github.com/nightly-labs/openbot)
+`#typescript` · 2026-10-26
+A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, and Grok with dedicated workspaces, task queues, file sharing, browser control, and agent-to-agent collaboration.
 
 ### [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
 `#css` · 2026-10-25
