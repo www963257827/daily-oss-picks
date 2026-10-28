@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-26 ｜ 共收录 **459** 条内容（450 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-10-28 ｜ 共收录 **462** 条内容（453 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 57 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 60 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -2388,7 +2388,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（57）
+## 📚 二十四、开发者资源 / 精选合集（60）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2492,6 +2492,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.3/effect.md`
 - **标签**：`#typescript`
 
+### [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)
+- **定位**：AI Design Skills 是一个持续扩充的设计技能（design skills）合集，面向 Claude Cod
+- **简介**：AI Design Skills 是一个持续扩充的设计技能（design skills）合集，面向 Claude Code、Cursor、Codex、Windsurf 等一切读取 Markdown 规则文件的 AI 编码工具。每个技能都是一个自包含文件夹，按需安装即可。首个技能 landing-page-design 能从零搭建落地页：先通过引导问题（intake questions）明确需求，再给出页面结构、转化文案（conversion copy）以及一整套视觉系统（字体、间距、圆角、动效）。针对已有网站的升级改造则不在此合集内——它因诞生更早而独立成库，更多技能在路上。当前 ★9267（当日 +1395）。适合用 AI 编码工具做落地页、希望不请设计师也能快速获得专业级视觉方案的独立开发者与小团队。（GitHub 每日趋势 2026-10-28：★9267，当日 +1395）
+- **归档**：`开源项目介绍/2026.10.28/ai-design-skills.md`
+- **标签**：`#开源`
+
 ### [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)
 - **定位**：GPT-Image2/2.5 工业级提示词引擎与模板库 · 544 个逆向案例 + 20+ 套模板 + Agent Skill
 - **简介**：「苍何」维护的 **Prompt as Code** 资产库。它抓的痛点很准：GPT-Image2 普及后，出图瓶颈从「**能不能生成**」变成「**能不能稳定、可控、可复用地生成**」，而社区爆款案例多是**散文式提示词**——抄一次能用一次，无法批量、无法交给脚本和 Agent。仓库把 **544 个案例全部逆向拆解，压缩成结构化协议**：主体、光照、材质、布局、视觉细节拆为**可组合的原子 schema**，再按 **13 类场景**沉淀模板——UI 界面 73、海报排版 90、摄影写实 78、插画艺术 59、信息图表 53、电商产品 42、角色 31、品牌 Logo 27、场景叙事 21、历史国风 16、建筑空间 12、文档出版 11。配套 **gpt-image2.canghe.ai** 可视化站点，新增 **GPT-Image 2.5 专区**覆盖 Sunburst（生成+精准编辑）与 Flare（快速日常生成）双模型，提供同提示词可拖拽对比。**最有工程价值的设计**是 Agent Skill `gpt-image-2-style-library`（已发 npm 与 GitHub Packages）**与网站共用同一份 `data/style-library.json`**，避免了「文档一套、代码一套」的割裂；支持 `npx skills add` 与 Claude Code 插件市场两种安装路径。站点技术栈是完整的 SaaS 形态：**Vite + Vercel + Supabase（Google OAuth、8 份 migration）+ Stripe 与支付宝双支付（$5/300 credits）+ APIMart 异步生成 API + GA4**。版权立场写得克制：源自 YouMind、OpenNana 启发，保留原始出处，第三方遵循 **CC BY 4.0**，**明确不保证可商用**。MIT，JavaScript，仓库约 215MB（主要是案例图），**32,718 stars** / 3,160 forks / 132 watchers，2026-04-25 建仓，2026-09-11 最近推送，Trendshift 收录。**star/fork 比约 10:1，是典型实用型资源库曲线**。
@@ -2508,6 +2514,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。
 - **简介**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。（GitHub 每日趋势 2026-09-30：★28715，当日 +62）
 - **归档**：`开源项目介绍/2026.9.30/cs249r_book.md`
+- **标签**：`#python`
+
+### [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
+- **定位**：DeepTutor 是香港大学数据科学实验室（HKUDS）出品的个性化终身学习辅导项目，口号「Lifelong Pers
+- **简介**：DeepTutor 是香港大学数据科学实验室（HKUDS）出品的个性化终身学习辅导项目，口号「Lifelong Personalized Tutoring」，基于 Python 实现，官网 deeptutor.info，提供特性总览、快速上手、CLI、生态体系与社区等完整文档。最新版本 v1.6.15（2026-10-19）带来学习路径变更复核、分组评估（grouped assessments）、有界辅导记忆（bounded tutoring memory）、可靠的聊天恢复、更稳健的解析、检索效果对比以及原生 Gemini 语音；v1.6.14（2026-10-08）引入原文出处可视化练习、可恢复索引、统一视频阅读、科研工具、托管插件等能力。当前 ★45827（当日 +1598），是近期涨势最猛的开源 AI 教育项目之一。适合需要个性化学习路径、辅导式答疑与科研辅助工具的学生、自学者与教育研究者。（GitHub 每日趋势 2026-10-28：★45827，当日 +1598）
+- **归档**：`开源项目介绍/2026.10.28/DeepTutor.md`
 - **标签**：`#python`
 
 ### [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course)
@@ -2701,6 +2713,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。（GitHub 每日趋势 2026-10-03：★5690，当日 +3）
 - **归档**：`开源项目介绍/2026.10.3/tModLoader.md`
 - **标签**：`#csharp`
+
+### [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks)
+- **定位**：jailbreaks 是一个面向越狱提示词（jailbreak prompts）的工作合集，收录针对前沿模型、开放权重模
+- **简介**：jailbreaks 是一个面向越狱提示词（jailbreak prompts）的工作合集，收录针对前沿模型、开放权重模型与免费隐身模型的系统提示词、人格锁定（persona locks）、工作区策略与 Agent 运行规范。合集共 31 个提示词、覆盖 25+ 模型，内容包括完整系统提示词、人格定义、工作区策略、AGENTS.md 文件、配置块与 Ollama Modelfiles；所有文件均为完整、可直接粘贴的形态，不做摘要、不删节。覆盖范围包括：OpenCode Zen 提供的免费隐身模型；GLM、DeepSeek、Kimi、Qwen、Gemma、GPT-OSS 等开放权重家族；Claude、Gemini、Grok、Mistral 等闭源前沿模型；以及编码 Agent 与工作区指令。当前 ★5485（当日 +902）。适合安全研究者与红队评估模型边界，也为提示词工程学习提供一手素材；使用须遵守各模型服务条款，仅限授权测试与研究用途。（GitHub 每日趋势 2026-10-28：★5485，当日 +902）
+- **归档**：`开源项目介绍/2026.10.28/jailbreaks.md`
+- **标签**：`#开源`
 
 ### [twentyhq/twenty](https://github.com/twentyhq/twenty)
 - **定位**：Twenty：开源的 Salesforce 替代品，自称「#1 Open-Source CRM」，也是首个专为 AI 时

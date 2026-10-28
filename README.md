@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-26 ｜ **459** entries (450 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-28 ｜ **462** entries (453 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 57 |
+| 24 | Developer Resources & Curated Lists | 60 |
 | 25 | DevOps / Developer Tools | 30 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (39)
@@ -1567,7 +1567,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (57)
+## 二十四. Developer Resources & Curated Lists (60)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1637,6 +1637,10 @@ The Web framework for perfectionists with deadlines.
 `#typescript` · 2026-10-03
 Effect: build production-ready applications in TypeScript.
 
+### [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)
+`#open-source` · 2026-10-28
+elayadesign/ai-design-skills — GitHub Trending pick.
+
 ### [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)
 `#prompt-engineering` `#gpt-image` `#collection` `#agent-skill` `#ai-design` · 2026-09-23
 Industrial prompt engine and template library for GPT-Image (544 reverse-engineered cases).
@@ -1648,6 +1652,10 @@ We're not even close to "Wizden, but random" at this point.
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 `#python` · 2026-09-30
 Harvard CS249r textbook 'Machine Learning Systems' (4 volumes: foundations, scaling, agentic & physical AI).
+
+### [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor)
+`#python` · 2026-10-28
+DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.
 
 ### [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course)
 `#python` · 2026-10-04
@@ -1776,6 +1784,10 @@ Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
 A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
+
+### [togg53192-cmd/jailbreaks](https://github.com/togg53192-cmd/jailbreaks)
+`#open-source` · 2026-10-28
+LIST OF ALL MY JAILBREAKS
 
 ### [twentyhq/twenty](https://github.com/twentyhq/twenty)
 `#typescript` · 2026-10-21
