@@ -1639,7 +1639,7 @@ Effect: build production-ready applications in TypeScript.
 
 ### [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)
 `#open-source` · 2026-10-28
-elayadesign/ai-design-skills — GitHub Trending pick.
+A growing collection of design skills for AI coding tools.
 
 ### [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)
 `#prompt-engineering` `#gpt-image` `#collection` `#agent-skill` `#ai-design` · 2026-09-23
