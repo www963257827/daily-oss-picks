@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-28 ｜ 共收录 **462** 条内容（453 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-10-29 ｜ 共收录 **465** 条内容（456 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 39 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 41 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 60 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 61 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（39）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（41）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -105,11 +105,23 @@
 - **归档**：`开源项目介绍/2026.9.30/deer-flow.md`
 - **标签**：`#python`
 
+### [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)
+- **定位**：OpenBot 是 CopilotKit 团队出品的开源 AI 同事（AI coworkers）平台，口号是「你的公司真
+- **简介**：OpenBot 是 CopilotKit 团队出品的开源 AI 同事（AI coworkers）平台，口号是「你的公司真正拥有的 AI 助手」：形态与 ChatGPT、Claude、Grok 相同，但关键区别在于它运行在用户自己的基础设施上，且一切皆可修改。项目通过 AG-UI 协议接入任意 Agent 栈——无论基于何种框架编写还是手写，都能以「同事」身份加入并获得专属频道。每个 AI 同事都拥有一台自己的电脑：一个带独立登录态的真实浏览器、自己的文件系统，以及仅限你授予的工具；每个动作在执行前决定（decided before it happens）、执行后记录（recorded after），全程可审计、可回放，还能在它即将越界时接管操作（take the wheel）。当前 ★7773（当日 +240），主语言 TypeScript。适合希望在自有基础设施上部署可控 AI 助手、对数据主权与操作审计有要求的团队，以及已在使用 AG-UI 生态 Agent 的开发者。（GitHub 每日趋势 2026-10-29：★7773，当日 +240）
+- **归档**：`开源项目介绍/2026.10.29/OpenBot.md`
+- **标签**：`#typescript`
+
 ### [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
 - **定位**：Claude Code 的配置与监控 CLI 工具（含 Agent 仪表盘模板）。
 - **简介**：Claude Code 的配置与监控 CLI 工具（含 Agent 仪表盘模板）。（GitHub 每日趋势 2026-09-26：★31789，当日 +91）
 - **归档**：`开源项目介绍/2026.9.28/claude-code-templates.md`
 - **标签**：`#python`
+
+### [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)
+- **定位**：Claude Code Game Studios 把单个 Claude Code 会话变成一个完整的游戏开发工作室：49
+- **简介**：Claude Code Game Studios 把单个 Claude Code 会话变成一个完整的游戏开发工作室：49 个专门化 AI Agent、72 个工作流技能（README 标题标注 74 skills），外加一整套模仿真实工作室层级的协作系统。它针对的痛点是：单人用 AI 做游戏很强大，但单一聊天会话毫无结构——没人阻止你硬编码魔法数字、跳过设计文档、写出面条代码，没有 QA 把关、没有设计评审、没人追问「这真的契合游戏愿景吗」。项目把 49 个 Agent 编成工作室层级：守护愿景的导演（directors）、各司其职的部门主管（department leads）等角色围绕质量与一致性协作。当前 ★28645（当日 +538），主语言 Shell。适合用 Claude Code 做游戏原型或独立游戏开发、希望为 AI 引入工程纪律与质量流程的个人开发者与小团队。（GitHub 每日趋势 2026-10-29：★28645，当日 +538）
+- **归档**：`开源项目介绍/2026.10.29/Claude-Code-Game-Studios.md`
+- **标签**：`#shell`
 
 ### [earendil-works/pi](https://github.com/earendil-works/pi)
 - **定位**：通用 AI Agent 工具箱 · 编码 Agent 运行时
@@ -2388,7 +2400,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（60）
+## 📚 二十四、开发者资源 / 精选合集（61）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2581,6 +2593,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：开源 C#/.NET 研究服务器模拟器，用于本地协议与网络实验。（GitHub 每日趋势 2026-09-30：★729，当日 +7）
 - **归档**：`开源项目介绍/2026.9.30/MikuSB.md`
 - **标签**：`#csharp`
+
+### [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
+- **定位**：OpenMausBot（又名 MausBot，前身 OpenGrokBot）是一个开源的 Grok Bot 替代品：一个
+- **简介**：OpenMausBot（又名 MausBot，前身 OpenGrokBot）是一个开源的 Grok Bot 替代品：一个独立开源项目，灵感来自 Grok Bot，定位为 Meta Muse、OpenAI dots 与 Manus 旗下 Cue 的开源平替——核心理念是 bring-your-own-agent（自带 Agent）、local-first（本地优先），直接跑在你已有的模型上，与 xAI、Meta、OpenAI、Manus 均无隶属关系。它把侧边栏里的每个 bot 都做成真实 Agent：底层在本地运行 Claude 或 Codex，每个 bot 拥有自己的个性、自己的模型、自己的云电脑（virtual machine）以及自己连接的应用，用户像带团队一样在聊天应用中与这支 AI bot 团队协作。官网 openmausbot.com 提供下载。当前 ★7057（当日 +1190），主语言 TypeScript，涨势迅猛。适合不想绑定单一厂商 AI 产品、希望用自己已有的模型与 Agent 在本地自建 AI bot 团队的开发者与极客用户。（GitHub 每日趋势 2026-10-29：★7057，当日 +1190）
+- **归档**：`开源项目介绍/2026.10.29/OpenMausBot.md`
+- **标签**：`#typescript`
 
 ### [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
 - **定位**：mlabonne/llm-course 是一门免费的系统性大语言模型（LLM）课程，配路线图与 Colab 笔记本，目标

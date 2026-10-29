@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-28 ｜ **462** entries (453 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-29 ｜ **465** entries (456 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 39 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 41 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 60 |
+| 24 | Developer Resources & Curated Lists | 61 |
 | 25 | DevOps / Developer Tools | 30 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (39)
+## 一. AI Coding Agents · Runtimes & Methodologies (41)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -75,9 +75,17 @@ BMAD-METHOD: multi-agent agile AI development methodology with expert personas.
 `#python` · 2026-09-30
 An open-source long-horizon SuperAgent harness that researches, codes and creates (by ByteDance).
 
+### [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)
+`#typescript` · 2026-10-29
+Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.
+
 ### [davila7/claude-code-templates](https://github.com/davila7/claude-code-templates)
 `#python` · 2026-09-28
 CLI tool for configuring and monitoring Claude Code
+
+### [Donchitos/Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)
+`#shell` · 2026-10-29
+Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.
 
 ### [earendil-works/pi](https://github.com/earendil-works/pi)
 `#agent` `#typescript` `#coding-agent` `#monorepo` · 2026-09-06
@@ -1567,7 +1575,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (60)
+## 二十四. Developer Resources & Curated Lists (61)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1696,6 +1704,10 @@ Mathematical Foundation of Reinforcement Learning: why RL algorithms are designe
 ### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
 `#csharp` · 2026-09-30
 An open-source C#/.NET research server emulator for local protocol and networking experimentation.
+
+### [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)
+`#typescript` · 2026-10-29
+Open-source Grok Bot alternative with a virtual machine that bots can use
 
 ### [mlabonne/llm-course](https://github.com/mlabonne/llm-course)
 `#open-source` · 2026-10-19
