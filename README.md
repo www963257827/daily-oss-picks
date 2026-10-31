@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-29 ｜ **465** entries (456 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-10-31 ｜ **469** entries (460 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 41 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 42 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -23,17 +23,17 @@
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 15 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
-| 17 | System Tools & Desktop Productivity | 48 |
+| 17 | System Tools & Desktop Productivity | 49 |
 | 18 | Files · Downloads · Photo Management | 22 |
 | 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 61 |
+| 24 | Developer Resources & Curated Lists | 63 |
 | 25 | DevOps / Developer Tools | 30 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (41)
+## 一. AI Coding Agents · Runtimes & Methodologies (42)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -190,6 +190,10 @@ Build an agent harness and control it end-to-end.
 ### [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents)
 `#python` · 2026-10-25
 TradingAgents: Multi-Agents LLM Financial Trading Framework
+
+### [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)
+`#typescript` · 2026-10-31
+Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
 
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 `#agent-host` `#electron` `#rust` `#plugin` `#local-first` `#mcp` · 2026-09-23
@@ -1121,7 +1125,7 @@ Uno Platform: build cross-platform native mobile, web, desktop and embedded apps
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (48)
+## 十七. System Tools & Desktop Productivity (49)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1246,6 +1250,10 @@ Wuthering Waves automation: background auto-battle, echo farming and daily tasks
 ### [omacom/omarchy](https://github.com/omacom/omarchy)
 `#linux` `#arch` `#desktop-os` `#agent-native` `#dhh` `#neovim` · 2026-09-23
 DHH's Arch-based Linux distro — an operating system made agent-programmable.
+
+### [Orkas-AI/Orkas](https://github.com/Orkas-AI/Orkas)
+`#javascript` · 2026-10-31
+Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw…
 
 ### [pearlxcore/PS4PKGTool](https://github.com/pearlxcore/PS4PKGTool)
 `#csharp` · 2026-10-10
@@ -1575,7 +1583,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (61)
+## 二十四. Developer Resources & Curated Lists (63)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1688,6 +1696,10 @@ Bootstrap Kubernetes the hard way.
 ### [Kruk2/jasna](https://github.com/Kruk2/jasna)
 `#python` · 2026-10-19
 Video restoration tool
+
+### [lightpanda-io/browser](https://github.com/lightpanda-io/browser)
+`#zig` · 2026-10-31
+Lightpanda: the headless browser designed for AI and automation
 
 ### [liquidslr/system-design-notes](https://github.com/liquidslr/system-design-notes)
 `#open-source` · 2026-10-09
@@ -1808,6 +1820,10 @@ The open alternative to Salesforce, designed for AI.
 ### [vercel/next.js](https://github.com/vercel/next.js)
 `#javascript` · 2026-09-27
 The React Framework
+
+### [vorssaint/vorssaint-utils](https://github.com/vorssaint/vorssaint-utils)
+`#swift` · 2026-10-31
+Free and open-source macOS menu bar toolkit.
 
 ### [walkinglabs/hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl)
 `#textbook` `#open-source-books` `#reinforcement-learning` `#llm后训练` `#实战` · 2026-10-14
