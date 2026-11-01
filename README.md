@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-10-31 ｜ **469** entries (460 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-11-01 ｜ **475** entries (466 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -13,10 +13,10 @@
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
-| 7 | Security · Audit & Reverse Engineering | 25 |
+| 7 | Security · Audit & Reverse Engineering | 26 |
 | 8 | Skill Collections & Ecosystem | 32 |
-| 9 | Code Intelligence / RAG / Code Review | 14 |
-| 10 | Speech & TTS | 7 |
+| 9 | Code Intelligence / RAG / Code Review | 15 |
+| 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 18 |
 | 13 | Image / Video / Music Generation | 7 |
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 63 |
+| 24 | Developer Resources & Curated Lists | 65 |
 | 25 | DevOps / Developer Tools | 30 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (42)
@@ -421,7 +421,7 @@ Agent skill that turns plain-language descriptions into architecture/flow/sequen
 `#agent-skill` `#claude-code` `#3d` `#visualization` `#research` · 2026-10-22
 面向 Claude Code / Codex 的创意 3D 可视化 agent 技能：把一句话想法变成可探索的 Three.js/Blender 场景，靠真实渲染截图迭代
 
-## 七. Security · Audit & Reverse Engineering (25)
+## 七. Security · Audit & Reverse Engineering (26)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -430,6 +430,10 @@ HexStrike AI: an advanced MCP server that lets AI agents autonomously run 150+ c
 ### [abrignoni/ALEAPP](https://github.com/abrignoni/ALEAPP)
 `#python` · 2026-10-09
 ALEAPP: an Android Logs Events And Protobuf Parser (forensics).
+
+### [beenuar/AiSOC](https://github.com/beenuar/AiSOC)
+`#python` · 2026-11-01
+Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT…
 
 ### [BitterSecurity/Decepticon](https://github.com/BitterSecurity/Decepticon)
 `#python` · 2026-10-11
@@ -653,7 +657,7 @@ A SwiftUI agent skill for Claude Code, Codex and other AI tools (by Paul Hudson)
 `#claude-code` `#ai-agent` `#subagents` `#skill` `#mcp` · 2026-09-27
 Multi-harness agentic plugin marketplace: 94 plugins, 202 subagents, 7 host platforms.
 
-## 九. Code Intelligence / RAG / Code Review (14)
+## 九. Code Intelligence / RAG / Code Review (15)
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 `#code-review` `#alibaba` `#go` `#hybrid-architecture` `#line-level-comments` `#benchmark` · 2026-09-23
@@ -674,6 +678,10 @@ A Python library for extracting structured information from unstructured text us
 ### [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom)
 `#python` · 2026-10-10
 Headroom: compress tool outputs, logs, files and RAG chunks before they reach the LLM — 20% fewer tokens for coding agents, 60-95% for RAG.
+
+### [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)
+`#jupyternotebook` · 2026-11-01
+In-depth tutorials on LLMs, RAGs and real-world AI agent applications.
 
 ### [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
 `#python` · 2026-10-10
@@ -711,7 +719,15 @@ Multi-language code knowledge-graph RAG system (Memgraph + Qdrant).
 `#rust` · 2026-10-15
 Local AI search engine: autoindex code/docs/logs/PDFs, 40x fewer tokens than grep
 
-## 十. Speech & TTS (7)
+## 十. Speech & TTS (9)
+
+### [anomalyco/hex](https://github.com/anomalyco/hex)
+`#rust` · 2026-11-01
+Local-first voice dictation for macOS. Hold a shortcut, speak, and paste into any app. Native Rust, on-device speech recognition, and a Linux beta.
+
+### [cjpais/Handy](https://github.com/cjpais/Handy)
+`#rust` · 2026-11-01
+A free, open source, and extensible speech-to-text application that works completely offline.
 
 ### [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 `#tts` `#asr` `#voice-clone` `#mcp` `#local-first` `#electron` · 2026-09-06
@@ -1583,7 +1599,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (63)
+## 二十四. Developer Resources & Curated Lists (65)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1673,6 +1689,10 @@ Harvard CS249r textbook 'Machine Learning Systems' (4 volumes: foundations, scal
 `#python` · 2026-10-28
 DeepTutor: Lifelong Personalized Tutoring.https://deeptutor.info/.
 
+### [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
+`#cpp` · 2026-11-01
+Hyprland is an independent, highly customizable, dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
+
 ### [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course)
 `#python` · 2026-10-04
 A production-grade agentic RAG course (by Jam with AI).
@@ -1692,6 +1712,10 @@ Vibe code with pi in a lightweight, real IDE that customises itself around the w
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 `#open-source` · 2026-09-28
 Bootstrap Kubernetes the hard way.
+
+### [kornia/kornia](https://github.com/kornia/kornia)
+`#python` · 2026-11-01
+🐍 Geometric Computer Vision Library for Spatial AI
 
 ### [Kruk2/jasna](https://github.com/Kruk2/jasna)
 `#python` · 2026-10-19

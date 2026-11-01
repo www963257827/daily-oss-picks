@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-10-31 ｜ 共收录 **469** 条内容（460 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-11-01 ｜ 共收录 **475** 条内容（466 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
@@ -15,10 +15,10 @@
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
-| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 25 |
+| [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 26 |
 | [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 32 |
-| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 14 |
-| [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 7 |
+| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 15 |
+| [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 18 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 63 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 65 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -636,7 +636,7 @@
 
 <a id="sec-7"></a>
 
-## 🔐 七、安全 · 审计与逆向（25）
+## 🔐 七、安全 · 审计与逆向（26）
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 - **定位**：HexStrike AI：高级 MCP 服务器，让 Claude/GPT/Copilot 等 AI Agent 自主调度
@@ -648,6 +648,12 @@
 - **定位**：Android 日志事件与 Protobuf 解析器（取证工具）。
 - **简介**：Android 日志事件与 Protobuf 解析器（取证工具）。（GitHub 每日趋势 2026-10-09：★974，当日 +18）
 - **归档**：`开源项目介绍/2026.10.9/ALEAPP.md`
+- **标签**：`#python`
+
+### [beenuar/AiSOC](https://github.com/beenuar/AiSOC)
+- **定位**：AiSOC 是一个开源（MIT 许可）、可自托管的 AI 安全运营中心（AI Security Operations C
+- **简介**：AiSOC 是一个开源（MIT 许可）、可自托管的 AI 安全运营中心（AI Security Operations Center）：接入安全工具的遥测数据后，它做归一化处理，运行规则库检测与关联、把命中归并为事件（incidents），再用 AI Agent 逐一调查，最后由人工审批响应动作。核心亮点数字与能力：7015 条规则库中的 2530 条可执行规则；LLM-Agent 分诊与 MITRE ATT&CK 调查；每个 Agent 步骤的提示与工具调用全程记录，形成可回放的决策账本（replayable decision ledger），推理完全可审计；新威胁情报可对已收集的历史数据重新扫描。自托管运行无需任何 API keys，并附带面向 Claude、Cursor 与 Continue 的 MCP server；提供技术指南（PDF）、文档与架构说明。当前 ★5855（当日 +436），主语言 Python。适合安全团队自建 AI 辅助 SOC、需要可审计 Agent 调查与规则关联告警的场景。（GitHub 每日趋势 2026-11-01：★5855，当日 +436）
+- **归档**：`开源项目介绍/2026.11.1/AiSOC.md`
 - **标签**：`#python`
 
 ### [BitterSecurity/Decepticon](https://github.com/BitterSecurity/Decepticon)
@@ -989,7 +995,7 @@
 
 <a id="sec-9"></a>
 
-## 💻 九、代码智能 / RAG / 代码审查（14）
+## 💻 九、代码智能 / RAG / 代码审查（15）
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 - **定位**：阿里巴巴开源的 AI 代码审查 CLI（确定性工程 × Agent 混合架构）
@@ -1020,6 +1026,12 @@
 - **简介**：Headroom：压缩工具输出、日志、文件与 RAG 块再给 LLM——编码 Agent 省 20% token，RAG 场景省 60-95%。（GitHub 每日趋势 2026-10-10：★74820，当日 +120）
 - **归档**：`开源项目介绍/2026.10.10/headroom.md`
 - **标签**：`#python`
+
+### [patchy631/ai-engineering-hub](https://github.com/patchy631/ai-engineering-hub)
+- **定位**：AI Engineering Hub 是一个系统学习与构建 AI 的资源宝库，聚焦大语言模型（LLMs）、RAG 与真实
+- **简介**：AI Engineering Hub 是一个系统学习与构建 AI 的资源宝库，聚焦大语言模型（LLMs）、RAG 与真实世界 AI Agent 应用的深度教程（in-depth tutorials）。仓库收录 93+ 个生产就绪项目（Production-Ready Projects），覆盖从初学者到研究者的全部技能层级，提供入门指南与按难度分级的完整目录（Beginner/Intermediate/Advanced），每个示例都可实验、可改编、可扩展到自己的项目。项目针对「AI 工程演进太快，既要深入理解又要动手经验」的学习需求，把 LLM、RAG、Agent 的原理讲解与工程实践收在同一个仓库。当前 ★39770（当日 +573），主语言 Jupyter Notebook。适合想跟上 AI 工程进展、需要动手案例把 LLM/RAG/Agent 落地到真实场景的开发者与学生。（GitHub 每日趋势 2026-11-01：★39770，当日 +573）
+- **归档**：`开源项目介绍/2026.11.1/ai-engineering-hub.md`
+- **标签**：`#jupyternotebook`
 
 ### [Robbyant/lingbot-map](https://github.com/Robbyant/lingbot-map)
 - **定位**：ECCV 2026 最佳论文候选：LingBot-Map，几何上下文 Transformer 做流式 3D 重建。
@@ -1077,7 +1089,19 @@
 
 <a id="sec-10"></a>
 
-## 🎙️ 十、语音与 TTS（7）
+## 🎙️ 十、语音与 TTS（9）
+
+### [anomalyco/hex](https://github.com/anomalyco/hex)
+- **定位**：Hex 是一款本地优先（local-first）的语音听写工具，口号「Speak. It appears.」：按住快捷键
+- **简介**：Hex 是一款本地优先（local-first）的语音听写工具，口号「Speak. It appears.」：按住快捷键说话、松开，Hex 就在本机完成转写并把结果粘贴进你正在使用的应用。它用 Rust 原生编写，采用设备端识别（on-device transcription）——安装时下载本地语音模型，普通听写不需要云端转写服务，语音不出本机。当前 macOS 版支持 macOS 15 或更新版本（Apple silicon），同时提供 Windows beta 与 Linux beta 版本及 TypeScript SDK。用户可自选快捷键、语言与模型，并通过 Modes 实现纠正、应用特定行为与可选文本处理。当前 ★2525（当日 +172），主语言 Rust。适合注重隐私、希望听写完全本地化的 macOS 用户，Windows/Linux 用户可尝鲜 beta 版。（GitHub 每日趋势 2026-11-01：★2525，当日 +172）
+- **归档**：`开源项目介绍/2026.11.1/hex.md`
+- **标签**：`#rust`
+
+### [cjpais/Handy](https://github.com/cjpais/Handy)
+- **定位**：Handy 是一款免费、开源且可扩展的完全离线语音转文字（speech-to-text）桌面应用，用 Rust 编写。它
+- **简介**：Handy 是一款免费、开源且可扩展的完全离线语音转文字（speech-to-text）桌面应用，用 Rust 编写。它是一款跨平台桌面程序，主打隐私优先的简洁听写：按下快捷键、说话，你的话就会出现在任何文本框里——全程在你自己的电脑上完成，不向云端发送任何信息。项目创立的初衷是填补「真正开源、可扩展的语音转文字工具」这一空白：按 handy.computer 的说法，无障碍辅助工具应该属于每个人，而不是被藏在付费墙后面。核心特性：免费、开源、隐私（语音不出本机），并可通过扩展机制自行定制功能。当前 ★36054（当日 +611），主语言 Rust。适合注重隐私、不希望语音数据上传云端、需要开源听写工具的个人用户，也适合想二次开发定制听写能力的开发者。（GitHub 每日趋势 2026-11-01：★36054，当日 +611）
+- **归档**：`开源项目介绍/2026.11.1/Handy.md`
+- **标签**：`#rust`
 
 ### [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)
 - **定位**：本地语音工作室 · 开源版 ElevenLabs 替代 · 646 语言（原 OmniVoice-Studio）
@@ -2412,7 +2436,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（63）
+## 📚 二十四、开发者资源 / 精选合集（65）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2546,6 +2570,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.28/DeepTutor.md`
 - **标签**：`#python`
 
+### [hyprwm/Hyprland](https://github.com/hyprwm/Hyprland)
+- **定位**：Hyprland 是一个 100% 独立的动态平铺 Wayland 合成器（Wayland compositor），主打
+- **简介**：Hyprland 是一个 100% 独立的动态平铺 Wayland 合成器（Wayland compositor），主打高度可定制且不牺牲颜值。它提供最新的 Wayland 特性与丰富的视觉糖果：渐变边框、多种模糊、动画、辉光、阴影等一应俱全；自定义贝塞尔与弹簧曲线带来流畅动画，并支持 tearing 等游戏向特性。关键差异化是完全独立——不依赖 wlroots、libweston、kwin 或 mutter 任何既有合成器，自研实现，内置插件管理器与强大插件生态，配合易用的 IPC 与大量体验优化（QoL）功能。当前 ★39131（当日 +37），主语言 C++。适合 Linux 极客与 Wayland 桌面用户，尤其适合追求个性化桌面外观与行为、愿意折腾配置文件的开发者。（GitHub 每日趋势 2026-11-01：★39131，当日 +37）
+- **归档**：`开源项目介绍/2026.11.1/Hyprland.md`
+- **标签**：`#cpp`
+
 ### [jamwithai/production-agentic-rag-course](https://github.com/jamwithai/production-agentic-rag-course)
 - **定位**：生产级 Agentic RAG 课程（Jam with AI 出品）。
 - **简介**：生产级 Agentic RAG 课程（Jam with AI 出品）。（GitHub 每日趋势 2026-10-03：★9325，当日 +192）
@@ -2575,6 +2605,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：Kelsey Hightower 的经典教程：纯手工从零引导 Kubernetes，不用脚本、理解每一步。（GitHub 每日趋势 2026-09-26：★50056，当日 +105）
 - **归档**：`开源项目介绍/2026.9.28/kubernetes-the-hard-way.md`
 - **标签**：`#开源`
+
+### [kornia/kornia](https://github.com/kornia/kornia)
+- **定位**：Kornia 是一个基于 PyTorch 的可微分计算机视觉库（🐍 Geometric Computer Vision
+- **简介**：Kornia 是一个基于 PyTorch 的可微分计算机视觉库（🐍 Geometric Computer Vision Library for Spatial AI），提供丰富的可微分图像处理与几何视觉算法。它无缝集成进既有 AI 工作流，让开发者直接复用强大的批量变换、自动微分与 GPU 加速——无论做图像变换、数据增强还是 AI 驱动的图像处理，都能在 PyTorch 管线里即取即用。项目的演进方向是成为可微分计算机视觉与几何领域的参考实现与可执行规范（reference implementation and executable specification）。文档提供英语与简体中文版本，官网配套 Try it Now、教程（Tutorials）、示例（Examples）与博客。当前 ★11575（当日 +88），主语言 Python。适合计算机视觉、几何视觉与空间 AI 方向的研发者与工程师，尤其是需要把可微分视觉变换嵌入训练流程的研究场景。（GitHub 每日趋势 2026-11-01：★11575，当日 +88）
+- **归档**：`开源项目介绍/2026.11.1/kornia.md`
+- **标签**：`#python`
 
 ### [Kruk2/jasna](https://github.com/Kruk2/jasna)
 - **定位**：jasna 是一款免费的开源视频/图像修复工具，提供简洁的图形应用与命令行两种使用方式，基于 GPU 运行。它能在视频与
