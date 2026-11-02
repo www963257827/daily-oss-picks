@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-11-01 ｜ 共收录 **475** 条内容（466 个项目 + 9 篇精选文章）
+> 📅 最后更新：2026-11-02 ｜ 共收录 **478** 条内容（469 个项目 + 9 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 42 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 43 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 9 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 65 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 67 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（42）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（43）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -290,6 +290,12 @@
 - **简介**：**把项目、Agent、模型、插件和工作流带进一个持久的桌面环境**——macOS / Windows / Linux。核心主张三句话：**Your projects stay local · Your models stay replaceable · Your workspace stays yours**（项目留在本地、模型随时可换、工作空间归你所有）。定位很清晰：终端 Agent 擅长执行，IDE Agent 擅长住在编辑器里，PI-Desktop 再往前走一步——**给 AI Agent 一个属于它们自己的、持久的、独立的、可扩展的桌面工作空间**。四大支柱：**独立工作空间**（不依赖任何特定 IDE 或终端，项目/会话/审查/预览/agent 都活在自己的空间里）· **插件驱动**（插件扩展的**不只是 agent**，可以添加面板、视图、小组件、工具、MCP 服务器、主题和后台服务）· **Agent 编排**（一个 agent 往往不够，可委派给 **Subagent** 或并行协调整整的 **Worker Session**）· **模型自由**（云端模型、本地模型、自定义网关、兼容 API，**换模型不用重建工作流**）。技术架构是 **Electron + Rust host core + pi Agent Harness + 用户可安装插件**，前端 React + TypeScript，走 MCP 协议，带 i18n（含简体中文 README）。当前发布线 **0.15.x（Early Preview）**。LGPL-3.0，5,206 stars / 435 forks / 139 open issues，文档站 [pi-docs.aiuo.net](https://pi-docs.aiuo.net/)，社区 [r/AIUO](https://www.reddit.com/r/AIUO/)，2026-09-22 仍在推送。
 - **归档**：`开源项目介绍/2026.9.23/PI-Desktop.md`
 - **标签**：`#agent宿主` `#electron` `#rust` `#插件` `#本地优先` `#mcp`
+
+### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)
+- **定位**：Agent Desktop 是 Vercel Labs 出品的桌面 computer-use 工具（Rust 编写）：让
+- **简介**：Agent Desktop 是 Vercel Labs 出品的桌面 computer-use 工具（Rust 编写）：让任何 AI Agent 都能可靠操作桌面应用。它不靠像素猜测，而是通过操作系统的无障碍树（accessibility tree）读取应用的真实 UI 结构——一次 snapshot 返回 JSON，其中每个 Agent 可操作的元素都带稳定 ref；Agent 按 ref 执行动作后再次快照验证，ref 保持稳定、动作可安全重试，整个循环留在用户自己的 Agent 里。提供 CLI 与 C 库两种形态，覆盖 macOS、Windows 与 Linux。macOS 上 CLI 调用会按快照命名空间复用私有命令宿主，并保留原生无障碍对象，已删除的行不会静默解析到同标识符的幸存行；宿主 15 分钟空闲后退出（TMPDIR 需归当前用户所有且权限 0700）。当前 ★7860（当日 +2243，涨势迅猛）。适合为 AI Agent 补上可靠桌面操作能力的开发者，尤其是做 GUI 自动化与电脑操控 Agent 的场景。（GitHub 每日趋势 2026-11-02：★7860，当日 +2243）
+- **归档**：`开源项目介绍/2026.11.2/agent-desktop.md`
+- **标签**：`#rust`
 
 ### [vercel-labs/skills](https://github.com/vercel-labs/skills)
 - **定位**：Vercel 开源的 Agent Skills 管理工具（npx skills）
@@ -2436,7 +2442,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（65）
+## 📚 二十四、开发者资源 / 精选合集（67）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2599,6 +2605,18 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：thinkrail 是 JetBrains 出品的 Agentic IDE（★1126，当日 +52），口号「Vibe code with pi」，定位越用越聪明：围绕 `pi` 编码 Agent 打造富界面，把不同任务隔离进独立的 git-worktree 工作区，并通过「活规格」（living specs）与可复用技能赋予 Agent 持久项目知识——今天学习你的项目，明天构建自己的能力。完整扩展支持也在路上，届时它能按你的实际工作方式自造工具。官网 thinkrail.ai 另附博客，README 演示了 pi 会话及其改动如何被限制在隔离工作区内。适合想让 IDE 随使用不断沉淀项目上下文、偏好轻量真实 IDE 而非纯聊天界面的开发者，也值得关注 JetBrains 在 Agent 方向的演进。（GitHub 每日趋势 2026-10-25：★1126，当日 +52）
 - **归档**：`开源项目介绍/2026.10.25/thinkrail.md`
 - **标签**：`#typescript`
+
+### [JustVugg/colibri](https://github.com/JustVugg/colibri)
+- **定位**：colibri 是一个用纯 C 写成的 MoE 大模型推理引擎，口号「Tiny engine, immense mode
+- **简介**：colibri 是一个用纯 C 写成的 MoE 大模型推理引擎，口号「Tiny engine, immense model. 🐦」——让你在已有的硬件上跑前沿规模的开放模型。原理是利用 MoE 的特性：数千亿参数的模型每个 token 只激活一小部分，colibri 把这部分常驻 RAM，其余「专家」按模型需要从磁盘流式读入。项目零依赖、每模型家族一个文件、不需要 GPU。目前共 13 个引擎，其中 10 个面向语言模型：GLM-5.2/5.3（同一引擎还能跑 Mistral-Large-4）、GLM-5.3-Flash、Inkling、Kimi K3、DeepSeek V4 Flash、DeepSeek V4.1 Flash、MiMo-V2.6 Flash（及 Pro）、Qwen3.8-Flash-Next 等。README 提供英语、简体中文、繁体中文、意大利语、日语、印尼语、巴西葡萄牙语版本。当前 ★46155（当日 +655）。适合没有高端 GPU、却想在本地跑超大开源 MoE 模型的个人与团队。（GitHub 每日趋势 2026-11-02：★46155，当日 +655）
+- **归档**：`开源项目介绍/2026.11.2/colibri.md`
+- **标签**：`#c`
+
+### [karpathy/nanochat](https://github.com/karpathy/nanochat)
+- **定位**：nanochat 是 Andrej Karpathy 出品的最简 LLM 训练实验框架，口号「The best Chat
+- **简介**：nanochat 是 Andrej Karpathy 出品的最简 LLM 训练实验框架，口号「The best ChatGPT that $100 can buy」（100 美元能买到的最好的 ChatGPT）。它为单 GPU 节点设计，代码保持极简与可魔改（minimal/hackable），却覆盖 LLM 的完整生命周期：tokenization、pretraining、finetuning、evaluation 到 inference，训练完即可通过简单 CLI 与自己的模型对话。亮点是成本：把一个 2019 年需约 $43,000 训练的 GPT-2 能力级 LLM 压到仅 $48（约 2 小时 8×H100 GPU 节点），用竞价实例总价可低至 ~$15。更一般地，它开箱即用地通过单一复杂度旋钮 --depth（GPT transformer 层数）训练一整套 compute-optimal 模型。当前 ★59611（当日 +325）。适合想以极低成本亲手走一遍 LLM 训练全流程的学习者与研究者。（GitHub 每日趋势 2026-11-02：★59611，当日 +325）
+- **归档**：`开源项目介绍/2026.11.2/nanochat.md`
+- **标签**：`#python`
 
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - **定位**：Kelsey Hightower 的经典教程：纯手工从零引导 Kubernetes，不用脚本、理解每一步。

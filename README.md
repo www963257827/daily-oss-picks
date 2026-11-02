@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-01 ｜ **475** entries (466 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-11-02 ｜ **478** entries (469 projects + 9 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 42 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 43 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 9 |
-| 24 | Developer Resources & Curated Lists | 65 |
+| 24 | Developer Resources & Curated Lists | 67 |
 | 25 | DevOps / Developer Tools | 30 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (42)
+## 一. AI Coding Agents · Runtimes & Methodologies (43)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -198,6 +198,10 @@ Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learnin
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 `#agent-host` `#electron` `#rust` `#plugin` `#local-first` `#mcp` · 2026-09-23
 Modular desktop workspace for AI agents — local-first, model-agnostic, plugin-driven.
+
+### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)
+`#rust` · 2026-11-02
+Agent Desktop gives any agent reliable computer use on the desktop. Built with Rust, it sees any app's real UI structure through OS accessibility trees and operates it — refs stay stable and actions…
 
 ### [vercel-labs/skills](https://github.com/vercel-labs/skills)
 `#typescript` · 2026-10-13
@@ -1599,7 +1603,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (65)
+## 二十四. Developer Resources & Curated Lists (67)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1708,6 +1712,14 @@ Clean Architecture Solution Template for ASP.NET Core.
 ### [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)
 `#typescript` · 2026-10-25
 Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
+
+### [JustVugg/colibri](https://github.com/JustVugg/colibri)
+`#c` · 2026-11-02
+Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
+
+### [karpathy/nanochat](https://github.com/karpathy/nanochat)
+`#python` · 2026-11-02
+The best ChatGPT that $100 can buy.
 
 ### [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 `#open-source` · 2026-09-28
