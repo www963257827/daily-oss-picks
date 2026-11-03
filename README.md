@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-02 ｜ **478** entries (469 projects + 9 articles) ｜ 25 categories
+> Last updated: 2026-11-03 ｜ **479** entries (469 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -29,7 +29,7 @@
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
-| 23 | Articles / AI News | 9 |
+| 23 | Articles / AI News | 10 |
 | 24 | Developer Resources & Curated Lists | 67 |
 | 25 | DevOps / Developer Tools | 30 |
 
@@ -1565,7 +1565,7 @@ Generate city 3D building white models from OSM: box-select area, export GLB (ma
 `#gis` `#webassembly` `#cloud-native` `#tauri` · 2026-09-06
 Cloud-native GIS platform: one codebase for browser, desktop, mobile and Jupyter.
 
-## 二十三. Articles / AI News (9)
+## 二十三. Articles / AI News (10)
 
 ### [4 个高频 Obsidian 插件推荐](https://mp.weixin.qq.com/s/WWEhZmheiqH00UepUxF-MQ)
 `#obsidian` `#plugin` `#tools` · 2026-08-16
@@ -1598,6 +1598,10 @@ Article: SenseNova U1.5 Lite — a lightweight unified multimodal model open-sou
 ### [WPF 开源 UI 框架选型指南](其它文章/2026.9.26/WPF开源UI框架选型指南.md)
 `#wpf` `#ui-framework` `#selection-guide` · 2026-09-26
 Article: a guide to open-source WPF UI frameworks.
+
+### [用一张 RTX 3060 12G 本地跑 MiniMax H3 视频生成（附性能实测）](https://mp.weixin.qq.com/s/boYoXDWr0DQbAVyu_iy2Xg)
+`#text-to-video` `#comfyui` `#local-deployment` `#diffusion-model` `#open-models` · 2026-11-03
+用一张 RTX 3060 12G 本地跑 MiniMax H3 视频生成（附性能实测）
 
 ### [智谱 GLM-5.3：后训练之王](https://mp.weixin.qq.com/s/1gXdfR6KU0Q4iyU8XR19RQ)
 `#glm` `#cybersecurity` `#open-models`
