@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-03 ｜ **479** entries (469 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-03 ｜ **482** entries (472 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -21,7 +21,7 @@
 | 12 | Local Inference Engines & Optimization | 18 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
-| 15 | Content Discovery & Intelligence | 15 |
+| 15 | Content Discovery & Intelligence | 16 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 49 |
 | 18 | Files · Downloads · Photo Management | 22 |
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 67 |
+| 24 | Developer Resources & Curated Lists | 69 |
 | 25 | DevOps / Developer Tools | 30 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (43)
@@ -989,7 +989,7 @@ Tencent's browser bridge for agents: reuses your real, logged-in browser without
 `#self-hosted` `#multi-agent` `#tencent-cloud` `#im-integration` `#local-first` `#acp` · 2026-09-23
 Self-hosted multi-user, multi-agent AI assistant platform from Tencent Cloud.
 
-## 十五. Content Discovery & Intelligence (15)
+## 十五. Content Discovery & Intelligence (16)
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 `#agent` `#swarm-intelligence` `#prediction` `#multi-agent` `#shanda` · 2026-09-16
@@ -1046,6 +1046,10 @@ TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 |
 ### [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch)
 `#stock` `#ai-agent` `#self-hosted` `#fastapi` `#trading` `#fintech` · 2026-09-25
 Self-hosted AI stock-watching assistant with multi-agent investment decisions.
+
+### [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor)
+`#python` · 2026-11-03
+Playwright + AI based Xianyu (Goofish) multi-task realtime monitor with a full web UI: natural-language task creation, multimodal product analysis, region/price filters, and multi-channel notifications.
 
 ### [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw)
 `#recommendations` `#local-first` `#content-discovery` · 2026-09-06
@@ -1607,7 +1611,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (67)
+## 二十四. Developer Resources & Curated Lists (69)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1680,6 +1684,10 @@ Effect: build production-ready applications in TypeScript.
 ### [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)
 `#open-source` · 2026-10-28
 A growing collection of design skills for AI coding tools.
+
+### [floci-io/floci](https://github.com/floci-io/floci)
+`#java` · 2026-11-03
+Free open-source local AWS emulator and LocalStack drop-in replacement: AWS-shaped services via docker compose at localhost:4566, no account or feature gates, with Terraform/CDK/Testcontainers support.
 
 ### [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)
 `#prompt-engineering` `#gpt-image` `#collection` `#agent-skill` `#ai-design` · 2026-09-23
@@ -1840,6 +1848,10 @@ Source code for Unturned: a free open-world zombie survival sandbox game.
 ### [space-wizards/space-station-14](https://github.com/space-wizards/space-station-14)
 `#csharp` · 2026-10-08
 Space Station 14: a multiplayer game about paranoia and chaos on a space station (SS13 remake).
+
+### [spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins)
+`#typescript` · 2026-11-03
+Spotify's official Portal plugin for coding agents: set up Portal CLI auth, search the software catalog, build service briefings, run diagnostics, and safely invoke Portal actions from Claude Code, Codex, Cursor, and pi.
 
 ### [stride3d/stride](https://github.com/stride3d/stride)
 `#csharp` · 2026-10-08

@@ -3,7 +3,7 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-11-03 ｜ 共收录 **479** 条内容（469 个项目 + 10 篇精选文章）
+> 📅 最后更新：2026-11-03 ｜ 共收录 **482** 条内容（472 个项目 + 10 篇精选文章）
 
 ## 📑 目录索引
 
@@ -23,7 +23,7 @@
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 18 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
-| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 15 |
+| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 16 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 49 |
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 67 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 69 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -1505,7 +1505,7 @@
 
 <a id="sec-15"></a>
 
-## 🛰️ 十五、内容发现与情报（15）
+## 🛰️ 十五、内容发现与情报（16）
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 - **定位**：群体智能预测引擎 · 盛大出品
@@ -1591,6 +1591,12 @@
 - **关联**：库内 [koala73/worldmonitor](https://github.com/koala73/worldmonitor)（同为自托管情报仪表盘）
 - **归档**：`开源项目介绍/2026.9.25/PanWatch.md`
 - **标签**：`#stock` `#ai-agent` `#self-hosted` `#fastapi` `#trading` `#fintech`
+
+### [Usagi-org/ai-goofish-monitor](https://github.com/Usagi-org/ai-goofish-monitor)
+- **定位**：基于 Playwright 与 AI 的闲鱼多任务实时/定时监控系统，配备功能完善的 Web 后台：任务管理、账号管理、
+- **简介**：基于 Playwright 与 AI 的闲鱼多任务实时/定时监控系统，配备功能完善的 Web 后台：任务管理、账号管理、AI 筛选标准编辑、运行日志与结果浏览全在浏览器完成。核心能力：自然语言创建监控任务，多模态模型对商品做深度智能分析，判断是否符合心仪标准；多任务并发，每个任务独立配置关键词、价格区间、筛选条件与 AI Prompt；高级筛选支持包邮、新发布时间范围与省/市/区三级区域；命中后即时通知，支持 ntfy.sh、企业微信、Bark、Telegram、Webhook 等多渠道；Cron 定时调度周期任务；多账号管理与任务绑定、代理池轮换与失败重试，降低风控与封号风险。Docker 一键部署（git clone 后 cp .env.example .env 填配置、docker compose up -d），镜像拉取慢可改走 ghcr.nju.edu.cn 南大加速源再重新打 tag。当前 ★16103（当日 +204），主语言 Python。适合闲鱼捡漏场景——二手数码、镜头、模型、演出票等，让 AI 7×24 盯盘，符合条件的商品第一时间推送到手机。（GitHub 每日趋势 2026-11-03：★16103，当日 +204）
+- **归档**：`开源项目介绍/2026.11.3/ai-goofish-monitor.md`
+- **标签**：`#python`
 
 ### [whiteguo233/OpenBiliClaw](https://github.com/whiteguo233/OpenBiliClaw)
 - **定位**：本地优先 AI 内容发现 Agent
@@ -2448,7 +2454,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（67）
+## 📚 二十四、开发者资源 / 精选合集（69）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2557,6 +2563,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：AI Design Skills 是一个持续扩充的设计技能（design skills）合集，面向 Claude Code、Cursor、Codex、Windsurf 等一切读取 Markdown 规则文件的 AI 编码工具。每个技能都是一个自包含文件夹，按需安装即可。首个技能 landing-page-design 能从零搭建落地页：先通过引导问题（intake questions）明确需求，再给出页面结构、转化文案（conversion copy）以及一整套视觉系统（字体、间距、圆角、动效）。针对已有网站的升级改造则不在此合集内——它因诞生更早而独立成库，更多技能在路上。当前 ★9267（当日 +1395）。适合用 AI 编码工具做落地页、希望不请设计师也能快速获得专业级视觉方案的独立开发者与小团队。（GitHub 每日趋势 2026-10-28：★9267，当日 +1395）
 - **归档**：`开源项目介绍/2026.10.28/ai-design-skills.md`
 - **标签**：`#开源`
+
+### [floci-io/floci](https://github.com/floci-io/floci)
+- **定位**：免费开源的本地 AWS 模拟器（LocalStack 平替），面向开发、测试与 CI 场景：一条 docker comp
+- **简介**：免费开源的本地 AWS 模拟器（LocalStack 平替），面向开发、测试与 CI 场景：一条 docker compose up 即可在本机跑起 AWS 形态的各类服务，无需云账号、无需认证令牌、没有任何付费功能门（feature gates）——口号是 Light, fluffy, and always free。把 AWS SDK、CLI、Terraform、CDK、OpenTofu 或测试套件指向 http://localhost:4566 即可沿用现有工作流；已在用 LocalStack 的项目是 drop-in replacement，换掉镜像即可平滑迁移（仓库提供专门迁移指南），并原生支持 Testcontainers 集成测试与各家 AWS SDK。当前 ★28177（当日 +219），主语言 Java，是 Floci 多云模拟器家族的 AWS 成员（同家族还覆盖其他云）。适合本地开发调试、CI 流水线与集成测试中替代真实 AWS 或 LocalStack 商业版——零成本、零延迟、数据不出本机。（GitHub 每日趋势 2026-11-03：★28177，当日 +219）
+- **归档**：`开源项目介绍/2026.11.3/floci.md`
+- **标签**：`#java`
 
 ### [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2)
 - **定位**：GPT-Image2/2.5 工业级提示词引擎与模板库 · 544 个逆向案例 + 20+ 套模板 + Agent Skill
@@ -2797,6 +2809,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：太空站 14：关于太空站上猜疑与混乱的多人游戏（经典 SS13 重制）。（GitHub 每日趋势 2026-10-07：★3850，当日 +2）
 - **归档**：`开源项目介绍/2026.10.8/space-station-14.md`
 - **标签**：`#csharp`
+
+### [spotify/portal-ai-plugins](https://github.com/spotify/portal-ai-plugins)
+- **定位**：Spotify 官方推出的 AI 编码插件，把 Spotify Portal（其基于 Backstage 的内部开发者门
+- **简介**：Spotify 官方推出的 AI 编码插件，把 Spotify Portal（其基于 Backstage 的内部开发者门户）接入 Claude Code、Codex、Cursor、pi 等主流编码 Agent，通过 Portal CLI 提供一组聚焦的工作流：为当前编码环境配置 Portal CLI 认证、用自然语言检索软件目录（software catalog）与技术文档、生成包含负责人/健康状态/事故/文档的简明服务简报（service briefings）、运行只读诊断（一次性验证插件、CLI、认证与动作的就绪状态），以及带内置帮助、dry-run 与确认机制地安全调用 Portal 动作。当前 ★2914（当日 +94），主语言 TypeScript。适合把 Spotify Portal 作为研发门户的团队在编码 Agent 对话中直接完成服务查询与运维操作，不必切出控制台；也展示了官方软件目录类 SaaS 如何以开放插件标准（agentskills.io）开放给 AI Agent 生态。（GitHub 每日趋势 2026-11-03：★2914，当日 +94）
+- **归档**：`开源项目介绍/2026.11.3/portal-ai-plugins.md`
+- **标签**：`#typescript`
 
 ### [stride3d/stride](https://github.com/stride3d/stride)
 - **定位**：Stride（原 Xenko）：免费开源的跨平台 C# 游戏引擎。
