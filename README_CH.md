@@ -3,20 +3,20 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-11-03 ｜ 共收录 **482** 条内容（472 个项目 + 10 篇精选文章）
+> 📅 最后更新：2026-11-04 ｜ 共收录 **487** 条内容（477 个项目 + 10 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 43 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 44 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 26 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 32 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 33 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 15 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
@@ -27,20 +27,20 @@
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 49 |
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
-| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 9 |
+| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 10 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 69 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 30 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 70 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 31 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（43）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（44）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -218,6 +218,12 @@
 - **简介**：hallmark 是 Together AI 出品的设计技能（design skill），面向 Claude Code、Codex、Cursor 与 OpenCode，核心使命是「拒绝一眼 AI 生成」——专治 AI 写网页的「AI 味」。工作方式是：内置 48 套主题材质目录，每次发出三个主题方案，围绕访客真正要办的事搭建页面，再把结果放进真实浏览器里 lint，逐条对照那些「机器制造痕迹」开火：每个标题上方的眉题（eyebrow）、全大写宽字距标签、标题里唯一一个彩色词、整页空框或只剩照片、撑不满首屏的 hero、每节结尾都来的邮件订阅……官网 usehallmark.com 另提供定制主题，以及按名字进行的重构与审计服务。当前 ★32122（当日 +455）。适合用 AI 编码工具做落地页、想快速去「AI 味」的独立开发者与前端团队。（GitHub 每日趋势 2026-10-25：★32122，当日 +455）
 - **归档**：`开源项目介绍/2026.10.25/hallmark.md`
 - **标签**：`#css`
+
+### [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)
+- **定位**：NVIDIA 官方开源（Apache 2.0）的 Python 框架，用于在数据之上构建语义化、图结构的推理层（onto
+- **简介**：NVIDIA 官方开源（Apache 2.0）的 Python 框架，用于在数据之上构建语义化、图结构的推理层（ontology），解决的是 Agent 分析企业数据时「答得快但答错」的可靠性问题。它作为一个与数据库并列部署的服务运行：把库表元数据编译成本体（ontology）——业务术语映射到表/字段、数据含义、血缘来源与使用方式，Agent 查询前先从这里获得「数据在哪、是什么、该不该用、怎么用、从哪来」的完整上下文。由此带来三项核心收益：确定性查询生成（deterministic query generation）、更精准的上下文检索、以及更可解释的 AI 输出，让 LLM 与 Agent 工作流在企业数据上少给错误答案。当前 ★3639（当日 +2053，冲榜势头极猛），主语言 Python。适合做 agentic analytics（Agent 数据分析）的团队：在 Text-to-SQL、企业知识问答、数据 Agent 等场景里，把「靠模型猜」变成「靠本体查」。（GitHub 每日趋势 2026-11-04：★3639，当日 +2053）
+- **归档**：`开源项目介绍/2026.11.4/auto-ontology.md`
+- **标签**：`#python`
 
 ### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)
 - **定位**：英伟达出品：面向自主 AI Agent 的安全私有运行时。
@@ -803,7 +809,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（32）
+## 🧩 八、Skill 合集与生态（33）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -979,6 +985,12 @@
 - **简介**：Agent OS：Agent 自我变强，人类只守底线——面试门控、分级评估、预算化进化循环，含 MCP 服务器与 14 种运行时。（GitHub 每日趋势 2026-09-30：★6138，当日 +11）
 - **归档**：`开源项目介绍/2026.9.30/ouroboros.md`
 - **标签**：`#python`
+
+### [scenario-labs/skills](https://github.com/scenario-labs/skills)
+- **定位**：Scenario 官方的 Agent Skills 集合，教会 AI 编码 Agent（Claude Code、Curs
+- **简介**：Scenario 官方的 Agent Skills 集合，教会 AI 编码 Agent（Claude Code、Cursor、Codex、Copilot 等 70+ 工具）通过 Scenario MCP 服务器产出生产级内容：图像、视频、音频、材质贴图、天空盒、3D 资产与自训练模型，面向游戏、娱乐与各类创意行业。内置三个关键机制：自动选对模型（skills that pick the right model）、花钱前先报价（price before spending）、角色与品牌风格跨次生成保持一致（keep characters and brands consistent）。列表底部的专家工具另有玩法：从专家教程、大会演讲与官方文档蒸馏出的「技能团队」，直接驱动本机安装的 DCC 软件与游戏引擎——ZBrush、Blender、Maya、Unreal Engine、Unity、Godot、Roblox Studio（这些需要装应用本体，不走 MCP）。当前 ★2079（当日 +224），主语言 Python。适合游戏与 AIGC 工作流团队把生成管线接进编码 Agent，一句话出资产出、成本可控、风格不漂。（GitHub 每日趋势 2026-11-04：★2079，当日 +224）
+- **归档**：`开源项目介绍/2026.11.4/skills.md`
+- **标签**：`#python` `#agent-skill` `#skill-md`
 
 ### [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)
 - **定位**：面向专业编码 Agent 的**安全策展** Skill 注册中心 · 一份技能装到 17 个 Agent
@@ -2187,7 +2199,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-19"></a>
 
-## ▶️ 十九、图片查看与媒体播放（9）
+## ▶️ 十九、图片查看与媒体播放（10）
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 - **定位**：跨平台重复视频/图片查找器（可选本地 AI 匹配）
@@ -2236,6 +2248,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：好用的字幕编辑器。（GitHub 每日趋势 2026-10-03：★14414，当日 +12）
 - **归档**：`开源项目介绍/2026.10.4/subtitleedit.md`
 - **标签**：`#csharp`
+
+### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
+- **定位**：最早的开源 AI 代码审查 Agent（PR Reviewer），Qodo（原 CodiumAI）的社区维护版遗留项目—
+- **简介**：最早的开源 AI 代码审查 Agent（PR Reviewer），Qodo（原 CodiumAI）的社区维护版遗留项目——注意它不是 Qodo 官方免费版，两者是不同产品线：Qodo 主打商业化的功能丰富、上下文感知审查服务，而 PR-Agent 由社区维护、靠赞助商支持持续开发。核心能力围绕 Pull Request 全流程自动化：自动生成 PR 描述、AI 代码审查、按文件给出改进建议、对 PR 内容按需问答等，可无缝集成 GitHub、GitLab、Bitbucket 与 Azure DevOps，也提供 GitHub Action 等接入方式。当前 ★14504（当日 +279），主语言 Python。适合想在自托管/私有化环境里跑一套可控的开源 PR 审查流水线的团队——数据不出内网、模型可自选；若要更完整的商业化体验再考虑 Qodo 云服务。（GitHub 每日趋势 2026-11-04：★14504，当日 +279）
+- **归档**：`开源项目介绍/2026.11.4/pr-agent.md`
+- **标签**：`#python`
 
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
 - **定位**：为语言学习而生的媒体播放器（双字幕 + AI 字幕 + 实时翻译）
@@ -2454,7 +2472,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（69）
+## 📚 二十四、开发者资源 / 精选合集（70）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2623,6 +2641,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：thinkrail 是 JetBrains 出品的 Agentic IDE（★1126，当日 +52），口号「Vibe code with pi」，定位越用越聪明：围绕 `pi` 编码 Agent 打造富界面，把不同任务隔离进独立的 git-worktree 工作区，并通过「活规格」（living specs）与可复用技能赋予 Agent 持久项目知识——今天学习你的项目，明天构建自己的能力。完整扩展支持也在路上，届时它能按你的实际工作方式自造工具。官网 thinkrail.ai 另附博客，README 演示了 pi 会话及其改动如何被限制在隔离工作区内。适合想让 IDE 随使用不断沉淀项目上下文、偏好轻量真实 IDE 而非纯聊天界面的开发者，也值得关注 JetBrains 在 Agent 方向的演进。（GitHub 每日趋势 2026-10-25：★1126，当日 +52）
 - **归档**：`开源项目介绍/2026.10.25/thinkrail.md`
 - **标签**：`#typescript`
+
+### [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)
+- **定位**：一个相当硬核的多平台光盘盘面图像生成与刻录工具（C#，自带 .NET 运行时）：把一张普通图片转换成符合 CD / DV
+- **简介**：一个相当硬核的多平台光盘盘面图像生成与刻录工具（C#，自带 .NET 运行时）：把一张普通图片转换成符合 CD / DVD / 单层蓝光物理层数据约束的盘面数据，刻录后光盘正面直接呈现肉眼可见的图案——不用贴纸、不用盘打印机的「刻蚀盘面」方案。当前 ★5984（当日 +1792，爆发式冲榜）。工作流三步：新建工程（选 CD/DVD/蓝光并指定输出位置）→ 设计页用图层排版、「影调」模块调抖动/伽马/亮度/灰阶档位 → 预览盘面投影后导出 ISO / RAW / WAV+CUE 或即时刻录（实验性功能，官方提醒只用可报废的测试介质）。格式支持：任何 CD（可导出带格式头的 WAV 音轨与 CUE，兼容 cdrecord、ImgBurn，也支持 RAW 音轨）；任何 DVD（导出 ISO 镜像）；单层 BD-R 25GB（支持纯绘图与 UDF 2.01）。Windows 下载 win-x64.exe 直接运行，Linux/macOS 提供 CPU 对应的实验性 CLI 包。适合想给自制光盘做个性化盘面、或研究光盘物理层编码的极客与光盘收藏/修复爱好者。（GitHub 每日趋势 2026-11-04：★5984，当日 +1792）
+- **归档**：`开源项目介绍/2026.11.4/DiscImageStudio.md`
+- **标签**：`#csharp`
 
 ### [JustVugg/colibri](https://github.com/JustVugg/colibri)
 - **定位**：colibri 是一个用纯 C 写成的 MoE 大模型推理引擎，口号「Tiny engine, immense mode
@@ -2872,7 +2896,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（30）
+## 🚀 二十五、DevOps / 开发者工具（31）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -2958,6 +2982,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：Meloong-Git/PCL 是国产 Minecraft 启动器「Plain Craft Launcher（PCL）」的源代码仓库，使用 Visual Basic .NET 编写。代码包含 PCL 的大部分模块：自研 UI 库、动画模块、下载模块与 Minecraft 启动模块等，是学习 .NET 桌面应用与启动器架构的完整参考。需要注意代码并非实时更新，而是在每次 PCL 发布新版本时同步一次。项目同时提供免费正式版下载入口、功能投票（开发者会优先处理票数较高的需求）以及内置帮助文档库。当前 ★8537（当日 +0）。适合 PCL 用户了解启动器实现、想二次定制启动器的 VB.NET 开发者，以及学习 .NET 桌面客户端工程组织的初学者。（GitHub 每日趋势 2026-10-22：★8537，当日 +0）
 - **归档**：`开源项目介绍/2026.10.22/PCL.md`
 - **标签**：`#visualbasicnet`
+
+### [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)
+- **定位**：DevOps 领域最知名的「公开学习」项目之一：作者 Michael Cade 从 2022-01-01 到 2022-
+- **简介**：DevOps 领域最知名的「公开学习」项目之一：作者 Michael Cade 从 2022-01-01 到 2022-03-31 用 90 天系统学习 DevOps 并把笔记全部公开，如今已长成社区广泛使用的结构化学习地图，连续更新三年，覆盖 DevOps 原则、流程、工具链与实战用例的完整基础版图。当前 ★30140（当日 +156），主语言 Shell。内容组织为按天划分的课程（Day 1~90），每节围绕一个主题给出概念讲解、工具介绍与延伸资源；2022 年之后新增 DevSecOps 专章（补齐安全主题）、社区专家供稿的 Perspective 系列，正文由社区翻译校对成多语言版本，另有 Community Edition 社区共建分支。适合想系统打 DevOps 地基的工程师按图索骥，也适合团队新人培训与面试备考——它是「学习路线图类」仓库里少有的被实践检验过三年、仍在维护的活文档。（GitHub 每日趋势 2026-11-04：★30140，当日 +156）
+- **归档**：`开源项目介绍/2026.11.4/90DaysOfDevOps.md`
+- **标签**：`#shell`
 
 ### [microsoft/aspire](https://github.com/microsoft/aspire)
 - **定位**：微软的 .NET 云原生应用编排工具，代码优先、可扩展。

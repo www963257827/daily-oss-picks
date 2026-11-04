@@ -3,18 +3,18 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-03 ｜ **482** entries (472 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-04 ｜ **487** entries (477 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 43 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 44 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
 | 7 | Security · Audit & Reverse Engineering | 26 |
-| 8 | Skill Collections & Ecosystem | 32 |
+| 8 | Skill Collections & Ecosystem | 33 |
 | 9 | Code Intelligence / RAG / Code Review | 15 |
 | 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
@@ -25,15 +25,15 @@
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 49 |
 | 18 | Files · Downloads · Photo Management | 22 |
-| 19 | Image Viewers & Media Players | 9 |
+| 19 | Image Viewers & Media Players | 10 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 69 |
-| 25 | DevOps / Developer Tools | 30 |
+| 24 | Developer Resources & Curated Lists | 70 |
+| 25 | DevOps / Developer Tools | 31 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (43)
+## 一. AI Coding Agents · Runtimes & Methodologies (44)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -150,6 +150,10 @@ A local-first desktop workspace for persistent AI teammates. Run Codex, Claude, 
 ### [Nutlope/hallmark](https://github.com/Nutlope/hallmark)
 `#css` · 2026-10-25
 Anti-AI-slop design skill for Claude Code, Cursor, and Codex.
+
+### [NVIDIA/auto-ontology](https://github.com/NVIDIA/auto-ontology)
+`#python` · 2026-11-04
+Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM…
 
 ### [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell)
 `#rust` · 2026-09-30
@@ -531,7 +535,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (32)
+## 八. Skill Collections & Ecosystem (33)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -648,6 +652,10 @@ The design language that makes your AI harness better at design.
 ### [Q00/ouroboros](https://github.com/Q00/ouroboros)
 `#python` · 2026-09-30
 Agent OS: the agent gets smarter on its own — interview-gated, staged evaluation, budgeted evolution loop.
+
+### [scenario-labs/skills](https://github.com/scenario-labs/skills)
+`#python` `#agent-skill` `#skill-md` · 2026-11-04
+Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus…
 
 ### [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)
 `#skill` `#registry` `#security-scanning` `#mcp` `#typescript` · 2026-09-23
@@ -1437,7 +1445,7 @@ A modern launcher for downloading, installing and running apps from GitHub/GitLa
 `#csharp` · 2026-10-08
 Downloads videos and playlists from YouTube.
 
-## 十九. Image Viewers & Media Players (9)
+## 十九. Image Viewers & Media Players (10)
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 `#dedup` `#video` `#local-ai` `#dinov2` `#cross-platform` `#docker` · 2026-09-23
@@ -1470,6 +1478,10 @@ Stremio: freedom to stream — a multi-platform video aggregation player (web).
 ### [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit)
 `#csharp` · 2026-10-04
 SubtitleEdit: the subtitle editor.
+
+### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
+`#python` · 2026-11-04
+🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.
 
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
 `#language-learning` `#player` `#dual-subtitles` `#whisper` `#live-translation` `#wpf` · 2026-09-23
@@ -1611,7 +1623,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (69)
+## 二十四. Developer Resources & Curated Lists (70)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1724,6 +1736,10 @@ Clean Architecture Solution Template for ASP.NET Core.
 ### [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)
 `#typescript` · 2026-10-25
 Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
+
+### [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)
+`#csharp` · 2026-11-04
+Cross-platform disc surface image generator and burner: etches visible images onto any CD/DVD/single-layer BD-R by encoding pictures into disc-physical-layer-constrained data, with layer-based design, dither/gamma tone tuning, and ISO/RAW/WAV+CUE export.
 
 ### [JustVugg/colibri](https://github.com/JustVugg/colibri)
 `#c` · 2026-11-02
@@ -1889,7 +1905,7 @@ Marble Skill Taxonomy: an open, structured taxonomy of what children learn acros
 `#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14
 Agentic Design Patterns (Chinese translation): 21 patterns for building AI agents
 
-## 二十五. DevOps / Developer Tools (30)
+## 二十五. DevOps / Developer Tools (31)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1946,6 +1962,10 @@ A Git worktree CLI designed for parallel AI agent workflows.
 ### [Meloong-Git/PCL](https://github.com/Meloong-Git/PCL)
 `#visualbasicnet` · 2026-10-22
 Minecraft 启动器 Plain Craft Launcher（PCL）。
+
+### [MichaelCade/90DaysOfDevOps](https://github.com/MichaelCade/90DaysOfDevOps)
+`#shell` · 2026-11-04
+This repository started out as a learning in public project for myself and has now become a structured learning map for many in the community. We have 3 years under our belt covering all things…
 
 ### [microsoft/aspire](https://github.com/microsoft/aspire)
 `#csharp` · 2026-09-27
