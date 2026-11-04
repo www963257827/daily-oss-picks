@@ -17,7 +17,7 @@
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 26 |
 | [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 33 |
-| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 15 |
+| [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 16 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 18 |
@@ -25,14 +25,14 @@
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 16 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
-| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 49 |
+| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 50 |
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
-| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 10 |
+| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 9 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 70 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 69 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 31 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -1013,7 +1013,7 @@
 
 <a id="sec-9"></a>
 
-## 💻 九、代码智能 / RAG / 代码审查（15）
+## 💻 九、代码智能 / RAG / 代码审查（16）
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 - **定位**：阿里巴巴开源的 AI 代码审查 CLI（确定性工程 × Agent 混合架构）
@@ -1074,6 +1074,12 @@
 - **简介**：面向 Web 与移动应用的下一代端到端测试框架。（GitHub 每日趋势 2026-10-05：★2677，当日 +344）
 - **归档**：`开源项目介绍/2026.10.5/e2e.md`
 - **标签**：`#typescript`
+
+### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
+- **定位**：最早的开源 AI 代码审查 Agent（PR Reviewer），Qodo（原 CodiumAI）的社区维护版遗留项目—
+- **简介**：最早的开源 AI 代码审查 Agent（PR Reviewer），Qodo（原 CodiumAI）的社区维护版遗留项目——注意它不是 Qodo 官方免费版，两者是不同产品线：Qodo 主打商业化的功能丰富、上下文感知审查服务，而 PR-Agent 由社区维护、靠赞助商支持持续开发。核心能力围绕 Pull Request 全流程自动化：自动生成 PR 描述、AI 代码审查、按文件给出改进建议、对 PR 内容按需问答等，可无缝集成 GitHub、GitLab、Bitbucket 与 Azure DevOps，也提供 GitHub Action 等接入方式。当前 ★14504（当日 +279），主语言 Python。适合想在自托管/私有化环境里跑一套可控的开源 PR 审查流水线的团队——数据不出内网、模型可自选；若要更完整的商业化体验再考虑 Qodo 云服务。（GitHub 每日趋势 2026-11-04：★14504，当日 +279）
+- **归档**：`开源项目介绍/2026.11.4/pr-agent.md`
+- **标签**：`#python`
 
 ### [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
 - **定位**：本地代码知识图谱 · AI 编码精准上下文
@@ -1764,7 +1770,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-17"></a>
 
-## 🛠️ 十七、系统工具与桌面效率（49）
+## 🛠️ 十七、系统工具与桌面效率（50）
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 - **定位**：让游戏以无边框窗口运行，告别耗时的 Alt+Tab。
@@ -1872,6 +1878,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：免费开源的 Windows 优化工具：性能、隐私、简洁（C#/.NET）。
 - **简介**：免费开源的 Windows 优化工具：性能、隐私、简洁（C#/.NET）。（GitHub 每日趋势 2026-10-01：★9788，当日 +29）
 - **归档**：`开源项目介绍/2026.10.1/optimizerDuck.md`
+- **标签**：`#csharp`
+
+### [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)
+- **定位**：一个相当硬核的多平台光盘盘面图像生成与刻录工具（C#，自带 .NET 运行时）：把一张普通图片转换成符合 CD / DV
+- **简介**：一个相当硬核的多平台光盘盘面图像生成与刻录工具（C#，自带 .NET 运行时）：把一张普通图片转换成符合 CD / DVD / 单层蓝光物理层数据约束的盘面数据，刻录后光盘正面直接呈现肉眼可见的图案——不用贴纸、不用盘打印机的「刻蚀盘面」方案。当前 ★5984（当日 +1792，爆发式冲榜）。工作流三步：新建工程（选 CD/DVD/蓝光并指定输出位置）→ 设计页用图层排版、「影调」模块调抖动/伽马/亮度/灰阶档位 → 预览盘面投影后导出 ISO / RAW / WAV+CUE 或即时刻录（实验性功能，官方提醒只用可报废的测试介质）。格式支持：任何 CD（可导出带格式头的 WAV 音轨与 CUE，兼容 cdrecord、ImgBurn，也支持 RAW 音轨）；任何 DVD（导出 ISO 镜像）；单层 BD-R 25GB（支持纯绘图与 UDF 2.01）。Windows 下载 win-x64.exe 直接运行，Linux/macOS 提供 CPU 对应的实验性 CLI 包。适合想给自制光盘做个性化盘面、或研究光盘物理层编码的极客与光盘收藏/修复爱好者。（GitHub 每日趋势 2026-11-04：★5984，当日 +1792）
+- **归档**：`开源项目介绍/2026.11.4/DiscImageStudio.md`
 - **标签**：`#csharp`
 
 ### [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite)
@@ -2199,7 +2211,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-19"></a>
 
-## ▶️ 十九、图片查看与媒体播放（10）
+## ▶️ 十九、图片查看与媒体播放（9）
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 - **定位**：跨平台重复视频/图片查找器（可选本地 AI 匹配）
@@ -2248,12 +2260,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：好用的字幕编辑器。（GitHub 每日趋势 2026-10-03：★14414，当日 +12）
 - **归档**：`开源项目介绍/2026.10.4/subtitleedit.md`
 - **标签**：`#csharp`
-
-### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
-- **定位**：最早的开源 AI 代码审查 Agent（PR Reviewer），Qodo（原 CodiumAI）的社区维护版遗留项目—
-- **简介**：最早的开源 AI 代码审查 Agent（PR Reviewer），Qodo（原 CodiumAI）的社区维护版遗留项目——注意它不是 Qodo 官方免费版，两者是不同产品线：Qodo 主打商业化的功能丰富、上下文感知审查服务，而 PR-Agent 由社区维护、靠赞助商支持持续开发。核心能力围绕 Pull Request 全流程自动化：自动生成 PR 描述、AI 代码审查、按文件给出改进建议、对 PR 内容按需问答等，可无缝集成 GitHub、GitLab、Bitbucket 与 Azure DevOps，也提供 GitHub Action 等接入方式。当前 ★14504（当日 +279），主语言 Python。适合想在自托管/私有化环境里跑一套可控的开源 PR 审查流水线的团队——数据不出内网、模型可自选；若要更完整的商业化体验再考虑 Qodo 云服务。（GitHub 每日趋势 2026-11-04：★14504，当日 +279）
-- **归档**：`开源项目介绍/2026.11.4/pr-agent.md`
-- **标签**：`#python`
 
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
 - **定位**：为语言学习而生的媒体播放器（双字幕 + AI 字幕 + 实时翻译）
@@ -2472,7 +2478,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（70）
+## 📚 二十四、开发者资源 / 精选合集（69）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2641,12 +2647,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：thinkrail 是 JetBrains 出品的 Agentic IDE（★1126，当日 +52），口号「Vibe code with pi」，定位越用越聪明：围绕 `pi` 编码 Agent 打造富界面，把不同任务隔离进独立的 git-worktree 工作区，并通过「活规格」（living specs）与可复用技能赋予 Agent 持久项目知识——今天学习你的项目，明天构建自己的能力。完整扩展支持也在路上，届时它能按你的实际工作方式自造工具。官网 thinkrail.ai 另附博客，README 演示了 pi 会话及其改动如何被限制在隔离工作区内。适合想让 IDE 随使用不断沉淀项目上下文、偏好轻量真实 IDE 而非纯聊天界面的开发者，也值得关注 JetBrains 在 Agent 方向的演进。（GitHub 每日趋势 2026-10-25：★1126，当日 +52）
 - **归档**：`开源项目介绍/2026.10.25/thinkrail.md`
 - **标签**：`#typescript`
-
-### [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)
-- **定位**：一个相当硬核的多平台光盘盘面图像生成与刻录工具（C#，自带 .NET 运行时）：把一张普通图片转换成符合 CD / DV
-- **简介**：一个相当硬核的多平台光盘盘面图像生成与刻录工具（C#，自带 .NET 运行时）：把一张普通图片转换成符合 CD / DVD / 单层蓝光物理层数据约束的盘面数据，刻录后光盘正面直接呈现肉眼可见的图案——不用贴纸、不用盘打印机的「刻蚀盘面」方案。当前 ★5984（当日 +1792，爆发式冲榜）。工作流三步：新建工程（选 CD/DVD/蓝光并指定输出位置）→ 设计页用图层排版、「影调」模块调抖动/伽马/亮度/灰阶档位 → 预览盘面投影后导出 ISO / RAW / WAV+CUE 或即时刻录（实验性功能，官方提醒只用可报废的测试介质）。格式支持：任何 CD（可导出带格式头的 WAV 音轨与 CUE，兼容 cdrecord、ImgBurn，也支持 RAW 音轨）；任何 DVD（导出 ISO 镜像）；单层 BD-R 25GB（支持纯绘图与 UDF 2.01）。Windows 下载 win-x64.exe 直接运行，Linux/macOS 提供 CPU 对应的实验性 CLI 包。适合想给自制光盘做个性化盘面、或研究光盘物理层编码的极客与光盘收藏/修复爱好者。（GitHub 每日趋势 2026-11-04：★5984，当日 +1792）
-- **归档**：`开源项目介绍/2026.11.4/DiscImageStudio.md`
-- **标签**：`#csharp`
 
 ### [JustVugg/colibri](https://github.com/JustVugg/colibri)
 - **定位**：colibri 是一个用纯 C 写成的 MoE 大模型推理引擎，口号「Tiny engine, immense mode

@@ -15,7 +15,7 @@
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
 | 7 | Security · Audit & Reverse Engineering | 26 |
 | 8 | Skill Collections & Ecosystem | 33 |
-| 9 | Code Intelligence / RAG / Code Review | 15 |
+| 9 | Code Intelligence / RAG / Code Review | 16 |
 | 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 18 |
@@ -23,14 +23,14 @@
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 16 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
-| 17 | System Tools & Desktop Productivity | 49 |
+| 17 | System Tools & Desktop Productivity | 50 |
 | 18 | Files · Downloads · Photo Management | 22 |
-| 19 | Image Viewers & Media Players | 10 |
+| 19 | Image Viewers & Media Players | 9 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 70 |
+| 24 | Developer Resources & Curated Lists | 69 |
 | 25 | DevOps / Developer Tools | 31 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (44)
@@ -669,7 +669,7 @@ A SwiftUI agent skill for Claude Code, Codex and other AI tools (by Paul Hudson)
 `#claude-code` `#ai-agent` `#subagents` `#skill` `#mcp` · 2026-09-27
 Multi-harness agentic plugin marketplace: 94 plugins, 202 subagents, 7 host platforms.
 
-## 九. Code Intelligence / RAG / Code Review (15)
+## 九. Code Intelligence / RAG / Code Review (16)
 
 ### [alibaba/open-code-review](https://github.com/alibaba/open-code-review)
 `#code-review` `#alibaba` `#go` `#hybrid-architecture` `#line-level-comments` `#benchmark` · 2026-09-23
@@ -710,6 +710,10 @@ A 25MB lightweight cross-platform database client supporting 100+ databases.
 ### [tester-army/e2e](https://github.com/tester-army/e2e)
 `#typescript` · 2026-10-05
 A next-generation e2e testing framework for web and mobile apps.
+
+### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
+`#python` · 2026-11-04
+🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.
 
 ### [tirth8205/code-review-graph](https://github.com/tirth8205/code-review-graph)
 `#mcp` `#tree-sitter` `#token-optimization` `#code-review` · 2026-09-06
@@ -1157,7 +1161,7 @@ Uno Platform: build cross-platform native mobile, web, desktop and embedded apps
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (49)
+## 十七. System Tools & Desktop Productivity (50)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1230,6 +1234,10 @@ Multi-tab enhancement for Windows Explorer.
 ### [itsfatduck/optimizerDuck](https://github.com/itsfatduck/optimizerDuck)
 `#csharp` · 2026-10-01
 A free, open-source Windows optimization tool for performance, privacy and simplicity.
+
+### [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)
+`#csharp` · 2026-11-04
+Cross-platform disc surface image generator and burner: etches visible images onto any CD/DVD/single-layer BD-R by encoding pictures into disc-physical-layer-constrained data, with layer-based design, dither/gamma tone tuning, and ISO/RAW/WAV+CUE export.
 
 ### [JosefNemec/Playnite](https://github.com/JosefNemec/Playnite)
 `#csharp` · 2026-10-08
@@ -1445,7 +1453,7 @@ A modern launcher for downloading, installing and running apps from GitHub/GitLa
 `#csharp` · 2026-10-08
 Downloads videos and playlists from YouTube.
 
-## 十九. Image Viewers & Media Players (10)
+## 十九. Image Viewers & Media Players (9)
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 `#dedup` `#video` `#local-ai` `#dinov2` `#cross-platform` `#docker` · 2026-09-23
@@ -1478,10 +1486,6 @@ Stremio: freedom to stream — a multi-platform video aggregation player (web).
 ### [SubtitleEdit/subtitleedit](https://github.com/SubtitleEdit/subtitleedit)
 `#csharp` · 2026-10-04
 SubtitleEdit: the subtitle editor.
-
-### [The-PR-Agent/pr-agent](https://github.com/The-PR-Agent/pr-agent)
-`#python` · 2026-11-04
-🚀 PR Agent: The Original Open-Source PR Reviewer. This project is not the Qodo free tier.
 
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
 `#language-learning` `#player` `#dual-subtitles` `#whisper` `#live-translation` `#wpf` · 2026-09-23
@@ -1623,7 +1627,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (70)
+## 二十四. Developer Resources & Curated Lists (69)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1736,10 +1740,6 @@ Clean Architecture Solution Template for ASP.NET Core.
 ### [JetBrains/thinkrail](https://github.com/JetBrains/thinkrail)
 `#typescript` · 2026-10-25
 Vibe code with pi in a lightweight, real IDE that customises itself around the way you work — The Vibe You Need
-
-### [JiaFeiMiao-K-Cat/DiscImageStudio](https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio)
-`#csharp` · 2026-11-04
-Cross-platform disc surface image generator and burner: etches visible images onto any CD/DVD/single-layer BD-R by encoding pictures into disc-physical-layer-constrained data, with layer-based design, dither/gamma tone tuning, and ISO/RAW/WAV+CUE export.
 
 ### [JustVugg/colibri](https://github.com/JustVugg/colibri)
 `#c` · 2026-11-02
