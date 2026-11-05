@@ -14,14 +14,14 @@
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
 | 7 | Security · Audit & Reverse Engineering | 26 |
-| 8 | Skill Collections & Ecosystem | 33 |
+| 8 | Skill Collections & Ecosystem | 34 |
 | 9 | Code Intelligence / RAG / Code Review | 16 |
 | 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 19 |
-| 13 | Image / Video / Music Generation | 8 |
+| 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
-| 15 | Content Discovery & Intelligence | 16 |
+| 15 | Content Discovery & Intelligence | 17 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 50 |
 | 18 | Files · Downloads · Photo Management | 22 |
@@ -30,8 +30,8 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 71 |
-| 25 | DevOps / Developer Tools | 31 |
+| 24 | Developer Resources & Curated Lists | 69 |
+| 25 | DevOps / Developer Tools | 32 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (45)
 
@@ -539,7 +539,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (33)
+## 八. Skill Collections & Ecosystem (34)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -580,6 +580,10 @@ Cloudflare OS: an agent workspace built on Cloudflare Workers with your company'
 ### [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 `#python` · 2026-10-01
 A curated list of awesome Claude Skills, resources and tools for customizing Claude AI workflows.
+
+### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
+`#javascript` · 2026-11-05
+ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
 
 ### [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 `#javascript` · 2026-10-03
@@ -877,11 +881,7 @@ A domain-specific language for high-performance GPU/CPU/Accelerator kernel devel
 `#python` · 2026-10-08
 vLLM: a high-throughput and memory-efficient inference and serving engine for LLMs.
 
-## 十三. Image / Video / Music Generation (8)
-
-### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
-`#javascript` · 2026-11-05
-ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
+## 十三. Image / Video / Music Generation (7)
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 `#python` · 2026-10-02
@@ -1013,7 +1013,7 @@ Tencent's browser bridge for agents: reuses your real, logged-in browser without
 `#self-hosted` `#multi-agent` `#tencent-cloud` `#im-integration` `#local-first` `#acp` · 2026-09-23
 Self-hosted multi-user, multi-agent AI assistant platform from Tencent Cloud.
 
-## 十五. Content Discovery & Intelligence (16)
+## 十五. Content Discovery & Intelligence (17)
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 `#agent` `#swarm-intelligence` `#prediction` `#multi-agent` `#shanda` · 2026-09-16
@@ -1066,6 +1066,10 @@ Kronos: a foundation model for the language of financial markets.
 ### [shy3130/tick-stock-panel](https://github.com/shy3130/tick-stock-panel)
 `#python` · 2026-09-27
 TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源
+
+### [Thysrael/Horizon](https://github.com/Thysrael/Horizon)
+`#python` · 2026-11-05
+📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达
 
 ### [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch)
 `#stock` `#ai-agent` `#self-hosted` `#fastapi` `#trading` `#fintech` · 2026-09-25
@@ -1639,7 +1643,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (71)
+## 二十四. Developer Resources & Curated Lists (69)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1781,10 +1785,6 @@ Lightpanda: the headless browser designed for AI and automation
 `#open-source` · 2026-10-09
 Notes of the book 'System Design Interview — An Insider's Guide'.
 
-### [lz4/lz4](https://github.com/lz4/lz4)
-`#c` · 2026-11-05
-Extremely Fast Compression algorithm
-
 ### [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
 `#python` · 2026-09-30
 The job search that runs on your machine: AI job-application framework built on Claude Code.
@@ -1889,10 +1889,6 @@ Spotify's official Portal plugin for coding agents: set up Portal CLI auth, sear
 `#csharp` · 2026-10-08
 Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 
-### [Thysrael/Horizon](https://github.com/Thysrael/Horizon)
-`#python` · 2026-11-05
-📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达
-
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
 A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
@@ -1925,7 +1921,7 @@ Marble Skill Taxonomy: an open, structured taxonomy of what children learn acros
 `#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14
 Agentic Design Patterns (Chinese translation): 21 patterns for building AI agents
 
-## 二十五. DevOps / Developer Tools (31)
+## 二十五. DevOps / Developer Tools (32)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1974,6 +1970,10 @@ Wolverine: supercharged .NET server-side development.
 ### [llvm/llvm-project](https://github.com/llvm/llvm-project)
 `#cpp` · 2026-09-27
 The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
+
+### [lz4/lz4](https://github.com/lz4/lz4)
+`#c` · 2026-11-05
+Extremely Fast Compression algorithm
 
 ### [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk)
 `#git` `#worktree` `#parallel-agents` `#rust` `#cli` `#ci` · 2026-09-23

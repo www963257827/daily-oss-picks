@@ -16,14 +16,14 @@
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 26 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 33 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 34 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 16 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 19 |
-| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 8 |
+| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
-| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 16 |
+| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 17 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 50 |
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
@@ -32,8 +32,8 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 71 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 31 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 69 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 32 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
@@ -815,7 +815,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（33）
+## 🧩 八、Skill 合集与生态（34）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -877,6 +877,12 @@
 - **简介**：精选的 Claude Skills、资源与工具合集，用于定制 Claude AI 工作流。（GitHub 每日趋势 2026-10-01：★76040，当日 +118）
 - **归档**：`开源项目介绍/2026.10.1/awesome-claude-skills.md`
 - **标签**：`#python`
+
+### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
+- **定位**：前端社区知名作者 ConardLi 开源的 Agent Skills 合集（生产可用级），面向 Claude Code、
+- **简介**：前端社区知名作者 ConardLi 开源的 Agent Skills 合集（生产可用级），面向 Claude Code、Cursor、Codex 等编码 Agent，覆盖多个实用方向：代码渲染短视频（motion-showreel，适合 showreel、产品片、UI 动效、动态字体、logo/片头序列与生成式循环）、网页视频与演示文稿、设计与前端、图像生成与提示词工程、任意来源转精美文章、本地知识检索等。安装方式灵活：npx skills CLI、Claude Code 插件市场、从 Releases 下载固定版本 zip、手工复制或 git submodule 均可；提供英文、中文、日文三语文档。当前 ★13945（当日 +181），主语言 JavaScript。适合想把「做视频/做网页/做图/查本地资料」这些重复性创作流程固化成 Agent 技能的开发者，直接拿来用或作为自己写 Skill 的参考范本。（GitHub 每日趋势 2026-11-05：★13945，当日 +181）
+- **归档**：`开源项目介绍/2026.11.5/garden-skills.md`
+- **标签**：`#javascript`
 
 ### [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills)
 - **定位**：面向 Claude Code 和 AI Agent 的营销技能集：CRO、文案、SEO、分析与增长工程。
@@ -1333,13 +1339,7 @@
 
 <a id="sec-13"></a>
 
-## 🎨 十三、图像 / 视频 / 音乐生成（8）
-
-### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
-- **定位**：前端社区知名作者 ConardLi 开源的 Agent Skills 合集（生产可用级），面向 Claude Code、
-- **简介**：前端社区知名作者 ConardLi 开源的 Agent Skills 合集（生产可用级），面向 Claude Code、Cursor、Codex 等编码 Agent，覆盖多个实用方向：代码渲染短视频（motion-showreel，适合 showreel、产品片、UI 动效、动态字体、logo/片头序列与生成式循环）、网页视频与演示文稿、设计与前端、图像生成与提示词工程、任意来源转精美文章、本地知识检索等。安装方式灵活：npx skills CLI、Claude Code 插件市场、从 Releases 下载固定版本 zip、手工复制或 git submodule 均可；提供英文、中文、日文三语文档。当前 ★13945（当日 +181），主语言 JavaScript。适合想把「做视频/做网页/做图/查本地资料」这些重复性创作流程固化成 Agent 技能的开发者，直接拿来用或作为自己写 Skill 的参考范本。（GitHub 每日趋势 2026-11-05：★13945，当日 +181）
-- **归档**：`开源项目介绍/2026.11.5/garden-skills.md`
-- **标签**：`#javascript`
+## 🎨 十三、图像 / 视频 / 音乐生成（7）
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 - **定位**：SIGGRAPH Asia 2026 论文：一个统一模型驱动多种骨架动画。
@@ -1541,7 +1541,7 @@
 
 <a id="sec-15"></a>
 
-## 🛰️ 十五、内容发现与情报（16）
+## 🛰️ 十五、内容发现与情报（17）
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 - **定位**：群体智能预测引擎 · 盛大出品
@@ -1619,6 +1619,12 @@
 - **定位**：自托管、零运维的 A 股选股＋监控＋回测量化工作台，LLM 驱动策略定制与个股复盘，可自由接入第三方数据源。
 - **简介**：自托管、零运维的 A 股选股＋监控＋回测量化工作台，LLM 驱动策略定制与个股复盘，可自由接入第三方数据源。（GitHub 每日趋势 2026-09-26：★5234，当日 +191）
 - **归档**：`开源项目介绍/2026.9.27/tick-stock-panel.md`
+- **标签**：`#python`
+
+### [Thysrael/Horizon](https://github.com/Thysrael/Horizon)
+- **定位**：用 AI 构建你专属的新闻雷达：把散落在 RSS、Hacker News、Reddit、Telegram、X、GitHu
+- **简介**：用 AI 构建你专属的新闻雷达：把散落在 RSS、Hacker News、Reddit、Telegram、X、GitHub 与财经资讯里的内容自动收集、过滤、去重，每天生成中英双语的每日简报（Markdown / GitHub Pages / 邮件 / 微信 / Webhook 分发）。核心设计是 profile（画像）——一套可复用的编辑规则，定义「什么该进来、什么值得留、该怎么写」，不同内容走不同画像：tech-news 给事件与影响、附社区讨论；tech-blog 给背景、方案与可落地要点；ai-creator 给摘要与内容选题角度。每个画像有自己的评分标准（0–10 分）与阈值，并在画像内做重复新闻合并；还支持限制简报总长与各分类占比，避免单一热点淹没其他兴趣。处理链路为「分析→过滤→去重→增强（联网研究背景、抓社区讨论）→按画像分组出简报」，支持 Claude、GPT、Gemini、DeepSeek、豆包、MiniMax 等多家模型。安装用 uv sync 或 pip install -e .，也提供 Docker compose 部署；内置 Agent Skill，可用 npx skills add 让 AI 助手帮你配置源与画像，并能通过 MCP 调用各阶段。当前 ★12474（当日 +121），主语言 Python，MIT 协议。适合不想被信息流淹没、希望按自己的口味定制每日阅读清单的人。（GitHub 每日趋势 2026-11-05：★12474，当日 +121）
+- **归档**：`开源项目介绍/2026.11.5/Horizon.md`
 - **标签**：`#python`
 
 ### [TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch)
@@ -2496,7 +2502,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（71）
+## 📚 二十四、开发者资源 / 精选合集（69）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2708,12 +2714,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.9/system-design-notes.md`
 - **标签**：`#开源`
 
-### [lz4/lz4](https://github.com/lz4/lz4)
-- **定位**：业界最著名的极速无损压缩算法库（C 实现）：单核压缩速度超过 500 MB/s，解码速度达数 GB/s/核，多核系统上通
-- **简介**：业界最著名的极速无损压缩算法库（C 实现）：单核压缩速度超过 500 MB/s，解码速度达数 GB/s/核，多核系统上通常直接撞到内存带宽上限——这也是它成为数据库、文件系统、日志与消息队列首选压缩层的原因。压缩速度可通过 acceleration 因子动态调节，用压缩率换速度；另一端的 LZ4_HC 高压缩变体则用 CPU 时间换更好的压缩比，而所有版本的解压速度保持一致（这是 LZ4 格式设计的核心承诺：解压永远极快）。同时支持字典压缩（API 与 CLI 的 -D 参数两级），可摄取任意数据流。当前 ★12228（当日 +16），主语言 C。适合需要低延迟压缩的场景：内存缓存、传输链路、实时日志、嵌入式与游戏资源打包；也是学习 LZ 系列压缩算法工程实现的经典范本。（GitHub 每日趋势 2026-11-05：★12228，当日 +16）
-- **归档**：`开源项目介绍/2026.11.5/lz4.md`
-- **标签**：`#c`
-
 ### [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
 - **定位**：本地运行的 AI 求职框架（基于 Claude Code）：评估职位、定制简历、写求职信、准备面试。
 - **简介**：本地运行的 AI 求职框架（基于 Claude Code）：评估职位、定制简历、写求职信、准备面试。（GitHub 每日趋势 2026-09-30：★44450，当日 +138）
@@ -2870,12 +2870,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.8/stride.md`
 - **标签**：`#csharp`
 
-### [Thysrael/Horizon](https://github.com/Thysrael/Horizon)
-- **定位**：用 AI 构建你专属的新闻雷达：把散落在 RSS、Hacker News、Reddit、Telegram、X、GitHu
-- **简介**：用 AI 构建你专属的新闻雷达：把散落在 RSS、Hacker News、Reddit、Telegram、X、GitHub 与财经资讯里的内容自动收集、过滤、去重，每天生成中英双语的每日简报（Markdown / GitHub Pages / 邮件 / 微信 / Webhook 分发）。核心设计是 profile（画像）——一套可复用的编辑规则，定义「什么该进来、什么值得留、该怎么写」，不同内容走不同画像：tech-news 给事件与影响、附社区讨论；tech-blog 给背景、方案与可落地要点；ai-creator 给摘要与内容选题角度。每个画像有自己的评分标准（0–10 分）与阈值，并在画像内做重复新闻合并；还支持限制简报总长与各分类占比，避免单一热点淹没其他兴趣。处理链路为「分析→过滤→去重→增强（联网研究背景、抓社区讨论）→按画像分组出简报」，支持 Claude、GPT、Gemini、DeepSeek、豆包、MiniMax 等多家模型。安装用 uv sync 或 pip install -e .，也提供 Docker compose 部署；内置 Agent Skill，可用 npx skills add 让 AI 助手帮你配置源与画像，并能通过 MCP 调用各阶段。当前 ★12474（当日 +121），主语言 Python，MIT 协议。适合不想被信息流淹没、希望按自己的口味定制每日阅读清单的人。（GitHub 每日趋势 2026-11-05：★12474，当日 +121）
-- **归档**：`开源项目介绍/2026.11.5/Horizon.md`
-- **标签**：`#python`
-
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 - **定位**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。
 - **简介**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。（GitHub 每日趋势 2026-10-03：★5690，当日 +3）
@@ -2926,7 +2920,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（31）
+## 🚀 二十五、DevOps / 开发者工具（32）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -3000,6 +2994,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：LLVM 编译器基础设施：模块化可复用的编译器与工具链技术集合，Clang/Swift/Rust 等的底层。（GitHub 每日趋势 2026-09-26：★40703，当日 +29）
 - **归档**：`开源项目介绍/2026.9.27/llvm-project.md`
 - **标签**：`#cpp`
+
+### [lz4/lz4](https://github.com/lz4/lz4)
+- **定位**：业界最著名的极速无损压缩算法库（C 实现）：单核压缩速度超过 500 MB/s，解码速度达数 GB/s/核，多核系统上通
+- **简介**：业界最著名的极速无损压缩算法库（C 实现）：单核压缩速度超过 500 MB/s，解码速度达数 GB/s/核，多核系统上通常直接撞到内存带宽上限——这也是它成为数据库、文件系统、日志与消息队列首选压缩层的原因。压缩速度可通过 acceleration 因子动态调节，用压缩率换速度；另一端的 LZ4_HC 高压缩变体则用 CPU 时间换更好的压缩比，而所有版本的解压速度保持一致（这是 LZ4 格式设计的核心承诺：解压永远极快）。同时支持字典压缩（API 与 CLI 的 -D 参数两级），可摄取任意数据流。当前 ★12228（当日 +16），主语言 C。适合需要低延迟压缩的场景：内存缓存、传输链路、实时日志、嵌入式与游戏资源打包；也是学习 LZ 系列压缩算法工程实现的经典范本。（GitHub 每日趋势 2026-11-05：★12228，当日 +16）
+- **归档**：`开源项目介绍/2026.11.5/lz4.md`
+- **标签**：`#c`
 
 ### [max-sixty/worktrunk](https://github.com/max-sixty/worktrunk)
 - **定位**：为并行 AI Agent 工作流设计的 Git worktree CLI
