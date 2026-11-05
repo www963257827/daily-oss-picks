@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-11-04 ｜ 共收录 **487** 条内容（477 个项目 + 10 篇精选文章）
+> 📅 最后更新：2026-11-05 ｜ 共收录 **492** 条内容（482 个项目 + 10 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 44 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 45 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -20,8 +20,8 @@
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 16 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
-| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 18 |
-| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
+| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 19 |
+| [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 8 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 16 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 69 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 71 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 31 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（44）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（45）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -296,6 +296,12 @@
 - **简介**：**把项目、Agent、模型、插件和工作流带进一个持久的桌面环境**——macOS / Windows / Linux。核心主张三句话：**Your projects stay local · Your models stay replaceable · Your workspace stays yours**（项目留在本地、模型随时可换、工作空间归你所有）。定位很清晰：终端 Agent 擅长执行，IDE Agent 擅长住在编辑器里，PI-Desktop 再往前走一步——**给 AI Agent 一个属于它们自己的、持久的、独立的、可扩展的桌面工作空间**。四大支柱：**独立工作空间**（不依赖任何特定 IDE 或终端，项目/会话/审查/预览/agent 都活在自己的空间里）· **插件驱动**（插件扩展的**不只是 agent**，可以添加面板、视图、小组件、工具、MCP 服务器、主题和后台服务）· **Agent 编排**（一个 agent 往往不够，可委派给 **Subagent** 或并行协调整整的 **Worker Session**）· **模型自由**（云端模型、本地模型、自定义网关、兼容 API，**换模型不用重建工作流**）。技术架构是 **Electron + Rust host core + pi Agent Harness + 用户可安装插件**，前端 React + TypeScript，走 MCP 协议，带 i18n（含简体中文 README）。当前发布线 **0.15.x（Early Preview）**。LGPL-3.0，5,206 stars / 435 forks / 139 open issues，文档站 [pi-docs.aiuo.net](https://pi-docs.aiuo.net/)，社区 [r/AIUO](https://www.reddit.com/r/AIUO/)，2026-09-22 仍在推送。
 - **归档**：`开源项目介绍/2026.9.23/PI-Desktop.md`
 - **标签**：`#agent宿主` `#electron` `#rust` `#插件` `#本地优先` `#mcp`
+
+### [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+- **定位**：Vercel 官方实验室出品的浏览器自动化 CLI，专为 AI Agent 设计：原生 Rust 实现，让 Agent
+- **简介**：Vercel 官方实验室出品的浏览器自动化 CLI，专为 AI Agent 设计：原生 Rust 实现，让 Agent 在 shell 里一条命令一步地驱动真实浏览器——打开页面、把页面读成无障碍树（accessibility tree）、按元素引用操作。核心机制是 snapshot 命令：返回压缩后的页面纯文本，每个元素带形如 @e1 的引用号；Agent 对引用号执行动作（点击/输入），再重新读页面确认结果，如此循环——比传整页 HTML 省 token，也比截图方案更确定。浏览器进程在命令之间保持打开，所以每一步都只是一次简短的 shell 调用，天然适配 Agent 的「思考-行动-观察」循环。安装：npm install -g agent-browser 后 agent-browser install 下载 Chrome for Testing（首次）；Homebrew 直接 brew install agent-browser；Linux 用 agent-browser install --with-deps 一并装系统依赖。当前 ★45616（当日 +132），主语言 Rust。适合给自建 Agent 接一个可控、可脚本化、token 友好的浏览器操作层。（GitHub 每日趋势 2026-11-05：★45616，当日 +132）
+- **归档**：`开源项目介绍/2026.11.5/agent-browser.md`
+- **标签**：`#rust`
 
 ### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)
 - **定位**：Agent Desktop 是 Vercel Labs 出品的桌面 computer-use 工具（Rust 编写）：让
@@ -1208,7 +1214,7 @@
 
 <a id="sec-12"></a>
 
-## ⚡ 十二、本地推理引擎与优化（18）
+## ⚡ 十二、本地推理引擎与优化（19）
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 - **定位**：antirez 出品：DeepSeek 4 Flash 与 PRO 的本地推理引擎（Metal/CUDA/ROCm）。
@@ -1239,6 +1245,12 @@
 - **简介**：DeepSeek 出品：干净高效的 GPU BLAS 内核库（FP8 GEMM）。（GitHub 每日趋势 2026-10-07：★8633，当日 +363）
 - **归档**：`开源项目介绍/2026.10.8/DeepGEMM.md`
 - **标签**：`#cuda`
+
+### [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)
+- **定位**：把 2.78 万亿参数的 Kimi K3 用纯 C99 从零重写，在一颗 CPU、8.24 GB 内存上跑通推理的极致工
+- **简介**：把 2.78 万亿参数的 Kimi K3 用纯 C99 从零重写，在一颗 CPU、8.24 GB 内存上跑通推理的极致工程实验：不用 BLAS、不用任何推理框架、不用 GPU，整个引擎只有 176 KB 代码，权重是 1.56 TB 的 checkpoint 存在磁盘上。核心思路是「模型流式读盘」——每生成一个 token 就把整个模型从磁盘过一遍，内存只做缓存：8 GB 普通笔记本 26.5 秒/token，32 GB 高端笔记本 24.2 秒（部分模型驻留内存），64 GB 台式机 19.8 秒，128 GB+ 工作站 5.6 秒（模型完全装入内存，磁盘等待消失）。作者强调「内存只买速度，不改变答案」——同一模型、同一答案，只是快慢不同。当前 ★10274（当日 +351），主语言 C。适合想理解大模型推理底层（量化、内存布局、磁盘 IO 与计算重叠）的工程师精读，也是「消费级硬件到底能不能跑超大模型」这一问题的硬核回答：能，但你要接受 26 秒一个字。（GitHub 每日趋势 2026-11-05：★10274，当日 +351）
+- **归档**：`开源项目介绍/2026.11.5/kimi-k3-in-c.md`
+- **标签**：`#c`
 
 ### [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken)
 - **定位**：边缘原生 MoE 推理引擎 · 让 290B+ 前沿开源大模型跑在游戏 PC 上
@@ -1321,7 +1333,13 @@
 
 <a id="sec-13"></a>
 
-## 🎨 十三、图像 / 视频 / 音乐生成（7）
+## 🎨 十三、图像 / 视频 / 音乐生成（8）
+
+### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
+- **定位**：前端社区知名作者 ConardLi 开源的 Agent Skills 合集（生产可用级），面向 Claude Code、
+- **简介**：前端社区知名作者 ConardLi 开源的 Agent Skills 合集（生产可用级），面向 Claude Code、Cursor、Codex 等编码 Agent，覆盖多个实用方向：代码渲染短视频（motion-showreel，适合 showreel、产品片、UI 动效、动态字体、logo/片头序列与生成式循环）、网页视频与演示文稿、设计与前端、图像生成与提示词工程、任意来源转精美文章、本地知识检索等。安装方式灵活：npx skills CLI、Claude Code 插件市场、从 Releases 下载固定版本 zip、手工复制或 git submodule 均可；提供英文、中文、日文三语文档。当前 ★13945（当日 +181），主语言 JavaScript。适合想把「做视频/做网页/做图/查本地资料」这些重复性创作流程固化成 Agent 技能的开发者，直接拿来用或作为自己写 Skill 的参考范本。（GitHub 每日趋势 2026-11-05：★13945，当日 +181）
+- **归档**：`开源项目介绍/2026.11.5/garden-skills.md`
+- **标签**：`#javascript`
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 - **定位**：SIGGRAPH Asia 2026 论文：一个统一模型驱动多种骨架动画。
@@ -2478,7 +2496,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（69）
+## 📚 二十四、开发者资源 / 精选合集（71）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2690,6 +2708,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.9/system-design-notes.md`
 - **标签**：`#开源`
 
+### [lz4/lz4](https://github.com/lz4/lz4)
+- **定位**：业界最著名的极速无损压缩算法库（C 实现）：单核压缩速度超过 500 MB/s，解码速度达数 GB/s/核，多核系统上通
+- **简介**：业界最著名的极速无损压缩算法库（C 实现）：单核压缩速度超过 500 MB/s，解码速度达数 GB/s/核，多核系统上通常直接撞到内存带宽上限——这也是它成为数据库、文件系统、日志与消息队列首选压缩层的原因。压缩速度可通过 acceleration 因子动态调节，用压缩率换速度；另一端的 LZ4_HC 高压缩变体则用 CPU 时间换更好的压缩比，而所有版本的解压速度保持一致（这是 LZ4 格式设计的核心承诺：解压永远极快）。同时支持字典压缩（API 与 CLI 的 -D 参数两级），可摄取任意数据流。当前 ★12228（当日 +16），主语言 C。适合需要低延迟压缩的场景：内存缓存、传输链路、实时日志、嵌入式与游戏资源打包；也是学习 LZ 系列压缩算法工程实现的经典范本。（GitHub 每日趋势 2026-11-05：★12228，当日 +16）
+- **归档**：`开源项目介绍/2026.11.5/lz4.md`
+- **标签**：`#c`
+
 ### [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
 - **定位**：本地运行的 AI 求职框架（基于 Claude Code）：评估职位、定制简历、写求职信、准备面试。
 - **简介**：本地运行的 AI 求职框架（基于 Claude Code）：评估职位、定制简历、写求职信、准备面试。（GitHub 每日趋势 2026-09-30：★44450，当日 +138）
@@ -2845,6 +2869,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：Stride（原 Xenko）：免费开源的跨平台 C# 游戏引擎。（GitHub 每日趋势 2026-10-06：★7844，当日 +3）
 - **归档**：`开源项目介绍/2026.10.8/stride.md`
 - **标签**：`#csharp`
+
+### [Thysrael/Horizon](https://github.com/Thysrael/Horizon)
+- **定位**：用 AI 构建你专属的新闻雷达：把散落在 RSS、Hacker News、Reddit、Telegram、X、GitHu
+- **简介**：用 AI 构建你专属的新闻雷达：把散落在 RSS、Hacker News、Reddit、Telegram、X、GitHub 与财经资讯里的内容自动收集、过滤、去重，每天生成中英双语的每日简报（Markdown / GitHub Pages / 邮件 / 微信 / Webhook 分发）。核心设计是 profile（画像）——一套可复用的编辑规则，定义「什么该进来、什么值得留、该怎么写」，不同内容走不同画像：tech-news 给事件与影响、附社区讨论；tech-blog 给背景、方案与可落地要点；ai-creator 给摘要与内容选题角度。每个画像有自己的评分标准（0–10 分）与阈值，并在画像内做重复新闻合并；还支持限制简报总长与各分类占比，避免单一热点淹没其他兴趣。处理链路为「分析→过滤→去重→增强（联网研究背景、抓社区讨论）→按画像分组出简报」，支持 Claude、GPT、Gemini、DeepSeek、豆包、MiniMax 等多家模型。安装用 uv sync 或 pip install -e .，也提供 Docker compose 部署；内置 Agent Skill，可用 npx skills add 让 AI 助手帮你配置源与画像，并能通过 MCP 调用各阶段。当前 ★12474（当日 +121），主语言 Python，MIT 协议。适合不想被信息流淹没、希望按自己的口味定制每日阅读清单的人。（GitHub 每日趋势 2026-11-05：★12474，当日 +121）
+- **归档**：`开源项目介绍/2026.11.5/Horizon.md`
+- **标签**：`#python`
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 - **定位**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。

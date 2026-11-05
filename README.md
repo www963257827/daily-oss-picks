@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-04 ｜ **487** entries (477 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-05 ｜ **492** entries (482 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 44 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 45 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -18,8 +18,8 @@
 | 9 | Code Intelligence / RAG / Code Review | 16 |
 | 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 18 |
-| 13 | Image / Video / Music Generation | 7 |
+| 12 | Local Inference Engines & Optimization | 19 |
+| 13 | Image / Video / Music Generation | 8 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 16 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 69 |
+| 24 | Developer Resources & Curated Lists | 71 |
 | 25 | DevOps / Developer Tools | 31 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (44)
+## 一. AI Coding Agents · Runtimes & Methodologies (45)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -202,6 +202,10 @@ Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learnin
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 `#agent-host` `#electron` `#rust` `#plugin` `#local-first` `#mcp` · 2026-09-23
 Modular desktop workspace for AI agents — local-first, model-agnostic, plugin-driven.
+
+### [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser)
+`#rust` · 2026-11-05
+Browser automation CLI for AI agents
 
 ### [vercel-labs/agent-desktop](https://github.com/vercel-labs/agent-desktop)
 `#rust` · 2026-11-02
@@ -795,7 +799,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (18)
+## 十二. Local Inference Engines & Optimization (19)
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 `#c` · 2026-10-05
@@ -816,6 +820,10 @@ The most powerful and modular diffusion model GUI, api and backend with a graph/
 ### [deepseek-ai/DeepGEMM](https://github.com/deepseek-ai/DeepGEMM)
 `#cuda` · 2026-10-08
 DeepGEMM (by DeepSeek): a clean and efficient GPU BLAS kernel library.
+
+### [FareedKhan-dev/kimi-k3-in-c](https://github.com/FareedKhan-dev/kimi-k3-in-c)
+`#c` · 2026-11-05
+A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.
 
 ### [FlashML-org/FreeToken](https://github.com/FlashML-org/FreeToken)
 `#moe` `#inference-engine` `#local-llm` `#kv-cache` `#edge-ai` · 2026-09-23
@@ -869,7 +877,11 @@ A domain-specific language for high-performance GPU/CPU/Accelerator kernel devel
 `#python` · 2026-10-08
 vLLM: a high-throughput and memory-efficient inference and serving engine for LLMs.
 
-## 十三. Image / Video / Music Generation (7)
+## 十三. Image / Video / Music Generation (8)
+
+### [ConardLi/garden-skills](https://github.com/ConardLi/garden-skills)
+`#javascript` · 2026-11-05
+ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.
 
 ### [Friedrich-M/UniMate](https://github.com/Friedrich-M/UniMate)
 `#python` · 2026-10-02
@@ -1627,7 +1639,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (69)
+## 二十四. Developer Resources & Curated Lists (71)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1769,6 +1781,10 @@ Lightpanda: the headless browser designed for AI and automation
 `#open-source` · 2026-10-09
 Notes of the book 'System Design Interview — An Insider's Guide'.
 
+### [lz4/lz4](https://github.com/lz4/lz4)
+`#c` · 2026-11-05
+Extremely Fast Compression algorithm
+
 ### [MadsLorentzen/ai-job-search](https://github.com/MadsLorentzen/ai-job-search)
 `#python` · 2026-09-30
 The job search that runs on your machine: AI job-application framework built on Claude Code.
@@ -1872,6 +1888,10 @@ Spotify's official Portal plugin for coding agents: set up Portal CLI auth, sear
 ### [stride3d/stride](https://github.com/stride3d/stride)
 `#csharp` · 2026-10-08
 Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
+
+### [Thysrael/Horizon](https://github.com/Thysrael/Horizon)
+`#python` · 2026-11-05
+📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
