@@ -23,17 +23,17 @@
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 19 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
-| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 18 |
+| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 17 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 50 |
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
-| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 11 |
+| [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 10 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 77 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 32 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 73 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 38 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
@@ -1541,7 +1541,7 @@
 
 <a id="sec-15"></a>
 
-## 🛰️ 十五、内容发现与情报（18）
+## 🛰️ 十五、内容发现与情报（17）
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 - **定位**：群体智能预测引擎 · 盛大出品
@@ -1590,12 +1590,6 @@
 - **简介**：集成 500+ 精选新闻源（15 个类别），AI 合成简报；双地图引擎（3D 地球 globe.gl + WebGL 平面地图 deck.gl），56 种地图图层；国家不稳定指数（CII）覆盖 31 个重点国家；金融雷达追踪 29 个股票交易所及商品/加密资产。支持跨流事件关联分析（军事、经济、灾害、升级信号）。6,559 commits、228 issues，社区活跃，含 API/CLI/博客站点等多模块，内置 Agent Skills 与审计体系。
 - **归档**：`开源项目介绍/2026.9.6/worldmonitor.md`
 - **标签**：`#情报` `#可视化` `#全球监控` `#金融雷达`
-
-### [prometheus/prometheus](https://github.com/prometheus/prometheus)
-- **定位**：CNCF 毕业项目、云原生监控的事实标准：一套系统与服务监控系统兼时序数据库（TSDB）。按配置的间隔从各目标拉取指标（
-- **简介**：CNCF 毕业项目、云原生监控的事实标准：一套系统与服务监控系统兼时序数据库（TSDB）。按配置的间隔从各目标拉取指标（HTTP pull 模型）、评估规则表达式、展示结果并在条件命中时触发告警。区别于其他监控系统的关键设计：多维数据模型（指标名 + 键值维度定义时间序列）、强大的查询语言 PromQL、不依赖分布式存储（单机自治）、通过服务发现自动发现目标。当前 ★66989（当日 +140），主语言 Go。适合 Kubernetes 与微服务环境的指标监控与告警，配合 Grafana 出图；也是学习拉取模型、TSDB 与 PromQL 的入门必读项目。（GitHub 每日趋势 2026-11-06：★66989，当日 +140）
-- **归档**：`开源项目介绍/2026.11.6/prometheus.md`
-- **标签**：`#go`
 
 ### [QuantConnect/Lean](https://github.com/QuantConnect/Lean)
 - **定位**：QuantConnect 的开源量化交易引擎（Python/C#），回测与实盘一体化。
@@ -2241,7 +2235,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-19"></a>
 
-## ▶️ 十九、图片查看与媒体播放（11）
+## ▶️ 十九、图片查看与媒体播放（10）
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 - **定位**：跨平台重复视频/图片查找器（可选本地 AI 匹配）
@@ -2277,7 +2271,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：自由开源（GPL）的命令行媒体播放器，C 语言编写，支持海量容器格式、音视频编解码器与字幕类型，凭着基于 FFmpeg
 - **简介**：自由开源（GPL）的命令行媒体播放器，C 语言编写，支持海量容器格式、音视频编解码器与字幕类型，凭着基于 FFmpeg 的扎实解码能力和极高画质口碑，成为众多 GUI 播放器（如 IINA、mpv.net）的内核。系统要求：较新的 Linux、Windows 10 1607+、macOS 10.15+，CPU 不能太弱；CPU 不够时可显式开启 --hwdec 硬件解码。核心优势是可脚本化（Lua 脚本、IPC 控制）与配置自由度——画质算法（如 gpu-next、profile 调参）都能在配置文件里精细控制。当前 ★37756（当日 +36），主语言 C。适合追求画质与自动化控制的影音极客，以及需要嵌入式播放内核的桌面应用开发者。（GitHub 每日趋势 2026-11-06：★37756，当日 +36）
 - **归档**：`开源项目介绍/2026.11.6/mpv.md`
-- **标签**：`#c`
+- **标签**：`#c` `#媒体播放器`
 
 ### [PintaProject/Pinta](https://github.com/PintaProject/Pinta)
 - **定位**：简洁的 GTK 画图程序（Linux 版 Paint）。
@@ -2302,12 +2296,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：一款**专注字幕能力**的视频播放器，核心场景是「看外语视频学外语」。功能密度很高：**双字幕**同时显示（文本与位图字幕都支持）、**AI 生成字幕（ASR）**基于 OpenAI Whisper 实时生成（双引擎可选 whisper.cpp / faster-whisper）、**实时翻译**（Google / DeepL / **Ollama / LM Studio / OpenAI**）、**上下文感知翻译**（用 LLM 识别字幕上下文，准确度大幅提升）、**实时 OCR 字幕**（Tesseract + Microsoft OCR 把位图字幕转文本）、字幕侧栏（可跳转可查词，支持增量搜索）、即时查词与**完全可定制的浏览器搜索站点**、集成 **yt-dlp** 播放任意在线视频且同样支持 AI 字幕与查词、内置 opensubtitles.org 字幕下载、可与 **Yomitan / 10ten** 等浏览器扩展联动、任意格式字幕跳转、双字幕尺寸位置灵活可调、全可定制快捷键（**同一动作可绑多个键**）、按 `F1` 打开内置 Cheat Sheet。用法上有个关键细节：进度条上有**两个 CC 按钮**，左边主字幕设成你在学的语言、右边副字幕设成母语。技术选择很务实——**用 C#/WPF 而不是 C，二次定制极其容易**。⚠️ 依赖 .NET Desktop Runtime 10 + **VC++ Redistributable >= 2022**（不装的话能启动，但一开 ASR 或 OCR 就崩）；NVIDIA 用户装 CUDA Toolkit 可显著加快字幕生成。仅 Windows 10 1903+ / Windows 11 x64。播放内核 Flyleaf。GPL-3.0，4,232 stars，2025-01 创建，Beta 阶段，官网 [llplayer.com](https://llplayer.com)。
 - **归档**：`开源项目介绍/2026.9.23/LLPlayer.md`
 - **标签**：`#语言学习` `#播放器` `#双字幕` `#whisper` `#实时翻译` `#wpf`
-
-### [zed-industries/zed](https://github.com/zed-industries/zed)
-- **定位**：Atom 与 Tree-sitter 原班人马打造的高性能多人协作代码编辑器，用 Rust 编写、GPU 渲染，主打「C
-- **简介**：Atom 与 Tree-sitter 原班人马打造的高性能多人协作代码编辑器，用 Rust 编写、GPU 渲染，主打「Code at the speed of thought」——启动、输入、大文件打开都是毫秒级响应。原生支持 macOS、Linux、Windows（官网直接下载或用包管理器安装），内置多人实时协作（multiplayer）、AI Agent 面板、vim 模式与 LSP/DAP；以开源方式开发，主许可证 GPL-3.0-or-later（部分组件 Apache-2.0）。当前 ★92995（当日 +292），主语言 Rust。适合追求极致流畅度、想摆脱 Electron 编辑器卡顿的开发者，也是研究现代编辑器架构（rope 数据结构、增量解析、CRDT 协同）的优秀样本。（GitHub 每日趋势 2026-11-06：★92995，当日 +292）
-- **归档**：`开源项目介绍/2026.11.6/zed.md`
-- **标签**：`#rust`
 
 <a id="sec-20"></a>
 
@@ -2520,7 +2508,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（77）
+## 📚 二十四、开发者资源 / 精选合集（73）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2532,7 +2520,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：Google 维护的现代 Web 开发平台，用 TypeScript/JavaScript 构建移动端与桌面端 Web
 - **简介**：Google 维护的现代 Web 开发平台，用 TypeScript/JavaScript 构建移动端与桌面端 Web 应用。提供完整的企业级方案：组件与模板、依赖注入、响应式表单、路由与懒加载、服务端渲染（SSR）、动画系统与 Angular Elements（把组件打包成 Web Component）；配套 CLI 与 Schematics 脚手架，工程化程度高、约束强，适合大团队协作与长期维护。当前 ★101142（当日 +128），主语言 TypeScript。适合中大型企业应用与需要强类型、强规范的前端团队；对个人开发者而言是学习依赖注入、变更检测与编译期优化（AOT）的典型案例。（GitHub 每日趋势 2026-11-06：★101142，当日 +128）
 - **归档**：`开源项目介绍/2026.11.6/angular.md`
-- **标签**：`#typescript`
+- **标签**：`#typescript` `#开发工具`
 
 ### [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
 - **定位**：Clean Architecture 解决方案模板：经过验证的 ASP.NET Core 10 架构范本。
@@ -2545,12 +2533,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：不是纯链接列表，而是**可跑代码**的综合合集——**132 个项目**、教程和配方，覆盖文本 Agent、语音助手、RAG 应用和 MCP 支持的工具，给使用各种 AI 框架与技术栈的开发者当实操指南。分类构成一条清晰的进阶路径：**Starter Agents**（最小可跑通）→ **Simple Agents**（单一职责）→ **Voice Agents**（语音助手）→ **MCP Agents**（基于 Model Context Protocol）→ **Memory Agents**（带记忆）→ **RAG Applications** → **Advanced Agents**（多步推理与工具编排）→ **Fine-Tuning**（微调），另配 **Tutorials & Videos**。用法建议很直接：学 RAG 怎么落地就看 RAG 分类的可跑代码；学 Agent 架构分层就顺着 Starter→Simple→Memory→MCP→Advanced 走；找语音 Agent 参考实现看 Voice Agents；学微调流程看 Fine-Tuning。项目带 `hacktoberfest` topic，适合找入门贡献机会。赞助商含 Bright Data、Nebius Token Factory、ScrapeGraphAI、Memori（SQL 原生 AI 记忆层）。Python，MIT，**15,883 stars** / 1,832 forks，2025-02 创建，Trendshift 上榜并带 [Awesome](https://awesome.re) 认证徽章，2026-09-18 仍在更新。
 - **归档**：`开源项目介绍/2026.9.23/awesome-ai-apps.md`
 - **标签**：`#合集` `#rag` `#agent` `#mcp` `#教程` `#可跑代码`
-
-### [astral-sh/ruff](https://github.com/astral-sh/ruff)
-- **定位**：Rust 编写的极速 Python linter 与代码格式化工具，官方口号「从零开始检查 CPython 代码库」：比
-- **简介**：Rust 编写的极速 Python linter 与代码格式化工具，官方口号「从零开始检查 CPython 代码库」：比 Flake8、Black 等现有工具快 10–100 倍，pip 即可安装，支持 pyproject.toml 配置，兼容 Python 3.15。与 Flake8、isort、Black 保持 drop-in 对齐（迁移几乎零成本），内置缓存避免重复分析未改动文件，支持自动修复（如自动删除未使用 import），内置 900+ 条规则（原生重实现了 flake8-bugbear 等热门插件），提供 VS Code 等编辑器的一等公民集成，对 monorepo 友好（层级化、级联配置）。当前 ★50484（当日 +107），主语言 Rust。适合所有 Python 项目直接替换现有 lint/format 工具链，CI 里秒级跑完。（GitHub 每日趋势 2026-11-06：★50484，当日 +107）
-- **归档**：`开源项目介绍/2026.11.6/ruff.md`
-- **标签**：`#rust`
 
 ### [BepInEx/BepInEx](https://github.com/BepInEx/BepInEx)
 - **定位**：Unity/XNA 游戏补丁与插件框架（Mod 生态基石）。
@@ -2641,12 +2623,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：AI Design Skills 是一个持续扩充的设计技能（design skills）合集，面向 Claude Code、Cursor、Codex、Windsurf 等一切读取 Markdown 规则文件的 AI 编码工具。每个技能都是一个自包含文件夹，按需安装即可。首个技能 landing-page-design 能从零搭建落地页：先通过引导问题（intake questions）明确需求，再给出页面结构、转化文案（conversion copy）以及一整套视觉系统（字体、间距、圆角、动效）。针对已有网站的升级改造则不在此合集内——它因诞生更早而独立成库，更多技能在路上。当前 ★9267（当日 +1395）。适合用 AI 编码工具做落地页、希望不请设计师也能快速获得专业级视觉方案的独立开发者与小团队。（GitHub 每日趋势 2026-10-28：★9267，当日 +1395）
 - **归档**：`开源项目介绍/2026.10.28/ai-design-skills.md`
 - **标签**：`#开源`
-
-### [etcd-io/etcd](https://github.com/etcd-io/etcd)
-- **定位**：分布式可靠键值存储，用于保存分布式系统中最关键的数据——Kubernetes 的集群状态就存在 etcd 里。四大设计取
-- **简介**：分布式可靠键值存储，用于保存分布式系统中最关键的数据——Kubernetes 的集群状态就存在 etcd 里。四大设计取向：简单（定义良好的 gRPC 用户 API）、安全（自动 TLS，可选客户端证书认证）、快（基准测试 10,000 写/秒）、可靠（基于 Raft 共识算法管理高可用复制日志）。Go 编写，在生产环境被大量公司用于关键部署场景。注意 main 分支开发期可能不稳定，生产请用 releases 稳定版。当前 ★52484（当日 +123），主语言 Go。适合需要强一致分布式协调、服务发现、配置中心的系统；也是学习 Raft 与分布式 KV 实现的经典代码库。（GitHub 每日趋势 2026-11-06：★52484，当日 +123）
-- **归档**：`开源项目介绍/2026.11.6/etcd.md`
-- **标签**：`#go`
 
 ### [floci-io/floci](https://github.com/floci-io/floci)
 - **定位**：免费开源的本地 AWS 模拟器（LocalStack 平替），面向开发、测试与 CI 场景：一条 docker comp
@@ -2804,23 +2780,11 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.23/node.md`
 - **标签**：`#javascript`
 
-### [nushell/nushell](https://github.com/nushell/nushell)
-- **定位**：「一种新型 shell」——把 shell 的输出从纯文本升级为结构化数据（表格、列表、记录），管道里传递的是带类型的对
-- **简介**：「一种新型 shell」——把 shell 的输出从纯文本升级为结构化数据（表格、列表、记录），管道里传递的是带类型的对象而不是字符串，配合内置命令做筛选、排序、聚合，像写 SQL 一样处理命令行数据。Rust 编写，跨平台（brew install nushell / winget install nushell / cargo 安装），有完整的官方手册与 cookbook，GitHub Action 有 setup-nu 支持。官方坦承目前处于 MVP 质量：很多人已当日用主力 shell，个别命令可能不稳，设计仍会随成熟度演进。当前 ★40799（当日 +88），主语言 Rust。适合受够了 awk/sed 拼接的工程师，也是学习现代 shell 设计（结构化管道、类型系统）的前沿项目。（GitHub 每日趋势 2026-11-06：★40799，当日 +88）
-- **归档**：`开源项目介绍/2026.11.6/nushell.md`
-- **标签**：`#rust`
-
 ### [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)
 - **定位**：开源即时战略游戏引擎，复刻红警等早期 Westwood 经典。
 - **简介**：开源即时战略游戏引擎，复刻红警等早期 Westwood 经典。（GitHub 每日趋势 2026-09-28：★17444，当日 +5）
 - **归档**：`开源项目介绍/2026.9.28/OpenRA.md`
 - **标签**：`#csharp`
-
-### [openssl/openssl](https://github.com/openssl/openssl)
-- **定位**：互联网安全的基石级开源工具包：健壮、商业级、功能完整的 TLS（原 SSL）、DTLS 与 QUIC 协议实现，底层是一
-- **简介**：互联网安全的基石级开源工具包：健壮、商业级、功能完整的 TLS（原 SSL）、DTLS 与 QUIC 协议实现，底层是一套可独立使用的通用密码学库，另含通过 FIPS 标准验证的密码模块。实现覆盖至 TLSv1.3 的全部 TLS 协议版本，以及证书、密钥、摘要、对称/非对称加密等完整能力；从 SSLeay 库演进而来，几乎所有 HTTPS 服务端、curl、语言运行时都直接或间接依赖它。当前 ★31199（当日 +24），主语言 C。适合需要自己实现 TLS 通信、做证书工具链或学习密码学工程实现的场景；也是排查线上 HTTPS 握手问题时要读的源码。（GitHub 每日趋势 2026-11-06：★31199，当日 +24）
-- **归档**：`开源项目介绍/2026.11.6/openssl.md`
-- **标签**：`#c`
 
 ### [php/php-src](https://github.com/php/php-src)
 - **定位**：php/php-src 是 PHP 语言的官方解释器源码仓库。PHP 是一门流行的通用脚本语言，尤其适合 Web 开发，
@@ -2868,13 +2832,13 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：Ruby 生态的旗舰 Web 应用框架，遵循 MVC 三层架构：Model 层用 ActiveRecord 把数据库行映
 - **简介**：Ruby 生态的旗舰 Web 应用框架，遵循 MVC 三层架构：Model 层用 ActiveRecord 把数据库行映射为对象并封装业务逻辑，View 层负责渲染，Controller 层调度请求——「约定优于配置」让 CRUD 应用几乎零样板代码。配套 ActiveSupport、ActionMailer、ActiveJob、ActionCable 等全家桶，覆盖后台任务、邮件、WebSocket 实时通信。当前 ★58891（当日 +44），主语言 Ruby。适合需要快速交付业务系统的团队（尤其在中小团队与创业公司），也是学习「约定优于配置」「ActiveRecord 模式」等 Web 框架设计思想的教科书级项目。（GitHub 每日趋势 2026-11-06：★58891，当日 +44）
 - **归档**：`开源项目介绍/2026.11.6/rails.md`
-- **标签**：`#ruby`
+- **标签**：`#ruby` `#开发工具`
 
 ### [react/react](https://github.com/react/react)
 - **定位**：构建用户界面的 JavaScript 库，前端三大框架之一，全球使用最广。三大设计理念：声明式——描述每个状态下 UI
 - **简介**：构建用户界面的 JavaScript 库，前端三大框架之一，全球使用最广。三大设计理念：声明式——描述每个状态下 UI 应该长什么样，数据变化时 React 只更新需要的组件，视图可预测、易调试；组件化——把状态封装进组件再组合成复杂界面，逻辑写在 JavaScript 里而非模板，状态不留在 DOM；一次学习、随处编写——不假设技术栈，可服务端渲染、可用 React Native 写原生应用。当前 ★252035（当日 +244，全站 star 最高的项目之一），主语言 JavaScript。适合所有 Web 前端与跨端应用开发，也是学习虚拟 DOM、单向数据流、Hooks 等现代前端范式的基准项目。（GitHub 每日趋势 2026-11-06：★252035，当日 +244）
 - **归档**：`开源项目介绍/2026.11.6/react.md`
-- **标签**：`#javascript`
+- **标签**：`#javascript` `#开发工具`
 
 ### [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)
 - **定位**：基于倪海厦《天纪》教学体系的紫微斗数开源排盘引擎，用 TypeScript 实现完整排盘算法、四化系统、格局知识库与古籍
@@ -2934,7 +2898,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：PHP 界的支柱级框架：既是一套用于 Web 与控制台应用的完整框架，也是一组可独立复用的 PHP 组件（HttpFou
 - **简介**：PHP 界的支柱级框架：既是一套用于 Web 与控制台应用的完整框架，也是一组可独立复用的 PHP 组件（HttpFoundation、Console、EventDispatcher 等），被成千上万的 Web 应用使用，也是众多流行 PHP 项目（如 Laravel、Drupal 的部分组件）的底层依赖。用 Composer 安装，严格遵循语义化版本，提供可预测发布流程的 LTS 长期支持版本；当前 8.2 版本正在招募赞助者。当前 ★31247（当日 +89），主语言 PHP。适合需要长期维护、可升级性强的 PHP 项目，其组件化设计与依赖注入容器是学习框架架构的极佳素材。（GitHub 每日趋势 2026-11-06：★31247，当日 +89）
 - **归档**：`开源项目介绍/2026.11.6/symfony.md`
-- **标签**：`#php`
+- **标签**：`#php` `#开发工具`
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 - **定位**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。
@@ -2986,7 +2950,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（32）
+## 🚀 二十五、DevOps / 开发者工具（38）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -3000,6 +2964,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **关联**：库内 [actions/runner](https://github.com/actions/runner)（执行器本体，本仓库是其托管镜像定义）
 - **归档**：`开源项目介绍/2026.9.27/runner-images.md`
 - **标签**：`#github-actions` `#cicd` `#runner-images` `#devops` `#packer`
+
+### [astral-sh/ruff](https://github.com/astral-sh/ruff)
+- **定位**：Rust 编写的极速 Python linter 与代码格式化工具，官方口号「从零开始检查 CPython 代码库」：比
+- **简介**：Rust 编写的极速 Python linter 与代码格式化工具，官方口号「从零开始检查 CPython 代码库」：比 Flake8、Black 等现有工具快 10–100 倍，pip 即可安装，支持 pyproject.toml 配置，兼容 Python 3.15。与 Flake8、isort、Black 保持 drop-in 对齐（迁移几乎零成本），内置缓存避免重复分析未改动文件，支持自动修复（如自动删除未使用 import），内置 900+ 条规则（原生重实现了 flake8-bugbear 等热门插件），提供 VS Code 等编辑器的一等公民集成，对 monorepo 友好（层级化、级联配置）。当前 ★50484（当日 +107），主语言 Rust。适合所有 Python 项目直接替换现有 lint/format 工具链，CI 里秒级跑完。（GitHub 每日趋势 2026-11-06：★50484，当日 +107）
+- **归档**：`开源项目介绍/2026.11.6/ruff.md`
+- **标签**：`#rust` `#开发工具` `#高性能`
 
 ### [caddyserver/caddy](https://github.com/caddyserver/caddy)
 - **定位**：快速可扩展的多平台 HTTP/1-2-3 Web 服务器，自动 HTTPS。
@@ -3036,6 +3006,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：Epic Games 出品：原生用户态多进程图形调试器。（GitHub 每日趋势 2026-10-08：★7789，当日 +82）
 - **归档**：`开源项目介绍/2026.10.8/raddebugger.md`
 - **标签**：`#c`
+
+### [etcd-io/etcd](https://github.com/etcd-io/etcd)
+- **定位**：分布式可靠键值存储，用于保存分布式系统中最关键的数据——Kubernetes 的集群状态就存在 etcd 里。四大设计取
+- **简介**：分布式可靠键值存储，用于保存分布式系统中最关键的数据——Kubernetes 的集群状态就存在 etcd 里。四大设计取向：简单（定义良好的 gRPC 用户 API）、安全（自动 TLS，可选客户端证书认证）、快（基准测试 10,000 写/秒）、可靠（基于 Raft 共识算法管理高可用复制日志）。Go 编写，在生产环境被大量公司用于关键部署场景。注意 main 分支开发期可能不稳定，生产请用 releases 稳定版。当前 ★52484（当日 +123），主语言 Go。适合需要强一致分布式协调、服务发现、配置中心的系统；也是学习 Raft 与分布式 KV 实现的经典代码库。（GitHub 每日趋势 2026-11-06：★52484，当日 +123）
+- **归档**：`开源项目介绍/2026.11.6/etcd.md`
+- **标签**：`#go` `#开发工具`
 
 ### [fastapi/fastapi](https://github.com/fastapi/fastapi)
 - **定位**：FastAPI：高性能 Python Web 框架，易学、快写、生产就绪（★103K）。
@@ -3109,6 +3085,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.1/nopCommerce.md`
 - **标签**：`#csharp`
 
+### [nushell/nushell](https://github.com/nushell/nushell)
+- **定位**：「一种新型 shell」——把 shell 的输出从纯文本升级为结构化数据（表格、列表、记录），管道里传递的是带类型的对
+- **简介**：「一种新型 shell」——把 shell 的输出从纯文本升级为结构化数据（表格、列表、记录），管道里传递的是带类型的对象而不是字符串，配合内置命令做筛选、排序、聚合，像写 SQL 一样处理命令行数据。Rust 编写，跨平台（brew install nushell / winget install nushell / cargo 安装），有完整的官方手册与 cookbook，GitHub Action 有 setup-nu 支持。官方坦承目前处于 MVP 质量：很多人已当日用主力 shell，个别命令可能不稳，设计仍会随成熟度演进。当前 ★40799（当日 +88），主语言 Rust。适合受够了 awk/sed 拼接的工程师，也是学习现代 shell 设计（结构化管道、类型系统）的前沿项目。（GitHub 每日趋势 2026-11-06：★40799，当日 +88）
+- **归档**：`开源项目介绍/2026.11.6/nushell.md`
+- **标签**：`#rust` `#cli` `#开发工具`
+
 ### [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 - **定位**：Node 版本管理器：POSIX 兼容的 bash 脚本，管理多个并行激活的 Node.js 版本
 - **简介**：Node 版本管理器事实标准：POSIX 兼容的纯 bash 脚本实现（v0.40.8），零依赖 curl 一行安装；管理多个可并行激活的 Node.js 版本——nvm install/use 随切随用、.nvmrc 项目级版本锁定、国内镜像源可配。通过 CII Best Practices 认证，附 Docker 内安装方案，是前端团队多项目多版本共存的标准答案。（GitHub 每日趋势 2026-10-14：★95364，当日 +45）
@@ -3133,11 +3115,23 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.27/openbao.md`
 - **标签**：`#secret-management` `#security` `#go` `#devops` `#vault-fork`
 
+### [openssl/openssl](https://github.com/openssl/openssl)
+- **定位**：互联网安全的基石级开源工具包：健壮、商业级、功能完整的 TLS（原 SSL）、DTLS 与 QUIC 协议实现，底层是一
+- **简介**：互联网安全的基石级开源工具包：健壮、商业级、功能完整的 TLS（原 SSL）、DTLS 与 QUIC 协议实现，底层是一套可独立使用的通用密码学库，另含通过 FIPS 标准验证的密码模块。实现覆盖至 TLSv1.3 的全部 TLS 协议版本，以及证书、密钥、摘要、对称/非对称加密等完整能力；从 SSLeay 库演进而来，几乎所有 HTTPS 服务端、curl、语言运行时都直接或间接依赖它。当前 ★31199（当日 +24），主语言 C。适合需要自己实现 TLS 通信、做证书工具链或学习密码学工程实现的场景；也是排查线上 HTTPS 握手问题时要读的源码。（GitHub 每日趋势 2026-11-06：★31199，当日 +24）
+- **归档**：`开源项目介绍/2026.11.6/openssl.md`
+- **标签**：`#c` `#开发工具`
+
 ### [pardeike/Harmony](https://github.com/pardeike/Harmony)
 - **定位**：运行时修补、替换和装饰 .NET 与 Mono 方法的库（Unity Mod 生态基石）。
 - **简介**：运行时修补、替换和装饰 .NET 与 Mono 方法的库（Unity Mod 生态基石）。（GitHub 每日趋势 2026-10-01：★6677，当日 +3）
 - **归档**：`开源项目介绍/2026.10.1/Harmony.md`
 - **标签**：`#csharp`
+
+### [prometheus/prometheus](https://github.com/prometheus/prometheus)
+- **定位**：CNCF 毕业项目、云原生监控的事实标准：一套系统与服务监控系统兼时序数据库（TSDB）。按配置的间隔从各目标拉取指标（
+- **简介**：CNCF 毕业项目、云原生监控的事实标准：一套系统与服务监控系统兼时序数据库（TSDB）。按配置的间隔从各目标拉取指标（HTTP pull 模型）、评估规则表达式、展示结果并在条件命中时触发告警。区别于其他监控系统的关键设计：多维数据模型（指标名 + 键值维度定义时间序列）、强大的查询语言 PromQL、不依赖分布式存储（单机自治）、通过服务发现自动发现目标。当前 ★66989（当日 +140），主语言 Go。适合 Kubernetes 与微服务环境的指标监控与告警，配合 Grafana 出图；也是学习拉取模型、TSDB 与 PromQL 的入门必读项目。（GitHub 每日趋势 2026-11-06：★66989，当日 +140）
+- **归档**：`开源项目介绍/2026.11.6/prometheus.md`
+- **标签**：`#go` `#开发工具`
 
 ### [psf/black](https://github.com/psf/black)
 - **定位**：绝不妥协的 Python 代码格式化器。
@@ -3180,6 +3174,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：跨平台 Xcode 替代品：用 SwiftPM 在 Linux、Windows（WSL）与 macOS 上构建并部署 iOS 应用，以开放标准复刻 Xcode 核心能力——把 SwiftPM 包打成 iOS App、签名与安装、以编程方式对接 Apple Developer Services。可从 VS Code 直接调用，配套完整文档与上手教程（xtool.sh），适合没有 Mac 也能开发 iOS 或在 Linux CI 上构建 iOS 的场景。（GitHub 每日趋势 2026-10-13：★8601，当日 +936）
 - **归档**：`开源项目介绍/2026.10.13/xtool.md`
 - **标签**：`#swift`
+
+### [zed-industries/zed](https://github.com/zed-industries/zed)
+- **定位**：Atom 与 Tree-sitter 原班人马打造的高性能多人协作代码编辑器，用 Rust 编写、GPU 渲染，主打「C
+- **简介**：Atom 与 Tree-sitter 原班人马打造的高性能多人协作代码编辑器，用 Rust 编写、GPU 渲染，主打「Code at the speed of thought」——启动、输入、大文件打开都是毫秒级响应。原生支持 macOS、Linux、Windows（官网直接下载或用包管理器安装），内置多人实时协作（multiplayer）、AI Agent 面板、vim 模式与 LSP/DAP；以开源方式开发，主许可证 GPL-3.0-or-later（部分组件 Apache-2.0）。当前 ★92995（当日 +292），主语言 Rust。适合追求极致流畅度、想摆脱 Electron 编辑器卡顿的开发者，也是研究现代编辑器架构（rope 数据结构、增量解析、CRDT 协同）的优秀样本。（GitHub 每日趋势 2026-11-06：★92995，当日 +292）
+- **归档**：`开源项目介绍/2026.11.6/zed.md`
+- **标签**：`#rust` `#开发工具` `#高性能`
 
 ---
 

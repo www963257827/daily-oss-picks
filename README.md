@@ -21,17 +21,17 @@
 | 12 | Local Inference Engines & Optimization | 19 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
-| 15 | Content Discovery & Intelligence | 18 |
+| 15 | Content Discovery & Intelligence | 17 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 50 |
 | 18 | Files · Downloads · Photo Management | 22 |
-| 19 | Image Viewers & Media Players | 11 |
+| 19 | Image Viewers & Media Players | 10 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 77 |
-| 25 | DevOps / Developer Tools | 32 |
+| 24 | Developer Resources & Curated Lists | 73 |
+| 25 | DevOps / Developer Tools | 38 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (45)
 
@@ -1013,7 +1013,7 @@ Tencent's browser bridge for agents: reuses your real, logged-in browser without
 `#self-hosted` `#multi-agent` `#tencent-cloud` `#im-integration` `#local-first` `#acp` · 2026-09-23
 Self-hosted multi-user, multi-agent AI assistant platform from Tencent Cloud.
 
-## 十五. Content Discovery & Intelligence (18)
+## 十五. Content Discovery & Intelligence (17)
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 `#agent` `#swarm-intelligence` `#prediction` `#multi-agent` `#shanda` · 2026-09-16
@@ -1046,10 +1046,6 @@ Watermark-free bulk downloader for Douyin and other short-video platforms.
 ### [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
 `#intelligence` `#visualization` `#global-monitoring` `#finance-radar` · 2026-09-06
 Real-time global intelligence dashboard, self-hosted.
-
-### [prometheus/prometheus](https://github.com/prometheus/prometheus)
-`#go` · 2026-11-06
-The Prometheus monitoring system and time series database.
 
 ### [QuantConnect/Lean](https://github.com/QuantConnect/Lean)
 `#csharp` · 2026-09-28
@@ -1473,7 +1469,7 @@ A modern launcher for downloading, installing and running apps from GitHub/GitLa
 `#csharp` · 2026-10-08
 Downloads videos and playlists from YouTube.
 
-## 十九. Image Viewers & Media Players (11)
+## 十九. Image Viewers & Media Players (10)
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 `#dedup` `#video` `#local-ai` `#dinov2` `#cross-platform` `#docker` · 2026-09-23
@@ -1496,7 +1492,7 @@ The Free Software Media System - Server Backend & API
 Kavita is a fast, feature rich, cross platform reading server.
 
 ### [mpv-player/mpv](https://github.com/mpv-player/mpv)
-`#c` · 2026-11-06
+`#c` `#media-player` · 2026-11-06
 🎥 Command line media player
 
 ### [PintaProject/Pinta](https://github.com/PintaProject/Pinta)
@@ -1514,10 +1510,6 @@ SubtitleEdit: the subtitle editor.
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
 `#language-learning` `#player` `#dual-subtitles` `#whisper` `#live-translation` `#wpf` · 2026-09-23
 Media player built for language learning: dual subtitles, AI subtitles, live translation.
-
-### [zed-industries/zed](https://github.com/zed-industries/zed)
-`#rust` · 2026-11-06
-Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
 ## 二十. AI Desktop Apps (8)
 
@@ -1655,14 +1647,14 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (77)
+## 二十四. Developer Resources & Curated Lists (73)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
 League, unlocked.
 
 ### [angular/angular](https://github.com/angular/angular)
-`#typescript` · 2026-11-06
+`#typescript` `#dev-tools` · 2026-11-06
 Deliver web apps with confidence 🚀
 
 ### [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
@@ -1672,10 +1664,6 @@ Clean Architecture Solution Template: a proven template for ASP.NET Core 10.
 ### [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
 `#collection` `#rag` `#agent` `#mcp` `#tutorial` `#runnable-code` · 2026-09-23
 132 practical LLM app examples: RAG, agents, workflows — all runnable.
-
-### [astral-sh/ruff](https://github.com/astral-sh/ruff)
-`#rust` · 2026-11-06
-An extremely fast Python linter and code formatter, written in Rust.
 
 ### [BepInEx/BepInEx](https://github.com/BepInEx/BepInEx)
 `#csharp` · 2026-10-08
@@ -1736,10 +1724,6 @@ Effect: build production-ready applications in TypeScript.
 ### [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)
 `#open-source` · 2026-10-28
 A growing collection of design skills for AI coding tools.
-
-### [etcd-io/etcd](https://github.com/etcd-io/etcd)
-`#go` · 2026-11-06
-Distributed reliable key-value store for the most critical data of a distributed system
 
 ### [floci-io/floci](https://github.com/floci-io/floci)
 `#java` · 2026-11-03
@@ -1845,17 +1829,9 @@ Neural Networks and Deep Learning (Dandelion Book) 2nd + general editions, by Qi
 `#javascript` · 2026-10-23
 Node.js JavaScript runtime ✨🐢🚀✨
 
-### [nushell/nushell](https://github.com/nushell/nushell)
-`#rust` · 2026-11-06
-A new type of shell
-
 ### [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)
 `#csharp` · 2026-09-28
 Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL.
-
-### [openssl/openssl](https://github.com/openssl/openssl)
-`#c` · 2026-11-06
-General purpose TLS and crypto library
 
 ### [php/php-src](https://github.com/php/php-src)
 `#c` · 2026-10-22
@@ -1886,11 +1862,11 @@ An Open Source C# 3D Game Engine under MIT license, inspired by Unity and featur
 The huge collective list of free public APIs.
 
 ### [rails/rails](https://github.com/rails/rails)
-`#ruby` · 2026-11-06
+`#ruby` `#dev-tools` · 2026-11-06
 Ruby on Rails
 
 ### [react/react](https://github.com/react/react)
-`#javascript` · 2026-11-06
+`#javascript` `#dev-tools` · 2026-11-06
 The library for web and native user interfaces.
 
 ### [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)
@@ -1930,7 +1906,7 @@ Spotify's official Portal plugin for coding agents: set up Portal CLI auth, sear
 Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 
 ### [symfony/symfony](https://github.com/symfony/symfony)
-`#php` · 2026-11-06
+`#php` `#dev-tools` · 2026-11-06
 The Symfony PHP framework
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
@@ -1965,7 +1941,7 @@ Marble Skill Taxonomy: an open, structured taxonomy of what children learn acros
 `#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14
 Agentic Design Patterns (Chinese translation): 21 patterns for building AI agents
 
-## 二十五. DevOps / Developer Tools (32)
+## 二十五. DevOps / Developer Tools (38)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1974,6 +1950,10 @@ The self-hosted runner for GitHub Actions jobs.
 ### [actions/runner-images](https://github.com/actions/runner-images)
 `#github-actions` `#cicd` `#runner-images` `#devops` `#packer` · 2026-09-27
 VM image definitions and build scripts for GitHub-hosted runners.
+
+### [astral-sh/ruff](https://github.com/astral-sh/ruff)
+`#rust` `#dev-tools` `#high-performance` · 2026-11-06
+An extremely fast Python linter and code formatter, written in Rust.
 
 ### [caddyserver/caddy](https://github.com/caddyserver/caddy)
 `#go` · 2026-10-05
@@ -1998,6 +1978,10 @@ Core functionality for creating .NET Core projects, shared between Visual Studio
 ### [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger)
 `#c` · 2026-10-08
 A native, user-mode, multi-process graphical debugger (by Epic Games).
+
+### [etcd-io/etcd](https://github.com/etcd-io/etcd)
+`#go` `#dev-tools` · 2026-11-06
+Distributed reliable key-value store for the most critical data of a distributed system
 
 ### [fastapi/fastapi](https://github.com/fastapi/fastapi)
 `#python` · 2026-10-11
@@ -2047,6 +2031,10 @@ Nethermind: a robust, high-performance execution client for Ethereum node operat
 `#csharp` · 2026-10-01
 nopCommerce: free and open-source ASP.NET Core eCommerce shopping cart software.
 
+### [nushell/nushell](https://github.com/nushell/nushell)
+`#rust` `#cli` `#dev-tools` · 2026-11-06
+A new type of shell
+
 ### [nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 `#shell` · 2026-10-14
 Node Version Manager: POSIX bash script for multiple active Node.js versions
@@ -2063,9 +2051,17 @@ This repository contains set of components extending functionality of the OpenTe
 `#secret-management` `#security` `#go` `#devops` `#vault-fork` · 2026-09-27
 OpenSSF-governed fork of HashiCorp Vault: secrets, certificates and keys management.
 
+### [openssl/openssl](https://github.com/openssl/openssl)
+`#c` `#dev-tools` · 2026-11-06
+General purpose TLS and crypto library
+
 ### [pardeike/Harmony](https://github.com/pardeike/Harmony)
 `#csharp` · 2026-10-01
 A library for patching, replacing and decorating .NET and Mono methods during runtime.
+
+### [prometheus/prometheus](https://github.com/prometheus/prometheus)
+`#go` `#dev-tools` · 2026-11-06
+The Prometheus monitoring system and time series database.
 
 ### [psf/black](https://github.com/psf/black)
 `#python` · 2026-10-09
@@ -2094,6 +2090,10 @@ TypeScript-to-Native Compiler
 ### [xtool-org/xtool](https://github.com/xtool-org/xtool)
 `#swift` · 2026-10-13
 Cross-platform Xcode replacement: build & deploy iOS apps with SwiftPM
+
+### [zed-industries/zed](https://github.com/zed-industries/zed)
+`#rust` `#dev-tools` `#high-performance` · 2026-11-06
+Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
 ---
 *English digest auto-generated by `tools/build_kb.py` — one-line positioning per entry. Full descriptions live in the Chinese edition and local archives.*
