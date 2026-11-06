@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-05 ｜ **492** entries (482 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-06 ｜ **503** entries (493 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -21,16 +21,16 @@
 | 12 | Local Inference Engines & Optimization | 19 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
-| 15 | Content Discovery & Intelligence | 17 |
+| 15 | Content Discovery & Intelligence | 18 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 50 |
 | 18 | Files · Downloads · Photo Management | 22 |
-| 19 | Image Viewers & Media Players | 9 |
+| 19 | Image Viewers & Media Players | 11 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 69 |
+| 24 | Developer Resources & Curated Lists | 77 |
 | 25 | DevOps / Developer Tools | 32 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (45)
@@ -1013,7 +1013,7 @@ Tencent's browser bridge for agents: reuses your real, logged-in browser without
 `#self-hosted` `#multi-agent` `#tencent-cloud` `#im-integration` `#local-first` `#acp` · 2026-09-23
 Self-hosted multi-user, multi-agent AI assistant platform from Tencent Cloud.
 
-## 十五. Content Discovery & Intelligence (17)
+## 十五. Content Discovery & Intelligence (18)
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 `#agent` `#swarm-intelligence` `#prediction` `#multi-agent` `#shanda` · 2026-09-16
@@ -1046,6 +1046,10 @@ Watermark-free bulk downloader for Douyin and other short-video platforms.
 ### [koala73/worldmonitor](https://github.com/koala73/worldmonitor)
 `#intelligence` `#visualization` `#global-monitoring` `#finance-radar` · 2026-09-06
 Real-time global intelligence dashboard, self-hosted.
+
+### [prometheus/prometheus](https://github.com/prometheus/prometheus)
+`#go` · 2026-11-06
+The Prometheus monitoring system and time series database.
 
 ### [QuantConnect/Lean](https://github.com/QuantConnect/Lean)
 `#csharp` · 2026-09-28
@@ -1469,7 +1473,7 @@ A modern launcher for downloading, installing and running apps from GitHub/GitLa
 `#csharp` · 2026-10-08
 Downloads videos and playlists from YouTube.
 
-## 十九. Image Viewers & Media Players (9)
+## 十九. Image Viewers & Media Players (11)
 
 ### [0x90d/videoduplicatefinder](https://github.com/0x90d/videoduplicatefinder)
 `#dedup` `#video` `#local-ai` `#dinov2` `#cross-platform` `#docker` · 2026-09-23
@@ -1491,6 +1495,10 @@ The Free Software Media System - Server Backend & API
 `#csharp` · 2026-09-27
 Kavita is a fast, feature rich, cross platform reading server.
 
+### [mpv-player/mpv](https://github.com/mpv-player/mpv)
+`#c` · 2026-11-06
+🎥 Command line media player
+
 ### [PintaProject/Pinta](https://github.com/PintaProject/Pinta)
 `#csharp` · 2026-10-03
 Pinta: a simple GTK paint program (Paint for Linux).
@@ -1506,6 +1514,10 @@ SubtitleEdit: the subtitle editor.
 ### [umlx5h/LLPlayer](https://github.com/umlx5h/LLPlayer)
 `#language-learning` `#player` `#dual-subtitles` `#whisper` `#live-translation` `#wpf` · 2026-09-23
 Media player built for language learning: dual subtitles, AI subtitles, live translation.
+
+### [zed-industries/zed](https://github.com/zed-industries/zed)
+`#rust` · 2026-11-06
+Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.
 
 ## 二十. AI Desktop Apps (8)
 
@@ -1643,11 +1655,15 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (69)
+## 二十四. Developer Resources & Curated Lists (77)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
 League, unlocked.
+
+### [angular/angular](https://github.com/angular/angular)
+`#typescript` · 2026-11-06
+Deliver web apps with confidence 🚀
 
 ### [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
 `#csharp` · 2026-10-01
@@ -1656,6 +1672,10 @@ Clean Architecture Solution Template: a proven template for ASP.NET Core 10.
 ### [Arindam200/awesome-ai-apps](https://github.com/Arindam200/awesome-ai-apps)
 `#collection` `#rag` `#agent` `#mcp` `#tutorial` `#runnable-code` · 2026-09-23
 132 practical LLM app examples: RAG, agents, workflows — all runnable.
+
+### [astral-sh/ruff](https://github.com/astral-sh/ruff)
+`#rust` · 2026-11-06
+An extremely fast Python linter and code formatter, written in Rust.
 
 ### [BepInEx/BepInEx](https://github.com/BepInEx/BepInEx)
 `#csharp` · 2026-10-08
@@ -1716,6 +1736,10 @@ Effect: build production-ready applications in TypeScript.
 ### [elayadesign/ai-design-skills](https://github.com/elayadesign/ai-design-skills)
 `#open-source` · 2026-10-28
 A growing collection of design skills for AI coding tools.
+
+### [etcd-io/etcd](https://github.com/etcd-io/etcd)
+`#go` · 2026-11-06
+Distributed reliable key-value store for the most critical data of a distributed system
 
 ### [floci-io/floci](https://github.com/floci-io/floci)
 `#java` · 2026-11-03
@@ -1821,9 +1845,17 @@ Neural Networks and Deep Learning (Dandelion Book) 2nd + general editions, by Qi
 `#javascript` · 2026-10-23
 Node.js JavaScript runtime ✨🐢🚀✨
 
+### [nushell/nushell](https://github.com/nushell/nushell)
+`#rust` · 2026-11-06
+A new type of shell
+
 ### [OpenRA/OpenRA](https://github.com/OpenRA/OpenRA)
 `#csharp` · 2026-09-28
 Open Source real-time strategy game engine for early Westwood games such as Command & Conquer: Red Alert written in C# using SDL and OpenGL.
+
+### [openssl/openssl](https://github.com/openssl/openssl)
+`#c` · 2026-11-06
+General purpose TLS and crypto library
 
 ### [php/php-src](https://github.com/php/php-src)
 `#c` · 2026-10-22
@@ -1852,6 +1884,14 @@ An Open Source C# 3D Game Engine under MIT license, inspired by Unity and featur
 ### [public-apis/public-apis](https://github.com/public-apis/public-apis)
 `#api` `#dev-resources` `#free` `#collection` · 2026-09-06
 The huge collective list of free public APIs.
+
+### [rails/rails](https://github.com/rails/rails)
+`#ruby` · 2026-11-06
+Ruby on Rails
+
+### [react/react](https://github.com/react/react)
+`#javascript` · 2026-11-06
+The library for web and native user interfaces.
 
 ### [Renhuai123/ziwei-doushu](https://github.com/Renhuai123/ziwei-doushu)
 `#typescript` · 2026-10-23
@@ -1888,6 +1928,10 @@ Spotify's official Portal plugin for coding agents: set up Portal CLI auth, sear
 ### [stride3d/stride](https://github.com/stride3d/stride)
 `#csharp` · 2026-10-08
 Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
+
+### [symfony/symfony](https://github.com/symfony/symfony)
+`#php` · 2026-11-06
+The Symfony PHP framework
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
