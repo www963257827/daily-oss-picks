@@ -7,7 +7,7 @@
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 46 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 45 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 73 |
+| 24 | Developer Resources & Curated Lists | 74 |
 | 25 | DevOps / Developer Tools | 38 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (46)
+## 一. AI Coding Agents · Runtimes & Methodologies (45)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -130,10 +130,6 @@ Consider it done. The open-source AI agent that works out of the box · 想到�
 ### [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 `#swift` · 2026-10-08
 cmux: a Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
-
-### [meta/astryx](https://github.com/meta/astryx)
-`#typescript` · 2026-11-07
-An open source design system that's fully customizable and agent ready
 
 ### [microsoft/agent-framework](https://github.com/microsoft/agent-framework)
 `#python` · 2026-10-09
@@ -1651,7 +1647,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (73)
+## 二十四. Developer Resources & Curated Lists (74)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1804,6 +1800,10 @@ The job search that runs on your machine: AI job-application framework built on 
 ### [MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning](https://github.com/MathFoundationRL/Book-Mathematical-Foundation-of-Reinforcement-Learning)
 `#textbook` `#open-source-books` `#reinforcement-learning` `#数学原理` · 2026-10-14
 Mathematical Foundation of Reinforcement Learning: why RL algorithms are designed that way
+
+### [meta/astryx](https://github.com/meta/astryx)
+`#typescript` `#dev-tools` · 2026-11-07
+An open source design system that's fully customizable and agent ready
 
 ### [MikuLeaks/MikuSB](https://github.com/MikuLeaks/MikuSB)
 `#csharp` · 2026-09-30
