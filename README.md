@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-06 ｜ **503** entries (493 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-07 ｜ **504** entries (494 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 45 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 46 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -33,7 +33,7 @@
 | 24 | Developer Resources & Curated Lists | 73 |
 | 25 | DevOps / Developer Tools | 38 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (45)
+## 一. AI Coding Agents · Runtimes & Methodologies (46)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -130,6 +130,10 @@ Consider it done. The open-source AI agent that works out of the box · 想到�
 ### [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux)
 `#swift` · 2026-10-08
 cmux: a Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
+
+### [meta/astryx](https://github.com/meta/astryx)
+`#typescript` · 2026-11-07
+An open source design system that's fully customizable and agent ready
 
 ### [microsoft/agent-framework](https://github.com/microsoft/agent-framework)
 `#python` · 2026-10-09

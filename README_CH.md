@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-11-06 ｜ 共收录 **503** 条内容（493 个项目 + 10 篇精选文章）
+> 📅 最后更新：2026-11-07 ｜ 共收录 **504** 条内容（494 个项目 + 10 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 45 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 46 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（45）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（46）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -188,6 +188,12 @@
 - **简介**：cmux：基于 Ghostty 的 macOS 终端，带垂直标签页与 AI Agent 通知，专为多任务设计。（GitHub 每日趋势 2026-10-08：★27774，当日 +96）
 - **归档**：`开源项目介绍/2026.10.8/cmux.md`
 - **标签**：`#swift`
+
+### [meta/astryx](https://github.com/meta/astryx)
+- **定位**：Meta 首次开源的官方设计系统 Astryx：在 Meta 内部生长了八年，是该公司使用最广、规模最大的设计系统，支撑
+- **简介**：Meta 首次开源的官方设计系统 Astryx：在 Meta 内部生长了八年，是该公司使用最广、规模最大的设计系统，支撑 13,000+ 个应用，由日常依赖它的工程师、设计师与产品团队共同打磨。当前处于 Beta 阶段，构建在 React 19+ 与 StyleX 之上，主打「为人和 Agent 协作的时代而生」（fully customizable and agent ready）。核心交付：150+ 个无障碍（accessible）组件、品牌级主题定制（brand-level theming）、深色模式、开箱即用的模板，以及配套 CLI，构成一套完整体系；使用方式是直接引入预构建 CSS ＋ 类型化的 React 组件，无需自己搭构建链。提供文档、Storybook、在线 Sandbox 与 Discord 社区。当前 ★14122（当日 +198），主语言 TypeScript。适合需要企业级、可访问性有保障的 React UI 体系的前端团队，也特别适合 AI 编码场景——设计系统自带的结构化组件与主题规范正是 Agent 生成界面时最需要的约束。（GitHub 每日趋势 2026-11-07：★14122，当日 +198）
+- **归档**：`开源项目介绍/2026.11.7/astryx.md`
+- **标签**：`#typescript`
 
 ### [microsoft/agent-framework](https://github.com/microsoft/agent-framework)
 - **定位**：微软官方 Agent 框架：构建、编排与部署 AI Agent 和多 Agent 工作流（支持 Python 与 .NE
