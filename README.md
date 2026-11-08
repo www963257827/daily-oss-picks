@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-07 ｜ **504** entries (494 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-08 ｜ **508** entries (498 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 45 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 46 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 9 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -23,17 +23,17 @@
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 17 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
-| 17 | System Tools & Desktop Productivity | 50 |
+| 17 | System Tools & Desktop Productivity | 51 |
 | 18 | Files · Downloads · Photo Management | 22 |
 | 19 | Image Viewers & Media Players | 10 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 74 |
+| 24 | Developer Resources & Curated Lists | 76 |
 | 25 | DevOps / Developer Tools | 38 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (45)
+## 一. AI Coding Agents · Runtimes & Methodologies (46)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -66,6 +66,10 @@ Anthropic's official terminal coding agent — the host platform for many skills
 ### [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action)
 `#typescript` · 2026-09-27
 Anthropic's official GitHub Action integrating Claude Code into workflows (PR review, issues).
+
+### [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
+`#python` · 2026-11-08
+A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
 
 ### [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 `#ai-agent` `#multi-agent` `#agile` `#methodology` `#workflow` `#context-engineering` · 2026-09-27
@@ -1177,7 +1181,7 @@ Uno Platform: build cross-platform native mobile, web, desktop and embedded apps
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (50)
+## 十七. System Tools & Desktop Productivity (51)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1322,6 +1326,10 @@ macOS-style spacebar quick preview for Windows.
 ### [RankFTW/RHI](https://github.com/RankFTW/RHI)
 `#csharp` · 2026-10-08
 ReShade HDR Installer.
+
+### [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context)
+`#typescript` · 2026-11-08
+A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话，…
 
 ### [redis-windows/redis-windows](https://github.com/redis-windows/redis-windows)
 `#csharp` · 2026-10-10
@@ -1647,7 +1655,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (74)
+## 二十四. Developer Resources & Curated Lists (76)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1713,6 +1721,10 @@ Hello Agents (by Datawhale): principles and practice of building intelligent age
 `#python` · 2026-09-28
 The Web framework for perfectionists with deadlines.
 
+### [dsx-ai-factory/nvke](https://github.com/dsx-ai-factory/nvke)
+`#go` · 2026-11-08
+NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.
+
 ### [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 `#python` · 2026-09-28
 📚 Freely available programming books
@@ -1736,6 +1748,10 @@ Industrial prompt engine and template library for GPT-Image (544 reverse-enginee
 ### [Goob-Station/Goob-Station](https://github.com/Goob-Station/Goob-Station)
 `#csharp` · 2026-09-28
 We're not even close to "Wizden, but random" at this point.
+
+### [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
+`#cpp` · 2026-11-08
+Multi-Joint dynamics with Contact. A general purpose physics simulator.
 
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 `#python` · 2026-09-30
