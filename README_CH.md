@@ -9,9 +9,9 @@
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 46 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 45 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
-| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 9 |
+| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 10 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
@@ -25,22 +25,22 @@
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 17 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
-| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 51 |
+| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 50 |
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 10 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 8 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 76 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 38 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 75 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 40 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（46）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（45）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -91,12 +91,6 @@
 - **简介**：Anthropic 官方的 Claude Code GitHub Action 集成，把 Claude 用于 PR 审查与议题处理等工作流。（GitHub 每日趋势 2026-09-26：★9012，当日 +15）
 - **归档**：`开源项目介绍/2026.9.27/claude-code-action.md`
 - **标签**：`#typescript`
-
-### [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
-- **定位**：Anthropic 官方的 Claude API 快速启动项目合集：每个 quickstart 都是一个可直接运行、便于
-- **简介**：Anthropic 官方的 Claude API 快速启动项目合集：每个 quickstart 都是一个可直接运行、便于在其上扩展定制的应用底座。旗舰示例是客户支持 Agent——演示如何利用 Claude 的自然语言理解与生成能力，搭建接入知识库的 AI 辅助客服系统；合集还涵盖其他典型应用模式的起步代码。使用前提是拥有 Claude API key（可在 console.anthropic.com 免费注册获取）。当前 ★19175（当日 +28），主语言 Python。适合刚开始基于 Claude API 做应用开发的工程师——不用从零摸索提示词、工具调用与知识库检索的拼装方式，直接在官方验证过的骨架上改业务；也是研究官方推荐 Agent 架构（RAG、客服、工作流）的一手参考实现。（GitHub 每日趋势 2026-11-08：★19175，当日 +28）
-- **归档**：`开源项目介绍/2026.11.8/claude-quickstarts.md`
-- **标签**：`#python`
 
 ### [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 - **定位**：多 Agent 敏捷 AI 开发方法论框架，用专家角色编排 AI 交付
@@ -382,7 +376,7 @@
 
 <a id="sec-3"></a>
 
-## 🧠 三、Agent 记忆与知识蒸馏（9）
+## 🧠 三、Agent 记忆与知识蒸馏（10）
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 - **定位**：AI 编码 Agent 长期记忆 · 跨工具跨机器共享
@@ -401,6 +395,12 @@
 - **简介**：AI Agent 的记忆层：可插拔的记忆基础设施，上下文持久化、面向生产环境。（GitHub 每日趋势 2026-09-30：★66314，当日 +119）
 - **归档**：`开源项目介绍/2026.9.30/mem0.md`
 - **标签**：`#python`
+
+### [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context)
+- **定位**：上下文压缩插件 billion-context，口号「billion-context is all you need」：
+- **简介**：上下文压缩插件 billion-context，口号「billion-context is all you need」：让单会话撑到月级长度（数十亿 token 累计），同时把上下文窗口压到很小——100K 上下文就够用，整体省 5 倍 token。压缩质量是核心卖点；并自带缓存健康度监控：健康的会话保持 95–97% 的前缀缓存命中率，压缩本身的开销 ≤2%；命中率持续偏低时可用 /acp 或 /acp-cache 命令做归因排查（常见原因按序为：上游缓存 TTL 过期、切换了模型、插件 bug——欢迎上报）。安装：npm install -g billion-context --prefix=~/.local。当前 ★4841（当日 +460，冲榜极猛），主语言 TypeScript，README 中英双语。适合重度使用 Claude Code/Cursor 等编码 Agent、被长会话 token 账单和上下文窗口限制困扰的开发者——月级不换会话、成本减半是它的直接价值。（GitHub 每日趋势 2026-11-08：★4841，当日 +460）
+- **归档**：`开源项目介绍/2026.11.8/billion-context.md`
+- **标签**：`#typescript` `#上下文工程` `#token压缩` `#记忆`
 
 ### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
 - **定位**：为每个 Agent 提供跨会话持久上下文：捕获会话中的所有操作，AI 压缩后自动恢复。
@@ -1800,7 +1800,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-17"></a>
 
-## 🛠️ 十七、系统工具与桌面效率（51）
+## 🛠️ 十七、系统工具与桌面效率（50）
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 - **定位**：让游戏以无边框窗口运行，告别耗时的 Alt+Tab。
@@ -2017,12 +2017,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：ReShade HDR 安装器。（GitHub 每日趋势 2026-10-06：★1985，当日 +24）
 - **归档**：`开源项目介绍/2026.10.8/RHI.md`
 - **标签**：`#csharp`
-
-### [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context)
-- **定位**：上下文压缩插件 billion-context，口号「billion-context is all you need」：
-- **简介**：上下文压缩插件 billion-context，口号「billion-context is all you need」：让单会话撑到月级长度（数十亿 token 累计），同时把上下文窗口压到很小——100K 上下文就够用，整体省 5 倍 token。压缩质量是核心卖点；并自带缓存健康度监控：健康的会话保持 95–97% 的前缀缓存命中率，压缩本身的开销 ≤2%；命中率持续偏低时可用 /acp 或 /acp-cache 命令做归因排查（常见原因按序为：上游缓存 TTL 过期、切换了模型、插件 bug——欢迎上报）。安装：npm install -g billion-context --prefix=~/.local。当前 ★4841（当日 +460，冲榜极猛），主语言 TypeScript，README 中英双语。适合重度使用 Claude Code/Cursor 等编码 Agent、被长会话 token 账单和上下文窗口限制困扰的开发者——月级不换会话、成本减半是它的直接价值。（GitHub 每日趋势 2026-11-08：★4841，当日 +460）
-- **归档**：`开源项目介绍/2026.11.8/billion-context.md`
-- **标签**：`#typescript`
 
 ### [redis-windows/redis-windows](https://github.com/redis-windows/redis-windows)
 - **定位**：Redis 6.x~8.x 全系列 Windows 原生编译版。
@@ -2520,7 +2514,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（76）
+## 📚 二十四、开发者资源 / 精选合集（75）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2533,6 +2527,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：Google 维护的现代 Web 开发平台，用 TypeScript/JavaScript 构建移动端与桌面端 Web 应用。提供完整的企业级方案：组件与模板、依赖注入、响应式表单、路由与懒加载、服务端渲染（SSR）、动画系统与 Angular Elements（把组件打包成 Web Component）；配套 CLI 与 Schematics 脚手架，工程化程度高、约束强，适合大团队协作与长期维护。当前 ★101142（当日 +128），主语言 TypeScript。适合中大型企业应用与需要强类型、强规范的前端团队；对个人开发者而言是学习依赖注入、变更检测与编译期优化（AOT）的典型案例。（GitHub 每日趋势 2026-11-06：★101142，当日 +128）
 - **归档**：`开源项目介绍/2026.11.6/angular.md`
 - **标签**：`#typescript` `#开发工具`
+
+### [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
+- **定位**：Anthropic 官方的 Claude API 快速启动项目合集：每个 quickstart 都是一个可直接运行、便于
+- **简介**：Anthropic 官方的 Claude API 快速启动项目合集：每个 quickstart 都是一个可直接运行、便于在其上扩展定制的应用底座。旗舰示例是客户支持 Agent——演示如何利用 Claude 的自然语言理解与生成能力，搭建接入知识库的 AI 辅助客服系统；合集还涵盖其他典型应用模式的起步代码。使用前提是拥有 Claude API key（可在 console.anthropic.com 免费注册获取）。当前 ★19175（当日 +28），主语言 Python。适合刚开始基于 Claude API 做应用开发的工程师——不用从零摸索提示词、工具调用与知识库检索的拼装方式，直接在官方验证过的骨架上改业务；也是研究官方推荐 Agent 架构（RAG、客服、工作流）的一手参考实现。（GitHub 每日趋势 2026-11-08：★19175，当日 +28）
+- **归档**：`开源项目介绍/2026.11.8/claude-quickstarts.md`
+- **标签**：`#python` `#开发工具`
 
 ### [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
 - **定位**：Clean Architecture 解决方案模板：经过验证的 ASP.NET Core 10 架构范本。
@@ -2618,12 +2618,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.28/django.md`
 - **标签**：`#python`
 
-### [dsx-ai-factory/nvke](https://github.com/dsx-ai-factory/nvke)
-- **定位**：NVIDIA 官方推出的 Kubernetes Engine（NVKE）：一套 GPU Kubernetes 管理面（m
-- **简介**：NVIDIA 官方推出的 Kubernetes Engine（NVKE）：一套 GPU Kubernetes 管理面（management plane），让平台团队在自有 NVIDIA GPU 裸金属服务器上运行「托管式」Kubernetes 服务。平台团队安装 NVKE 管理面后即可为客户创建和运维工作负载集群——每个集群拥有独立的 Kubernetes 控制面、etcd 与节点池；客户侧则照常通过 Kubernetes API 与 kubectl 使用集群，感知不到底层差异。当前 ★685（当日 +345），主语言 Go。注意：项目处于 Preview 预览阶段，API、配置与行为在版本间可能变化，官方明确不建议用于生产负载。适合自建 GPU 算力池的企业平台团队（AI 推理/训练集群运维），把「裸金属 GPU + 多租户 K8s」的管理复杂度收进一个官方维护的控制面里。（GitHub 每日趋势 2026-11-08：★685，当日 +345）
-- **归档**：`开源项目介绍/2026.11.8/nvke.md`
-- **标签**：`#go`
-
 ### [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 - **定位**：免费编程书籍大合集，覆盖各语言与主题的经典清单。
 - **简介**：免费编程书籍大合集，覆盖各语言与主题的经典清单。（GitHub 每日趋势 2026-09-28：★397950，当日 +169）
@@ -2659,12 +2653,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：SS14（太空站 14）的开源社区分支服务器，主打随机玩法。（GitHub 每日趋势 2026-09-28：★236，当日 +0）
 - **归档**：`开源项目介绍/2026.9.28/Goob-Station.md`
 - **标签**：`#csharp`
-
-### [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
-- **定位**：Google DeepMind 维护的通用物理引擎 MuJoCo（Multi-Joint dynamics with C
-- **简介**：Google DeepMind 维护的通用物理引擎 MuJoCo（Multi-Joint dynamics with Contact，带接触的多关节动力学），面向机器人学、生物力学、图形与动画、机器学习等需要「快速且精确模拟铰接结构与环境交互」的领域，是强化学习与机器人仿真研究的标准基础设施之一。提供 C API，运行时仿真模块针对性能极致调优，直接操作由内置 XML 编译器预分配的底层数据结构；内置原生桌面窗口与浏览器两种交互式可视化。当前 ★16142（当日 +26），主语言 C++。适合做机器人控制、sim-to-real 迁移、具身智能与运动生物力学仿真的研究者与工程师；配合 Gymnasium/mjpc 等生态可快速搭建训练环境。（GitHub 每日趋势 2026-11-08：★16142，当日 +26）
-- **归档**：`开源项目介绍/2026.11.8/mujoco.md`
-- **标签**：`#cpp`
 
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 - **定位**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。
@@ -2980,7 +2968,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（38）
+## 🚀 二十五、DevOps / 开发者工具（40）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -3031,6 +3019,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.5/sdk.md`
 - **标签**：`#csharp`
 
+### [dsx-ai-factory/nvke](https://github.com/dsx-ai-factory/nvke)
+- **定位**：NVIDIA 官方推出的 Kubernetes Engine（NVKE）：一套 GPU Kubernetes 管理面（m
+- **简介**：NVIDIA 官方推出的 Kubernetes Engine（NVKE）：一套 GPU Kubernetes 管理面（management plane），让平台团队在自有 NVIDIA GPU 裸金属服务器上运行「托管式」Kubernetes 服务。平台团队安装 NVKE 管理面后即可为客户创建和运维工作负载集群——每个集群拥有独立的 Kubernetes 控制面、etcd 与节点池；客户侧则照常通过 Kubernetes API 与 kubectl 使用集群，感知不到底层差异。当前 ★685（当日 +345），主语言 Go。注意：项目处于 Preview 预览阶段，API、配置与行为在版本间可能变化，官方明确不建议用于生产负载。适合自建 GPU 算力池的企业平台团队（AI 推理/训练集群运维），把「裸金属 GPU + 多租户 K8s」的管理复杂度收进一个官方维护的控制面里。（GitHub 每日趋势 2026-11-08：★685，当日 +345）
+- **归档**：`开源项目介绍/2026.11.8/nvke.md`
+- **标签**：`#go` `#开发工具`
+
 ### [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger)
 - **定位**：Epic Games 出品：原生用户态多进程图形调试器。
 - **简介**：Epic Games 出品：原生用户态多进程图形调试器。（GitHub 每日趋势 2026-10-08：★7789，当日 +82）
@@ -3054,6 +3048,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：微软维护的跨平台 Git 凭据管理器，支持 GitHub/Azure/Bitbucket 等认证。（GitHub 每日趋势 2026-09-26：★9318，当日 +5）
 - **归档**：`开源项目介绍/2026.9.28/git-credential-manager.md`
 - **标签**：`#csharp`
+
+### [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
+- **定位**：Google DeepMind 维护的通用物理引擎 MuJoCo（Multi-Joint dynamics with C
+- **简介**：Google DeepMind 维护的通用物理引擎 MuJoCo（Multi-Joint dynamics with Contact，带接触的多关节动力学），面向机器人学、生物力学、图形与动画、机器学习等需要「快速且精确模拟铰接结构与环境交互」的领域，是强化学习与机器人仿真研究的标准基础设施之一。提供 C API，运行时仿真模块针对性能极致调优，直接操作由内置 XML 编译器预分配的底层数据结构；内置原生桌面窗口与浏览器两种交互式可视化。当前 ★16142（当日 +26），主语言 C++。适合做机器人控制、sim-to-real 迁移、具身智能与运动生物力学仿真的研究者与工程师；配合 Gymnasium/mjpc 等生态可快速搭建训练环境。（GitHub 每日趋势 2026-11-08：★16142，当日 +26）
+- **归档**：`开源项目介绍/2026.11.8/mujoco.md`
+- **标签**：`#cpp` `#开发工具` `#科研`
 
 ### [JasperFx/wolverine](https://github.com/JasperFx/wolverine)
 - **定位**：Wolverine：超级增强的 .NET 服务端开发框架。

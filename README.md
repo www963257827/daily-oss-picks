@@ -7,9 +7,9 @@
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 46 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 45 |
 | 2 | Mobile Automation Agents | 9 |
-| 3 | Agent Memory & Knowledge Distillation | 9 |
+| 3 | Agent Memory & Knowledge Distillation | 10 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
@@ -23,17 +23,17 @@
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 17 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
-| 17 | System Tools & Desktop Productivity | 51 |
+| 17 | System Tools & Desktop Productivity | 50 |
 | 18 | Files · Downloads · Photo Management | 22 |
 | 19 | Image Viewers & Media Players | 10 |
 | 20 | AI Desktop Apps | 8 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 76 |
-| 25 | DevOps / Developer Tools | 38 |
+| 24 | Developer Resources & Curated Lists | 75 |
+| 25 | DevOps / Developer Tools | 40 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (46)
+## 一. AI Coding Agents · Runtimes & Methodologies (45)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -66,10 +66,6 @@ Anthropic's official terminal coding agent — the host platform for many skills
 ### [anthropics/claude-code-action](https://github.com/anthropics/claude-code-action)
 `#typescript` · 2026-09-27
 Anthropic's official GitHub Action integrating Claude Code into workflows (PR review, issues).
-
-### [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
-`#python` · 2026-11-08
-A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
 
 ### [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 `#ai-agent` `#multi-agent` `#agile` `#methodology` `#workflow` `#context-engineering` · 2026-09-27
@@ -257,7 +253,7 @@ cua: scale computer-use 2.0 with open-source drivers, cross-OS fleets and benchm
 `#agent` `#mobile-automation` `#adb` `#multimodal` · 2026-09-06
 Multimodal phone-control agent from Alibaba X-PLUG, cross-app via ADB.
 
-## 三. Agent Memory & Knowledge Distillation (9)
+## 三. Agent Memory & Knowledge Distillation (10)
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 `#agent` `#memory` `#rust` `#cross-tool` `#team-collaboration` · 2026-09-16
@@ -270,6 +266,10 @@ Knowledge-distillation toolkit that turns books and videos into agent skills.
 ### [mem0ai/mem0](https://github.com/mem0ai/mem0)
 `#python` · 2026-09-30
 Mem0: the memory layer for AI agents — drop-in, persistent memory infrastructure built for production.
+
+### [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context)
+`#typescript` `#context-engineering` `#token-compression` `#memory` · 2026-11-08
+A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话，…
 
 ### [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem)
 `#typescript` · 2026-10-04
@@ -1181,7 +1181,7 @@ Uno Platform: build cross-platform native mobile, web, desktop and embedded apps
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (51)
+## 十七. System Tools & Desktop Productivity (50)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1326,10 +1326,6 @@ macOS-style spacebar quick preview for Windows.
 ### [RankFTW/RHI](https://github.com/RankFTW/RHI)
 `#csharp` · 2026-10-08
 ReShade HDR Installer.
-
-### [ranxianglei/billion-context](https://github.com/ranxianglei/billion-context)
-`#typescript` · 2026-11-08
-A context-compression plugin for month-long single sessions (billions of tokens) ,small context windows (a 100K context is enough) and token savings (5x fewer tokens) .上下文压缩插件，月级长会话会话，…
 
 ### [redis-windows/redis-windows](https://github.com/redis-windows/redis-windows)
 `#csharp` · 2026-10-10
@@ -1655,7 +1651,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (76)
+## 二十四. Developer Resources & Curated Lists (75)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1664,6 +1660,10 @@ League, unlocked.
 ### [angular/angular](https://github.com/angular/angular)
 `#typescript` `#dev-tools` · 2026-11-06
 Deliver web apps with confidence 🚀
+
+### [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts)
+`#python` `#dev-tools` · 2026-11-08
+A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API
 
 ### [ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
 `#csharp` · 2026-10-01
@@ -1721,10 +1721,6 @@ Hello Agents (by Datawhale): principles and practice of building intelligent age
 `#python` · 2026-09-28
 The Web framework for perfectionists with deadlines.
 
-### [dsx-ai-factory/nvke](https://github.com/dsx-ai-factory/nvke)
-`#go` · 2026-11-08
-NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.
-
 ### [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 `#python` · 2026-09-28
 📚 Freely available programming books
@@ -1748,10 +1744,6 @@ Industrial prompt engine and template library for GPT-Image (544 reverse-enginee
 ### [Goob-Station/Goob-Station](https://github.com/Goob-Station/Goob-Station)
 `#csharp` · 2026-09-28
 We're not even close to "Wizden, but random" at this point.
-
-### [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
-`#cpp` · 2026-11-08
-Multi-Joint dynamics with Contact. A general purpose physics simulator.
 
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 `#python` · 2026-09-30
@@ -1961,7 +1953,7 @@ Marble Skill Taxonomy: an open, structured taxonomy of what children learn acros
 `#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14
 Agentic Design Patterns (Chinese translation): 21 patterns for building AI agents
 
-## 二十五. DevOps / Developer Tools (38)
+## 二十五. DevOps / Developer Tools (40)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -1995,6 +1987,10 @@ The Roslyn .NET compiler: rich code-analysis APIs for C# and Visual Basic.
 `#csharp` · 2026-10-05
 Core functionality for creating .NET Core projects, shared between Visual Studio and CLI.
 
+### [dsx-ai-factory/nvke](https://github.com/dsx-ai-factory/nvke)
+`#go` `#dev-tools` · 2026-11-08
+NVIDIA Kubernetes Engine (NVKE). A management plane for GPU Kubernetes on bare metal.
+
 ### [EpicGames/raddebugger](https://github.com/EpicGames/raddebugger)
 `#c` · 2026-10-08
 A native, user-mode, multi-process graphical debugger (by Epic Games).
@@ -2010,6 +2006,10 @@ FastAPI: high-performance Python web framework, easy to learn, fast to code, rea
 ### [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager)
 `#csharp` · 2026-09-28
 Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
+
+### [google-deepmind/mujoco](https://github.com/google-deepmind/mujoco)
+`#cpp` `#dev-tools` `#research` · 2026-11-08
+Multi-Joint dynamics with Contact. A general purpose physics simulator.
 
 ### [JasperFx/wolverine](https://github.com/JasperFx/wolverine)
 `#csharp` · 2026-10-09
