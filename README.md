@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-08 ｜ **508** entries (498 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-10 ｜ **514** entries (504 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 45 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 47 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 10 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -21,19 +21,19 @@
 | 12 | Local Inference Engines & Optimization | 19 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
-| 15 | Content Discovery & Intelligence | 17 |
+| 15 | Content Discovery & Intelligence | 18 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 50 |
 | 18 | Files · Downloads · Photo Management | 22 |
 | 19 | Image Viewers & Media Players | 10 |
-| 20 | AI Desktop Apps | 8 |
+| 20 | AI Desktop Apps | 9 |
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 75 |
+| 24 | Developer Resources & Curated Lists | 77 |
 | 25 | DevOps / Developer Tools | 40 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (45)
+## 一. AI Coding Agents · Runtimes & Methodologies (47)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -95,6 +95,10 @@ General AI agent toolbox and coding-agent runtime (TypeScript monorepo).
 `#ai-agent` `#local-llm` `#browser-automation` `#manus-alternative` `#voice-assistant` `#docker` · 2026-09-25
 A 100% local, open-source Manus alternative: browses, codes and plans autonomously.
 
+### [garrytan/gbrain](https://github.com/garrytan/gbrain)
+`#typescript` · 2026-11-10
+Garry's Opinionated OpenClaw/Hermes Agent Brain
+
 ### [github/spec-kit](https://github.com/github/spec-kit)
 `#spec-driven` `#ai-coding` `#github` `#cli` · 2026-08-18
 GitHub's official spec-driven development toolkit for any AI coding agent.
@@ -114,6 +118,10 @@ Google's open agentic orchestration runtime
 ### [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify)
 `#python` · 2026-10-21
 Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowledge graph. A /graphify skill for Claude Code, Cursor, Codex, and Gemini CLI: local deterministic AST parsing,…
+
+### [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp)
+`#python` · 2026-11-10
+Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.
 
 ### [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
 `#go` · 2026-10-03
@@ -1017,7 +1025,7 @@ Tencent's browser bridge for agents: reuses your real, logged-in browser without
 `#self-hosted` `#multi-agent` `#tencent-cloud` `#im-integration` `#local-first` `#acp` · 2026-09-23
 Self-hosted multi-user, multi-agent AI assistant platform from Tencent Cloud.
 
-## 十五. Content Discovery & Intelligence (17)
+## 十五. Content Discovery & Intelligence (18)
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 `#agent` `#swarm-intelligence` `#prediction` `#multi-agent` `#shanda` · 2026-09-16
@@ -1058,6 +1066,10 @@ Lean Algorithmic Trading Engine by QuantConnect (Python, C#)
 ### [RayWangQvQ/BiliBiliToolPro](https://github.com/RayWangQvQ/BiliBiliToolPro)
 `#csharp` · 2026-09-28
 B 站（bilibili）自动任务工具，支持docker、青龙、k8s等多种部署方式。全面拥抱AI。敏感肌也能用。
+
+### [ruvnet/RuView](https://github.com/ruvnet/RuView)
+`#rust` · 2026-11-10
+π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.
 
 ### [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 `#python` · 2026-09-27
@@ -1515,7 +1527,7 @@ SubtitleEdit: the subtitle editor.
 `#language-learning` `#player` `#dual-subtitles` `#whisper` `#live-translation` `#wpf` · 2026-09-23
 Media player built for language learning: dual subtitles, AI subtitles, live translation.
 
-## 二十. AI Desktop Apps (8)
+## 二十. AI Desktop Apps (9)
 
 ### [aayushch/laya](https://github.com/aayushch/laya)
 `#notifications` `#tauri` `#local-first` `#ollama` `#productivity` `#n8n` · 2026-09-25
@@ -1548,6 +1560,10 @@ Local open-source image-to-3D mesh desktop app.
 ### [microsoft/data-formulator](https://github.com/microsoft/data-formulator)
 `#python` · 2026-09-28
 🪄 Data Formulator is an interactive AI-powered data analysis system makes it easy to connect, explore and visualize data.
+
+### [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis)
+`#python` · 2026-11-10
+LLM-powered multi-market (A-share, HK, US, JP, KR, TW, ETF) stock analysis system: multi-source quotes and news, AI decision dashboards with scores/levels/risk alerts, 15 built-in strategies, and automated pushes to WeCom/Feishu/Telegram/Discord/Slack/email with zero-cost scheduled runs.
 
 ## 二十一. Cross-device Tools (10)
 
@@ -1651,7 +1667,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (75)
+## 二十四. Developer Resources & Curated Lists (77)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1929,6 +1945,10 @@ A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
 `#open-source` · 2026-10-28
 LIST OF ALL MY JAILBREAKS
 
+### [tokio-rs/topcoat](https://github.com/tokio-rs/topcoat)
+`#rust` · 2026-11-10
+A batteries-included framework for building web apps
+
 ### [twentyhq/twenty](https://github.com/twentyhq/twenty)
 `#typescript` · 2026-10-21
 The open alternative to Salesforce, designed for AI.
@@ -1944,6 +1964,10 @@ Free and open-source macOS menu bar toolkit.
 ### [walkinglabs/hands-on-modern-rl](https://github.com/walkinglabs/hands-on-modern-rl)
 `#textbook` `#open-source-books` `#reinforcement-learning` `#llm后训练` `#实战` · 2026-10-14
 Hands-On Modern RL: from CartPole to LLM alignment with runnable code
+
+### [we-promise/sure](https://github.com/we-promise/sure)
+`#ruby` · 2026-11-10
+The personal finance app for everyone (by everyone)
 
 ### [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)
 `#javascript` · 2026-10-19
