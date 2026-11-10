@@ -9,9 +9,9 @@
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 47 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 45 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
-| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 10 |
+| [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 11 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
@@ -23,16 +23,16 @@
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 19 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
-| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 18 |
+| [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 17 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
-| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 50 |
+| [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 53 |
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 10 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 9 |
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 77 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 76 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 40 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（47）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（45）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -135,12 +135,6 @@
 - **归档**：`开源项目介绍/2026.9.25/agenticSeek.md`
 - **标签**：`#ai-agent` `#本地大模型` `#browser-automation` `#manus-alternative` `#voice-assistant` `#docker`
 
-### [garrytan/gbrain](https://github.com/garrytan/gbrain)
-- **定位**：YC 总裁 Garry Tan 开源的 Agent 记忆库（Agent Brain）：给你已经在用的 Agent 一套你
-- **简介**：YC 总裁 Garry Tan 开源的 Agent 记忆库（Agent Brain）：给你已经在用的 Agent 一套你自己掌控的记忆——GBrain 存储带来源（sources）的显式事实，支持更正与撤回（corrections and withdrawal），并让同一份记忆在你所有 Agent 之间共享（Claude、ChatGPT、Cursor 等）。渐进式能力：先上零密钥（keyless）的键值记忆与关键词检索，需要时再加语义搜索、综合归纳与后台增强（enrichment）。MIT 协议、可自托管免费；gbrain.io 是可选付费托管（一个大脑供个人与团队使用，无需安装）。当前 ★32122（当日 +216），主语言 TypeScript。适合受够了「每个 Agent 各记一份、互相不知道」的团队——把记忆抽出来做成可控、可审计、跨 Agent 共享的独立层，这也是当下 Agent 记忆赛道最受关注的设计取向之一。（GitHub 每日趋势 2026-11-10：★32122，当日 +216）
-- **归档**：`开源项目介绍/2026.11.10/gbrain.md`
-- **标签**：`#typescript`
-
 ### [github/spec-kit](https://github.com/github/spec-kit)
 - **定位**：开源规范驱动开发（Spec-Driven Development）工具包，适配任意 AI 编码 Agent
 - **简介**：GitHub 官方开源，核心理念「先定义要构建什么，再开始构建」——让规范变得可执行、直接生成实现。提供 specify-cli（Python）与 /speckit.* 系列命令（constitution → specify → plan → tasks → implement → converge，另含 clarify/analyze/checklist），支持 30+ AI 编码 Agent（Claude Code、Codex CLI、Copilot CLI、Command Code 等）。四级定制系统：项目本地覆盖 → Presets → Extensions → 核心模板。1,807 commits，社区活跃（含中文 README）。
@@ -169,12 +163,6 @@
 - **定位**：Graphify：把任意代码库连同其文档、SQL 模式、配置文件与 PDF 转化为可查询知识图谱的 AI 编码助手技能（
 - **简介**：Graphify：把任意代码库连同其文档、SQL 模式、配置文件与 PDF 转化为可查询知识图谱的 AI 编码助手技能（/graphify skill），适用于 Claude Code、Cursor、Codex 与 Gemini CLI。核心方法是本地确定性 AST 解析（local deterministic AST parsing）：在 AI 编码助手里输入 /graphify，即可把整个项目——代码、文档、PDF、图片、视频——映射成可查询的知识图谱，每条边都有解释（every edge explained），且不依赖向量数据库（no vector store）。官方宣称可削减 80% 的 Agent token 消耗（Cut agent token spend by 80%）。另有 Graphify Cloud 常驻内存服务，为 Agent 提供持久记忆、保持代码质量并以形式化验证证明正确性，提供 14 天免费试用。README 已被翻译成 40+ 种语言（含简体中文），当前 ★130926（当日 +1434），主语言 Python。适合重度使用 AI 编码助手、希望显著降低 token 成本并让 Agent 真正理解项目全貌的开发者。（GitHub 每日趋势 2026-10-21：★130926，当日 +1434）
 - **归档**：`开源项目介绍/2026.10.21/graphify.md`
-- **标签**：`#python`
-
-### [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp)
-- **定位**：让 AI 助手直接管理 Home Assistant 的 MCP 服务器：用 Claude、ChatGPT 等 AI 助
-- **简介**：让 AI 助手直接管理 Home Assistant 的 MCP 服务器：用 Claude、ChatGPT 等 AI 助手配置与自动化你的智能家居。推荐部署方式是通过 HACS 安装 HA-MCP 集成（Home Assistant 2026.11+ 内置应用市场）——完整服务器以进程内方式运行，支持 Home Assistant OS、Supervised、Container、Core 全部安装类型，功能完全一致；安装时只需提供管理员访问令牌并选择客户端连接方式，是所有场景里最省事的方案。注意 v7.3.0 破坏性变更：ha_config_set_yaml 已移入 beta。当前 ★5945（当日 +31），主语言 Python。适合想让 AI 帮忙写自动化、改实体配置、排查设备状态的 HA 用户——把「翻文档改 YAML」变成一句自然语言指令。（GitHub 每日趋势 2026-11-10：★5945，当日 +31）
-- **归档**：`开源项目介绍/2026.11.10/ha-mcp.md`
 - **标签**：`#python`
 
 ### [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman)
@@ -388,13 +376,19 @@
 
 <a id="sec-3"></a>
 
-## 🧠 三、Agent 记忆与知识蒸馏（10）
+## 🧠 三、Agent 记忆与知识蒸馏（11）
 
 ### [akitaonrails/ai-memory](https://github.com/akitaonrails/ai-memory)
 - **定位**：AI 编码 Agent 长期记忆 · 跨工具跨机器共享
 - **简介**：为 **20+ 编码 Agent**（Claude Code、Codex、Cursor、OpenCode、Grok、Devin、Kimi、Pi、OpenClaw 等）提供统一的长期记忆层。在 Claude Code 中途离开，到 Codex 里打开同一目录就能无缝接手——进度、失败尝试、开放问题全部自动传递。记忆是 **git 备份的纯 Markdown wiki**，可 grep、可 Obsidian 打开、可手动编辑、随时从文件重建索引。**默认零 LLM 调用**，捕获/搜索/交接全不用 API Key。支持团队共享（多用户认证、审计日志内置，不是付费层）。Rust 单体二进制，~700/s 写入上限，MIT 协议。
 - **归档**：`开源项目介绍/2026.9.16/ai-memory.md`
 - **标签**：`#agent` `#记忆` `#rust` `#跨工具` `#团队协作`
+
+### [garrytan/gbrain](https://github.com/garrytan/gbrain)
+- **定位**：YC 总裁 Garry Tan 开源的 Agent 记忆库（Agent Brain）：给你已经在用的 Agent 一套你
+- **简介**：YC 总裁 Garry Tan 开源的 Agent 记忆库（Agent Brain）：给你已经在用的 Agent 一套你自己掌控的记忆——GBrain 存储带来源（sources）的显式事实，支持更正与撤回（corrections and withdrawal），并让同一份记忆在你所有 Agent 之间共享（Claude、ChatGPT、Cursor 等）。渐进式能力：先上零密钥（keyless）的键值记忆与关键词检索，需要时再加语义搜索、综合归纳与后台增强（enrichment）。MIT 协议、可自托管免费；gbrain.io 是可选付费托管（一个大脑供个人与团队使用，无需安装）。当前 ★32122（当日 +216），主语言 TypeScript。适合受够了「每个 Agent 各记一份、互相不知道」的团队——把记忆抽出来做成可控、可审计、跨 Agent 共享的独立层，这也是当下 Agent 记忆赛道最受关注的设计取向之一。（GitHub 每日趋势 2026-11-10：★32122，当日 +216）
+- **归档**：`开源项目介绍/2026.11.10/gbrain.md`
+- **标签**：`#typescript` `#记忆`
 
 ### [kangarooking/cangjie-skill](https://github.com/kangarooking/cangjie-skill)
 - **定位**：「仓颉 Skill」知识精馏工具
@@ -1559,7 +1553,7 @@
 
 <a id="sec-15"></a>
 
-## 🛰️ 十五、内容发现与情报（18）
+## 🛰️ 十五、内容发现与情报（17）
 
 ### [666ghj/MiroFish](https://github.com/666ghj/MiroFish)
 - **定位**：群体智能预测引擎 · 盛大出品
@@ -1620,12 +1614,6 @@
 - **简介**：B 站（bilibili）自动任务工具：签到、直播打卡等，支持 Docker/青龙/k8s 部署。（GitHub 每日趋势 2026-09-28：★8857，当日 +18）
 - **归档**：`开源项目介绍/2026.9.28/BiliBiliToolPro.md`
 - **标签**：`#csharp`
-
-### [ruvnet/RuView](https://github.com/ruvnet/RuView)
-- **定位**：把普通 WiFi 信号变成实时空间智能的感知系统：不发一个摄像头像素，就能穿墙检测人的存在、测量呼吸与心率、追踪移动并监
-- **简介**：把普通 WiFi 信号变成实时空间智能的感知系统：不发一个摄像头像素，就能穿墙检测人的存在、测量呼吸与心率、追踪移动并监控房间——靠的是 WiFi 信道状态信息的物理层分析（Just physics），黑暗环境、穿墙、无需穿戴设备都能用。原生打通四大智能家居生态：通过 HA-DISCO MQTT publisher 接入 Home Assistant（一条 --mqtt 参数即插即用）、作为可发现的 HAP-1.1 桥接入 Apple Home 与 HomePod、通过同一 HA 桥或 Matter endpoint 接入 Google Home 与 Amazon Alexa；Siri、Google Assistant、Alexa 可直接按房间播报人员在场与生命体征，无需自建技能。当前 ★103424（当日 +172），主语言 Rust。适合做无摄像头隐私友好型感知的智能家居玩家、养老看护与空间占用监测场景——摄像头之外的第三条路。（GitHub 每日趋势 2026-11-10：★103424，当日 +172）
-- **归档**：`开源项目介绍/2026.11.10/RuView.md`
-- **标签**：`#rust`
 
 ### [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)
 - **定位**：按用户名跨社交网络搜寻账号的 OSINT 利器。
@@ -1818,7 +1806,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-17"></a>
 
-## 🛠️ 十七、系统工具与桌面效率（50）
+## 🛠️ 十七、系统工具与桌面效率（53）
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 - **定位**：让游戏以无边框窗口运行，告别耗时的 Alt+Tab。
@@ -1897,6 +1885,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：开源家庭自动化平台，本地控制与隐私优先（Home Assistant，★92K）。（GitHub 每日趋势 2026-10-11：★91355，当日 +18）
 - **归档**：`开源项目介绍/2026.10.11/core.md`
 - **标签**：`#python`
+
+### [homeassistant-ai/ha-mcp](https://github.com/homeassistant-ai/ha-mcp)
+- **定位**：让 AI 助手直接管理 Home Assistant 的 MCP 服务器：用 Claude、ChatGPT 等 AI 助
+- **简介**：让 AI 助手直接管理 Home Assistant 的 MCP 服务器：用 Claude、ChatGPT 等 AI 助手配置与自动化你的智能家居。推荐部署方式是通过 HACS 安装 HA-MCP 集成（Home Assistant 2026.11+ 内置应用市场）——完整服务器以进程内方式运行，支持 Home Assistant OS、Supervised、Container、Core 全部安装类型，功能完全一致；安装时只需提供管理员访问令牌并选择客户端连接方式，是所有场景里最省事的方案。注意 v7.3.0 破坏性变更：ha_config_set_yaml 已移入 beta。当前 ★5945（当日 +31），主语言 Python。适合想让 AI 帮忙写自动化、改实体配置、排查设备状态的 HA 用户——把「翻文档改 YAML」变成一句自然语言指令。（GitHub 每日趋势 2026-11-10：★5945，当日 +31）
+- **归档**：`开源项目介绍/2026.11.10/ha-mcp.md`
+- **标签**：`#python` `#mcp`
 
 ### [HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
 - **定位**：使用微软官方支持的方法安全地加固 Windows，附详细解释，始终最新。
@@ -2048,6 +2042,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.9.6/lively.md`
 - **标签**：`#winui3` `#壁纸` `#动态壁纸` `#屏保`
 
+### [ruvnet/RuView](https://github.com/ruvnet/RuView)
+- **定位**：把普通 WiFi 信号变成实时空间智能的感知系统：不发一个摄像头像素，就能穿墙检测人的存在、测量呼吸与心率、追踪移动并监
+- **简介**：把普通 WiFi 信号变成实时空间智能的感知系统：不发一个摄像头像素，就能穿墙检测人的存在、测量呼吸与心率、追踪移动并监控房间——靠的是 WiFi 信道状态信息的物理层分析（Just physics），黑暗环境、穿墙、无需穿戴设备都能用。原生打通四大智能家居生态：通过 HA-DISCO MQTT publisher 接入 Home Assistant（一条 --mqtt 参数即插即用）、作为可发现的 HAP-1.1 桥接入 Apple Home 与 HomePod、通过同一 HA 桥或 Matter endpoint 接入 Google Home 与 Amazon Alexa；Siri、Google Assistant、Alexa 可直接按房间播报人员在场与生命体征，无需自建技能。当前 ★103424（当日 +172），主语言 Rust。适合做无摄像头隐私友好型感知的智能家居玩家、养老看护与空间占用监测场景——摄像头之外的第三条路。（GitHub 每日趋势 2026-11-10：★103424，当日 +172）
+- **归档**：`开源项目介绍/2026.11.10/RuView.md`
+- **标签**：`#rust` `#桌面工具`
+
 ### [SafeExamBrowser/seb-win-refactoring](https://github.com/SafeExamBrowser/seb-win-refactoring)
 - **定位**：Windows 版安全考试浏览器。
 - **简介**：Windows 版安全考试浏览器。（GitHub 每日趋势 2026-10-03：★350，当日 +0）
@@ -2119,6 +2119,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：采用 Fluent 2 设计语言，替换默认的音量/媒体控制弹窗，提供音乐封面+歌名+播放控制弹窗、「即将播放」弹窗、锁定键状态弹窗、**任务栏小组件**（直接在任务栏显示媒体信息）。支持 Mica 模糊、Fluent 2 组件、深浅色主题并自动匹配设备颜色主题、自定义弹窗位置、Repeat All/One/Shuffle、低调驻留托盘。WPF + C# 实现，6 种语言 README + Weblate 协作翻译。**永远免费开源**：GitHub 版功能完整无限制；微软商店版仅多了自动更新与一键安装，少量特性一次性付费 €2.99 资助开发。媒体评价很硬——Windows Central 称「Windows 11 可能又多了个必备应用」（报道标题直指微软忙着搞 AI 没空修 Win11 设计），Neowin 称「比微软官方给的做得好」。**4,522 stars、500k+ 下载、323 open issues、GPL-3.0**（早期记录为 MIT，已校正），2026-09-22 仍在推送。
 - **归档**：`开源项目介绍/2026.9.6/FluentFlyout.md`
 - **标签**：`#win11` `#fluent` `#系统工具` `#美化` `#任务栏`
+
+### [we-promise/sure](https://github.com/we-promise/sure)
+- **定位**：人人可用的个人财务应用（the personal finance app for everyone, by everyo
+- **简介**：人人可用的个人财务应用（the personal finance app for everyone, by everyone）：它是已停摆的 Maybe Finance 项目的社区分叉。原团队在 2021–2022 年投入近 100 万美元（员工、外包、数据供应商、基础设施）打造了一套全功能个人财务与财富管理应用，甚至内置「Ask an Advisor」——可连线真实的 CFP/CFA 理财顾问；但商业模式没跑通，2023 年中停止开发，随后将应用整体开源。社区接手后以 Sure 之名继续维护，目标是让这套功能完整的自托管记账/净资产看板继续活下去。当前 ★11411（当日 +184），主语言 Ruby。适合想自托管个人财务数据（银行账户聚合、净资产追踪、预算）、不愿把账目交给商业 SaaS 的用户；也是研究「开源接棒商业项目」治理模式的活样本。（GitHub 每日趋势 2026-11-10：★11411，当日 +184）
+- **归档**：`开源项目介绍/2026.11.10/sure.md`
+- **标签**：`#ruby` `#开发工具`
 
 <a id="sec-18"></a>
 
@@ -2377,7 +2383,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：LLM 驱动的多市场股票智能分析系统：覆盖 A 股、港股、美股、日股、韩股、台股与 ETF，聚合行情、K 线、技术指标、
 - **简介**：LLM 驱动的多市场股票智能分析系统：覆盖 A 股、港股、美股、日股、韩股、台股与 ETF，聚合行情、K 线、技术指标、新闻、公告、基本面多源数据，每日自动产出「AI 决策仪表盘」并推送到企业微信/飞书/Telegram/Discord/Slack/邮箱。核心能力：AI 决策报告给出核心结论、评分、趋势、买卖点位、风险警报、催化因素与操作检查清单；Web/桌面工作台支持手动分析、任务进度、历史报告、回测、持仓管理与深浅色主题；Agent 策略问股支持多轮追问，内置均线、缠论、波浪、趋势、热点、事件、成长、预期等 15 种策略，覆盖 Web/Bot/API 三端；支持图片、CSV/Excel、剪贴板导入，股票代码/名称/拼音智能补全。支持零成本定时运行（GitHub Actions 等免费额度）。当前 ★68814（当日 +506），主语言 Python，中英繁三语 README。适合不盯盘、想让 AI 每天下班后把自选股过一遍并把结论推到手机上的上班族投资者。（GitHub 每日趋势 2026-11-10：★68814，当日 +506）
 - **归档**：`开源项目介绍/2026.11.10/daily_stock_analysis.md`
-- **标签**：`#python`
+- **标签**：`#python` `#桌面应用`
 
 <a id="sec-21"></a>
 
@@ -2538,7 +2544,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（77）
+## 📚 二十四、开发者资源 / 精选合集（76）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2958,7 +2964,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：Tokio 团队出品的 Rust 全栈 Web 框架：modular、batteries-included（模块化、开箱
 - **简介**：Tokio 团队出品的 Rust 全栈 Web 框架：modular、batteries-included（模块化、开箱即用），目标是让 Rust 写 Web 应用像用 Rails/Laravel 一样简单高效——官方明确定位「优先简单性与生产力」，而不是极致抽象。提供路由（module_router、page）、视图与组件化（view、component）、上下文（Cx）等一体化抽象，配 crates.io 与 docs.rs 完整文档、Learn Topcoat 教程与公开 Roadmap。注意：项目处于早期实验阶段（early-stage and experimental），会有破坏性变更，暂不适合生产。当前 ★6589（当日 +192），主语言 Rust。适合关注 Rust Web 生态演进的开发者提前试水，尤其是被 axum/actix 的组装成本劝退、想要「约定优于配置」体验的团队。（GitHub 每日趋势 2026-11-10：★6589，当日 +192）
 - **归档**：`开源项目介绍/2026.11.10/topcoat.md`
-- **标签**：`#rust`
+- **标签**：`#rust` `#开发工具`
 
 ### [twentyhq/twenty](https://github.com/twentyhq/twenty)
 - **定位**：Twenty：开源的 Salesforce 替代品，自称「#1 Open-Source CRM」，也是首个专为 AI 时
@@ -2983,12 +2989,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：开源强化学习实战教程（WalkingLab）：先用 CartPole 倒立摆等小游戏直观理解状态/动作/奖励，再逐步深入 **DQN、PPO、RLHF、DPO、GRPO** 等现代算法，一直延伸到 **LLM 后训练**、工具调用 Agent、浏览器 Agent、视觉语言模型 RL、具身智能与音频 RL。共 7 大部分 26 章，每章配**可运行的 Python 代码**与真实训练曲线，可亲自跑实验改参数观察结果。约 4400 Star。
 - **归档**：`开源项目介绍/2026.10.14/hands-on-modern-rl.md`
 - **标签**：`#教材` `#开源书籍` `#强化学习` `#llm后训练` `#实战`
-
-### [we-promise/sure](https://github.com/we-promise/sure)
-- **定位**：人人可用的个人财务应用（the personal finance app for everyone, by everyo
-- **简介**：人人可用的个人财务应用（the personal finance app for everyone, by everyone）：它是已停摆的 Maybe Finance 项目的社区分叉。原团队在 2021–2022 年投入近 100 万美元（员工、外包、数据供应商、基础设施）打造了一套全功能个人财务与财富管理应用，甚至内置「Ask an Advisor」——可连线真实的 CFP/CFA 理财顾问；但商业模式没跑通，2023 年中停止开发，随后将应用整体开源。社区接手后以 Sure 之名继续维护，目标是让这套功能完整的自托管记账/净资产看板继续活下去。当前 ★11411（当日 +184），主语言 Ruby。适合想自托管个人财务数据（银行账户聚合、净资产追踪、预算）、不愿把账目交给商业 SaaS 的用户；也是研究「开源接棒商业项目」治理模式的活样本。（GitHub 每日趋势 2026-11-10：★11411，当日 +184）
-- **归档**：`开源项目介绍/2026.11.10/sure.md`
-- **标签**：`#ruby`
 
 ### [withmarbleapp/os-taxonomy](https://github.com/withmarbleapp/os-taxonomy)
 - **定位**：withmarbleapp/os-taxonomy 是 Marble 出品的开放技能分类体系（Skill Taxonom
