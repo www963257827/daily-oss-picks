@@ -16,7 +16,7 @@
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
 | [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 27 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 34 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 37 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 16 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 79 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 76 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 40 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -762,7 +762,7 @@
 - **定位**：OpenAI 官方的 Codex Security：用 AI 在代码里发现、调查与修复安全漏洞，提供三种接入方式——在
 - **简介**：OpenAI 官方的 Codex Security：用 AI 在代码里发现、调查与修复安全漏洞，提供三种接入方式——在 Codex 里选安全工作流、在终端用 @openai/codex-security CLI 扫仓库、在自动化里用 TypeScript SDK或 GitHub Action。能力覆盖：扫描整仓 / 选定路径 / Git 变更；Deep 扫描重复跑标准扫描并去重输出；校验候选发现项、生成补丁、验证已有修复；起草 SECURITY.md 策略并保存威胁模型供后续评审；浏览历史扫描与发现项、识别重复、按严重程度重新评估。当前 ★11400（当日 +20），主语言 TypeScript，npm 包 @openai/codex-security。适合把漏洞发现与修复嵌进 CI/CD 与 Codex 工作流，让安全问题在 PR 阶段就被 Agent 揪出来并给出可验证的补丁。（GitHub 每日趋势 2026-11-11：★11400，当日 +20）
 - **归档**：`开源项目介绍/2026.11.11/codex-security.md`
-- **标签**：`#typescript`
+- **标签**：`#typescript` `#安全审计` `#cli` `#sdk`
 
 ### [p-e-w/heretic](https://github.com/p-e-w/heretic)
 - **定位**：语言模型的完全自动审查移除工具。
@@ -833,7 +833,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（34）
+## 🧩 八、Skill 合集与生态（37）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -938,6 +938,12 @@
 - **归档**：`开源项目介绍/2026.10.2/skills.md`
 - **标签**：`#python`
 
+### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)
+- **定位**：Google Chrome 团队的「现代 Web 指引」源仓库：这套指引最终以 Agent Skills 形式发布为 G
+- **简介**：Google Chrome 团队的「现代 Web 指引」源仓库：这套指引最终以 Agent Skills 形式发布为 GoogleChrome/modern-web-guidance，本仓库是它的源码与文档——包含编写、校准（calibrate）与评估指引内容的代码。核心是把 Web 平台的专业知识、最佳实践与浏览器兼容性数据直接内嵌进编码 Agent，把 Agent 从「还在用 legacy 旧模式」引向「发挥现代 Web 平台能力」的解决方案。由 Google Chrome、Microsoft Edge、Mozilla Firefox 与 MDN 四家团队共同主导维护（stewarded），并配套 CONTRIBUTING.md 与 GOVERNANCE.md 说明协作方式与代码库结构。当前 ★1415（当日 +133），主语言 TypeScript。适合前端团队把「浏览器兼容性、现代 API 最佳实践」变成 Agent 的硬约束，减少 AI 生成代码里的过时写法与兼容性坑。（GitHub 每日趋势 2026-11-11：★1415，当日 +133）
+- **归档**：`开源项目介绍/2026.11.11/modern-web-guidance-src.md`
+- **标签**：`#typescript` `#agent-skill` `#web`
+
 ### [hashgraph-online/awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins)
 - **定位**：精选的 OpenAI Codex / ChatGPT 插件、技能与资源合集（#1 Codex 市场）。
 - **简介**：精选的 OpenAI Codex / ChatGPT 插件、技能与资源合集（#1 Codex 市场）。（GitHub 每日趋势 2026-10-02：★1135，当日 +19）
@@ -1022,11 +1028,23 @@
 - **归档**：`开源项目介绍/2026.11.4/skills.md`
 - **标签**：`#python` `#agent-skill` `#skill-md`
 
+### [shadcn/improve](https://github.com/shadcn/improve)
+- **定位**：shadcn 出的 Agent Skill /improve：让最聪明的模型先「想清楚」，把执行留给便宜的模型。思路是把
+- **简介**：shadcn 出的 Agent Skill /improve：让最聪明的模型先「想清楚」，把执行留给便宜的模型。思路是把智力会复利的那部分——理解代码库、判断哪些改动值得做、写出规格说明（spec）——交给最贵的大模型，再把纯执行交给便宜模型：你运行 /improve（贵模型做顾问）→ 它在 plans/ 下产出自包含的 Markdown 规格（如 001-fix-n-plus-one.md）→ 其他 Agent 或人按规格实现、测试、发布（便宜模型执行）。关键是这个 skill 自己一行代码都不写，plan 才是产品。计划是纯 Markdown，任何 Agent 或人都能接手。通过 npx skills add shadcn/improve 安装，兼容所有支持 Agent Skills 格式的 Agent。当前 ★10406（当日 +333），无主语言标注。适合用 Agent 做大规模代码改动又想控成本的团队——一份贵模型写的高质量计划，可以喂给多个便宜 Agent 并行落地。（GitHub 每日趋势 2026-11-11：★10406，当日 +333）
+- **归档**：`开源项目介绍/2026.11.11/improve.md`
+- **标签**：`#开源` `#agent-skill`
+
 ### [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)
 - **定位**：面向专业编码 Agent 的**安全策展** Skill 注册中心 · 一份技能装到 17 个 Agent
 - **简介**：Tech Leads Club 社区维护的**经安全验证**的 Skill 库与分发工具链。核心切入点是 Skill 生态的安全痛点——引用 Snyk 报告「**开放市场 13.4% 的技能含严重漏洞**」，并用四道防线做差异化：**100% 开源无二进制** · **CI 静态分析** · **锁文件 + 内容哈希** · **Snyk Agent Scan 发布前扫描**。支持三级梯队约 **17 个 Agent**（Claude Code、Cursor、Copilot、Windsurf、Codex、TRAE、Antigravity、Amazon Q 等），`npx @tech-leads-club/agent-skills` 交互向导一键安装。精选技能含 **tlc-spec-driven**（四阶段规格驱动开发，与库里的 github/spec-kit 属同一思路）、aws-advisor、playwright-skill、figma 设计转代码等。附带 **MCP Server** 以**渐进式披露**暴露目录（search → read → fetch），避免上下文膨胀。**协议设计是内容型开源仓库的规范范本**：MIT（代码）+ CC-BY-4.0（官方 SKILL.md 内容），清晰区分「引擎」与「知识内容」的授权边界。TypeScript 100%，**5,770 stars** / 503 forks，2026-01 创建，2026-09-12 最近推送。与库里的 addyosmani/agent-skills（个人工程实践集）互补——**这个卖的是「安全策展 + 多 Agent 分发」**。
 - **归档**：`开源项目介绍/2026.9.23/tech-leads-agent-skills.md`
 - **标签**：`#skill` `#注册中心` `#安全扫描` `#mcp` `#typescript`
+
+### [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
+- **定位**：经典开源学习项目 The Algorithms 的 Java 版：把各类算法用 Java 全部实现一遍，纯教学用途（fo
+- **简介**：经典开源学习项目 The Algorithms 的 Java 版：把各类算法用 Java 全部实现一遍，纯教学用途（for educational purposes），强调可读性而非性能——作者明确说明实现效率通常不如 Java 标准库。覆盖排序、搜索、数据结构、动态规划、图论、密码学、机器学习等宽阔范围，目录里是完整分类清单；点一下即可在 Gitpod.io 免费在线环境运行和编辑这些算法，或提交贡献（须先读 Contribution Guidelines）。当前 ★66857（当日 +39），主语言 Java。适合计算机/算法学习者对照标准库之外的方式理解算法本质，也是刷 LeetCode、准备面试前的实现参考库；不适合当生产代码直接引入。（GitHub 每日趋势 2026-11-11：★66857，当日 +39）
+- **归档**：`开源项目介绍/2026.11.11/Java.md`
+- **标签**：`#java` `#skill` `#开发工具`
 
 ### [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill)
 - **定位**：SwiftUI Agent 技能，适配 Claude Code、Codex 等 AI 工具（Paul Hudson 出品
@@ -2550,7 +2568,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（79）
+## 📚 二十四、开发者资源 / 精选合集（76）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2689,12 +2707,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：SS14（太空站 14）的开源社区分支服务器，主打随机玩法。（GitHub 每日趋势 2026-09-28：★236，当日 +0）
 - **归档**：`开源项目介绍/2026.9.28/Goob-Station.md`
 - **标签**：`#csharp`
-
-### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)
-- **定位**：Google Chrome 团队的「现代 Web 指引」源仓库：这套指引最终以 Agent Skills 形式发布为 G
-- **简介**：Google Chrome 团队的「现代 Web 指引」源仓库：这套指引最终以 Agent Skills 形式发布为 GoogleChrome/modern-web-guidance，本仓库是它的源码与文档——包含编写、校准（calibrate）与评估指引内容的代码。核心是把 Web 平台的专业知识、最佳实践与浏览器兼容性数据直接内嵌进编码 Agent，把 Agent 从「还在用 legacy 旧模式」引向「发挥现代 Web 平台能力」的解决方案。由 Google Chrome、Microsoft Edge、Mozilla Firefox 与 MDN 四家团队共同主导维护（stewarded），并配套 CONTRIBUTING.md 与 GOVERNANCE.md 说明协作方式与代码库结构。当前 ★1415（当日 +133），主语言 TypeScript。适合前端团队把「浏览器兼容性、现代 API 最佳实践」变成 Agent 的硬约束，减少 AI 生成代码里的过时写法与兼容性坑。（GitHub 每日趋势 2026-11-11：★1415，当日 +133）
-- **归档**：`开源项目介绍/2026.11.11/modern-web-guidance-src.md`
-- **标签**：`#typescript`
 
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 - **定位**：哈佛 CS249r 教材《机器学习系统》四卷本：基础、规模化、Agentic AI 与物理 AI。
@@ -2924,12 +2936,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.10.14/rust.md`
 - **标签**：`#rust`
 
-### [shadcn/improve](https://github.com/shadcn/improve)
-- **定位**：shadcn 出的 Agent Skill /improve：让最聪明的模型先「想清楚」，把执行留给便宜的模型。思路是把
-- **简介**：shadcn 出的 Agent Skill /improve：让最聪明的模型先「想清楚」，把执行留给便宜的模型。思路是把智力会复利的那部分——理解代码库、判断哪些改动值得做、写出规格说明（spec）——交给最贵的大模型，再把纯执行交给便宜模型：你运行 /improve（贵模型做顾问）→ 它在 plans/ 下产出自包含的 Markdown 规格（如 001-fix-n-plus-one.md）→ 其他 Agent 或人按规格实现、测试、发布（便宜模型执行）。关键是这个 skill 自己一行代码都不写，plan 才是产品。计划是纯 Markdown，任何 Agent 或人都能接手。通过 npx skills add shadcn/improve 安装，兼容所有支持 Agent Skills 格式的 Agent。当前 ★10406（当日 +333），无主语言标注。适合用 Agent 做大规模代码改动又想控成本的团队——一份贵模型写的高质量计划，可以喂给多个便宜 Agent 并行落地。（GitHub 每日趋势 2026-11-11：★10406，当日 +333）
-- **归档**：`开源项目介绍/2026.11.11/improve.md`
-- **标签**：`#开源`
-
 ### [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 - **定位**：100+ AI Agent、Agent Skills 与 RAG 应用合集——免费开源。
 - **简介**：100+ AI Agent、Agent Skills 与 RAG 应用合集——免费开源。（GitHub 每日趋势 2026-10-02：★140496，当日 +139）
@@ -2965,12 +2971,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：PHP 界的支柱级框架：既是一套用于 Web 与控制台应用的完整框架，也是一组可独立复用的 PHP 组件（HttpFoundation、Console、EventDispatcher 等），被成千上万的 Web 应用使用，也是众多流行 PHP 项目（如 Laravel、Drupal 的部分组件）的底层依赖。用 Composer 安装，严格遵循语义化版本，提供可预测发布流程的 LTS 长期支持版本；当前 8.2 版本正在招募赞助者。当前 ★31247（当日 +89），主语言 PHP。适合需要长期维护、可升级性强的 PHP 项目，其组件化设计与依赖注入容器是学习框架架构的极佳素材。（GitHub 每日趋势 2026-11-06：★31247，当日 +89）
 - **归档**：`开源项目介绍/2026.11.6/symfony.md`
 - **标签**：`#php` `#开发工具`
-
-### [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
-- **定位**：经典开源学习项目 The Algorithms 的 Java 版：把各类算法用 Java 全部实现一遍，纯教学用途（fo
-- **简介**：经典开源学习项目 The Algorithms 的 Java 版：把各类算法用 Java 全部实现一遍，纯教学用途（for educational purposes），强调可读性而非性能——作者明确说明实现效率通常不如 Java 标准库。覆盖排序、搜索、数据结构、动态规划、图论、密码学、机器学习等宽阔范围，目录里是完整分类清单；点一下即可在 Gitpod.io 免费在线环境运行和编辑这些算法，或提交贡献（须先读 Contribution Guidelines）。当前 ★66857（当日 +39），主语言 Java。适合计算机/算法学习者对照标准库之外的方式理解算法本质，也是刷 LeetCode、准备面试前的实现参考库；不适合当生产代码直接引入。（GitHub 每日趋势 2026-11-11：★66857，当日 +39）
-- **归档**：`开源项目介绍/2026.11.11/Java.md`
-- **标签**：`#java`
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 - **定位**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。

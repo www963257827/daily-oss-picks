@@ -14,7 +14,7 @@
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
 | 7 | Security · Audit & Reverse Engineering | 27 |
-| 8 | Skill Collections & Ecosystem | 34 |
+| 8 | Skill Collections & Ecosystem | 37 |
 | 9 | Code Intelligence / RAG / Code Review | 16 |
 | 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 79 |
+| 24 | Developer Resources & Curated Lists | 76 |
 | 25 | DevOps / Developer Tools | 40 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (45)
@@ -504,7 +504,7 @@ NSA open-source software reverse engineering framework
 SkillSpector (by NVIDIA): a security scanner for AI agent skills — vulnerabilities, malicious patterns, prompt injection, data exfiltration.
 
 ### [openai/codex-security](https://github.com/openai/codex-security)
-`#typescript` · 2026-11-11
+`#typescript` `#security-audit` `#cli` `#sdk` · 2026-11-11
 OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security
 
 ### [p-e-w/heretic](https://github.com/p-e-w/heretic)
@@ -551,7 +551,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (34)
+## 八. Skill Collections & Ecosystem (37)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -621,6 +621,10 @@ Gstack: Garry Tan's exact Claude Code setup — 23 opinionated tools acting as C
 `#python` · 2026-10-02
 Agent Skills for Google products and technologies.
 
+### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)
+`#typescript` `#agent-skill` `#web` · 2026-11-11
+Source repo for GoogleChrome/modern-web-guidance: skills that embed web-platform best practices and browser-compatibility data into coding agents, steering them away from legacy patterns toward modern web capabilities; co-stewarded by Chrome, Edge, Firefox and MDN.
+
 ### [hashgraph-online/awesome-codex-plugins](https://github.com/hashgraph-online/awesome-codex-plugins)
 `#python` · 2026-10-02
 A curated list of awesome OpenAI Codex / ChatGPT plugins, skills and resources.
@@ -677,9 +681,17 @@ Agent OS: the agent gets smarter on its own — interview-gated, staged evaluati
 `#python` `#agent-skill` `#skill-md` · 2026-11-04
 Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus…
 
+### [shadcn/improve](https://github.com/shadcn/improve)
+`#open-source` `#agent-skill` · 2026-11-11
+An Agent Skill (/improve) that uses your most capable model to audit a codebase and write self-contained Markdown implementation plans for cheaper models to execute; the skill never implements anything itself.
+
 ### [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills)
 `#skill` `#registry` `#security-scanning` `#mcp` `#typescript` · 2026-09-23
 Security-vetted skill registry for professional coding agents (one skill, 17 agents).
+
+### [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
+`#java` `#skill` `#dev-tools` · 2026-11-11
+All Algorithms implemented in Java
 
 ### [twostraws/SwiftUI-Agent-Skill](https://github.com/twostraws/SwiftUI-Agent-Skill)
 `#open-source` · 2026-10-10
@@ -1675,7 +1687,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (79)
+## 二十四. Developer Resources & Curated Lists (76)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1768,10 +1780,6 @@ Industrial prompt engine and template library for GPT-Image (544 reverse-enginee
 ### [Goob-Station/Goob-Station](https://github.com/Goob-Station/Goob-Station)
 `#csharp` · 2026-09-28
 We're not even close to "Wizden, but random" at this point.
-
-### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)
-`#typescript` · 2026-11-11
-Source repo for GoogleChrome/modern-web-guidance: skills that embed web-platform best practices and browser-compatibility data into coding agents, steering them away from legacy patterns toward modern web capabilities; co-stewarded by Chrome, Edge, Firefox and MDN.
 
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 `#python` · 2026-09-30
@@ -1925,10 +1933,6 @@ Learn it.
 `#rust` · 2026-10-14
 The Rust programming language official repository
 
-### [shadcn/improve](https://github.com/shadcn/improve)
-`#open-source` · 2026-11-11
-An Agent Skill (/improve) that uses your most capable model to audit a codebase and write self-contained Markdown implementation plans for cheaper models to execute; the skill never implements anything itself.
-
 ### [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 `#python` · 2026-10-02
 100+ AI agents, agent skills and RAG apps — free and open source.
@@ -1952,10 +1956,6 @@ Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 ### [symfony/symfony](https://github.com/symfony/symfony)
 `#php` `#dev-tools` · 2026-11-06
 The Symfony PHP framework
-
-### [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
-`#java` · 2026-11-11
-All Algorithms implemented in Java
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
