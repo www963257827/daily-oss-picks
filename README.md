@@ -3,7 +3,7 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-10 ｜ **514** entries (504 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-11 ｜ **518** entries (508 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
@@ -13,7 +13,7 @@
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
 | 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
-| 7 | Security · Audit & Reverse Engineering | 26 |
+| 7 | Security · Audit & Reverse Engineering | 27 |
 | 8 | Skill Collections & Ecosystem | 34 |
 | 9 | Code Intelligence / RAG / Code Review | 16 |
 | 10 | Speech & TTS | 9 |
@@ -30,7 +30,7 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 76 |
+| 24 | Developer Resources & Curated Lists | 79 |
 | 25 | DevOps / Developer Tools | 40 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (45)
@@ -441,7 +441,7 @@ Agent skill that turns plain-language descriptions into architecture/flow/sequen
 `#agent-skill` `#claude-code` `#3d` `#visualization` `#research` · 2026-10-22
 面向 Claude Code / Codex 的创意 3D 可视化 agent 技能：把一句话想法变成可探索的 Three.js/Blender 场景，靠真实渲染截图迭代
 
-## 七. Security · Audit & Reverse Engineering (26)
+## 七. Security · Audit & Reverse Engineering (27)
 
 ### [0x4m4/hexstrike-ai](https://github.com/0x4m4/hexstrike-ai)
 `#python` · 2026-09-29
@@ -502,6 +502,10 @@ NSA open-source software reverse engineering framework
 ### [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector)
 `#python` · 2026-10-03
 SkillSpector (by NVIDIA): a security scanner for AI agent skills — vulnerabilities, malicious patterns, prompt injection, data exfiltration.
+
+### [openai/codex-security](https://github.com/openai/codex-security)
+`#typescript` · 2026-11-11
+OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm:https://www.npmjs.com/package/@openai/codex-security
 
 ### [p-e-w/heretic](https://github.com/p-e-w/heretic)
 `#python` · 2026-10-04
@@ -1671,7 +1675,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (76)
+## 二十四. Developer Resources & Curated Lists (79)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1764,6 +1768,10 @@ Industrial prompt engine and template library for GPT-Image (544 reverse-enginee
 ### [Goob-Station/Goob-Station](https://github.com/Goob-Station/Goob-Station)
 `#csharp` · 2026-09-28
 We're not even close to "Wizden, but random" at this point.
+
+### [GoogleChrome/modern-web-guidance-src](https://github.com/GoogleChrome/modern-web-guidance-src)
+`#typescript` · 2026-11-11
+Source repo for GoogleChrome/modern-web-guidance: skills that embed web-platform best practices and browser-compatibility data into coding agents, steering them away from legacy patterns toward modern web capabilities; co-stewarded by Chrome, Edge, Firefox and MDN.
 
 ### [harvard-edge/cs249r_book](https://github.com/harvard-edge/cs249r_book)
 `#python` · 2026-09-30
@@ -1917,6 +1925,10 @@ Learn it.
 `#rust` · 2026-10-14
 The Rust programming language official repository
 
+### [shadcn/improve](https://github.com/shadcn/improve)
+`#open-source` · 2026-11-11
+An Agent Skill (/improve) that uses your most capable model to audit a codebase and write self-contained Markdown implementation plans for cheaper models to execute; the skill never implements anything itself.
+
 ### [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 `#python` · 2026-10-02
 100+ AI agents, agent skills and RAG apps — free and open source.
@@ -1940,6 +1952,10 @@ Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 ### [symfony/symfony](https://github.com/symfony/symfony)
 `#php` `#dev-tools` · 2026-11-06
 The Symfony PHP framework
+
+### [TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
+`#java` · 2026-11-11
+All Algorithms implemented in Java
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
