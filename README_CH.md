@@ -3,13 +3,13 @@
 > 📌 **知识库使用说明**：本地 Markdown 版个人知识库，用于收藏和整理各类优质开源项目、工具、学习资源。新增内容直接发给 AI（ZCode）即可——单条或多条链接都行，AI 会自动查重、写归档、录入、体检并同步；查询时说"库里有没有 X"即可。定期由 AI 复核整理归类。
 > 🌐 **English edition**: [README.md](README.md)（GitHub 镜像默认页）
 >
-> 📅 最后更新：2026-11-11 ｜ 共收录 **518** 条内容（508 个项目 + 10 篇精选文章）
+> 📅 最后更新：2026-11-13 ｜ 共收录 **521** 条内容（511 个项目 + 10 篇精选文章）
 
 ## 📑 目录索引
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 45 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 46 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 11 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
@@ -20,7 +20,7 @@
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 16 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
-| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 19 |
+| [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 20 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
 | [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 17 |
@@ -32,7 +32,7 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 76 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 77 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 40 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -40,7 +40,7 @@
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（45）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（46）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -266,6 +266,12 @@
 - **简介**：Python 的 AI 之道：Agent、实时语音、图像生成、嵌入——任意模型、任意接口、端到端类型安全。（GitHub 每日趋势 2026-10-01：★20292，当日 +24）
 - **归档**：`开源项目介绍/2026.10.1/pydantic-ai.md`
 - **标签**：`#python`
+
+### [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)
+- **定位**：阿里 Qwen 团队开源的 AI 编码 Agent，口号「住在你终端里的开源编码 Agent」，同时覆盖编辑器、桌面、浏
+- **简介**：阿里 Qwen 团队开源的 AI 编码 Agent，口号「住在你终端里的开源编码 Agent」，同时覆盖编辑器、桌面、浏览器与聊天场景。Qwen Code 1.0 Preview 把 Qoder 与 Qwen Code 的 agent harness 能力合并开源发布。核心卖点：开箱即 Agentic——自带 Auto-Memory（自动记忆）、Auto-Skills（自动技能）、SubAgents（子代理）、Agent Teams（代理团队）与 MCP 支持，动态工作流、零配置；完全开源——框架与 Qwen 模型都是开源的、协同演进，无供应商锁定；多协议——支持 OpenAI、Anthropic、Gemini、Qwen 各家 API，也可接任意第三方服务或本地模型（Ollama / vLLM），运行时可切换。当前 ★29787（当日 +151），主语言 TypeScript。适合想要一个可自选模型、可本地部署、能力对标 Claude Code 的开源编码 Agent 的开发者与团队，也是研究 Agent harness 设计（记忆、子代理、团队协作）的完整参考实现。（GitHub 每日趋势 2026-11-13：★29787，当日 +151）
+- **归档**：`开源项目介绍/2026.11.13/qwen-code.md`
+- **标签**：`#typescript`
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
 - **定位**：Agent 元级 Harness（前身为 claude-flow，★7 万＋）：为 Claude Code、Codex
@@ -1256,7 +1262,7 @@
 
 <a id="sec-12"></a>
 
-## ⚡ 十二、本地推理引擎与优化（19）
+## ⚡ 十二、本地推理引擎与优化（20）
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 - **定位**：antirez 出品：DeepSeek 4 Flash 与 PRO 的本地推理引擎（Metal/CUDA/ROCm）。
@@ -1305,6 +1311,12 @@
 - **简介**：Windows 桌面 Llama 应用伴侣（ggml 官方）。（GitHub 每日趋势 2026-10-08：★54，当日 +7）
 - **归档**：`开源项目介绍/2026.10.8/Llama-Windows.md`
 - **标签**：`#csharp`
+
+### [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+- **定位**：LLM 推理领域的标杆项目：用纯 C/C++ 实现大语言模型推理，无重依赖、可在几乎所有平台（CPU/GPU/Apple
+- **简介**：LLM 推理领域的标杆项目：用纯 C/C++ 实现大语言模型推理，无重依赖、可在几乎所有平台（CPU/GPU/Apple 芯片/移动端）跑起来，是 GGUF 量化格式与本地推理生态的事实标准，当前 ★134539（当日 +176），主语言 C++。安装方式极多：一行 curl 安装脚本（curl -LsSf https://llama.app/install.sh | sh，Windows 用 irm）、Docker、Releases 预编译二进制或从源码构建。装好后可直接从 Hugging Face 拉模型跑：llama cli -hf ggml-org/Qwen3.5-0.8B-GGUF 直接对话，llama serve -hf ... 起一个 OpenAI 兼容的 API 服务器（VLM 多模态也支持）。适合本地部署推理服务、在消费级硬件上跑量化模型、做端侧 AI（手机/嵌入式），或作为自家应用嵌入推理内核；几乎所有本地 LLM 工具（Ollama、LM Studio 等）都以它为底座。（GitHub 每日趋势 2026-11-13：★134539，当日 +176）
+- **归档**：`开源项目介绍/2026.11.13/llama.cpp.md`
+- **标签**：`#cpp`
 
 ### [huggingface/transformers](https://github.com/huggingface/transformers)
 - **定位**：🤗 Transformers：最先进的机器学习模型定义框架，覆盖文本、视觉、音频与多模态（★167K）。
@@ -2568,7 +2580,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（76）
+## 📚 二十四、开发者资源 / 精选合集（77）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2869,6 +2881,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：microduck 是 pollen-robotics 的开源双足鸭子机器人（★10972，当日 +319）：整机约 25 cm 高、800 g，大脑是一块 Rockchip RK3566，上面跑着寥寥数个守护进程——50 Hz 控制环驱动 15 个舵机执行神经网络策略，同时兼顾无线电、摄像头与防变砖的 OTA 更新机制。策略在隔壁仓库 microduck_rl 中训练：MuJoCo + PPO 的 sim2real 配方，导出 ONNX 后由本仓库加载。README 提供购买入口（Get yours here）、速查表（Cheat sheet）、策略训练与工作原理详解。现在的它会走路，接上游戏手柄就能操控。适合机器人学习者、强化学习 sim2real 研究者，以及想低成本入坑双足机器人的极客与高校团队。（GitHub 每日趋势 2026-10-25：★10972，当日 +319）
 - **归档**：`开源项目介绍/2026.10.25/microduck.md`
 - **标签**：`#rust`
+
+### [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler)
+- **定位**：让任意 Apple Watch 用上爱马仕（Hermès）表盘的开源工具：爱马仕联名表盘原本只有购买 Hermès 版本
+- **简介**：让任意 Apple Watch 用上爱马仕（Hermès）表盘的开源工具：爱马仕联名表盘原本只有购买 Hermès 版本的Apple Watch 才能使用，这个项目通过侧载（sideload）绕过限制，把表盘装到普通 Apple Watch 上。当前仅支持 watchOS 27.0 至 27.3 beta 1。两种使用方式：装 IPA——从 Releases 下载后用 Sideloadly 安装，再在 iPhone 的 Watch App「我的手表 → App」里安装 HermesEnabler2，最后在手表上打开应用按提示操作；或用 Xcode 打开 HermesEnabler2.xcodeproj、选自己的 Apple Watch 为运行目标直接 Run。官方提示：Sideloadly 里需关闭「Use automatic bundle ID」并用固定的 Bundle Identifier，且多次安装须保持一致。当前 ★1520（当日 +218），主语言 Objective-C，README 提供九种语言（英/韩/简中/繁中/日/西/法/德/葡）。适合想给自己的普通 Apple Watch 换上爱马仕表盘、且能接受侧载与版本限制的玩家。（GitHub 每日趋势 2026-11-13：★1520，当日 +218）
+- **归档**：`开源项目介绍/2026.11.13/HermesEnabler.md`
+- **标签**：`#objectivec`
 
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 - **定位**：跨平台 PowerShell——每个系统都能用。

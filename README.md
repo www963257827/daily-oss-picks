@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-11 ｜ **518** entries (508 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-13 ｜ **521** entries (511 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 45 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 46 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 11 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -18,7 +18,7 @@
 | 9 | Code Intelligence / RAG / Code Review | 16 |
 | 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
-| 12 | Local Inference Engines & Optimization | 19 |
+| 12 | Local Inference Engines & Optimization | 20 |
 | 13 | Image / Video / Music Generation | 7 |
 | 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 17 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 10 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 76 |
+| 24 | Developer Resources & Curated Lists | 77 |
 | 25 | DevOps / Developer Tools | 40 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (45)
+## 一. AI Coding Agents · Runtimes & Methodologies (46)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -182,6 +182,10 @@ T3code: an AI coding assistant for the T3 stack (by Theo, creator of T3Chat).
 ### [pydantic/pydantic-ai](https://github.com/pydantic/pydantic-ai)
 `#python` · 2026-10-01
 How Python does AI: agents, realtime voice, image generation, embeddings — typed end to end.
+
+### [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code)
+`#typescript` · 2026-11-13
+An open-source AI coding agent that lives in your terminal.
 
 ### [ruvnet/ruflo](https://github.com/ruvnet/ruflo)
 `#typescript` · 2026-10-15
@@ -827,7 +831,7 @@ An Open Source Machine Learning Framework for Everyone
 `#fine-tuning` `#llm` `#local-deployment` `#desktop-app` · 2026-08-29
 All-in-one local LLM run/fine-tune/deploy platform — the first desktop app that both runs and trains models.
 
-## 十二. Local Inference Engines & Optimization (19)
+## 十二. Local Inference Engines & Optimization (20)
 
 ### [antirez/ds4](https://github.com/antirez/ds4)
 `#c` · 2026-10-05
@@ -860,6 +864,10 @@ Edge-native MoE inference engine: frontier 290B+ open models on gaming PCs.
 ### [ggml-org/Llama-Windows](https://github.com/ggml-org/Llama-Windows)
 `#csharp` · 2026-10-08
 Windows Llama App Companion (by ggml).
+
+### [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp)
+`#cpp` · 2026-11-13
+LLM inference in C/C++
 
 ### [huggingface/transformers](https://github.com/huggingface/transformers)
 `#python` · 2026-10-11
@@ -1687,7 +1695,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (76)
+## 二十四. Developer Resources & Curated Lists (77)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1888,6 +1896,10 @@ The PHP Interpreter
 ### [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck)
 `#rust` · 2026-10-25
 A Tiny biped duck robot 🦆
+
+### [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler)
+`#objectivec` · 2026-11-13
+Enable Hermès Watch Faces on any Apple Watch devices
 
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 `#csharp` · 2026-10-03
