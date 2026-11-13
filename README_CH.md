@@ -29,10 +29,10 @@
 | [十八、文件 · 下载 · 照片管理](#sec-18) | 现代文件管理器、下载工具、自托管照片库、本地相册 | 22 |
 | [十九、图片查看与媒体播放](#sec-19) | 跨平台图片查看器、Fluent 媒体播放器、语言学习播放器、媒体查重 | 10 |
 | [二十、AI 桌面应用](#sec-20) | 图像转 3D、AI 短视频生成、AI 通知指挥中心、设计转代码、编码 Agent 配额管理 | 9 |
-| [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 10 |
+| [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 11 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 77 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 76 |
 | [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 40 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
@@ -2423,7 +2423,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-21"></a>
 
-## 🔗 二十一、跨设备工具（10）
+## 🔗 二十一、跨设备工具（11）
 
 ### [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)
 - **定位**：PS5 可执行文件自动移植到 Linux 与 Windows 的工具。
@@ -2466,6 +2466,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：把密码和敏感信息存在一个用强密钥保护的「数据库」文件里，**该文件可跨设备同步**——用内置的云存储选项效果最好，也可以用第三方应用同步。**兼容性是它的核心价值**：与 PC 上的 **KeePass 2.x** 和 **KeePassXC** 兼容，也兼容众多其他平台的 KeePass 移植版，意味着**你不被锁进任何专有生态**——同一个 `.kdbx` 数据库可在 Windows/macOS/Linux 的 KeePass、KeePassXC 与 Android 的 Keepass2Android 之间自由流转。Google Play 提供两个版本：**标准版**（含网络同步能力）与 **Offline 版**（包名带 `_nonet`，**无网络权限**，适合高安全需求）；两者都有 Beta 测试通道。支持**插件系统**扩展（仓库内有插件开发指南），翻译走 Crowdin。贡献方式：翻译、写插件、提 PR（**动手前最好先联系作者协调**）、GitHub Sponsor 或直接捐赠。免责声明写得很直白：GPLv3、按「原样」提供、**作者对使用导致的任何损害不承担责任**（除适用法律另有要求），**使用完全由你自行承担风险**；捐赠是**自愿贡献，不构成购买、合同或对特定功能/服务/支持的权利**。C#（Xamarin / .NET for Android），GPL-3.0，6,244 stars / 480 forks / **1,179 open issues**，2017 年建仓（项目本身历史更久），2026-09-17 仍在推送。
 - **归档**：`开源项目介绍/2026.9.23/keepass2android.md`
 - **标签**：`#密码管理` `#android` `#keepass` `#离线优先` `#插件`
+
+### [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler)
+- **定位**：让任意 Apple Watch 用上爱马仕（Hermès）表盘的开源工具：爱马仕联名表盘原本只有购买 Hermès 版本
+- **简介**：让任意 Apple Watch 用上爱马仕（Hermès）表盘的开源工具：爱马仕联名表盘原本只有购买 Hermès 版本的Apple Watch 才能使用，这个项目通过侧载（sideload）绕过限制，把表盘装到普通 Apple Watch 上。当前仅支持 watchOS 27.0 至 27.3 beta 1。两种使用方式：装 IPA——从 Releases 下载后用 Sideloadly 安装，再在 iPhone 的 Watch App「我的手表 → App」里安装 HermesEnabler2，最后在手表上打开应用按提示操作；或用 Xcode 打开 HermesEnabler2.xcodeproj、选自己的 Apple Watch 为运行目标直接 Run。官方提示：Sideloadly 里需关闭「Use automatic bundle ID」并用固定的 Bundle Identifier，且多次安装须保持一致。当前 ★1520（当日 +218），主语言 Objective-C，README 提供九种语言（英/韩/简中/繁中/日/西/法/德/葡）。适合想给自己的普通 Apple Watch 换上爱马仕表盘、且能接受侧载与版本限制的玩家。（GitHub 每日趋势 2026-11-13：★1520，当日 +218）
+- **归档**：`开源项目介绍/2026.11.13/HermesEnabler.md`
+- **标签**：`#objectivec` `#工具`
 
 ### [RayrenSX/iPhoneMirror](https://github.com/RayrenSX/iPhoneMirror)
 - **定位**：Windows 上的低延迟 iPhone/iPad 投屏（USB + AirPlay 双通道）
@@ -2580,7 +2586,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（77）
+## 📚 二十四、开发者资源 / 精选合集（76）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -2881,12 +2887,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：microduck 是 pollen-robotics 的开源双足鸭子机器人（★10972，当日 +319）：整机约 25 cm 高、800 g，大脑是一块 Rockchip RK3566，上面跑着寥寥数个守护进程——50 Hz 控制环驱动 15 个舵机执行神经网络策略，同时兼顾无线电、摄像头与防变砖的 OTA 更新机制。策略在隔壁仓库 microduck_rl 中训练：MuJoCo + PPO 的 sim2real 配方，导出 ONNX 后由本仓库加载。README 提供购买入口（Get yours here）、速查表（Cheat sheet）、策略训练与工作原理详解。现在的它会走路，接上游戏手柄就能操控。适合机器人学习者、强化学习 sim2real 研究者，以及想低成本入坑双足机器人的极客与高校团队。（GitHub 每日趋势 2026-10-25：★10972，当日 +319）
 - **归档**：`开源项目介绍/2026.10.25/microduck.md`
 - **标签**：`#rust`
-
-### [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler)
-- **定位**：让任意 Apple Watch 用上爱马仕（Hermès）表盘的开源工具：爱马仕联名表盘原本只有购买 Hermès 版本
-- **简介**：让任意 Apple Watch 用上爱马仕（Hermès）表盘的开源工具：爱马仕联名表盘原本只有购买 Hermès 版本的Apple Watch 才能使用，这个项目通过侧载（sideload）绕过限制，把表盘装到普通 Apple Watch 上。当前仅支持 watchOS 27.0 至 27.3 beta 1。两种使用方式：装 IPA——从 Releases 下载后用 Sideloadly 安装，再在 iPhone 的 Watch App「我的手表 → App」里安装 HermesEnabler2，最后在手表上打开应用按提示操作；或用 Xcode 打开 HermesEnabler2.xcodeproj、选自己的 Apple Watch 为运行目标直接 Run。官方提示：Sideloadly 里需关闭「Use automatic bundle ID」并用固定的 Bundle Identifier，且多次安装须保持一致。当前 ★1520（当日 +218），主语言 Objective-C，README 提供九种语言（英/韩/简中/繁中/日/西/法/德/葡）。适合想给自己的普通 Apple Watch 换上爱马仕表盘、且能接受侧载与版本限制的玩家。（GitHub 每日趋势 2026-11-13：★1520，当日 +218）
-- **归档**：`开源项目介绍/2026.11.13/HermesEnabler.md`
-- **标签**：`#objectivec`
 
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 - **定位**：跨平台 PowerShell——每个系统都能用。

@@ -27,10 +27,10 @@
 | 18 | Files · Downloads · Photo Management | 22 |
 | 19 | Image Viewers & Media Players | 10 |
 | 20 | AI Desktop Apps | 9 |
-| 21 | Cross-device Tools | 10 |
+| 21 | Cross-device Tools | 11 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 77 |
+| 24 | Developer Resources & Curated Lists | 76 |
 | 25 | DevOps / Developer Tools | 40 |
 
 ## 一. AI Coding Agents · Runtimes & Methodologies (46)
@@ -1593,7 +1593,7 @@ Local open-source image-to-3D mesh desktop app.
 `#python` `#desktop-app` · 2026-11-10
 LLM-powered multi-market (A-share, HK, US, JP, KR, TW, ETF) stock analysis system: multi-source quotes and news, AI decision dashboards with scores/levels/risk alerts, 15 built-in strategies, and automated pushes to WeCom/Feishu/Telegram/Discord/Slack/email with zero-cost scheduled runs.
 
-## 二十一. Cross-device Tools (10)
+## 二十一. Cross-device Tools (11)
 
 ### [boykopovar/AnyPS5](https://github.com/boykopovar/AnyPS5)
 `#cpp` · 2026-10-08
@@ -1622,6 +1622,10 @@ Virtual HID Mini-user-mode-driver for Sony DualShock 3 Controllers
 ### [PhilippC/keepass2android](https://github.com/PhilippC/keepass2android)
 `#password-management` `#android` `#keepass` `#offline-first` `#plugin` · 2026-09-23
 Android password manager, KeePass 2.x / KeePassXC compatible.
+
+### [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler)
+`#objectivec` `#tools` · 2026-11-13
+Enable Hermès Watch Faces on any Apple Watch devices
 
 ### [RayrenSX/iPhoneMirror](https://github.com/RayrenSX/iPhoneMirror)
 `#screen-mirroring` `#windows` `#airplay` `#usb` `#d3d11` `#obs` · 2026-09-23
@@ -1695,7 +1699,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (77)
+## 二十四. Developer Resources & Curated Lists (76)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1896,10 +1900,6 @@ The PHP Interpreter
 ### [pollen-robotics/microduck](https://github.com/pollen-robotics/microduck)
 `#rust` · 2026-10-25
 A Tiny biped duck robot 🦆
-
-### [pookjw/HermesEnabler](https://github.com/pookjw/HermesEnabler)
-`#objectivec` · 2026-11-13
-Enable Hermès Watch Faces on any Apple Watch devices
 
 ### [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell)
 `#csharp` · 2026-10-03
