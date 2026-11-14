@@ -9,20 +9,20 @@
 
 | 分区 | 内容说明 | 数量 |
 |-|-|-|
-| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 49 |
+| [一、AI 编码 Agent · 运行时与方法论](#sec-1) | 终端编码 Agent、Agent 运行时与桌面宿主、Harness 增强系统、开发方法论（TDD/规格驱动/敏捷 AI 开发） | 47 |
 | [二、手机自动化 Agent](#sec-2) | 视觉多模态手机操控、ADB/MCP 驱动、iOS/Android 真机与模拟器自动化 | 9 |
 | [三、Agent 记忆与知识蒸馏](#sec-3) | 跨工具长期记忆、会学习反思的记忆系统、书籍与数字痕迹蒸馏为 Skill | 11 |
 | [四、写作与文本风格 Skills](#sec-4) | AI 文本去痕、中文润色、清除写作套路、输出去客套化 | 5 |
 | [五、视频创作 Skills](#sec-5) | 视频理解、对话式剪辑、AI 影视制作管线 | 6 |
-| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 23 |
+| [六、专业领域 Skills](#sec-6) | 图表与架构图、CAD 建模、科研技能合集、专利交底、Office 套件与 SDK | 24 |
 | [七、安全 · 审计与逆向](#sec-7) | 多阶段安全审计 Skill、逆向工程路由包、渗透测试工具集 | 27 |
-| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 37 |
+| [八、Skill 合集与生态](#sec-8) | 官方规范与示例、工程实践集、安全策展注册中心、超大规模技能库、多宿主插件市场、MCP 服务器目录 | 38 |
 | [九、代码智能 / RAG / 代码审查](#sec-9) | 代码知识图谱、检索增强生成、AI 代码审查 CLI | 16 |
 | [十、语音与 TTS](#sec-10) | 低延迟语音流水线、本地语音工作室、零样本多语种语音克隆 | 9 |
 | [十一、模型训练与微调](#sec-11) | 本地训练平台、从零训 LLM 教学、低显存 LoRA 微调 | 5 |
 | [十二、本地推理引擎与优化](#sec-12) | 层流式推理、边缘小模型、MoE 引擎、量化压缩、模型选型 | 20 |
 | [十三、图像 / 视频 / 音乐生成](#sec-13) | 生成 WebUI、扩散模型 C++ 推理、音乐生成模型 | 7 |
-| [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 26 |
+| [十四、AI 基础设施 · 网关与自托管平台](#sec-14) | 多模型路由网关、Agent 专用浏览器、自托管 AI 平台、AIGC SaaS 底座、多智能体编排 | 25 |
 | [十五、内容发现与情报](#sec-15) | 跨平台内容推荐、全球情报仪表盘、短视频采集下载、AI 盯盘、群体智能预测 | 17 |
 | [十六、WPF / .NET UI 框架与控件库](#sec-16) | 跨平台 .NET UI 框架（Avalonia/MAUI）、WPF Fluent 控件库/主题引擎（wpfui、MahApps、HandyControl、MaterialDesign、ModernWpf 等） | 23 |
 | [十七、系统工具与桌面效率](#sec-17) | 动态壁纸、浮出控件、硬件工具箱、系统清理、便签、快速预览、资源管理器增强、格式转换、防撤回、Linux 桌面 | 54 |
@@ -32,15 +32,15 @@
 | [二十一、跨设备工具](#sec-21) | 密码管理、iPhone 投屏、跨平台远程桌面 | 11 |
 | [二十二、地理信息 / GIS](#sec-22) | 云原生 GIS 平台 | 4 |
 | [二十三、文章收藏 / AI 动态](#sec-23) | 公众号精选文章、模型发布动态、技术选型指南 | 10 |
-| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 77 |
-| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 40 |
+| [二十四、开发者资源 / 精选合集](#sec-24) | 免费公共 API、AI Agent 教材、应用示例合集、开源游戏清单、提示词模板库 | 76 |
+| [二十五、DevOps / 开发者工具](#sec-25) | CI/CD Runner、Git GUI、worktree 管理、密钥与敏感数据管理 | 42 |
 | 待整理区 | 新收藏内容暂存处 | — |
 
 ---
 
 <a id="sec-1"></a>
 
-## 🤖 一、AI 编码 Agent · 运行时与方法论（49）
+## 🤖 一、AI 编码 Agent · 运行时与方法论（47）
 
 编码 Agent 本体、它们的运行时与宿主，以及让 Agent 按工程方法论干活的框架。
 
@@ -96,7 +96,7 @@
 - **定位**：把你和 Agent 之间缺失的「评审层」补上的工作台：Plannotator 让你对 Agent 产出的计划、规格说明、
 - **简介**：把你和 Agent 之间缺失的「评审层」补上的工作台：Plannotator 让你对 Agent 产出的计划、规格说明、Markdown、HTML 以及其他可交互产物做标注（annotate）、审阅代码 diff 与 PR，并把所有反馈一键发回给 Agent。核心组件：Inbox（收件箱，集中呈现多 Agent 工作中需要你拍板的决策、原型、变体与计划）、Surface/Artifacts（对各类产物直接标注）、Code Review（diff 与 PR 审阅）；兼容所有编码 Agent 与个人助理，另提供 Visual HTML Skills 与 Herdr Annotate 等扩展。当前 ★10441（当日 +108），主语言 TypeScript。适合同时跑多个 Agent、又必须「人在回路」把关的开发者——把散落在各 Agent 会话里的待决策项收进一个收件箱，看、批、发反馈都在一处完成，而不是在多个终端之间来回粘贴。（GitHub 每日趋势 2026-11-14：★10441，当日 +108）
 - **归档**：`开源项目介绍/2026.11.14/plannotator.md`
-- **标签**：`#typescript`
+- **标签**：`#typescript` `#开发工具`
 
 ### [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 - **定位**：多 Agent 敏捷 AI 开发方法论框架，用专家角色编排 AI 交付
@@ -110,12 +110,6 @@
 - **简介**：字节跳动开源的长程 SuperAgent Harness：会研究、会写码、会创作，配沙箱/记忆/技能/子代理。（GitHub 每日趋势 2026-09-30：★83220，当日 +79）
 - **归档**：`开源项目介绍/2026.9.30/deer-flow.md`
 - **标签**：`#python`
-
-### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-- **定位**：Google Chrome DevTools 官方团队推出的 MCP 服务器与 CLI：让你的编码 Agent（Anti
-- **简介**：Google Chrome DevTools 官方团队推出的 MCP 服务器与 CLI：让你的编码 Agent（Antigravity、Claude、Cursor、Copilot 等）直接控制并检查一个真实运行的 Chrome 浏览器——获得完整的 DevTools 能力，用于可靠自动化、深度调试与性能分析。两种接入形态：Model-Context-Protocol 服务器与命令行工具。核心特性围绕性能洞察展开（复用 Chrome DevTools 的性能追踪能力），配套工具参考文档、CLI 文档、Skills、更新日志、故障排查与设计原则说明。当前 ★55444（当日 +67），主语言 TypeScript。适合让 Agent 在真实浏览器里验证自己改的前端代码（打开页面、看控制台报错、跑性能追踪、定位布局与网络问题），比截图或静态 HTML 分析可靠得多，也是前端 Agent 调试闭环的关键基础设施。（GitHub 每日趋势 2026-11-14：★55444，当日 +67）
-- **归档**：`开源项目介绍/2026.11.14/chrome-devtools-mcp.md`
-- **标签**：`#typescript`
 
 ### [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)
 - **定位**：OpenBot 是 CopilotKit 团队出品的开源 AI 同事（AI coworkers）平台，口号是「你的公司真
@@ -308,12 +302,6 @@
 - **简介**：OpenMAIC（Open Multi-Agent Interactive Classroom，开放多智能体互动课堂）是清华大学 MAIC 团队出品的一键式多智能体沉浸式学习平台，提供英文与简体中文界面、在线 Demo 与快速上手。核心体验是「一键获得沉浸式多 Agent 学习」：在互动课堂中由多个 Agent 协同承担教学角色，覆盖知识库、语音识别（FunASR）等能力。最新 v1.3.0（2026-10-29）带来知识库与 Pro 工作台升级：每次上传都保存在所有者自己的知识库中直到删除，按文件夹组织、每次对话只解析一次，撰写框通过 @ 调用，Agent 可读取、检索与整理知识库；Pro 工作台中请求会先展示 Agent 工作预览，课堂标签页可在 Learn 与 Edit 间切换（升级需先停止全部旧实例且不可回滚）。当前 ★41997（当日 +115），主语言 TypeScript。适合需要多 Agent 互动课堂与个人知识库辅助学习的学生、教师与自学者。（GitHub 每日趋势 2026-10-31：★41997，当日 +115）
 - **归档**：`开源项目介绍/2026.10.31/OpenMAIC.md`
 - **标签**：`#typescript`
-
-### [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)
-- **定位**：给个人股票投资者与交易者的 Claude Code 技能包：覆盖市场分析、技术图表、经济日历、选股筛选器与交易策略开发。
-- **简介**：给个人股票投资者与交易者的 Claude Code 技能包：覆盖市场分析、技术图表、经济日历、选股筛选器与交易策略开发。设计理念很克制——作者明确说目标不是「把买卖决策外包给 AI」，而是把市场复盘、风险管理、交易计划、交易日志与持续改进这套流程结构化：以长期投资、ETF、股息股为核心仓，市场条件合适时用有纪律的波段交易做卫星策略，服务时间有限的个人投资者。开源的原因是这些工作流、检查清单与复盘习惯本身值得共享。当前 ★4151（当日 +69），主语言 Python。适合已有自己投资体系、想把「每天盘后复盘」「财报季跟踪」「选股筛选」这些重复动作流程化的投资者；不适合想找「AI 推荐买什么」的人。（GitHub 每日趋势 2026-11-14：★4151，当日 +69）
-- **归档**：`开源项目介绍/2026.11.14/claude-trading-skills.md`
-- **标签**：`#python`
 
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 - **定位**：AI Agent 的模块化桌面工作空间（本地优先 · 模型无关 · 插件驱动）
@@ -546,7 +534,7 @@
 
 <a id="sec-6"></a>
 
-## 🧰 六、专业领域 Skills（23）
+## 🧰 六、专业领域 Skills（24）
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 - **定位**：Anthropic 面向金融服务行业的官方示例与参考实现集合。
@@ -675,6 +663,12 @@
 - **简介**：通过 MCP 或 CLI 让 AI 操控真正的 Excel——Power Query、DAX、VBA、透视表、图表共 326 种操作。（GitHub 每日趋势 2026-10-03：★799，当日 +6）
 - **归档**：`开源项目介绍/2026.10.3/mcp-server-excel.md`
 - **标签**：`#csharp`
+
+### [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)
+- **定位**：给个人股票投资者与交易者的 Claude Code 技能包：覆盖市场分析、技术图表、经济日历、选股筛选器与交易策略开发。
+- **简介**：给个人股票投资者与交易者的 Claude Code 技能包：覆盖市场分析、技术图表、经济日历、选股筛选器与交易策略开发。设计理念很克制——作者明确说目标不是「把买卖决策外包给 AI」，而是把市场复盘、风险管理、交易计划、交易日志与持续改进这套流程结构化：以长期投资、ETF、股息股为核心仓，市场条件合适时用有纪律的波段交易做卫星策略，服务时间有限的个人投资者。开源的原因是这些工作流、检查清单与复盘习惯本身值得共享。当前 ★4151（当日 +69），主语言 Python。适合已有自己投资体系、想把「每天盘后复盘」「财报季跟踪」「选股筛选」这些重复动作流程化的投资者；不适合想找「AI 推荐买什么」的人。（GitHub 每日趋势 2026-11-14：★4151，当日 +69）
+- **归档**：`开源项目介绍/2026.11.14/claude-trading-skills.md`
+- **标签**：`#python` `#skill` `#开发工具`
 
 ### [tt-a1i/archify](https://github.com/tt-a1i/archify)
 - **定位**：AI Agent 技能 · 自然语言生成架构图/流程图/时序图
@@ -857,7 +851,7 @@
 
 <a id="sec-8"></a>
 
-## 🧩 八、Skill 合集与生态（37）
+## 🧩 八、Skill 合集与生态（38）
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 - **定位**：面向 AI 编码 Agent 的生产级工程技能（25 skills + 9 斜杠命令）
@@ -907,6 +901,12 @@
 - **简介**：AWS 官方的 MCP 服务器、技能与插件合集，帮 AI Agent 在 AWS 上构建。（GitHub 每日趋势 2026-10-01：★2762，当日 +10）
 - **归档**：`开源项目介绍/2026.10.1/agent-toolkit-for-aws.md`
 - **标签**：`#python`
+
+### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+- **定位**：Google Chrome DevTools 官方团队推出的 MCP 服务器与 CLI：让你的编码 Agent（Anti
+- **简介**：Google Chrome DevTools 官方团队推出的 MCP 服务器与 CLI：让你的编码 Agent（Antigravity、Claude、Cursor、Copilot 等）直接控制并检查一个真实运行的 Chrome 浏览器——获得完整的 DevTools 能力，用于可靠自动化、深度调试与性能分析。两种接入形态：Model-Context-Protocol 服务器与命令行工具。核心特性围绕性能洞察展开（复用 Chrome DevTools 的性能追踪能力），配套工具参考文档、CLI 文档、Skills、更新日志、故障排查与设计原则说明。当前 ★55444（当日 +67），主语言 TypeScript。适合让 Agent 在真实浏览器里验证自己改的前端代码（打开页面、看控制台报错、跑性能追踪、定位布局与网络问题），比截图或静态 HTML 分析可靠得多，也是前端 Agent 调试闭环的关键基础设施。（GitHub 每日趋势 2026-11-14：★55444，当日 +67）
+- **归档**：`开源项目介绍/2026.11.14/chrome-devtools-mcp.md`
+- **标签**：`#typescript` `#mcp` `#cli` `#开发工具`
 
 ### [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os)
 - **定位**：基于 Cloudflare Workers 的 Agent 工作空间：创建文档、构建应用、运行 Agent，带着企业上下
@@ -1452,7 +1452,7 @@
 
 <a id="sec-14"></a>
 
-## 🏗️ 十四、AI 基础设施 · 网关与自托管平台（26）
+## 🏗️ 十四、AI 基础设施 · 网关与自托管平台（25）
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 - **定位**：跨平台代理 GUI 客户端（Windows/Linux/macOS），支持 Xray、sing-box 等内核。
@@ -1531,12 +1531,6 @@
 - **简介**：面向 AI 时代的应用生产基础设施，把**模型能力、应用市场、租户运营、点数计费、内容生成和持续更新**整合到同一套系统。不是普通后台，而是可部署、可更新、可运营的 AI 商业底座——上游连接模型与算力，下游连接客户/场景/权益/收入，中间沉淀可复用的应用、数据、权限、账单和运营能力。核心能力：多租户 SaaS 架构（平台/租户/用户多角色协作）、内置图片/视频/**数字人**/智能画布/LLM 等 AIGC 应用、应用中心（启停 + 租户授权 + 菜单权限 + 前端入口管理）、点数计费与会员套餐充值消耗闭环、五端交付（平台后台 + 租户后台 + PC + H5 + 微信小程序）、云端系统更新（私有更新源 + 版本签名校验 + 长任务更新流程）、本地化部署便于企业掌控数据密钥与商业策略。技术栈 PHP 8+ / ThinkPHP / MySQL / Composer，Vue 前端编译产物已内置（源码预计 2.0 放出）。**Docker Compose 一键部署**：镜像内含全部编译资源，不需要前端源码仓库也不需装 Node.js；8 个容器分工（web/app/mysql/redis/ai-worker/canvas-worker/scheduler/initialize），PHP 镜像自带扩展、Composer 生产依赖和 FFmpeg。适用场景：AIGC 聚合平台、企业私有 AI 门户、行业模型应用市场、数字人生产平台、AI 内容商业化系统、会员制智能工具站，以及政企/教育/电商/传媒/本地生活的专属智能服务平台。Apache-2.0（允许商用，需保留版权 logo），579 commits，16 分支，最新版 1.0.349，迭代非常活跃。
 - **归档**：`开源项目介绍/2026.9.22/likeadmin-aigc.md`
 - **标签**：`#saas` `#aigc` `#多租户` `#thinkphp` `#docker` `#gitee`
-
-### [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
-- **定位**：最受欢迎的自托管监控工具之一：部署简单、界面花哨流畅（Fancy, Reactive, Fast UI/UX），当前 ★
-- **简介**：最受欢迎的自托管监控工具之一：部署简单、界面花哨流畅（Fancy, Reactive, Fast UI/UX），当前 ★93850（当日 +71），主语言 JavaScript。功能覆盖：HTTP(s) 可用性、TCP、HTTP(s) 关键词、HTTP(s) JSON 查询、Websocket、Ping、DNS 记录、Push（被动上报）、Steam 游戏服务器、Docker 容器等十余种监控类型；通知渠道支持 Telegram、Discord、Gotify、Slack、Pushover、Email（SMTP）等 90+ 种；带状态页、心跳历史、多语言界面。官方提供在线 Demo（法兰克福节点，10 分钟后数据清空）。注意：Google 搜索结果里的 uptimekuma.co 并非官方网站，请以本仓库的安装指南为准。适合个人与小团队自建站点/服务监控，替代付费 SaaS——一条 docker 命令即可跑起来，数据完全在自己手里。（GitHub 每日趋势 2026-11-14：★93850，当日 +71）
-- **归档**：`开源项目介绍/2026.11.14/uptime-kuma.md`
-- **标签**：`#javascript`
 
 ### [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
 - **定位**：微软的 LLM 应用集成框架（Semantic Kernel）：快速把大模型接入 .NET/Python 应用。
@@ -2004,7 +1998,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **定位**：Windows 上的实时 GPU 视频增强与采集工具：把本地视频、采集卡输入与游戏串流（PS5/Xbox/PC）汇成一条
 - **简介**：Windows 上的实时 GPU 视频增强与采集工具：把本地视频、采集卡输入与游戏串流（PS5/Xbox/PC）汇成一条实时 GPU 增强管线——官方宣传语是「让 PS5 的 GTA6 跑上 120FPS（配 DLSS 5）」。能力矩阵：AI 超分辨率（Super Resolution）、降噪（Denoising）、HDR、帧生成（Frame Generation），外加实时预览与采集。累计下载数据：便携包 79,332 次（截至 2026-11-08），全部 GitHub Release 资产合计 103,337 次（含源码包、校验和与图片；官方说明这是下载事件数而非独立用户数）。提供 Releases 安装包、用户指南/Wiki 与简体中文说明。当前 ★1615（当日 +256），主语言 C++。适合主机玩家与串流主播提升画质与帧率（老游戏高刷、直播画面增强），也适合想在 Windows 上研究实时 GPU 视频处理管线的开发者。（GitHub 每日趋势 2026-11-14：★1615，当日 +256）
 - **归档**：`开源项目介绍/2026.11.14/Veyra-NRVideo.md`
-- **标签**：`#cpp`
+- **标签**：`#cpp` `#桌面工具`
 
 ### [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)
 - **定位**：驱动存储资源管理器：查看、删除、备份 Windows 驱动。
@@ -2616,7 +2610,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-24"></a>
 
-## 📚 二十四、开发者资源 / 精选合集（77）
+## 📚 二十四、开发者资源 / 精选合集（76）
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 - **定位**：英雄联盟（League of Legends）相关解锁工具。
@@ -3020,12 +3014,6 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **归档**：`开源项目介绍/2026.11.6/symfony.md`
 - **标签**：`#php` `#开发工具`
 
-### [tailscale/tailcat](https://github.com/tailscale/tailcat)
-- **定位**：Tailscale 官方出品的 netcat 变体——官方描述很俏皮：「Tailscale without Tailsc
-- **简介**：Tailscale 官方出品的 netcat 变体——官方描述很俏皮：「Tailscale without Tailscale, by Tailscale」。它借用 Tailscale 开源组件的数据面（data plane，内部叫 magicsock），在两台机器之间建立点对点 WireGuard® 加密隧道，用 DERP 做 NAT 打洞的通信侧信道、打洞失败时作为最后的兜底中继；但不使用 Tailscale 的控制面（control plane）——所有连接元数据（connection metadata）以你喜欢的任意方式带外交换。提供 tailcat CLI（cmd/tailcat）与可导入的 Go 库（github.com/tailscale/tailcat）。当前 ★9445（当日 +256），主语言 Go。适合需要临时点对点加密传输（传文件、开调试端口、容器互通）但不想把设备接入 Tailscale 网络的场景——一条命令两头发起，密钥与地址自己协商，不碰任何中心服务。（GitHub 每日趋势 2026-11-14：★9445，当日 +256）
-- **归档**：`开源项目介绍/2026.11.14/tailcat.md`
-- **标签**：`#go`
-
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 - **定位**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。
 - **简介**：制作与游玩 Terraria Mod 的加载器（支持 1.4 及更早版本）。（GitHub 每日趋势 2026-10-03：★5690，当日 +3）
@@ -3082,7 +3070,7 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 
 <a id="sec-25"></a>
 
-## 🚀 二十五、DevOps / 开发者工具（40）
+## 🚀 二十五、DevOps / 开发者工具（42）
 
 ### [actions/runner](https://github.com/actions/runner)
 - **定位**：GitHub Actions 作业执行器（自托管 Runner）
@@ -3180,6 +3168,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：LLVM 编译器基础设施：模块化可复用的编译器与工具链技术集合，Clang/Swift/Rust 等的底层。（GitHub 每日趋势 2026-09-26：★40703，当日 +29）
 - **归档**：`开源项目介绍/2026.9.27/llvm-project.md`
 - **标签**：`#cpp`
+
+### [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
+- **定位**：最受欢迎的自托管监控工具之一：部署简单、界面花哨流畅（Fancy, Reactive, Fast UI/UX），当前 ★
+- **简介**：最受欢迎的自托管监控工具之一：部署简单、界面花哨流畅（Fancy, Reactive, Fast UI/UX），当前 ★93850（当日 +71），主语言 JavaScript。功能覆盖：HTTP(s) 可用性、TCP、HTTP(s) 关键词、HTTP(s) JSON 查询、Websocket、Ping、DNS 记录、Push（被动上报）、Steam 游戏服务器、Docker 容器等十余种监控类型；通知渠道支持 Telegram、Discord、Gotify、Slack、Pushover、Email（SMTP）等 90+ 种；带状态页、心跳历史、多语言界面。官方提供在线 Demo（法兰克福节点，10 分钟后数据清空）。注意：Google 搜索结果里的 uptimekuma.co 并非官方网站，请以本仓库的安装指南为准。适合个人与小团队自建站点/服务监控，替代付费 SaaS——一条 docker 命令即可跑起来，数据完全在自己手里。（GitHub 每日趋势 2026-11-14：★93850，当日 +71）
+- **归档**：`开源项目介绍/2026.11.14/uptime-kuma.md`
+- **标签**：`#javascript` `#开发工具`
 
 ### [lz4/lz4](https://github.com/lz4/lz4)
 - **定位**：业界最著名的极速无损压缩算法库（C 实现）：单核压缩速度超过 500 MB/s，解码速度达数 GB/s/核，多核系统上通
@@ -3300,6 +3294,12 @@ WPF/WinUI/.NET 桌面 UI 全家桶：框架、控件库、主题引擎与换肤�
 - **简介**：开源、免费、**快**的三平台 Git 图形客户端，带可视化提交图、内置明暗双主题 + 自定义主题（社区主题在 [sourcegit-theme](https://github.com/sourcegit-scm/sourcegit-theme.git) 仓库）、**14 种语言**（含简繁中文、日语、韩语、泰米尔语等）、每个 remote 独立配置 SSH。Git 操作 GUI 化覆盖面很全：Clone/Fetch/Pull/Push、Merge/Rebase/Reset/Revert/Cherry-pick、Amend/Reword/Squash、**交互式 rebase**、Branches/Remotes/Tags/Stashes/Submodules/**Worktrees**/Archive、Diff、存为 patch/应用 patch、文件历史、Blame、Revision Diff、Branch Diff、**图片 Diff 三模式（Side-By-Side / Swipe / Blend）**。进阶能力：Git 命令日志（能看到实际执行的命令）、搜索提交、GitFlow、Git LFS、**Bisect**、Issue Link、Workspace、Custom Action、在 GitHub/GitLab/Gitea/Gitee/Bitbucket **创建 PR**、**用 AI 生成 commit message**、内置 conventional commit 助手。⚠️ Linux 仅在 Debian 12（X11 + Wayland）测过；**Windows 不支持 MSYS Git**，须用官方 Git for Windows；`git-flow` 自 Git for Windows 2.51.1 起不再随包发布，需手动装 git-flow-next 并改名。需 **Git >= 2.25.1**。安装渠道齐全：Windows `scoop install sourcegit`、macOS `brew install --cask sourcegit`（⚠️ Release 页的 macOS 包**全部未签名**，手动装需 `sudo xattr -cr`，担心安全可从 @ybeapps 的分发仓库取已签名包）、Linux 有 Codeberg 上的 deb/rpm 仓库。**便携模式**：在可执行文件旁建 `data` 文件夹即把设置/头像/日志存进去（仅 Windows 包与 Linux AppImage）。数据目录：Win `%APPDATA%\SourceGit`、Linux `${XDG_CONFIG_HOME}` + `${XDG_CACHE_HOME}`、macOS `~/Library/Application Support/SourceGit`。C# + Avalonia，MIT，6,012 stars / 510 forks / 185 open issues，2021-11 创建，2026-09-22 仍在推送。
 - **归档**：`开源项目介绍/2026.9.23/SourceGit.md`
 - **标签**：`#git` `#gui` `#跨平台` `#avalonia` `#devops` `#开发工具`
+
+### [tailscale/tailcat](https://github.com/tailscale/tailcat)
+- **定位**：Tailscale 官方出品的 netcat 变体——官方描述很俏皮：「Tailscale without Tailsc
+- **简介**：Tailscale 官方出品的 netcat 变体——官方描述很俏皮：「Tailscale without Tailscale, by Tailscale」。它借用 Tailscale 开源组件的数据面（data plane，内部叫 magicsock），在两台机器之间建立点对点 WireGuard® 加密隧道，用 DERP 做 NAT 打洞的通信侧信道、打洞失败时作为最后的兜底中继；但不使用 Tailscale 的控制面（control plane）——所有连接元数据（connection metadata）以你喜欢的任意方式带外交换。提供 tailcat CLI（cmd/tailcat）与可导入的 Go 库（github.com/tailscale/tailcat）。当前 ★9445（当日 +256），主语言 Go。适合需要临时点对点加密传输（传文件、开调试端口、容器互通）但不想把设备接入 Tailscale 网络的场景——一条命令两头发起，密钥与地址自己协商，不碰任何中心服务。（GitHub 每日趋势 2026-11-14：★9445，当日 +256）
+- **归档**：`开源项目介绍/2026.11.14/tailcat.md`
+- **标签**：`#go` `#cli` `#开发工具`
 
 ### [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre)
 - **定位**：构建你自己的 AI SRE Agent——AI 时代的开源运维工具箱。

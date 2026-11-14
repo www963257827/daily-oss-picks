@@ -7,20 +7,20 @@
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 49 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 47 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 11 |
 | 4 | Writing & Text-Style Skills | 5 |
 | 5 | Video Creation Skills | 6 |
-| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 23 |
+| 6 | Domain Skills (Diagrams / CAD / Research / Patents / Office) | 24 |
 | 7 | Security · Audit & Reverse Engineering | 27 |
-| 8 | Skill Collections & Ecosystem | 37 |
+| 8 | Skill Collections & Ecosystem | 38 |
 | 9 | Code Intelligence / RAG / Code Review | 16 |
 | 10 | Speech & TTS | 9 |
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 20 |
 | 13 | Image / Video / Music Generation | 7 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 26 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
 | 15 | Content Discovery & Intelligence | 17 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
 | 17 | System Tools & Desktop Productivity | 54 |
@@ -30,10 +30,10 @@
 | 21 | Cross-device Tools | 11 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 77 |
-| 25 | DevOps / Developer Tools | 40 |
+| 24 | Developer Resources & Curated Lists | 76 |
+| 25 | DevOps / Developer Tools | 42 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (49)
+## 一. AI Coding Agents · Runtimes & Methodologies (47)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -68,7 +68,7 @@ Anthropic's official terminal coding agent — the host platform for many skills
 Anthropic's official GitHub Action integrating Claude Code into workflows (PR review, issues).
 
 ### [backnotprop/plannotator](https://github.com/backnotprop/plannotator)
-`#typescript` · 2026-11-14
+`#typescript` `#dev-tools` · 2026-11-14
 The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
 
 ### [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
@@ -78,10 +78,6 @@ BMAD-METHOD: multi-agent agile AI development methodology with expert personas.
 ### [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
 `#python` · 2026-09-30
 An open-source long-horizon SuperAgent harness that researches, codes and creates (by ByteDance).
-
-### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
-`#typescript` · 2026-11-14
-Chrome DevTools for coding agents
 
 ### [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)
 `#typescript` · 2026-10-29
@@ -210,10 +206,6 @@ TradingAgents: Multi-Agents LLM Financial Trading Framework
 ### [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)
 `#typescript` · 2026-10-31
 Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
-
-### [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)
-`#python` · 2026-11-14
-Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.
 
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 `#agent-host` `#electron` `#rust` `#plugin` `#local-first` `#mcp` · 2026-09-23
@@ -363,7 +355,7 @@ OpenCut: the open-source CapCut alternative for browser video editing.
 `#ai-video` `#production-pipeline` `#skill` `#storyboarding` `#depth-capture` `#gitee` · 2026-09-22
 AI film-making pipeline: give a topic, get a finished short film.
 
-## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (23)
+## 六. Domain Skills (Diagrams / CAD / Research / Patents / Office) (24)
 
 ### [anthropics/financial-services](https://github.com/anthropics/financial-services)
 `#python` · 2026-09-28
@@ -448,6 +440,10 @@ A tool for exploring, extracting and exporting Unity assets and AssetBundles.
 ### [sbroenne/mcp-server-excel](https://github.com/sbroenne/mcp-server-excel)
 `#csharp` · 2026-10-03
 Automate real Microsoft Excel with AI via MCP Server or CLI — Power Query, DAX, VBA, PivotTables and 326 operations.
+
+### [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)
+`#python` `#skill` `#dev-tools` · 2026-11-14
+Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.
 
 ### [tt-a1i/archify](https://github.com/tt-a1i/archify)
 `#skill` `#diagrams` `#architecture-diagrams` `#flowcharts` · 2026-08-29
@@ -567,7 +563,7 @@ AI-guided all-in-one penetration-testing toolkit for authorized security testing
 `#skill` `#reverse-engineering` `#security-research` `#ai-agent` `#pentest` · 2026-09-27
 Reverse-engineering and authorized-pentest skill router pack with compliance gating.
 
-## 八. Skill Collections & Ecosystem (37)
+## 八. Skill Collections & Ecosystem (38)
 
 ### [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills)
 `#skill` `#engineering-practice` `#tdd` `#slash-commands` `#claude-code` `#addyosmani` · 2026-09-23
@@ -600,6 +596,10 @@ Anthropic's official agent-skills examples, spec and templates.
 ### [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws)
 `#python` · 2026-10-01
 Official AWS-supported MCP servers, skills and plugins to help AI agents build on AWS.
+
+### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+`#typescript` `#mcp` `#cli` `#dev-tools` · 2026-11-14
+Chrome DevTools for coding agents
 
 ### [cloudflare/cloudflare-os](https://github.com/cloudflare/cloudflare-os)
 `#typescript` · 2026-10-04
@@ -955,7 +955,7 @@ YuE: frontier open-source music generation model (symbolic planning, zero-shot c
 `#rust` · 2026-10-09
 ArtCraft: an intentional crafting engine for artists, designers and filmmakers.
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (26)
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (25)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -1008,10 +1008,6 @@ Free and open-source machine translation API — self-hosted, offline capable, e
 ### [likeadmin/likeadmin-aigc](https://gitee.com/likeadmin/likeadmin-aigc)
 `#saas` `#aigc` `#multi-tenant` `#thinkphp` `#docker` `#gitee` · 2026-09-22
 Multi-tenant AIGC SaaS platform — a production base for AI apps.
-
-### [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
-`#javascript` · 2026-11-14
-A fancy self-hosted monitoring tool
 
 ### [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
 `#csharp` · 2026-09-28
@@ -1316,7 +1312,7 @@ Playnite: a video game library manager with wide 3rd-party and emulation support
 Advanced UX and interoperability extension for Wand (WeMod) app
 
 ### [Likely7/Veyra-NRVideo](https://github.com/Likely7/Veyra-NRVideo)
-`#cpp` · 2026-11-14
+`#cpp` `#desktop-tool` · 2026-11-14
 Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super…
 
 ### [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)
@@ -1719,7 +1715,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (77)
+## 二十四. Developer Resources & Curated Lists (76)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1989,10 +1985,6 @@ Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 `#php` `#dev-tools` · 2026-11-06
 The Symfony PHP framework
 
-### [tailscale/tailcat](https://github.com/tailscale/tailcat)
-`#go` · 2026-11-14
-like netcat, but over Tailscale's data plane, without Tailscale's control plane
-
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
 A mod to make and play Terraria mods, supporting Terraria 1.4 and earlier.
@@ -2029,7 +2021,7 @@ Marble Skill Taxonomy: an open, structured taxonomy of what children learn acros
 `#textbook` `#open-source-books` `#agent` `#设计模式` `#中文翻译` · 2026-10-14
 Agentic Design Patterns (Chinese translation): 21 patterns for building AI agents
 
-## 二十五. DevOps / Developer Tools (40)
+## 二十五. DevOps / Developer Tools (42)
 
 ### [actions/runner](https://github.com/actions/runner)
 `#cicd` `#github-actions` `#self-hosted` `#devops` `#official` · 2026-09-23
@@ -2094,6 +2086,10 @@ Wolverine: supercharged .NET server-side development.
 ### [llvm/llvm-project](https://github.com/llvm/llvm-project)
 `#cpp` · 2026-09-27
 The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.
+
+### [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
+`#javascript` `#dev-tools` · 2026-11-14
+A fancy self-hosted monitoring tool
 
 ### [lz4/lz4](https://github.com/lz4/lz4)
 `#c` · 2026-11-05
@@ -2174,6 +2170,10 @@ HTTP load generator, a modern ApacheBench (ab) replacement.
 ### [sourcegit-scm/sourcegit](https://github.com/sourcegit-scm/sourcegit)
 `#git` `#gui` `#cross-platform` `#avalonia` `#devops` `#dev-tools` · 2026-09-23
 Open-source cross-platform Git GUI client (Win/macOS/Linux).
+
+### [tailscale/tailcat](https://github.com/tailscale/tailcat)
+`#go` `#cli` `#dev-tools` · 2026-11-14
+like netcat, but over Tailscale's data plane, without Tailscale's control plane
 
 ### [Tracer-Cloud/opensre](https://github.com/Tracer-Cloud/opensre)
 `#python` · 2026-10-03
