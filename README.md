@@ -3,11 +3,11 @@
 > 🤖 Auto-updated every day at 06:00 from the GitHub Trending digest mail — collected, translated (Chinese) and curated.
 > 📖 **Full Chinese edition with complete descriptions: [README_CH.md](README_CH.md)** · this file is the English digest edition (repo default).
 
-> Last updated: 2026-11-13 ｜ **521** entries (511 projects + 10 articles) ｜ 25 categories
+> Last updated: 2026-11-14 ｜ **527** entries (517 projects + 10 articles) ｜ 25 categories
 
 | # | Category | Count |
 |:-:|-|-|
-| 1 | AI Coding Agents · Runtimes & Methodologies | 46 |
+| 1 | AI Coding Agents · Runtimes & Methodologies | 49 |
 | 2 | Mobile Automation Agents | 9 |
 | 3 | Agent Memory & Knowledge Distillation | 11 |
 | 4 | Writing & Text-Style Skills | 5 |
@@ -20,20 +20,20 @@
 | 11 | Model Training & Fine-tuning | 5 |
 | 12 | Local Inference Engines & Optimization | 20 |
 | 13 | Image / Video / Music Generation | 7 |
-| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 25 |
+| 14 | AI Infrastructure · Gateways & Self-hosted Platforms | 26 |
 | 15 | Content Discovery & Intelligence | 17 |
 | 16 | WPF / .NET UI Frameworks & Control Libraries | 23 |
-| 17 | System Tools & Desktop Productivity | 53 |
+| 17 | System Tools & Desktop Productivity | 54 |
 | 18 | Files · Downloads · Photo Management | 22 |
 | 19 | Image Viewers & Media Players | 10 |
 | 20 | AI Desktop Apps | 9 |
 | 21 | Cross-device Tools | 11 |
 | 22 | GIS | 4 |
 | 23 | Articles / AI News | 10 |
-| 24 | Developer Resources & Curated Lists | 76 |
+| 24 | Developer Resources & Curated Lists | 77 |
 | 25 | DevOps / Developer Tools | 40 |
 
-## 一. AI Coding Agents · Runtimes & Methodologies (46)
+## 一. AI Coding Agents · Runtimes & Methodologies (49)
 
 ### [affaan-m/ECC](https://github.com/affaan-m/ECC)
 `#harness` `#skill` `#memory` `#security-scanning` `#claude-code` `#cross-platform` · 2026-09-23
@@ -67,6 +67,10 @@ Anthropic's official terminal coding agent — the host platform for many skills
 `#typescript` · 2026-09-27
 Anthropic's official GitHub Action integrating Claude Code into workflows (PR review, issues).
 
+### [backnotprop/plannotator](https://github.com/backnotprop/plannotator)
+`#typescript` · 2026-11-14
+The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.
+
 ### [bmad-code-org/BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
 `#ai-agent` `#multi-agent` `#agile` `#methodology` `#workflow` `#context-engineering` · 2026-09-27
 BMAD-METHOD: multi-agent agile AI development methodology with expert personas.
@@ -74,6 +78,10 @@ BMAD-METHOD: multi-agent agile AI development methodology with expert personas.
 ### [bytedance/deer-flow](https://github.com/bytedance/deer-flow)
 `#python` · 2026-09-30
 An open-source long-horizon SuperAgent harness that researches, codes and creates (by ByteDance).
+
+### [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp)
+`#typescript` · 2026-11-14
+Chrome DevTools for coding agents
 
 ### [CopilotKit/OpenBot](https://github.com/CopilotKit/OpenBot)
 `#typescript` · 2026-10-29
@@ -202,6 +210,10 @@ TradingAgents: Multi-Agents LLM Financial Trading Framework
 ### [THU-MAIC/OpenMAIC](https://github.com/THU-MAIC/OpenMAIC)
 `#typescript` · 2026-10-31
 Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click
+
+### [tradermonty/claude-trading-skills](https://github.com/tradermonty/claude-trading-skills)
+`#python` · 2026-11-14
+Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.
 
 ### [vastsa/PI-Desktop](https://github.com/vastsa/PI-Desktop)
 `#agent-host` `#electron` `#rust` `#plugin` `#local-first` `#mcp` · 2026-09-23
@@ -943,7 +955,7 @@ YuE: frontier open-source music generation model (symbolic planning, zero-shot c
 `#rust` · 2026-10-09
 ArtCraft: an intentional crafting engine for artists, designers and filmmakers.
 
-## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (25)
+## 十四. AI Infrastructure · Gateways & Self-hosted Platforms (26)
 
 ### [2dust/v2rayN](https://github.com/2dust/v2rayN)
 `#csharp` · 2026-09-28
@@ -996,6 +1008,10 @@ Free and open-source machine translation API — self-hosted, offline capable, e
 ### [likeadmin/likeadmin-aigc](https://gitee.com/likeadmin/likeadmin-aigc)
 `#saas` `#aigc` `#multi-tenant` `#thinkphp` `#docker` `#gitee` · 2026-09-22
 Multi-tenant AIGC SaaS platform — a production base for AI apps.
+
+### [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma)
+`#javascript` · 2026-11-14
+A fancy self-hosted monitoring tool
 
 ### [microsoft/semantic-kernel](https://github.com/microsoft/semantic-kernel)
 `#csharp` · 2026-09-28
@@ -1209,7 +1225,7 @@ Uno Platform: build cross-platform native mobile, web, desktop and embedded apps
 `#wpf` `#theme` `#ui-library` `#dark-mode` `#made-in-china` `#gitee` · 2026-09-26
 A WPF theme control pack that makes theming a programmable runtime API.
 
-## 十七. System Tools & Desktop Productivity (53)
+## 十七. System Tools & Desktop Productivity (54)
 
 ### [andrewmd5/Borderless-Gaming](https://github.com/andrewmd5/Borderless-Gaming)
 `#csharp` · 2026-10-03
@@ -1298,6 +1314,10 @@ Playnite: a video game library manager with wide 3rd-party and emulation support
 ### [k1tbyte/Wand-Enhancer](https://github.com/k1tbyte/Wand-Enhancer)
 `#csharp` · 2026-09-27
 Advanced UX and interoperability extension for Wand (WeMod) app
+
+### [Likely7/Veyra-NRVideo](https://github.com/Likely7/Veyra-NRVideo)
+`#cpp` · 2026-11-14
+Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super…
 
 ### [lostindark/DriverStoreExplorer](https://github.com/lostindark/DriverStoreExplorer)
 `#csharp` · 2026-10-02
@@ -1699,7 +1719,7 @@ Article: a guide to open-source WPF UI frameworks.
 `#glm` `#cybersecurity` `#open-models`
 Article: Zhipu GLM-5.3 — the post-training king.
 
-## 二十四. Developer Resources & Curated Lists (76)
+## 二十四. Developer Resources & Curated Lists (77)
 
 ### [Alban1911/Rose](https://github.com/Alban1911/Rose)
 `#python` · 2026-09-28
@@ -1968,6 +1988,10 @@ Stride (formerly Xenko): a free, open-source, cross-platform C# game engine.
 ### [symfony/symfony](https://github.com/symfony/symfony)
 `#php` `#dev-tools` · 2026-11-06
 The Symfony PHP framework
+
+### [tailscale/tailcat](https://github.com/tailscale/tailcat)
+`#go` · 2026-11-14
+like netcat, but over Tailscale's data plane, without Tailscale's control plane
 
 ### [tModLoader/tModLoader](https://github.com/tModLoader/tModLoader)
 `#csharp` · 2026-10-03
